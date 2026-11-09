@@ -107,4 +107,4 @@ Original software and original documentation are released under the **MIT Licens
 
 This prepared source snapshot is maintained separately from the existing live demo. Synchronization and deployment are manual. [Maintenance](docs/MAINTENANCE.md) describes importing later changes, preserving asset provenance, making releases, and avoiding divergence. No GitHub Pages deployment is configured. Contributions and focused issue reports are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The owner has created `o-zhu/ekg-first-principles-lab`; source upload is pending authenticated write access. The offline distribution includes a clean Git bundle and [publication instructions](docs/PUBLISHING.md) for this exact destination. It excludes the original managed hosting history and configuration.
+The reviewed source is published at `o-zhu/ekg-first-principles-lab`. The offline distribution includes a clean Git bundle and [publication instructions](docs/PUBLISHING.md). It excludes the original managed hosting history and configuration.

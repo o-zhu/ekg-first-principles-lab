@@ -51,9 +51,9 @@ The managed preview for the isolated export loaded source UI but returned 404s f
 
 ## Publication state
 
-The source, runtime, and optional research packages are prepared and locally verified. The owner created the public repository [o-zhu/ekg-first-principles-lab](https://github.com/o-zhu/ekg-first-principles-lab). Its metadata and empty branch list were verified. The first file upload was rejected by GitHub with HTTP 403, `Resource not accessible by integration`; no source commit, tag, or release was published by that attempt. The account owner's repository permissions do not establish the connected app's write permissions.
+The source, runtime, and optional research packages were prepared and locally verified. The reviewed source commit `ca69f7c440f00116f23b5eb907f6527aa688226e` was pushed to the public repository [o-zhu/ekg-first-principles-lab](https://github.com/o-zhu/ekg-first-principles-lab) and independently cloned. The source-only GitHub Actions checks passed. The full local suite passed all 16 checks with Node 24.15.0, and the restored runtime assets passed SHA-256 verification.
 
-Automatic asset download URLs remain unset; the documented offline archive setup is the verified path. Independent retrieval of a published revision and verification of public release downloads remain pending publication. Repository-specific publication instructions and a clean Git bundle are included in the offline distribution.
+Automatic asset download URLs remain unset; the documented offline archive setup is the verified path. The v0.1.0 release is a draft while asset uploads and public download verification remain pending. Repository-specific publication instructions and a clean Git bundle are included in the offline distribution.
 
 The older `ekg-lab-v15-regenerated.zip` Box backup was examined through its archive preview. All five visible Python filenames and both nested research archive filenames are already represented in this release. No additional missing generator was found in the visible listing. Download attempts did not complete, so exact byte identity and contents of the backup's nested archives were not verified. No backup files were copied into this release.
 

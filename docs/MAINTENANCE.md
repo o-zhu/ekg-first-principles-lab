@@ -20,7 +20,7 @@ To deploy a public-repository change back to the existing website, review the ru
 
 ## Develop and verify
 
-Use `npm ci`, `npm run setup:assets`, and `npm start`. Run the source-only CI checks on routine changes, and `npm test` plus asset verification for a release. Exercise affected views in a real browser, including a narrow viewport. Keep original numerical reports distinct from new observations in `docs/VERIFICATION.md`.
+Use `npm ci`, the asset setup command in the README, and `npm start`. Until public release assets exist, pass the matching local archive to asset setup. Run the source-only CI checks on routine changes, and `npm test` plus asset verification for a release. Exercise affected views in a real browser, including a narrow viewport. Keep original numerical reports distinct from new observations in `docs/VERIFICATION.md`.
 
 Review new sources and license terms, update `docs/REFERENCES.md` and `THIRD_PARTY_NOTICES.md`, and revise the source catalog before changing the asset manifest. The asset builder rejects unclassified resources. Follow `docs/ASSETS.md` for exact bundling/setup commands. Expensive regeneration is separate from assembling a release from approved precomputed outputs.
 
@@ -31,7 +31,7 @@ Use a new semantic version, with a preview label if appropriate to the education
 1. Review the complete staged tree and history for private data, secrets, unexpected files, and required notices. Keep the public commit focused and meaningful.
 2. Build the runtime and optional research bundles with the release packaging script. Keep per-file and archive SHA-256 values. Validate a clean checkout using those exact archives.
 3. Set the release download URLs in the manifest only when the corresponding public assets exist. Reverify their fetched bytes. Confirm that source-only CI succeeds without requiring private accounts or large asset downloads.
-4. Update `CITATION.cff` with the actual repository URL, version, and release date; do not invent a DOI. Validate the CFF.
+4. Keep the verified repository URL in `CITATION.cff`; add version and release date when those publication facts are established. Do not invent a DOI. Validate the CFF.
 5. Commit, create a version tag, and publish a GitHub release with notes identifying the asset versions, scientific limits, missing generators, and checks actually run.
 6. Independently retrieve the public commit and release assets, run setup and critical checks, and inspect the rendered README, license, citation, and links.
 

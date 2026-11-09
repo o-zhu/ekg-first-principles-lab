@@ -2,7 +2,7 @@
 
 An interactive, first-principles electrophysiology teaching lab: follow ion currents into membrane voltage, cardiac activation, a surface lead, and clinical ECG patterns.
 
-**[Open the live demo](https://ekg-first-principles-lab.zhuou557737.chatgpt.site)** · [User guide](docs/USAGE.md) · [Architecture](docs/ARCHITECTURE.md) · [Methods and reproducibility](docs/REPRODUCIBILITY.md) · [Sources](docs/REFERENCES.md)
+**[Open the live demo](https://ekg-first-principles-lab.zhuou557737.chatgpt.site)** · [GitHub repository](https://github.com/o-zhu/ekg-first-principles-lab) · [User guide](docs/USAGE.md) · [Architecture](docs/ARCHITECTURE.md) · [Methods and reproducibility](docs/REPRODUCIBILITY.md) · [Sources](docs/REFERENCES.md)
 
 EKG Lab is an educational preview for medical learners, educators, and developers interested in electrophysiology visualization. It is not validated for clinical diagnosis or treatment. Recorded ECGs, reference anatomy, illustrative motion, and fitted electrical fields are explicitly distinguished throughout the interface.
 
@@ -106,3 +106,5 @@ Use [`CITATION.cff`](CITATION.cff) to cite this software, and cite the upstream 
 Original software and original documentation are released under the **MIT License**. That does **not** relicense the collection of anatomy, recordings, images, fonts, or derived assets. Those retain their individual terms, including CC BY, CC0, ODC-By, OFL, and separate MIT notices. See [`LICENSE`](LICENSE), [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), and the machine-readable source catalog.
 
 This prepared source snapshot is maintained separately from the existing live demo. Synchronization and deployment are manual. [Maintenance](docs/MAINTENANCE.md) describes importing later changes, preserving asset provenance, making releases, and avoiding divergence. No GitHub Pages deployment is configured. Contributions and focused issue reports are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+The owner has created `o-zhu/ekg-first-principles-lab`; source upload is pending authenticated write access. The offline distribution includes a clean Git bundle and [publication instructions](docs/PUBLISHING.md) for this exact destination. It excludes the original managed hosting history and configuration.

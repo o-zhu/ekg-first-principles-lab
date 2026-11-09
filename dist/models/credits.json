@@ -1,0 +1,32 @@
+{
+  "heart": {
+    "file": "heart.glb",
+    "title": "BodyParts3D anatomical heart",
+    "creator": "The Database Center for Life Science (DBCLS)",
+    "preparedBy": "OrganUI",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "officialLicenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "sourceUrl": "https://github.com/organui/heart-3d/tree/c72ce6654ff8e282942f97750d3104f55ef4fc3d",
+    "datasetUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+    "citationUrl": "https://doi.org/10.1093/nar/gkn613",
+    "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "changes": "Original mesh bytes unchanged; EKG Lab adds runtime illustrative materials, schematic activation and stylized beating.",
+    "limitations": "Reference anatomy, not patient-specific. Combined ventricular wall; separately named ventricular cavities are spaces, not myocardium. Simplified vessel segments, omitted valves and veins. No independent clinical anatomy or physiological validation."
+  },
+  "chest": {
+    "files": [
+      "chest-bones.glb",
+      "chest-skin.glb"
+    ],
+    "title": "Co-registered chest bones and skin",
+    "creator": "The Database Center for Life Science (DBCLS)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "officialLicenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "changes": "Selected chest structures from BodyParts3D 4.0; skin clipped to chest height with open cut edges; preserved original triangles; recomputed normals and illustrative materials. Identical transform to heart.glb.",
+    "limitations": "Reference anatomy with simplified geometry. Skin slab includes upper arms. Educational electrode anchors are approximate surface positions, not clinical placement measurements."
+  }
+}

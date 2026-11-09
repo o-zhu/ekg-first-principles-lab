@@ -1,0 +1,97 @@
+{
+  "sourceUrl": "https://physionet.org/content/mitdb/1.0.0/",
+  "recordMetadataUrl": "https://physionet.org/content/mitdb/1.0.0/231.hea",
+  "directoryUrl": "https://physionet.org/physiobank/database/html/mitdbdir/records.htm#231",
+  "annotationKeyUrl": "https://physionet.org/physiobank/database/html/mitdbdir/intro.htm",
+  "licenseUrl": "https://physionet.org/content/mitdb/view-license/1.0.0/",
+  "attribution": "Contains information from the MIT-BIH Arrhythmia Database v1.0.0, by George Moody and Roger Mark, made available by PhysioNet under the Open Data Commons Attribution License v1.0 (ODC-By). DOI: 10.13026/C2F305.",
+  "modifications": "Selected original record 231 samples 0–3599 (0–10 seconds) in both original channels. Decoded WFDB format 212 and converted ADC values to mV using (ADC − 1024) / 200. Serialized as JSON. No filtering, smoothing, normalization, interpolation, resampling, synthetic leads, or waveform replacement was applied. Original beat/comment annotations are included, separately from manually estimated teaching P onsets.",
+  "originalFiles": [
+    {
+      "name": "231.hea",
+      "url": "https://physionet.org/files/mitdb/1.0.0/231.hea",
+      "bytes": 333,
+      "sha256": "733195a792e806a897531475eabcdec71e96f7b6cd7bcf57f9f1b2538cb13503",
+      "officialSha256Verified": true
+    },
+    {
+      "name": "231.dat",
+      "url": "https://physionet.org/files/mitdb/1.0.0/231.dat",
+      "bytes": 1950000,
+      "sha256": "7d4f56d6c4b1d50322154381c1d8761457c2f2696973e915a3c19d8a5b789595",
+      "officialSha256Verified": true
+    },
+    {
+      "name": "231.atr",
+      "url": "https://physionet.org/files/mitdb/1.0.0/231.atr",
+      "bytes": 7516,
+      "sha256": "b82cc005618eab81b3a246ca5c5a61903f3c0f40c191d7fb953adf054ea691de",
+      "officialSha256Verified": true
+    }
+  ],
+  "officialChecksumsUrl": "https://physionet.org/files/mitdb/1.0.0/SHA256SUMS.txt",
+  "officialChecksumsSha256": "b61158a96d5f2ca80edfb354a9a66a6324836c390a84e1966dcee2b907d6be43",
+  "export": {
+    "file": "clinical-mobitz2.json",
+    "sha256": "fc26a8cda04b47f567e6028cd490c33f0f5d76a643bdfe13961e7011e178b632",
+    "recordId": "mitdb-231-mobitz2",
+    "sampleCountPerLead": 3600,
+    "fs": 360,
+    "leadOrder": [
+      "MLII",
+      "V1"
+    ],
+    "sourceSampleRange": [
+      0,
+      3600
+    ],
+    "noWaveformResampling": true
+  },
+  "verification": {
+    "officialFileSha256Matches": true,
+    "headerInitialValuesMatch": true,
+    "headerInitialValues": [
+      984,
+      1039
+    ],
+    "fullRecordHeaderChecksumsMatch": true,
+    "fullRecordChecksums": [
+      31762,
+      -12178
+    ],
+    "allExportedValuesEqualCalibratedSourceSamples": true,
+    "sourceAnnotationCountsInExcerpt": {
+      "R": 10,
+      "MISSB": 1,
+      "(N": 1
+    }
+  },
+  "subtypeEvidence": "The original 231.hea explicitly mentions Mobitz II. The official MIT-BIH directory labels its 0:02 sample strip as sinus rhythm with Mobitz II and RBBB. This first-ten-second export contains the isolated missed-beat comment at sample 2083 and the visible nonconducted P in the corresponding pause.",
+  "coexistingFindings": [
+    "Source documents rate-related right bundle branch block; all 10 QRS events in this excerpt carry the original R label.",
+    "The wider source record also contains 2:1 AV-block periods and ectopic events. Those later sections are not included in this opening excerpt."
+  ],
+  "manualTeachingAnnotations": {
+    "pOnsetsSeconds": [
+      0.305,
+      1.25,
+      2.165,
+      3.035,
+      3.98,
+      4.9,
+      5.735,
+      6.615,
+      7.54,
+      8.385,
+      9.285
+    ],
+    "blockedPOnsetSeconds": 5.735,
+    "status": "Approximate visual estimates; not validated source annotations",
+    "usedLeads": [
+      "MLII"
+    ],
+    "purpose": "Animation synchronization only",
+    "sourceCommentSample": 2083
+  },
+  "sourceVersusTeachingTiming": "QRS anchors are exact event sample positions from the original 231.atr file. The 11 P-wave onsets are approximate visual estimates for animation only, not source-validated fiducial measurements. QRS onset, QRS duration, electrical propagation and all mechanical motion in the 3D model remain teaching approximations."
+}

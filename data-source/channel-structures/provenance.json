@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "output": "dist/cardiac-voltage/data/channel-structures.json",
+  "outputBytes": 151687,
+  "outputSha256": "3e6caf4f3bf27245b04267de327c9c4a0ab90925eda563c2e287e81b6898b52e",
+  "structures": [
+    {
+      "pdbId": "9P24",
+      "downloadUrl": "https://files.rcsb.org/download/9P24.cif",
+      "sourceBytes": 1190752,
+      "sourceSha256": "2f6a217a00ccb826cc6631808a27bbe8f731223774e577363b353de51fe28b69",
+      "assemblyId": "1",
+      "assemblyChains": [
+        {
+          "sourceChain": "A",
+          "operators": [
+            "1"
+          ]
+        }
+      ],
+      "counts": {
+        "chains": 1,
+        "residues": 1258,
+        "segments": 5
+      },
+      "maxJoinedCaDistanceAngstrom": 3.8645,
+      "coordinateRoundingAngstrom": 0.01,
+      "orientation": {
+        "axis": "+Y",
+        "extracellularDirection": "+Y",
+        "signConfidence": "Inferred from known extracellular/cytoplasmic structural landmarks; not an experimental membrane fit.",
+        "note": "The initial side view places a geometric estimate of the pore axis vertically. The extracellular side is inferred from structural landmarks; no experimentally fitted membrane boundary is shown.",
+        "signBasis": "Extracellular N-linked glycans versus resolved intracellular N/C-terminal regions.",
+        "landmarkSeparationAngstrom": 72.79,
+        "method": "Dominant axis of deposited long helices in the pore-forming chain(s).",
+        "membraneY": null,
+        "poreCenter": [
+          0,
+          0,
+          0
+        ],
+        "centerDefinition": "Mean of selected pore-chain helix centers; a viewing origin, not an ion-site coordinate.",
+        "sourceCenter": [
+          145.72764849,
+          142.55987545,
+          141.18220328
+        ],
+        "sourceToViewerMatrix": [
+          [
+            0.01423355,
+            0.14198749,
+            -0.98976611
+          ],
+          [
+            -0.9997364,
+            0.01985513,
+            -0.0115286
+          ],
+          [
+            0.01801502,
+            0.9896693,
+            0.14223267
+          ]
+        ]
+      }
+    },
+    {
+      "pdbId": "8HLP",
+      "downloadUrl": "https://files.rcsb.org/download/8HLP.cif",
+      "sourceBytes": 2159064,
+      "sourceSha256": "f788265ab0d3bc59940cab5e15d2368db586be7f5d340a789522e3d7d1888a27",
+      "assemblyId": "1",
+      "assemblyChains": [
+        {
+          "sourceChain": "A",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "B",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "C",
+          "operators": [
+            "1"
+          ]
+        }
+      ],
+      "counts": {
+        "chains": 3,
+        "residues": 2332,
+        "segments": 20
+      },
+      "maxJoinedCaDistanceAngstrom": 3.8586,
+      "coordinateRoundingAngstrom": 0.01,
+      "orientation": {
+        "axis": "+Y",
+        "extracellularDirection": "+Y",
+        "signConfidence": "Inferred from known extracellular/cytoplasmic structural landmarks; not an experimental membrane fit.",
+        "note": "The initial side view places a geometric estimate of the pore axis vertically. The extracellular side is inferred from structural landmarks; no experimentally fitted membrane boundary is shown.",
+        "signBasis": "Extracellular α2δ1 and cytoplasmic β2 accessory positions in the deposited complex.",
+        "landmarkSeparationAngstrom": 119.35,
+        "method": "Axis from the intracellular S6-gate centroid to the EEEE selectivity-filter centroid, using residue identities explicitly reported for 8HLP.",
+        "membraneY": null,
+        "poreCenter": [
+          0,
+          0,
+          0
+        ],
+        "centerDefinition": "Mean of selected pore-chain helix centers; a viewing origin, not an ion-site coordinate.",
+        "sourceCenter": [
+          160.39272784,
+          162.76823205,
+          162.98947196
+        ],
+        "sourceToViewerMatrix": [
+          [
+            -0.33453852,
+            0.89207648,
+            0.30378203
+          ],
+          [
+            0.8294207,
+            0.12568913,
+            0.54430097
+          ],
+          [
+            0.447376,
+            0.43405275,
+            -0.78195455
+          ]
+        ],
+        "poreLandmarks": {
+          "chain": "A",
+          "filterResidues": [
+            363,
+            706,
+            1135,
+            1464
+          ],
+          "intracellularGateResidues": [
+            401,
+            405,
+            749,
+            753,
+            1182,
+            1186,
+            1519,
+            1523
+          ],
+          "sourceUrl": "https://doi.org/10.1038/s41467-024-47116-8"
+        },
+        "axisValidation": {
+          "filterGateSeparationAngstrom": 22.732,
+          "changeFromLongHelixEstimateDegrees": 2.215,
+          "filterPlaneNormalAgreementDegrees": 3.816
+        }
+      }
+    },
+    {
+      "pdbId": "9UC8",
+      "downloadUrl": "https://files.rcsb.org/download/9UC8.cif",
+      "sourceBytes": 1722088,
+      "sourceSha256": "53dd48f8063fba8dc6cc04242a27253fd7d09fdc3574986f3547bf037cee71d2",
+      "assemblyId": "1",
+      "assemblyChains": [
+        {
+          "sourceChain": "A",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "B",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "C",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "D",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "E",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "F",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "G",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "H",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "I",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "J",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "K",
+          "operators": [
+            "1"
+          ]
+        },
+        {
+          "sourceChain": "L",
+          "operators": [
+            "1"
+          ]
+        }
+      ],
+      "counts": {
+        "chains": 12,
+        "residues": 2052,
+        "segments": 24
+      },
+      "maxJoinedCaDistanceAngstrom": 3.8769,
+      "coordinateRoundingAngstrom": 0.01,
+      "orientation": {
+        "axis": "+Y",
+        "extracellularDirection": "+Y",
+        "signConfidence": "Inferred from known extracellular/cytoplasmic structural landmarks; not an experimental membrane fit.",
+        "note": "The initial side view places a geometric estimate of the pore axis vertically. The extracellular side is inferred from structural landmarks; no experimentally fitted membrane boundary is shown.",
+        "signBasis": "Extracellular pore-filter region versus cytoplasmic calmodulin in the complete assembly.",
+        "landmarkSeparationAngstrom": 66.62,
+        "method": "C4 pore axis estimated from planes through equivalent KCNQ1 residues 261–348 in the complete tetramer.",
+        "membraneY": null,
+        "poreCenter": [
+          0,
+          0,
+          0
+        ],
+        "centerDefinition": "Mean of selected pore-chain helix centers; a viewing origin, not an ion-site coordinate.",
+        "sourceCenter": [
+          192.00008963,
+          192.0001555,
+          197.29609883
+        ],
+        "sourceToViewerMatrix": [
+          [
+            -0.47569159,
+            -0.87961213,
+            0.00011112
+          ],
+          [
+            6.87e-06,
+            -0.00013004,
+            -0.99999999
+          ],
+          [
+            0.87961214,
+            -0.47569159,
+            6.79e-05
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "id": "ptbxl-00303",
+    "condition": "normal",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.11048892717445258,
+    "heldOutRmseMv": 0.1143652935199859,
+    "heldOutCorrelation": 0.7269752028999075,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -275.0,
+        -155.0,
+        -35.0,
+        85.0,
+        205.0,
+        325.0,
+        450.0
+      ],
+      "shapeRmseMv": 0.00016206694788585164,
+      "shapeMaxAbsoluteMv": 0.0006925460955120779,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.7508251667022705
+  },
+  {
+    "id": "ptbxl-02078",
+    "condition": "afib",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.18200032935183494,
+    "heldOutRmseMv": 0.1691177899548588,
+    "heldOutCorrelation": 0.7481624715776346,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1660.0,
+        3330.0,
+        4990.0,
+        6660.0,
+        8320.0,
+        9990.0
+      ],
+      "shapeRmseMv": 4.6429483594753366e-05,
+      "shapeMaxAbsoluteMv": 0.00019754408772099412,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 8.54417896270752
+  },
+  {
+    "id": "ptbxl-00618",
+    "condition": "lbbb",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.26059169562336515,
+    "heldOutRmseMv": 0.263556829986491,
+    "heldOutCorrelation": 0.8076921977399047,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -300.0,
+        -165.0,
+        -30.0,
+        110.0,
+        245.0,
+        380.0,
+        520.0
+      ],
+      "shapeRmseMv": 0.0001068851951881654,
+      "shapeMaxAbsoluteMv": 0.0005691572270278,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 8.33003044128418
+  },
+  {
+    "id": "ptbxl-01166",
+    "condition": "brady",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.1488545950315821,
+    "heldOutRmseMv": 0.15728371543660966,
+    "heldOutCorrelation": 0.7737889126946773,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -300.0,
+        -150.0,
+        0.0,
+        150.0,
+        300.0,
+        450.0,
+        600.0
+      ],
+      "shapeRmseMv": 0.00017857593881614222,
+      "shapeMaxAbsoluteMv": 0.0008949423159894752,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.399141073226929
+  },
+  {
+    "id": "ptbxl-02277",
+    "condition": "tachy",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.16689649006163768,
+    "heldOutRmseMv": 0.16547204711500488,
+    "heldOutCorrelation": 0.6278247089537395,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -200.0,
+        -115.0,
+        -25.0,
+        65.0,
+        150.0,
+        240.0,
+        330.0
+      ],
+      "shapeRmseMv": 5.209093198456947e-05,
+      "shapeMaxAbsoluteMv": 0.0002673278893313099,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.863712310791016
+  },
+  {
+    "id": "ptbxl-00818",
+    "condition": "pvc",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.24088880304770433,
+    "heldOutRmseMv": 0.2317722057975532,
+    "heldOutCorrelation": 0.3246554107744296,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1660.0,
+        3330.0,
+        4990.0,
+        6660.0,
+        8320.0,
+        9990.0
+      ],
+      "shapeRmseMv": 0.0002528127612185303,
+      "shapeMaxAbsoluteMv": 0.0009076646613588055,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 15.04022741317749
+  },
+  {
+    "id": "ptbxl-00218",
+    "condition": "avblock1",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.15308117270265018,
+    "heldOutRmseMv": 0.15584902865415748,
+    "heldOutCorrelation": 0.746946140507886,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -255.0,
+        -145.0,
+        -30.0,
+        80.0,
+        195.0,
+        305.0,
+        420.0
+      ],
+      "shapeRmseMv": 0.00016774155977273067,
+      "shapeMaxAbsoluteMv": 0.0008154757050832448,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.3492395877838135
+  },
+  {
+    "id": "ptbxl-01222",
+    "condition": "mobitz1",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.5560866998902915,
+    "heldOutRmseMv": 0.3355085067366058,
+    "heldOutCorrelation": 0.6470697665537506,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1660.0,
+        3330.0,
+        4990.0,
+        6660.0,
+        8320.0,
+        9990.0
+      ],
+      "shapeRmseMv": 1.4397140244904273e-05,
+      "shapeMaxAbsoluteMv": 6.639274529957311e-05,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 6.143320798873901
+  },
+  {
+    "id": "ptbxl-00959",
+    "condition": "complete",
+    "selectedApproachId": "pathology-source",
+    "approaches": 3,
+    "trainingRmseMv": 0.1444252949614158,
+    "heldOutRmseMv": 0.17495686411853584,
+    "heldOutCorrelation": 0.5119689375147598,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1660.0,
+        3330.0,
+        4990.0,
+        6660.0,
+        8320.0,
+        9990.0
+      ],
+      "shapeRmseMv": 3.359158004192752e-05,
+      "shapeMaxAbsoluteMv": 9.18007991462908e-05,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 5.874443054199219
+  },
+  {
+    "id": "ptbxl-01451",
+    "condition": "lvh",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.3468081952207862,
+    "heldOutRmseMv": 0.3405872291962358,
+    "heldOutCorrelation": 0.8188772530321476,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -255.0,
+        -145.0,
+        -30.0,
+        80.0,
+        195.0,
+        305.0,
+        420.0
+      ],
+      "shapeRmseMv": 0.0002925647915955915,
+      "shapeMaxAbsoluteMv": 0.0015248118565784783,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.710573673248291
+  },
+  {
+    "id": "ptbxl-02417",
+    "condition": "rvh",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.4202786569751962,
+    "heldOutRmseMv": 0.42885959958476744,
+    "heldOutCorrelation": 0.7410597074552289,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -240.0,
+        -135.0,
+        -30.0,
+        75.0,
+        180.0,
+        285.0,
+        395.0
+      ],
+      "shapeRmseMv": 8.629862158391693e-05,
+      "shapeMaxAbsoluteMv": 0.0003360160572010197,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.152653694152832
+  },
+  {
+    "id": "ptbxl-00789",
+    "condition": "leftaxis",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.10646068067854221,
+    "heldOutRmseMv": 0.10280046149243709,
+    "heldOutCorrelation": 0.8499450863334098,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -245.0,
+        -140.0,
+        -30.0,
+        75.0,
+        185.0,
+        290.0,
+        400.0
+      ],
+      "shapeRmseMv": 0.00013853421086619668,
+      "shapeMaxAbsoluteMv": 0.0005569949418715234,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.695893287658691
+  },
+  {
+    "id": "ptbxl-06938",
+    "condition": "rightaxis",
+    "selectedApproachId": "pathology-source",
+    "approaches": 3,
+    "trainingRmseMv": 0.1204684290613572,
+    "heldOutRmseMv": 0.12284181089835568,
+    "heldOutCorrelation": 0.7516422005641908,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -240.0,
+        -135.0,
+        -30.0,
+        75.0,
+        180.0,
+        285.0,
+        390.0
+      ],
+      "shapeRmseMv": 0.00010923195870146912,
+      "shapeMaxAbsoluteMv": 0.00039808307040846425,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 6.453519821166992
+  },
+  {
+    "id": "mitdb-231-mobitz2",
+    "condition": "mobitz2",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.11462706410997027,
+    "heldOutRmseMv": 0.17207863626777042,
+    "heldOutCorrelation": 0.7473670943217458,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1664.0,
+        3332.0,
+        4996.0,
+        6664.0,
+        8328.0,
+        9996.0
+      ],
+      "shapeRmseMv": 5.528726262306567e-05,
+      "shapeMaxAbsoluteMv": 0.00019052609643827045,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 8.466851234436035
+  },
+  {
+    "id": "acs-18206",
+    "condition": "stemi-inferior",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.19957085851285414,
+    "heldOutRmseMv": 0.20855400188247655,
+    "heldOutCorrelation": 0.8147927227655862,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -300.0,
+        -150.0,
+        0.0,
+        150.0,
+        300.0,
+        450.0,
+        600.0
+      ],
+      "shapeRmseMv": 0.0007927301391242173,
+      "shapeMaxAbsoluteMv": 0.003596606914082697,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 7.470534324645996
+  },
+  {
+    "id": "ludb-021",
+    "condition": "stemi-lateral",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.08093615084693388,
+    "heldOutRmseMv": 0.08435523955774256,
+    "heldOutCorrelation": 0.7991393891688592,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        -300.0,
+        -170.0,
+        -35.0,
+        95.0,
+        230.0,
+        360.0,
+        495.0
+      ],
+      "shapeRmseMv": 5.0781332828059133e-05,
+      "shapeMaxAbsoluteMv": 0.0002649760182563375,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "r-anchor",
+    "seconds": 7.964962005615234
+  },
+  {
+    "id": "mitdb-202-af-rvr",
+    "condition": "af-rvr",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.20777868271910407,
+    "heldOutRmseMv": 0.2063238885671993,
+    "heldOutCorrelation": 0.2223291600338764,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1664.0,
+        3332.0,
+        4996.0,
+        6664.0,
+        8328.0,
+        9996.0
+      ],
+      "shapeRmseMv": 9.021832908585371e-05,
+      "shapeMaxAbsoluteMv": 0.00022709851362832933,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 10.332828283309937
+  },
+  {
+    "id": "vfdb-421-vt",
+    "condition": "vt",
+    "selectedApproachId": "pathology-source",
+    "approaches": 3,
+    "trainingRmseMv": 0.4745406367219869,
+    "heldOutRmseMv": 0.41078213333767427,
+    "heldOutCorrelation": 0.7392636186870736,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1664.0,
+        3332.0,
+        4996.0,
+        6664.0,
+        8328.0,
+        9996.0
+      ],
+      "shapeRmseMv": 0.0002831148014634912,
+      "shapeMaxAbsoluteMv": 0.0007608050832522487,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 8.472853422164917
+  },
+  {
+    "id": "mitdb-222-flutter",
+    "condition": "flutter",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.15266236301048614,
+    "heldOutRmseMv": 0.17139521205066258,
+    "heldOutCorrelation": 0.17486314533552746,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1664.0,
+        3332.0,
+        4996.0,
+        6664.0,
+        8328.0,
+        9996.0
+      ],
+      "shapeRmseMv": 0.00014082367637462278,
+      "shapeMaxAbsoluteMv": 0.0004363833382825949,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 10.622562646865845
+  },
+  {
+    "id": "mitdb-209-svt",
+    "condition": "svt",
+    "selectedApproachId": "all-node-refinement",
+    "approaches": 3,
+    "trainingRmseMv": 0.09783312392666098,
+    "heldOutRmseMv": 0.09706804998640851,
+    "heldOutCorrelation": 0.8289270128463457,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1664.0,
+        3332.0,
+        4996.0,
+        6664.0,
+        8328.0,
+        9996.0
+      ],
+      "shapeRmseMv": 0.0018257493304424976,
+      "shapeMaxAbsoluteMv": 0.006598396811245619,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 9.072555780410767
+  },
+  {
+    "id": "vfdb-422-vf",
+    "condition": "vf",
+    "selectedApproachId": "rotating-waves-1",
+    "approaches": 2,
+    "trainingRmseMv": 0.27808957960771524,
+    "heldOutRmseMv": 0.3582368761798032,
+    "heldOutCorrelation": 0.1174047864281737,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        0.0,
+        1664.0,
+        3332.0,
+        4996.0,
+        6664.0,
+        8328.0,
+        9996.0
+      ],
+      "shapeRmseMv": 0.00014471581244455134,
+      "shapeMaxAbsoluteMv": 0.00042169956802760953,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 7.012174844741821
+  },
+  {
+    "id": "sddb-47-torsades",
+    "condition": "torsades",
+    "selectedApproachId": "rotating-waves-1",
+    "approaches": 2,
+    "trainingRmseMv": 0.6313774258026831,
+    "heldOutRmseMv": 0.8041994059510063,
+    "heldOutCorrelation": -0.16549838130576824,
+    "directCheck": {
+      "sourceSiteCount": 2400926,
+      "directSampleCount": 7,
+      "sampleTimesMs": [
+        8000.0,
+        8996.0,
+        9996.0,
+        10996.0,
+        11996.0,
+        12996.0,
+        13996.0
+      ],
+      "shapeRmseMv": 0.0002538427827607038,
+      "shapeMaxAbsoluteMv": 0.0004466956857188398,
+      "referenceNote": "A single constant per channel aligns the model baseline for this independent sparse matrix-product check; no time-dependent correction is applied. Final curves use a 0.75 ms activation / 3 ms APD histogram.",
+      "predictionMethod": "Every refined source weight is included; Vm uses the same temporal event model and normalized templates as the browser."
+    },
+    "timeReference": "recording",
+    "seconds": 6.541944742202759
+  }
+]

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "status": "Final selected calibration; direct all-source numerical verification follows without refitting.",
+  "description": "Lead-II calibrated reduced forward model. Physiological inputs fitted to a single measured external healthy-control recording; not independent validation or recovered patient physiology.",
+  "displayClockOffsetMs": 30,
+  "targetReferenceRTimeMs": 261,
+  "fittedReferenceRecord": "patient104/s0306lre",
+  "ventricularSeeds": [
+    {
+      "name": "LV midseptum \u00b7 apical extent",
+      "region": "LV midseptum",
+      "node": 35860,
+      "timeMs": 212.01437547424297,
+      "regionalOffsetZ": -0.07,
+      "targetApicobasalCoordinate": 0.38,
+      "actualApicobasalCoordinate": 0.4042229950428009,
+      "distanceFromRegionalCenterMm": 6.473358098481183,
+      "position": [
+        19.6372,
+        -26.73138,
+        -20.55598
+      ]
+    },
+    {
+      "name": "LV midseptum",
+      "region": "LV midseptum",
+      "node": 10640,
+      "timeMs": 212.01437547424993,
+      "regionalOffsetZ": 0.0,
+      "targetApicobasalCoordinate": 0.45,
+      "actualApicobasalCoordinate": 0.47520801424980164,
+      "distanceFromRegionalCenterMm": 0.0,
+      "position": [
+        16.6348,
+        -23.97317,
+        -15.52783
+      ]
+    },
+    {
+      "name": "LV midseptum \u00b7 basal extent",
+      "region": "LV midseptum",
+      "node": 11354,
+      "timeMs": 212.01437562141447,
+      "regionalOffsetZ": 0.07,
+      "targetApicobasalCoordinate": 0.52,
+      "actualApicobasalCoordinate": 0.5616160035133362,
+      "distanceFromRegionalCenterMm": 8.043687281263834,
+      "position": [
+        12.32742,
+        -18.47249,
+        -11.54163
+      ]
+    },
+    {
+      "name": "LV basal anterior paraseptal \u00b7 apical extent",
+      "region": "LV basal anterior paraseptal",
+      "node": 12474,
+      "timeMs": 216.60284939829128,
+      "regionalOffsetZ": -0.07,
+      "targetApicobasalCoordinate": 0.78,
+      "actualApicobasalCoordinate": 0.743008017539978,
+      "distanceFromRegionalCenterMm": 11.390383617305178,
+      "position": [
+        10.23985,
+        -6.1484,
+        16.6184
+      ]
+    },
+    {
+      "name": "LV basal anterior paraseptal",
+      "region": "LV basal anterior paraseptal",
+      "node": 15841,
+      "timeMs": 215.45323594512647,
+      "regionalOffsetZ": 0.0,
+      "targetApicobasalCoordinate": 0.85,
+      "actualApicobasalCoordinate": 0.805653989315033,
+      "distanceFromRegionalCenterMm": 0.0,
+      "position": [
+        -0.80086,
+        -5.05009,
+        14.04211
+      ]
+    },
+    {
+      "name": "LV basal anterior paraseptal \u00b7 basal extent",
+      "region": "LV basal anterior paraseptal",
+      "node": 167,
+      "timeMs": 215.95618299228138,
+      "regionalOffsetZ": 0.07,
+      "targetApicobasalCoordinate": 0.9199999999999999,
+      "actualApicobasalCoordinate": 0.9646859765052795,
+      "distanceFromRegionalCenterMm": 19.600265388220556,
+      "position": [
+        -3.30571,
+        11.92717,
+        23.51147
+      ]
+    },
+    {
+      "name": "LV inferior posterior paraseptal \u00b7 apical extent",
+      "region": "LV inferior posterior paraseptal",
+      "node": 41541,
+      "timeMs": 220.01437547424297,
+      "regionalOffsetZ": -0.07,
+      "targetApicobasalCoordinate": 0.26,
+      "actualApicobasalCoordinate": 0.26754599809646606,
+      "distanceFromRegionalCenterMm": 5.996624417560596,
+      "position": [
+        24.4596,
+        -21.62948,
+        -38.34183
+      ]
+    },
+    {
+      "name": "LV inferior posterior paraseptal",
+      "region": "LV inferior posterior paraseptal",
+      "node": 8618,
+      "timeMs": 218.20143143141772,
+      "regionalOffsetZ": 0.0,
+      "targetApicobasalCoordinate": 0.33,
+      "actualApicobasalCoordinate": 0.3328849971294403,
+      "distanceFromRegionalCenterMm": 0.0,
+      "position": [
+        20.50121,
+        -20.1824,
+        -34.07608
+      ]
+    },
+    {
+      "name": "LV inferior posterior paraseptal \u00b7 basal extent",
+      "region": "LV inferior posterior paraseptal",
+      "node": 1949,
+      "timeMs": 212.0818319418614,
+      "regionalOffsetZ": 0.07,
+      "targetApicobasalCoordinate": 0.4,
+      "actualApicobasalCoordinate": 0.42221999168395996,
+      "distanceFromRegionalCenterMm": 7.634297690860114,
+      "position": [
+        16.00245,
+        -15.70394,
+        -29.83497
+      ]
+    },
+    {
+      "name": "RV anterior free-wall delivery \u00b7 apical extent",
+      "region": "RV anterior free-wall delivery",
+      "node": 178684,
+      "timeMs": 215.12795796217276,
+      "regionalOffsetZ": -0.07,
+      "targetApicobasalCoordinate": 0.33,
+      "actualApicobasalCoordinate": 0.28550198674201965,
+      "distanceFromRegionalCenterMm": 14.251505830539546,
+      "position": [
+        22.72887,
+        -44.80171,
+        -28.15151
+      ]
+    },
+    {
+      "name": "RV anterior free-wall delivery",
+      "region": "RV anterior free-wall delivery",
+      "node": 196139,
+      "timeMs": 220.7716125321924,
+      "regionalOffsetZ": 0.0,
+      "targetApicobasalCoordinate": 0.4,
+      "actualApicobasalCoordinate": 0.35585200786590576,
+      "distanceFromRegionalCenterMm": 0.0,
+      "position": [
+        22.88534,
+        -45.54702,
+        -13.92036
+      ]
+    },
+    {
+      "name": "RV anterior free-wall delivery \u00b7 basal extent",
+      "region": "RV anterior free-wall delivery",
+      "node": 195971,
+      "timeMs": 226.01437547424297,
+      "regionalOffsetZ": 0.07,
+      "targetApicobasalCoordinate": 0.47000000000000003,
+      "actualApicobasalCoordinate": 0.42590099573135376,
+      "distanceFromRegionalCenterMm": 14.20516704218612,
+      "position": [
+        26.89209,
+        -40.42885,
+        -1.28956
+      ]
+    },
+    {
+      "node": 197757,
+      "name": "RV basal endocardial delivery 1",
+      "region": "RV basal endocardial delivery",
+      "timeMs": 249.5221459015641,
+      "position": [
+        -5.683815002441406,
+        -50.97801971435547,
+        11.171137809753418
+      ],
+      "targetApicobasalCoordinate": 0.65,
+      "actualApicobasalCoordinate": 0.6064079999923706,
+      "provenance": "Added model delivery site, selected to reduce delayed basal RV contribution; not a measured Purkinje junction."
+    },
+    {
+      "node": 205009,
+      "name": "RV basal endocardial delivery 2",
+      "region": "RV basal endocardial delivery",
+      "timeMs": 224.48204415013086,
+      "position": [
+        -7.0490031242370605,
+        -11.123100280761719,
+        5.81505823135376
+      ],
+      "targetApicobasalCoordinate": 0.8,
+      "actualApicobasalCoordinate": 0.8375620245933533,
+      "provenance": "Added model delivery site, selected to reduce delayed basal RV contribution; not a measured Purkinje junction."
+    },
+    {
+      "node": 209114,
+      "name": "RV basal endocardial delivery 3",
+      "region": "RV basal endocardial delivery",
+      "timeMs": 222.01437547424297,
+      "position": [
+        -14.774382591247559,
+        -1.2583539485931396,
+        2.653273105621338
+      ],
+      "targetApicobasalCoordinate": 0.92,
+      "actualApicobasalCoordinate": 0.9599329829216003,
+      "provenance": "Added model delivery site, selected to reduce delayed basal RV contribution; not a measured Purkinje junction."
+    }
+  ],
+  "myocardialSpeedScale": 0.7002504124909873,
+  "endocardialSpeedMmPerMs": 1.4005008249819746,
+  "ventricularConductivityScale": 1.3418878702866945,
+  "sinusOnsetMs": 33.83583222017014,
+  "laEntryDelayMs": 20.000021708762652,
+  "atrialTravelSpeedMmPerMs": 0.6480186803340331,
+  "atrialConductivitySm": 0.026445803159178674,
+  "durationParameters": {
+    "medianMs": 331.49382429091094,
+    "transmuralContrastMs": 70.08706348403801,
+    "apicobasalContrastMs": 7.459458428024281,
+    "rvOffsetMs": -34.99999870486077
+  },
+  "ventricularTemplateFile": "selected-human-ventricular-template.json",
+  "sourceFieldQuadrature": "Original nodes and every tetrahedral edge midpoint; AP evaluated at interpolated activation and APD before source integration.",
+  "physiologicalInterpretation": [
+    "The 15 delivery sites approximate Purkinje-to-myocardial arrival. Junction positions and delays are model assumptions calibrated for a typical single-R lead II morphology.",
+    "Source conductivities are effective fitted parameters, not measurements from the anatomy donor. Graph propagation and source conductivity are independently parameterized in this reduced model.",
+    "The reference ECG is used in fitting. Improved match is calibration performance, not independent clinical validation.",
+    "A global 30 ms translation provides a visible resting interval. It changes no intervals, amplitudes, shapes, or relative chamber timings.",
+    "The selected recovery shape pools 2,948 accepted human optical sites from two donors with equal donor weighting. The membrane recovery curve was derived without ECG information. A common assumed 2 ms intrinsic upstroke and \u221285/+25 mV amplitude are retained.",
+    "The local APD field is calibrated to lead II and is not a recovered spatial APD map from either optical donor."
+  ],
+  "fitParameterBounds": {
+    "originalLVSiteDelayMs": [
+      0,
+      8
+    ],
+    "originalRVSiteDelayMs": [
+      3,
+      14
+    ],
+    "additionalRVBasalSiteDelayMs": [
+      10,
+      45
+    ],
+    "myocardialSpeedScale": [
+      0.65,
+      1.05
+    ],
+    "ventricularConductivityScale": [
+      0.7,
+      1.7
+    ],
+    "atrialTravelSpeedMmPerMs": [
+      0.5,
+      1.1
+    ],
+    "atrialConductivitySm": [
+      0.025,
+      0.14
+    ],
+    "laEntryDelayMs": [
+      20,
+      45
+    ],
+    "durationParameters": {
+      "medianMs": [
+        260,
+        365
+      ],
+      "transmuralContrastMs": [
+        0,
+        100
+      ],
+      "apicobasalContrastMs": [
+        -30,
+        100
+      ],
+      "rvOffsetMs": [
+        -35,
+        40
+      ]
+    }
+  },
+  "ventricularTemplateSha256": "9f9b547db11e366a81794bafeab24d4f0c284b6d1920c6f835c930e9b14fc562",
+  "selectedTemplateReason": "Direct equal-donor pooled recovery gives a closer T-wave shape than a Richards fit to the same optical pool, while retaining a single dominant R. The Richards and native TT06 alternatives are retained in the experiment report.",
+  "fitCaveats": [
+    "The RV APD offset reaches its \u221235 ms bound. This is a modeling limit and a sign of parameter uncertainty, not an independently identified RV physiology.",
+    "The selected lead II shape does not uniquely determine a Purkinje network, a conductivity field, or a repolarization map.",
+    "The raw reference retains a late positive post-T offset; fitting did not add sustained myocardial depolarization to reproduce it."
+  ]
+}

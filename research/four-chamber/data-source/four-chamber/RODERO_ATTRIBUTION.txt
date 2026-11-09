@@ -1,0 +1,14 @@
+Four-chamber anatomical geometry
+
+Rodero C, Strocchi M, Marciniak M, Longobardi S, Whitaker J, O'Neill MD, Gillette K, Augustin C, Plank G, Vigmond EJ, Lamata P, Niederer SA. Linking statistical shape models and simulated function in the healthy adult human heart. PLOS Computational Biology 17(4):e1008851 (2021). https://doi.org/10.1371/journal.pcbi.1008851
+
+Dataset: Virtual cohort of extreme and average four-chamber heart meshes from statistical shape model, version 1.0.0, 15 March 2021. https://doi.org/10.5281/zenodo.4593739
+Original file: average.tar.gz / average.vtk. MD5 of archive: 992f31e20c1aa73c10c5d9a6b6ac903a.
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0), as stated in the Zenodo record. https://creativecommons.org/licenses/by/4.0/
+
+Changes for this educational model: extracted myocardial tetrahedra (tags 1-4), retained original coordinates and source IDs, selected an oblique four-chamber section, and decimated visualization surfaces while retaining explicit interpolation weights. The original research geometry is a statistical mean derived from 19 CT-based hearts. LV wall is segmented from CT; source RV and atrial wall thicknesses are prescribed. Original fibers are rule based.
+
+The original geometry ends at the left atrial appendage ostium (surface tag 11); pulmonary-vein openings are tags 12-15 and the separate mitral plane is tag 7. The source paper explains that the LAA body was omitted because it was outside the CT field of view in some cases. This revision adds an explicitly inferred curved, blind-ending LAA pouch, preserving the exact 502 native attachment faces and 356 attachment nodes. The extension adds 9,824 anatomical nodes and 35,902 myocardial tetrahedra. Its distal shape, wall construction, and 30 mm centerline are educational reconstruction assumptions, not recovered CT anatomy. The pulmonary-vein and mitral interfaces are unchanged. Extension provenance and checks are retained in laa-extension.json.
+
+Any added activation times, cellular templates, recovery fields, source conductivities, ECG and visualizations are new educational modeling; they are not recordings from these anatomical donors or the original authors' validated simulation outputs. The current lead-II waveform is calibrated to a separate measured PTB recording. Refinement of the source integral adds virtual midpoint voltage samples without claiming finer measured anatomy or a newly solved ionic tissue PDE.

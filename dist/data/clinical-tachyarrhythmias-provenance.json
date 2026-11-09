@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "mitdb-202-af-rvr",
+      "database": "mitdb",
+      "sourceRecord": "202",
+      "sourceUrls": {
+        "hea": "https://physionet.org/files/mitdb/1.0.0/202.hea",
+        "dat": "https://physionet.org/files/mitdb/1.0.0/202.dat",
+        "atr": "https://physionet.org/files/mitdb/1.0.0/202.atr"
+      },
+      "sourceSha256": {
+        "hea": "6822216d1bc51f7014637c53e543cdc3863fea4ee3fec3aa99fb0762aece0cba",
+        "dat": "0c990e4142de6be898de4b21bd6e6705cd567e5d97cb731a994dc5aee9c7142d",
+        "atr": "16d59e44564844c39a648164580a69e71f1657e951e6ad121b64eb1a11db037d"
+      },
+      "officialSha256Verified": true,
+      "fullRecordChecksums": [
+        -29350,
+        -32096
+      ],
+      "expectedChecksums": [
+        -29350,
+        -32096
+      ],
+      "initialValuesVerified": true,
+      "sampleCountVerified": true,
+      "inverseCalibrationExact": true,
+      "headerLines": [
+        "202 2 360 650000",
+        "202.dat 212 200 11 1024 1024 -29350 0 MLII",
+        "202.dat 212 200 11 1024 1049 -32096 0 V1",
+        "# 68 M 1960 2851 x1",
+        "# Digoxin, Hydrochlorthiazide, Inderal, KCl",
+        "# The PVCs are uniform and late-cycle.  This record was taken from the same",
+        "# analog tape as record 201."
+      ],
+      "excerpt": {
+        "startSample": 455040,
+        "endSampleExclusive": 458640,
+        "startSeconds": 1264,
+        "endSeconds": 1274,
+        "originalSampleCount": 650000,
+        "originalDurationSeconds": 1805.5555555555557
+      },
+      "enclosingSourceRhythm": {
+        "code": "(AFIB",
+        "sourceStartSample": 423479,
+        "sourceStartSeconds": 1176.3305555555555,
+        "sourceEndSample": 464994,
+        "sourceEndSeconds": 1291.65,
+        "coversEntireExcerpt": true
+      },
+      "sourceBeatSymbolCounts": {
+        "N": 20
+      },
+      "exportedChannelSamples": 7200,
+      "rateSummary": {
+        "bpm": 123.838,
+        "display": "≈124 bpm",
+        "beatCount": 20,
+        "rrMeanMs": 484.503,
+        "rrMinMs": 400.0,
+        "rrMaxMs": 863.889,
+        "method": "60 × (number of within-excerpt anchors − 1) / (last anchor − first anchor).",
+        "annotationSource": "202.atr original source beat sample positions",
+        "status": "source-beat-markers"
+      },
+      "calibration": {
+        "MLII": {
+          "sourceLabel": "MLII",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 1024,
+          "initialValue": 1024,
+          "checksum": -29350,
+          "units": "mV",
+          "sourceChannelIndex": 0
+        },
+        "V1": {
+          "sourceLabel": "V1",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 1024,
+          "initialValue": 1049,
+          "checksum": -32096,
+          "units": "mV",
+          "sourceChannelIndex": 1
+        }
+      },
+      "anchorStatus": "Original source beat annotations locate QRS events, not their exact onset or duration.",
+      "vtEstimatedAnchorSamples": null
+    },
+    {
+      "id": "vfdb-421-vt",
+      "database": "vfdb",
+      "sourceRecord": "421",
+      "sourceUrls": {
+        "hea": "https://physionet.org/files/vfdb/1.0.0/421.hea",
+        "dat": "https://physionet.org/files/vfdb/1.0.0/421.dat",
+        "atr": "https://physionet.org/files/vfdb/1.0.0/421.atr"
+      },
+      "sourceSha256": {
+        "hea": "f2b50b4af5117c0432f504b595e56457cc9607829f708a1bdace3e7217de22a5",
+        "dat": "797a779790ccaa2e553efc1d46a428de84203921c25733467669e3bbfae93e7d",
+        "atr": "cf8fb7902cb6ea6e2cd639d4cbc534dbf7b7efc3bc86b2cd1aede6b5d33521c0"
+      },
+      "officialSha256Verified": true,
+      "fullRecordChecksums": [
+        30330,
+        16342
+      ],
+      "expectedChecksums": [
+        30330,
+        16342
+      ],
+      "initialValuesVerified": true,
+      "sampleCountVerified": true,
+      "inverseCalibrationExact": true,
+      "headerLines": [
+        "421 2 250 525000",
+        "421.dat 212 200 12 0 -58 30330 0 ECG",
+        "421.dat 212 200 12 0 61 16342 0 ECG"
+      ],
+      "excerpt": {
+        "startSample": 340000,
+        "endSampleExclusive": 342500,
+        "startSeconds": 1360,
+        "endSeconds": 1370,
+        "originalSampleCount": 525000,
+        "originalDurationSeconds": 2100.0
+      },
+      "enclosingSourceRhythm": {
+        "code": "(VT",
+        "sourceStartSample": 333961,
+        "sourceStartSeconds": 1335.844,
+        "sourceEndSample": 371519,
+        "sourceEndSeconds": 1486.076,
+        "coversEntireExcerpt": true
+      },
+      "sourceBeatSymbolCounts": {},
+      "exportedChannelSamples": 5000,
+      "rateSummary": {
+        "bpm": 245.592,
+        "display": "≈246 bpm",
+        "beatCount": 40,
+        "rrMeanMs": 244.308,
+        "rrMinMs": 232.0,
+        "rrMaxMs": 256.0,
+        "method": "60 × (number of within-excerpt anchors − 1) / (last anchor − first anchor).",
+        "annotationSource": "visually reviewed estimated ECG2 maxima",
+        "status": "estimated-waveform-maxima"
+      },
+      "calibration": {
+        "ECG1": {
+          "sourceLabel": "ECG",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 0,
+          "initialValue": -58,
+          "checksum": 30330,
+          "units": "mV",
+          "sourceChannelIndex": 0
+        },
+        "ECG2": {
+          "sourceLabel": "ECG",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 0,
+          "initialValue": 61,
+          "checksum": 16342,
+          "units": "mV",
+          "sourceChannelIndex": 1
+        }
+      },
+      "anchorStatus": "The source .atr contains rhythm labels only. Forty ECG2 maxima were estimated and visually reviewed in both channels for animation; these are not source-validated beat or QRS-onset annotations.",
+      "vtEstimatedAnchorSamples": [
+        63,
+        124,
+        184,
+        243,
+        303,
+        367,
+        427,
+        487,
+        548,
+        610,
+        674,
+        734,
+        795,
+        857,
+        917,
+        979,
+        1040,
+        1101,
+        1159,
+        1219,
+        1282,
+        1342,
+        1403,
+        1465,
+        1528,
+        1590,
+        1651,
+        1713,
+        1775,
+        1835,
+        1898,
+        1958,
+        2018,
+        2080,
+        2140,
+        2200,
+        2260,
+        2322,
+        2384,
+        2445
+      ]
+    },
+    {
+      "id": "mitdb-222-flutter",
+      "database": "mitdb",
+      "sourceRecord": "222",
+      "sourceUrls": {
+        "hea": "https://physionet.org/files/mitdb/1.0.0/222.hea",
+        "dat": "https://physionet.org/files/mitdb/1.0.0/222.dat",
+        "atr": "https://physionet.org/files/mitdb/1.0.0/222.atr"
+      },
+      "sourceSha256": {
+        "hea": "a395bf5e58492e6724616532aae1cca7c50626fd66fe61f843a92adadc27293d",
+        "dat": "0510bf39ed2925a83debd249492bdfe77c575148376aaabeba4c7b7a2451ac5d",
+        "atr": "a0206b778a9f073d451023e802e52059754648e83fe1dc669395b4884ccad356"
+      },
+      "officialSha256Verified": true,
+      "fullRecordChecksums": [
+        -16993,
+        -25021
+      ],
+      "expectedChecksums": [
+        -16993,
+        -25021
+      ],
+      "initialValuesVerified": true,
+      "sampleCountVerified": true,
+      "inverseCalibrationExact": true,
+      "headerLines": [
+        "222 2 360 650000",
+        "222.dat 212 200 11 1024 996 -16993 0 MLII",
+        "222.dat 212 200 11 1024 949 -25021 0 V1",
+        "# 84 F 1633 1629 x1",
+        "# Digoxin, Quinidine",
+        "# The episodes of paroxysmal atrial flutter/fibrillation are usually",
+        "# followed by nodal escape beats.  There are several intervals of",
+        "# high-frequency noise/artifact in both channels."
+      ],
+      "excerpt": {
+        "startSample": 608400,
+        "endSampleExclusive": 612000,
+        "startSeconds": 1690,
+        "endSeconds": 1700,
+        "originalSampleCount": 650000,
+        "originalDurationSeconds": 1805.5555555555557
+      },
+      "enclosingSourceRhythm": {
+        "code": "(AFL",
+        "sourceStartSample": 598542,
+        "sourceStartSeconds": 1662.6166666666666,
+        "sourceEndSample": 650000,
+        "sourceEndSeconds": 1805.5555555555557,
+        "coversEntireExcerpt": true
+      },
+      "sourceBeatSymbolCounts": {
+        "N": 17
+      },
+      "exportedChannelSamples": 7200,
+      "rateSummary": {
+        "bpm": 101.887,
+        "display": "≈102 bpm",
+        "beatCount": 17,
+        "rrMeanMs": 588.889,
+        "rrMinMs": 427.778,
+        "rrMaxMs": 797.222,
+        "method": "60 × (number of within-excerpt anchors − 1) / (last anchor − first anchor).",
+        "annotationSource": "222.atr original source beat sample positions",
+        "status": "source-beat-markers"
+      },
+      "calibration": {
+        "MLII": {
+          "sourceLabel": "MLII",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 1024,
+          "initialValue": 996,
+          "checksum": -16993,
+          "units": "mV",
+          "sourceChannelIndex": 0
+        },
+        "V1": {
+          "sourceLabel": "V1",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 1024,
+          "initialValue": 949,
+          "checksum": -25021,
+          "units": "mV",
+          "sourceChannelIndex": 1
+        }
+      },
+      "anchorStatus": "Original source beat annotations locate QRS events, not their exact onset or duration.",
+      "vtEstimatedAnchorSamples": null
+    },
+    {
+      "id": "mitdb-209-svt",
+      "database": "mitdb",
+      "sourceRecord": "209",
+      "sourceUrls": {
+        "hea": "https://physionet.org/files/mitdb/1.0.0/209.hea",
+        "dat": "https://physionet.org/files/mitdb/1.0.0/209.dat",
+        "atr": "https://physionet.org/files/mitdb/1.0.0/209.atr"
+      },
+      "sourceSha256": {
+        "hea": "9ac1abedc17f898bf6a1db9c64c38ccf4f065ebc3989ee7740f4c0796655e590",
+        "dat": "e2516dd126ea85529d9a0e8442fef5d880a492d41f0692a76e648c8437f15c5f",
+        "atr": "c0697b176e7caf49e34f93e28eaeeff7167e2de380a8698f6cb3fb3a5fcb1c84"
+      },
+      "officialSha256Verified": true,
+      "fullRecordChecksums": [
+        -27806,
+        -31706
+      ],
+      "expectedChecksums": [
+        -27806,
+        -31706
+      ],
+      "initialValuesVerified": true,
+      "sampleCountVerified": true,
+      "inverseCalibrationExact": true,
+      "headerLines": [
+        "209 2 360 650000",
+        "209.dat 212 200 11 1024 1020 -27806 0 MLII",
+        "209.dat 212 200 11 1024 1056 -31706 0 V1",
+        "# 62 M 1202 654 x1",
+        "# Aldomet, Hydrodiuril, Inderal"
+      ],
+      "excerpt": {
+        "startSample": 201600,
+        "endSampleExclusive": 205200,
+        "startSeconds": 560,
+        "endSeconds": 570,
+        "originalSampleCount": 650000,
+        "originalDurationSeconds": 1805.5555555555557
+      },
+      "enclosingSourceRhythm": {
+        "code": "(SVTA",
+        "sourceStartSample": 200042,
+        "sourceStartSeconds": 555.6722222222222,
+        "sourceEndSample": 210347,
+        "sourceEndSeconds": 584.2972222222222,
+        "coversEntireExcerpt": true
+      },
+      "sourceBeatSymbolCounts": {
+        "A": 26
+      },
+      "exportedChannelSamples": 7200,
+      "rateSummary": {
+        "bpm": 159.669,
+        "display": "≈160 bpm",
+        "beatCount": 26,
+        "rrMeanMs": 375.778,
+        "rrMinMs": 336.111,
+        "rrMaxMs": 402.778,
+        "method": "60 × (number of within-excerpt anchors − 1) / (last anchor − first anchor).",
+        "annotationSource": "209.atr original source beat sample positions",
+        "status": "source-beat-markers"
+      },
+      "calibration": {
+        "MLII": {
+          "sourceLabel": "MLII",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 1024,
+          "initialValue": 1020,
+          "checksum": -27806,
+          "units": "mV",
+          "sourceChannelIndex": 0
+        },
+        "V1": {
+          "sourceLabel": "V1",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 1024,
+          "initialValue": 1056,
+          "checksum": -31706,
+          "units": "mV",
+          "sourceChannelIndex": 1
+        }
+      },
+      "anchorStatus": "Original source beat annotations locate QRS events, not their exact onset or duration.",
+      "vtEstimatedAnchorSamples": null
+    },
+    {
+      "id": "vfdb-422-vf",
+      "database": "vfdb",
+      "sourceRecord": "422",
+      "sourceUrls": {
+        "hea": "https://physionet.org/files/vfdb/1.0.0/422.hea",
+        "dat": "https://physionet.org/files/vfdb/1.0.0/422.dat",
+        "atr": "https://physionet.org/files/vfdb/1.0.0/422.atr"
+      },
+      "sourceSha256": {
+        "hea": "d6753d3c6092264cf80b324046b183d832448ae2bb444ba86656b5bbacc5480d",
+        "dat": "aad9c88f86fb05634814e7447b674e5114be6c6b5fe036b13055369a485b8a72",
+        "atr": "fd5ff5cba220155e402c06206398e1a2980aa1cf0b206a5502a1626de93f29f6"
+      },
+      "officialSha256Verified": true,
+      "fullRecordChecksums": [
+        4096,
+        2835
+      ],
+      "expectedChecksums": [
+        4096,
+        2835
+      ],
+      "initialValuesVerified": true,
+      "sampleCountVerified": true,
+      "inverseCalibrationExact": true,
+      "headerLines": [
+        "422 2 250 525000",
+        "422.dat 212 200 12 0 -20 4096 0 ECG",
+        "422.dat 212 200 12 0 48 2835 0 ECG"
+      ],
+      "excerpt": {
+        "startSample": 387500,
+        "endSampleExclusive": 390000,
+        "startSeconds": 1550,
+        "endSeconds": 1560,
+        "originalSampleCount": 525000,
+        "originalDurationSeconds": 2100.0
+      },
+      "enclosingSourceRhythm": {
+        "code": "(VFIB",
+        "sourceStartSample": 383788,
+        "sourceStartSeconds": 1535.152,
+        "sourceEndSample": 507826,
+        "sourceEndSeconds": 2031.304,
+        "coversEntireExcerpt": true
+      },
+      "sourceBeatSymbolCounts": {},
+      "exportedChannelSamples": 5000,
+      "rateSummary": {
+        "bpm": null,
+        "display": "No organized ventricular rate",
+        "beatCount": 0,
+        "method": "No discrete QRS sequence is assigned to ventricular fibrillation.",
+        "annotationSource": "none; source has rhythm labels only",
+        "status": "not-applicable"
+      },
+      "calibration": {
+        "ECG1": {
+          "sourceLabel": "ECG",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 0,
+          "initialValue": -20,
+          "checksum": 4096,
+          "units": "mV",
+          "sourceChannelIndex": 0
+        },
+        "ECG2": {
+          "sourceLabel": "ECG",
+          "format": "212",
+          "adcGain": 200.0,
+          "adcBaseline": 0,
+          "initialValue": 48,
+          "checksum": 2835,
+          "units": "mV",
+          "sourceChannelIndex": 1
+        }
+      },
+      "anchorStatus": "The source .atr contains rhythm labels only. No QRS events or organized ventricular rate are inferred for fibrillation.",
+      "vtEstimatedAnchorSamples": null
+    }
+  ]
+}

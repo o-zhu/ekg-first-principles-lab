@@ -1,0 +1,22 @@
+National Toxicology Program (NTP) material
+
+Source policy: https://ntp.niehs.nih.gov/support/policies
+Verified: 2026-11-09
+
+NTP states that information on its website is in the public domain unless
+an individual copyright is indicated. Such information may be copied and
+distributed without permission. NTP requests source citation. Material with
+an indicated copyright must instead be cleared with its original source.
+
+Included asset: cardiac-gap-junction-tem.jpg, extracted from Figure 6 of
+Michael Dykstra, Rodent Ultrastructure Atlas, Muscle, National Toxicology
+Program / NIEHS. No separate copyright mark was identified for this figure.
+https://ntp.niehs.nih.gov/atlas/us/musculoskeletal-system/muscle
+https://doi.org/10.22427/NTP-OTHER-1006
+
+The included JPEG retains the source labels and 500 nm scale bar. This is
+rodent ultrastructure; the precise species is not established by the
+retained figure metadata. No NTP or U.S. Government endorsement is claimed.
+
+This notice describes the upstream public-domain status. It is not an
+additional license or restriction on that material.

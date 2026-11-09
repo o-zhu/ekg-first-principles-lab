@@ -1,0 +1,138 @@
+{
+  "sourceReleaseSha256": "b766a5484c291ce1d1498ea789043484e72af8a5336df8ed4e5fd13c4a0199eb",
+  "operatorFingerprint": "21e38e643449384fba8b61cfdb8ddfdda6f24ff48f4afa475c1f4f3886ffcb8b",
+  "nativeNodes": 340582,
+  "ventricularNodes": 250416,
+  "elements": 1562432,
+  "sourceIntegral": "Vlead = \u2212\u03a3tet volume \u00b7 grad(Vm) \u00b7 sigma_i \u00b7 grad(Zlead); centroid quadrature",
+  "constantVmNullErrorMv": 1.2168819929213005e-14,
+  "originalInputVerified": {
+    "source": "https://zenodo.org/records/4593739",
+    "downloadUrl": "https://zenodo.org/api/records/4593739/files/average.tar.gz/content",
+    "paper": "https://doi.org/10.1371/journal.pcbi.1008851",
+    "license": "CC-BY-4.0",
+    "preparationMethod": "verified original VTK extraction",
+    "verifiedByteParts": null,
+    "archiveBytes": 58167648,
+    "expectedArchiveMD5": "992f31e20c1aa73c10c5d9a6b6ac903a",
+    "expectedArchiveSHA256": "d787d6470c8a4a6c7bfb808c55e44e35a7bc18f5888847e2b24380beae2703ee",
+    "archiveVerifiedThisRun": true,
+    "verifiedArchiveHashes": {
+      "md5": "992f31e20c1aa73c10c5d9a6b6ac903a",
+      "sha256": "d787d6470c8a4a6c7bfb808c55e44e35a7bc18f5888847e2b24380beae2703ee"
+    },
+    "vtkBytes": 187320446,
+    "verifiedVTKSHA256": "b8e013832ccf9262d677ad3d6f140a76de6bb0a2d9734132ec9924a29eba8356",
+    "numpyVersion": "2.3.5",
+    "vtkVersion": "9.3.1",
+    "originalPointCount": 379158,
+    "originalTetCount": 1766006,
+    "myocardialPointCount": 326448,
+    "myocardialTetCount": 1526530,
+    "ordering": "Original tetrahedral order restricted to tags 1\u20134; ascending original point IDs; local tetrahedral vertex order unchanged.",
+    "referenceCompared": null,
+    "arrays": {
+      "points": {
+        "shape": [
+          326448,
+          3
+        ],
+        "dtype": "<f4",
+        "sha256": "e85b54c31730a9a3160c49f081aeb0e3daaf0c3adf6f50f069833520305be751",
+        "matchesCanonicalArray": true
+      },
+      "rho": {
+        "shape": [
+          326448
+        ],
+        "dtype": "<f4",
+        "sha256": "9d31b287afae6d2467a42f46afd93da9d2963f33b50302f4adb88715182fde69",
+        "matchesCanonicalArray": true
+      },
+      "phi": {
+        "shape": [
+          326448
+        ],
+        "dtype": "<f4",
+        "sha256": "bdf8b7cbedb1b068fcfea1994c7073bff871681c7643d508de210f634d9d3ec6",
+        "matchesCanonicalArray": true
+      },
+      "z": {
+        "shape": [
+          326448
+        ],
+        "dtype": "<f4",
+        "sha256": "9636c3e0f09288b5682444520d746d47700abec2883e2f83d0499d1348feb618",
+        "matchesCanonicalArray": true
+      },
+      "v": {
+        "shape": [
+          326448
+        ],
+        "dtype": "<f4",
+        "sha256": "7c2f32bb07574b38658eb3e9d030ac096246eb61c874f07fa489df76c2a92127",
+        "matchesCanonicalArray": true
+      },
+      "tetrahedra": {
+        "shape": [
+          1526530,
+          4
+        ],
+        "dtype": "<i4",
+        "sha256": "b4e968452add8efe08d81f52b10a94ff944e71c5a835e2c8fb5e27fd310154c3",
+        "matchesCanonicalArray": true
+      },
+      "tags": {
+        "shape": [
+          1526530
+        ],
+        "dtype": "|u1",
+        "sha256": "bb981e18f5c48e31c7d1ea189ec52f4b966cf143a3b3890e3b89661653abd985",
+        "matchesCanonicalArray": true
+      },
+      "fibers": {
+        "shape": [
+          1526530,
+          3
+        ],
+        "dtype": "<f4",
+        "sha256": "f2fb9cf8d9bb0a741b4e4300d38f94c7fd72ec650c9a6cb403d90b14d9b28cd1",
+        "matchesCanonicalArray": true
+      },
+      "sheets": {
+        "shape": [
+          1526530,
+          3
+        ],
+        "dtype": "<f4",
+        "sha256": "bcfbc4788ce9b2740eb8342e0de801fd94743743fa62464a2e985f1ff178ee64",
+        "matchesCanonicalArray": true
+      },
+      "sourcePointIds": {
+        "shape": [
+          326448
+        ],
+        "dtype": "<i4",
+        "sha256": "030e9e78196ce587d43f912e0abbfe9c2427bb3ff09e2deb60333045db5ac6c2",
+        "matchesCanonicalArray": true
+      },
+      "sourceTetIds": {
+        "shape": [
+          1526530
+        ],
+        "dtype": "<i4",
+        "sha256": "f8553b6f2744db70a8633364b9f8b3c83db6fac402a344d2260f8950678af6eb",
+        "matchesCanonicalArray": true
+      }
+    },
+    "outputSHA256": "fcaf2e84123ace36721056535b5db566a2c84abdcb6c69c7a7054f1541d6ec7c"
+  },
+  "rvTravelFactors": [
+    0.45,
+    0.6,
+    0.8,
+    1.0,
+    1.2
+  ],
+  "rvTravelMeaning": "Factor multiplying all native right-ventricular graph speeds; edge factor is linearly blended at the LV/RV interface. Direct RV delivery sites are removed in every complete-RBBB candidate."
+}

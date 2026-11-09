@@ -1,0 +1,147 @@
+CARDIO CLINICAL DATA INDEX — SIXTH REVISION
+
+24 authentic recordings; 373,400 calibrated channel samples.
+17 twelve-lead examples plus seven original two-channel excerpts.
+Durations: 6.6–14 seconds. Each source retains its native sampling rate.
+The waveform exports apply source ADC gain/baseline calibration and serialize
+millivolt samples as JSON. No additional filtering, resampling, normalization,
+synthetic channels or generated clinical waveforms are included.
+
+1. clinical-ecgs.json
+   Eight PTB-XL v1.0.3 records: 100 Hz, 10 seconds, 12 leads each.
+   96,000 samples. Source: Wagner et al., PhysioNet.
+   License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+   https://physionet.org/content/ptb-xl/1.0.3/
+   https://doi.org/10.1038/s41597-020-0495-6
+
+2. clinical-extra.json
+   Six additional PTB-XL v1.0.3 records: 100 Hz, 10 seconds, 12 leads each.
+   72,000 samples. Same source and CC BY 4.0 license as above.
+   Import evidence and source qualifications: clinical-extra-provenance.json.
+   Together the two PTB-XL files contain 14 records and 168,000 samples.
+   PTB-XL exports retain source recording-level diagnoses; added waveform
+   timing landmarks are explicitly approximate teaching annotations.
+
+3. clinical-mobitz2.json
+   MIT-BIH Arrhythmia Database v1.0.0 record 231: first 10 seconds,
+   360 Hz, original MLII/V1 channels; 7,200 samples.
+   Source: George Moody and Roger Mark, PhysioNet.
+   License: Open Data Commons Attribution License v1.0 (ODC-By).
+   https://physionet.org/content/mitdb/1.0.0/
+   https://physionet.org/content/mitdb/view-license/1.0.0/
+   Source identifies Mobitz II with RBBB. Original ventricular annotations
+   are retained; added P-onset estimates are for animation only.
+   Full attribution, changes and integrity checks:
+   clinical-mobitz2-README.md and clinical-mobitz2-provenance.json.
+
+4. clinical-stemi.json
+   Three 500 Hz, 12-lead STEMI examples; 159,600 samples in total.
+
+   ACS00004 and ACS18206: 10 seconds each; 120,000 samples.
+   Source: Du et al., ACS dataset on Figshare.
+   License: Creative Commons Zero v1.0 Universal (CC0 1.0).
+   https://doi.org/10.6084/m9.figshare.29925314
+   https://www.nature.com/articles/s41597-026-07278-0
+   Source STEMI/culprit-vessel metadata retained. QRS extrema are manually
+   checked teaching landmarks; atrial timing is prescribed. Archive-entry
+   CRC checks verify source bytes; inconsistent source header checksum
+   fields are not claimed to pass WFDB checksums.
+
+   LUDB record 21: source seconds 1.6–8.2, 6.6 seconds; 39,600 samples.
+   Source: Kalyakulina et al., Lobachevsky University Electrocardiography
+   Database v1.0.1, PhysioNet.
+   License: Open Data Commons Attribution License v1.0 (ODC-By).
+   https://physionet.org/content/ludb/1.0.1/
+   https://physionet.org/content/ludb/view-license/1.0.1/
+   Original clinician P/QRS fiducials are retained for included complexes.
+   Source anterior/lateral/septal/apical STEMI, left anterior hemiblock and
+   left-axis findings are retained as a combined presentation.
+   See clinical-stemi-provenance.json, STEMI-DATA-SOURCES.txt and
+   LUDB-LICENSE.txt for complete attribution, original URLs, calibration,
+   hashes, cropping, timing limitations and license details.
+
+5. clinical-tachyarrhythmias.json
+   Five original two-channel, 10-second examples; 31,600 channel samples.
+
+   MIT-BIH Arrhythmia Database v1.0.0: records 202, 222 and 209,
+   native 360 Hz, MLII/V1; 21,600 samples in total.
+   Record 202, 1264–1274 s: source AFIB, calculated mean 123.838 bpm.
+   "Rapid ventricular response" describes that measured rate; it is not
+   a separate source diagnostic annotation.
+   Record 222, 1690–1700 s: source AFL, mean ventricular rate 101.887 bpm.
+   Record 209, 560–570 s: source SVTA, mean ventricular rate 159.669 bpm.
+   The 20, 17 and 26 source QRS event markers, respectively, are retained.
+   They are not exact QRS-onset fiducials. No measured atrial clock, exact
+   flutter circuit, conduction ratio, AVNRT or AVRT diagnosis is added.
+   Source: George Moody and Roger Mark, PhysioNet; ODC-By 1.0.
+   https://physionet.org/content/mitdb/1.0.0/
+   https://physionet.org/content/mitdb/view-license/1.0.0/
+
+   MIT-BIH Malignant Ventricular Ectopy Database v1.0.0: records 421
+   and 422, native 250 Hz, ECG1/ECG2; 10,000 samples in total.
+   Record 421, 1360–1370 s: source VT, within a 150.232-second episode.
+   Approximately 245.592 bpm is estimated from 40 visually reviewed
+   ECG2 waveform maxima. The source supplies rhythm changes, not beat
+   annotations; no monomorphic/polymorphic subtype is assigned.
+   Record 422, 1550–1560 s: source VFIB. No discrete QRS markers or
+   organized ventricular rate are assigned.
+   Source: Paul Albrecht, George Moody and Roger Mark, PhysioNet.
+   License: Open Data Commons Attribution License v1.0 (ODC-By).
+   https://physionet.org/content/vfdb/1.0.0/
+   https://physionet.org/content/vfdb/view-license/1.0.0/
+   https://physionet.org/files/vfdb/1.0.0/annotations.shtml
+   Dataset DOI: 10.13026/C22P44.
+
+   Each crop lies wholly within its original rhythm annotation interval.
+   Mean rates use 60 × (N − 1) / (last marker time − first marker time).
+   Full source hashes, WFDB checksums, initial samples, exact inverse
+   calibration, crop coordinates and timing status are retained in
+   clinical-tachyarrhythmias-provenance.json. See the matching README
+   and TACHYARRHYTHMIA-DATA-SOURCES.txt for attribution and limitations.
+   Reproducible importer: scripts/import_tachyarrhythmias.py.
+
+6. clinical-torsades.json
+   Sudden Cardiac Death Holter Database v1.0.0 record 47: native 250 Hz,
+   two original channels, 14 seconds; 7,000 channel samples.
+   Source elapsed 06:13:10–06:13:24; header-based clock 18:13:10–18:13:24.
+   Source samples 5,597,500 through 5,600,999 inclusive.
+   Source: Scott Greenwald, PhysioNet; ODC-By 1.0.
+   https://physionet.org/content/sddb/1.0.0/
+   https://physionet.org/content/sddb/view-license/1.0.0/
+   Dataset DOI: 10.13026/C2W306.
+
+   Lerma et al. (2007), Table 1 and Figure 2, identify this source record
+   as torsades de pointes in a prolonged-QT context.
+   https://doi.org/10.1016/j.jelectrocard.2006.04.011
+   https://www.mcgill.ca/physiological-dynamics/files/physiological-dynamics/rule_2007.pdf
+   The crop contains about eight seconds of preceding complex ventricular
+   ectopy/runs and six seconds in the graphically matched TdP region.
+   The display transition at eight seconds has about one second of
+   uncertainty and is not a validated onset fiducial. Published preceding-
+   rhythm QTc context is not a QT measurement from this tachycardia strip.
+   Source .ari annotations are unaudited; no reliable beat markers or
+   clinical rate are assigned. No VF transition or termination is labeled.
+   The paper is cited; its figure is not redistributed or digitized.
+
+   Official source hashes, complete channel checksums, initial samples,
+   exact inverse calibration, crop and diagnostic/alignment evidence:
+   clinical-torsades-provenance.json and clinical-torsades-README.md.
+   Attribution and license notes: TORSADES-DATA-SOURCES.txt.
+   Reproducible standard-library importer: scripts/import_torsades.py.
+
+Both generic source channels named ECG are displayed as ECG1 and ECG2
+solely to distinguish their original order. Their anatomical lead axes
+are unknown. Modified MLII also lacks exact electrode coordinates. No
+standard lead axis or missing channel is inferred for these signals.
+
+All adjacent 3D activation/contraction is an explanatory reference model,
+not measured patient mechanics. Source beat timing, estimated VT landmarks
+and schematic TdP/VF timing are explicitly distinguished. The stationary
+traces support paused click/drag seeking; previous/next-beat controls are
+disabled for TdP and VF because discrete beat markers are unavailable.
+The opening ideal ECG and Sandbox signals are separately identified
+original simulations and are excluded from these clinical totals. The
+five simulated catalog examples from the fourth revision are no longer
+included in Module 5; the new fast rhythms are not transferred into the
+Sandbox's different mechanism model. These data checks do not assert
+completion of sixth-revision browser QA.

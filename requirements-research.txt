@@ -1,0 +1,8 @@
+# Optional numerical regeneration environment recorded in the retained research.
+# Python 3.12.14. Not required to run the website or the Node regression suite.
+numpy==2.3.5
+scipy==1.17.0
+threadpoolctl==3.6.0
+vtk==9.3.1
+matplotlib==3.10.8
+Pillow==12.3.0

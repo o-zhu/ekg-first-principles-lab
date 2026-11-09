@@ -1,0 +1,580 @@
+{
+  "origin": "https://ekg-first-principles-lab.zhuou557737.chatgpt.site/",
+  "publishedVersion": 14,
+  "publishedCommit": "031fb8dd5b370a101135f8f63773c4258920f5f8",
+  "description": "Original public-file hashes before reconstruction. Current export hashes appear in PACKAGE-MANIFEST.json. Failed heuristic crawler references are excluded; the runtime dependency audit is separate.",
+  "recoveredFiles": {
+    "index.html": {
+      "bytes": 3825,
+      "sha256": "d7c2bdcdba72b46f35a25b72d73f1193ccd24df1b3f01a1ac6f6419de596c890"
+    },
+    "app.js": {
+      "bytes": 19,
+      "sha256": "3f92d0527cf846bf3ad334b144bb9850d243fd02d82b6b297cca8697a7b48514"
+    },
+    "assets/favicon.svg": {
+      "bytes": 254,
+      "sha256": "ff0f1b3895f04efd6373ce081788ab06898f4939343f60d5191d33e138d8d00b"
+    },
+    "electrical-ui.css": {
+      "bytes": 2968,
+      "sha256": "44b3614dc413d3988f17886571c72cec3c4d432d3728924d5cf2197cc5ae7920"
+    },
+    "fit-explorer.css": {
+      "bytes": 18034,
+      "sha256": "ce86fe1d226144b5c3bd8afe717e3acd2db5897d7427ab3d4c816cd028f111f3"
+    },
+    "refinements.css": {
+      "bytes": 25294,
+      "sha256": "8fe42ced2651ab6738bbd74b764507409c69439731522963f601aaba80a25d6d"
+    },
+    "revision.css": {
+      "bytes": 23987,
+      "sha256": "da637601dd11b3bc1fa7cb6fafac0c5d7d9fc1a315ed74d96801eb357ba9a406"
+    },
+    "styles.css": {
+      "bytes": 31480,
+      "sha256": "26e949f4785f940cd30af6b5dd83f91028ca5ae823808bb68884ceeb98635154"
+    },
+    "vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "voltage-lesson.css": {
+      "bytes": 620,
+      "sha256": "28ada64ecfb998a444e1218f6d534047c9822e14ebfce571066f1942d39cddc9"
+    },
+    "lab.js": {
+      "bytes": 94391,
+      "sha256": "2d7cfe18aa662c2d1ff1815f4a45bd4a68e325ba64dbfbb833e3206769514418"
+    },
+    "vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "action-potential-chart.js": {
+      "bytes": 15794,
+      "sha256": "f979094c602d6dae93033f2962ed741d5da8875c4259d5ed58cab782432bf99b"
+    },
+    "action-potentials.js": {
+      "bytes": 17192,
+      "sha256": "0dc604a507d377014ba904de7895cca753fd9c454810243ff5d2daaf0f34bebd"
+    },
+    "charts.js": {
+      "bytes": 25792,
+      "sha256": "b29a5dcbeae502e49103b03b2c9724fb9d1d2c4fc8abe232ee73b8b9e2e03ff3"
+    },
+    "clinical-adapter.js": {
+      "bytes": 19044,
+      "sha256": "f825a760c122e3bb6defb5317d582edd747f94099551c47de06ca7774eb16deb"
+    },
+    "clinical-chart-scale.js": {
+      "bytes": 1723,
+      "sha256": "a929c70a29d9b53df3cf7f3df7ed4e7ae9de32a47d284c82dee5f275ee8f284d"
+    },
+    "ecg.js": {
+      "bytes": 10930,
+      "sha256": "1c545a3fa70958a19d4c2fbe988995d7beb158534630f25fd102612217861eb5"
+    },
+    "electrical-ui.js": {
+      "bytes": 9140,
+      "sha256": "0760cd8d84d99a38dc9ba8ba8d5140ca965befb78d4332da443013d1f32b413b"
+    },
+    "fit-explorer.js": {
+      "bytes": 36824,
+      "sha256": "f14a79554b044ac07d33e8286a152dd0f846978d59d9a527818beb99edc95c5e"
+    },
+    "pathology-model.js": {
+      "bytes": 35869,
+      "sha256": "7cf8265ee64f56fb07c2f2bafe6303bd48518d74d5dd01097cbe8a7a4fba1c7d"
+    },
+    "references.js": {
+      "bytes": 36002,
+      "sha256": "cfe91735e5845dff7732f47da18bafb17175bea6773c44a68f5f929f1bcaefaa"
+    },
+    "scenes.js": {
+      "bytes": 54936,
+      "sha256": "e8bcf22c301b59e88d84c1a2dd3093e11a15088f8f17420a71841ad8c712233a"
+    },
+    "voltage-lesson.js": {
+      "bytes": 3461,
+      "sha256": "fb08b3c8cce49b1649f22052c32db3c7a1c0fcff01a922aadfda8e62b8e77c26"
+    },
+    "cardiac-motion.js": {
+      "bytes": 16158,
+      "sha256": "f8e23ce5b60dca1e3e712b3cac3a12b6fa31a6df64d3f11dd0394b8cc741ec1d"
+    },
+    "condition-profiles.js": {
+      "bytes": 20457,
+      "sha256": "85b4333052be5db621b7fc69265e850fa49b24f1c8c1c5e1ef09b51f54dfdccd"
+    },
+    "conduction-coupling.js": {
+      "bytes": 7814,
+      "sha256": "569370533c2091bb74db01d35f8ceb58a5f986165b284c41508c205b52109be5"
+    },
+    "conduction-event.js": {
+      "bytes": 1664,
+      "sha256": "4fb782d9381c6da8853b71dcb3cdb156a1e90b084661f9d4281d0492fe075a66"
+    },
+    "conduction-system.js": {
+      "bytes": 29393,
+      "sha256": "ebe0af2f24d49059987375627429c61b3930746cb57f2e892bbaa1baa4d1b96a"
+    },
+    "conduction-timing.js": {
+      "bytes": 1490,
+      "sha256": "f2e192c977a35d0773ebe5216f655dda8e84630535f0f2cf64e6d0b7fcff1216"
+    },
+    "cutaway.js": {
+      "bytes": 8007,
+      "sha256": "d232217295f4c5404cebadaed4791e1ba3a45baab7625f845dbb27d2e3c7f2ac"
+    },
+    "data/electrical-atlas.json": {
+      "bytes": 37687,
+      "sha256": "a66eebd60de4e4a756d4bd8700d49641d18118db50182e5887ae2138baa79da3"
+    },
+    "data/pathology-fits/targets-v1.json": {
+      "bytes": 1825384,
+      "sha256": "e7b28c8e9558e1c5543a597381881c66e336e60c951e53b37c2d7f3b857ad7a9"
+    },
+    "electrical-field.js": {
+      "bytes": 24575,
+      "sha256": "b2946bbac232a7bbde1e176ccfa2d8da48c9cad08c98581fcd36f0dc5ad09e1d"
+    },
+    "fit-ap-panel.js": {
+      "bytes": 10362,
+      "sha256": "303e3c2c260cf22886316081378149f7a6fc30796b27c47660131c33b8418d0d"
+    },
+    "fit-chart.js": {
+      "bytes": 6829,
+      "sha256": "0cf613d49d2f3d75294ef2457033d6e56d782b530c0dbec169da3762f9b7cd4a"
+    },
+    "fit-model.js": {
+      "bytes": 6337,
+      "sha256": "44e437859b49792153823f2a3bee9b45645e0845c11b77c23459a78206be4368"
+    },
+    "fit-surface.js": {
+      "bytes": 16479,
+      "sha256": "d4232fc9379025dafe76932cd9b9cd98dbe6eb3147211233b95152497ffbcda8"
+    },
+    "models/chest-bones.glb": {
+      "bytes": 5582188,
+      "sha256": "8d91f709144e5de3eebdabf5149cd39dac16544081a61b0dae12e1320244a620"
+    },
+    "models/chest-skin.glb": {
+      "bytes": 984848,
+      "sha256": "66d8a95c92ef2cab8ff50bbd01fc3dd13077bed8817f65018873ae30e0359e2e"
+    },
+    "models/heart-junctions.json": {
+      "bytes": 88273,
+      "sha256": "195a617e8e7cd30146cafa824007cc65802c2b9679bec3d3295ad30ddcbc47c5"
+    },
+    "recorded-arrhythmias.js": {
+      "bytes": 15465,
+      "sha256": "d2f173f2df785da4b70da83621c665df9577c556cf200424ab56d52dc5740b17"
+    },
+    "recovery-model.js": {
+      "bytes": 3038,
+      "sha256": "0809eeb288fa3e82d2ea2922a5460ddff5015fe4c75cc7a8c43c8668e0ac31f8"
+    },
+    "soft-renderer.js": {
+      "bytes": 18803,
+      "sha256": "07054c653e7fe971e4f7fdd7838dd9de88fcf643478f24a8bb789f89d9985022"
+    },
+    "vendor/GLTFLoader.js": {
+      "bytes": 114732,
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b"
+    },
+    "vendor/OrbitControls.js": {
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    "cardiac-voltage/data/heart-model.json": {
+      "bytes": 7441050,
+      "sha256": "b560a70554fcccbd89e69d35a96cb5d80c0e583f427a4f61a36c17f7451d63fb"
+    },
+    "data/conduction-coupling.json": {
+      "bytes": 2857713,
+      "sha256": "3ff8d23cd68bb444971efd426277b12827c1f78161a0ddd169ca87c350a229c4"
+    },
+    "models/heart-junctions-medium.glb": {
+      "bytes": 74428,
+      "sha256": "165dfc2e8f0e342640aeaea2b50d74f9dbc09da1130f99f8404c5d8f44c06e50"
+    },
+    "models/heart-junctions.glb": {
+      "bytes": 74424,
+      "sha256": "a5e73bd5fde30d49428ba24dd5de278cdf791b9e6b9d1cdce891bf67ff23c905"
+    },
+    "models/heart-medium.glb": {
+      "bytes": 432236,
+      "sha256": "edecae3f066de6ccad8d08d7da4c48e1ad3438a0523b2304518feb55ab6f5dea"
+    },
+    "models/heart.glb": {
+      "bytes": 2524400,
+      "sha256": "b80a727d022a4ab07ccfcf15caccc228eaccb6d69ec0e72923324946ac35a946"
+    },
+    "vendor/BufferGeometryUtils.js": {
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    "cardiac-voltage/data/lead-ii-calibration.json": {
+      "bytes": 10696,
+      "sha256": "528a0338c37b30dc18083691ca3dc9e6ee8c01862c08242c1609b544500d86ba"
+    },
+    "cardiac-voltage/data/lead-ii-fit-study.json": {
+      "bytes": 477079,
+      "sha256": "af86f16c1fb2892982366c4e92af94fbd59a7a0781c8c0a7f44a784ca92d22ae"
+    },
+    "cardiac-voltage/data/pooled-human-ventricular-template.json": {
+      "bytes": 258200,
+      "sha256": "92f4de36be3caf2c44e4804605a4d3fa416529edd051180bb6fc734240268fe0"
+    },
+    "cardiac-voltage/data/ptb-healthy-reference.json": {
+      "bytes": 112112,
+      "sha256": "936c048a4025507831d9e435ce0d26a184f7495f96b18488ca1261f814a9c7da"
+    },
+    "cardiac-voltage/data/selected-human-ventricular-template.json": {
+      "bytes": 50630,
+      "sha256": "9f9b547db11e366a81794bafeab24d4f0c284b6d1920c6f835c930e9b14fc562"
+    },
+    "cardiac-voltage/index.html": {
+      "bytes": 25182,
+      "sha256": "2adacba170511e326bb97d8e6f7ec075906a3a0b39c0e79052fdaecf3162240e"
+    },
+    "data/clinical-ecgs.json": {
+      "bytes": 638045,
+      "sha256": "f0e076436836e04fdb13807378a29b42d769b027110e086668a3499ec17487ea"
+    },
+    "data/clinical-extra.json": {
+      "bytes": 489229,
+      "sha256": "32fa6ecd59d2830c8d2bd5247ed93ba5b7d41fe8f7e68d4880abaa3524e4d640"
+    },
+    "data/clinical-mobitz2.json": {
+      "bytes": 54362,
+      "sha256": "fc26a8cda04b47f567e6028cd490c33f0f5d76a643bdfe13961e7011e178b632"
+    },
+    "data/clinical-stemi.json": {
+      "bytes": 1613738,
+      "sha256": "190a8e770e20833616fb027d18833542acd37bbd44ef2776b88fd530192c1a3b"
+    },
+    "data/clinical-tachyarrhythmias.json": {
+      "bytes": 239200,
+      "sha256": "e3d64ed9bdca391bb951c95530ae20eb548ebdf03f505f6660ef3cbbfd4d7968"
+    },
+    "data/clinical-torsades.json": {
+      "bytes": 52703,
+      "sha256": "b1f0883809251ed06f0a8fc553c7224e046e3d1609b552519ceed35cde7f1737"
+    },
+    "data/pathology-fits/cases/acs-00004.json": {
+      "bytes": 19209840,
+      "sha256": "c13973b2c130913083256fe2a482d9234772b1209be801ea8624a81e0c15369e"
+    },
+    "data/pathology-fits/cases/ptbxl-03155.json": {
+      "bytes": 11745663,
+      "sha256": "fd1dfbf1e669f1206f6a952602fad4bb65cf6f04ba52434c77934a5e3466639d"
+    },
+    "data/pathology-fits/source/ptbxl-03155-500hz.json": {
+      "bytes": 371916,
+      "sha256": "642b7c7dd8b02583eb8bf0b1c98d1bb9c13ab3fed8546a1ff8cdcbc60769da58"
+    },
+    "models/chest-bones-low.glb": {
+      "bytes": 247492,
+      "sha256": "f144c869193879f0aa096a915d49e3deb1d5bbbde004133cc85e646fa64a3547"
+    },
+    "models/chest-skin-low.glb": {
+      "bytes": 62388,
+      "sha256": "27e35da127a7fc1ef46b196b8470f59bfb2590d9fabaf0eaf674721053395c99"
+    },
+    "models/heart-low.glb": {
+      "bytes": 153712,
+      "sha256": "88e8248c5cea1e14a7fb4ca812c5ab14c8929e145921d1b1f9a9db5f038a21d4"
+    },
+    "models/heart-regions-low.json": {
+      "bytes": 3154,
+      "sha256": "0e330d7d0ba381b6501edf1f3b77d0316a032d4cd55e26d61d25bc718f4f5ded"
+    },
+    "models/heart-regions-medium.json": {
+      "bytes": 12318,
+      "sha256": "a411e4b9c455c65aedc3efbf1396c10c58d4acf94322417ba8dbdfbb123f802d"
+    },
+    "models/heart-regions.json": {
+      "bytes": 64213,
+      "sha256": "5d574d98bd1c3eab0dfb4a98484dc5e3b268450394b4f1d0f948883c1ce8c168"
+    },
+    "cardiac-voltage/app.js": {
+      "bytes": 45280,
+      "sha256": "655eeca040f3f14cd78b26cfbee636d5780b83f3133f26dfb05216338d726f26"
+    },
+    "cardiac-voltage/assets/fonts/fonts.css": {
+      "bytes": 6938,
+      "sha256": "e6647c24145637dd4a3581c68c194543f97e8f7bcf0cabb4c69a3f1f77edbd72"
+    },
+    "cardiac-voltage/channel-lens.css": {
+      "bytes": 7914,
+      "sha256": "98eb41527b203cc3fb35886466d870fb60dbf9ed5d17159406de8f7d5784522f"
+    },
+    "cardiac-voltage/data/human/donor1-metadata.json": {
+      "bytes": 5211,
+      "sha256": "1eff3045cade693588b8accb19db17ed9ee78277b6af3a822edb9aae4151852c"
+    },
+    "cardiac-voltage/data/lead-ii-fit-comparison.png": {
+      "bytes": 407164,
+      "sha256": "73bb384e3eccb086facf9af4f94898e334ebe8be7db47511afc5f0370faa06ac"
+    },
+    "cardiac-voltage/icon.svg": {
+      "bytes": 255,
+      "sha256": "7fbb9d5b67ed0d04fa948056acf7b45d11a757e3d51885d5b53ade4961aaddaf"
+    },
+    "cardiac-voltage/style.css": {
+      "bytes": 44271,
+      "sha256": "2badd8f6ef2520d5317c74b5e65f8c18d8deea9c6aa50102f6b74b6b6e408045"
+    },
+    "cardiac-voltage/assets/fonts/font-219b02c7d8884817.woff2": {
+      "bytes": 18192,
+      "sha256": "219b02c7d8884817d3d6ad4c8771f2c000ce4c5669a67ef4e2e5617ffa25c4cc"
+    },
+    "cardiac-voltage/assets/fonts/font-468d56b6b25b05b7.woff2": {
+      "bytes": 36980,
+      "sha256": "468d56b6b25b05b70190b6c233d773f6f1770e8579827ce022a57f03fa8002fb"
+    },
+    "cardiac-voltage/assets/fonts/font-60c06664b5a95c7d.woff2": {
+      "bytes": 15040,
+      "sha256": "60c06664b5a95c7de6cc3e00d1f9034d78bd1e40b564016b241674449a067d4d"
+    },
+    "cardiac-voltage/assets/fonts/font-6ee678c33f388dd7.woff2": {
+      "bytes": 15684,
+      "sha256": "6ee678c33f388dd7ba59700ebea635deb98821baafd817b09891f7927177f702"
+    },
+    "cardiac-voltage/assets/fonts/font-a04fc7ed18a80371.woff2": {
+      "bytes": 8444,
+      "sha256": "a04fc7ed18a8037149ce0bfda58076709d8e0840e136ed00abbdc196b7992443"
+    },
+    "cardiac-voltage/assets/fonts/font-a8c4bd7cd7073180.woff2": {
+      "bytes": 7828,
+      "sha256": "a8c4bd7cd7073180e740d2d83a616b5cb0845579b73207eeafeae8532e70c901"
+    },
+    "cardiac-voltage/channel-lens.js": {
+      "bytes": 18225,
+      "sha256": "c0f66b768be66ff6c5b0d4684c621291a662f074d4f46ba509007be162dd54fa"
+    },
+    "cardiac-voltage/data/human/donor1-background.png": {
+      "bytes": 5143,
+      "sha256": "b7263013f8979d447be32228acd75fed88393cbc0ca543d944f6bb25332f2614"
+    },
+    "cardiac-voltage/data/human/donor1-timings.f32": {
+      "bytes": 240000,
+      "sha256": "f1a1d92e0b3e10b51773c4f7671f29cfb2e8b9d976f3ba777a82613deaa8af0d"
+    },
+    "cardiac-voltage/field.js": {
+      "bytes": 10079,
+      "sha256": "12b94cd8f7bb753406e501558216500c933b2bba971916385e7fb4dd4fdc8971"
+    },
+    "cardiac-voltage/heart-data.js": {
+      "bytes": 7896,
+      "sha256": "45d8d9af11d9b7e548e9dfaeb4da12459711437ab73d9192236ba8d67cb37b1a"
+    },
+    "cardiac-voltage/heart-time.js": {
+      "bytes": 809,
+      "sha256": "dfc5ee4b59112e2b98ea19d1d9ca74511e4e3f7de0117920853716744526b238"
+    },
+    "cardiac-voltage/heart.js": {
+      "bytes": 16729,
+      "sha256": "87157f80028c1131d8c175a18bbbf537609b2e61c3ee15c5806aedff114764d7"
+    },
+    "cardiac-voltage/lessons.js": {
+      "bytes": 17926,
+      "sha256": "ff513d0e5fec448d2b5758f18012adc1a16c11596f0c26a1db3a2858844db33b"
+    },
+    "cardiac-voltage/membrane.js": {
+      "bytes": 11833,
+      "sha256": "4c0b3145d2d508b8a573a086c6dfab86e99ba495a49edd56ee50a99dccbd0de0"
+    },
+    "cardiac-voltage/microscopy.js": {
+      "bytes": 7941,
+      "sha256": "3d3596c6c471e45896fa814e5d6c2360e62c02cc64550130d5bf8b52a4c2affb"
+    },
+    "cardiac-voltage/model.js": {
+      "bytes": 2668,
+      "sha256": "7ba066ee1fd63f5d27b83f2f5b89d059e38b1fb238dcf711e886a30503d6aa2d"
+    },
+    "cardiac-voltage/plot-navigation.js": {
+      "bytes": 600,
+      "sha256": "991369065724bebf70bf18f27d7671be7025e5d12f516332f26de079a2577395"
+    },
+    "cardiac-voltage/scene-help.js": {
+      "bytes": 4968,
+      "sha256": "33faaba97725162243d8baa570372d66fc28c101c2950459fd26c10e3a4c7d8e"
+    },
+    "cardiac-voltage/site-comparison.js": {
+      "bytes": 8558,
+      "sha256": "0c3b15774a351a397276310e29eb4bedbf3f5937325a52a65627547a5536cc0f"
+    },
+    "cardiac-voltage/tissue.js": {
+      "bytes": 10207,
+      "sha256": "349a46a5176340ae709504e85eed2a934c13a64b9afe0bbbd3ae2633d7e4a451"
+    },
+    "cardiac-voltage/wave-model.js": {
+      "bytes": 9692,
+      "sha256": "02d32e98b782aa5560b5eb96347a5a2f48cccb568c3b17e196a3208452454cd7"
+    },
+    "cardiac-voltage/assets/microscopy/cardiac-gap-junction-tem.jpg": {
+      "bytes": 165405,
+      "sha256": "98798bbc97055164e1535a6197f6debd89fe20bbab2890f6a23811b81db3085b"
+    },
+    "cardiac-voltage/assets/microscopy/cardiac-muscle-light-200x.jpg": {
+      "bytes": 1346628,
+      "sha256": "047e4e86da1b99a5249d084d11a57ac886cc0bacb1f815e6f199b8af7d1ab0d7"
+    },
+    "cardiac-voltage/assets/microscopy/purkinje-rabbit-confocal-romero-fig2.png": {
+      "bytes": 1766381,
+      "sha256": "9ef6be24c327d2aae8f6189690efd879a2ef97ad5106c0c3d42073e42384e439"
+    },
+    "cardiac-voltage/base-lessons.js": {
+      "bytes": 3534,
+      "sha256": "fb2bffe766d8e8727d821f8d07537642ffc169bf34a920458fb4b80ba8fef8a6"
+    },
+    "cardiac-voltage/channel-art.js": {
+      "bytes": 11089,
+      "sha256": "34c06a6517760bd70b49e8579d437ec14946964545a828e76b3515aea6f87cfc"
+    },
+    "cardiac-voltage/data/channel-structures.json": {
+      "bytes": 151687,
+      "sha256": "3e6caf4f3bf27245b04267de327c9c4a0ab90925eda563c2e287e81b6898b52e"
+    },
+    "cardiac-voltage/data/left-atrial-appendage.json": {
+      "bytes": 10495,
+      "sha256": "59c9a1498e0e2a9970f49017c16f37278e45e7056581d028ebff09e901ccc0a0"
+    },
+    "cardiac-voltage/heart3d.js": {
+      "bytes": 15726,
+      "sha256": "55b280c07911838ad9f166e32f92aa32f4034244e20fbb8a669e6dffe1814c70"
+    },
+    "cardiac-voltage/lead-axis.js": {
+      "bytes": 1708,
+      "sha256": "38eee9c11a4e92efdab7b17973de49490cdd646ffecc6753e72ac2f54d0d02e5"
+    },
+    "cardiac-voltage/optical-view.js": {
+      "bytes": 12037,
+      "sha256": "bf185466712d16a14803350f8be7037cb6210743d2cfb0685c7bbe992172dc7f"
+    },
+    "cardiac-voltage/wave-help.js": {
+      "bytes": 3810,
+      "sha256": "4491b7dcd949ae85be521ae281818899a57da530ca82e9e21f5b88b5b1aa9ce9"
+    },
+    "cardiac-voltage/data/heart-model-reproducible-source.zip": {
+      "bytes": 17350207,
+      "sha256": "b766a5484c291ce1d1498ea789043484e72af8a5336df8ed4e5fd13c4a0199eb"
+    },
+    "cardiac-voltage/data/human/donor1-mask.u8": {
+      "bytes": 10000,
+      "sha256": "9e7bf6342ebbb41e02b830856188dc228550a854ff3e293dd286cee584f66e46"
+    },
+    "cardiac-voltage/data/human/donor1-single-beat.u8": {
+      "bytes": 5000000,
+      "sha256": "a418c28f0c674cff65776773b9304106ecaa9a37b24db9c78272b2b6644d2bcf"
+    },
+    "cardiac-voltage/data/human/donor1-voltage.u8": {
+      "bytes": 5000000,
+      "sha256": "e9cb83ef04116a8154d28536b868d67d1e6bcfa9302a8597e9314ef7682bc86e"
+    },
+    "cardiac-voltage/data/human/donor2-metadata.json": {
+      "bytes": 5206,
+      "sha256": "ba97d54b99936b364431d851a482a360a907f74c20081933d15ee5bd6ec02e09"
+    },
+    "data/electrical-atlas.f32": {
+      "bytes": 592704,
+      "sha256": "24d4c687a7219ea16e51a31a8a064101a3bc38265ccdb88b7e01d0430edc94cb"
+    },
+    "cardiac-voltage/data/human/donor2-background.png": {
+      "bytes": 5379,
+      "sha256": "a97639cfd1e77589a335c9f92364a1d37087f09f3fbbe845bc834e793173109f"
+    },
+    "cardiac-voltage/data/human/donor2-timings.f32": {
+      "bytes": 240000,
+      "sha256": "87fb1ed3ae21c4f0006409f030adc23cc1aa5bd4ab95c73bbce8613453b72415"
+    },
+    "cardiac-voltage/data/FOUR_CHAMBER_METHODS.md": {
+      "bytes": 16927,
+      "sha256": "c470f97fc6b6137b9a93600b4b1192e8a9552af6061ff0ede66070988bca9fcd"
+    },
+    "cardiac-voltage/data/LEAD_II_CALIBRATION.md": {
+      "bytes": 8870,
+      "sha256": "39d92071e21053f4be3a9777bfeafc6f03c78037f03eb47a0add880712631586"
+    },
+    "cardiac-voltage/data/METHODS.md": {
+      "bytes": 15651,
+      "sha256": "3b6b8896a0ce893f68c8e5046cf840ebe16946b0ee3b7a0cde6617fcab8f2f8c"
+    },
+    "cardiac-voltage/data/WAVE_MODEL_NOTES.md": {
+      "bytes": 6745,
+      "sha256": "5409cdf7cd8d3b92cf38f52232954a12542ee365b32987aa7bdc1d47dbc49e29"
+    },
+    "cardiac-voltage/data/human/README.md": {
+      "bytes": 5880,
+      "sha256": "49ea32c7ddb395b7653540fb8e470df3034d81e86157b1034ee4a7a0aec7c5d0"
+    },
+    "cardiac-voltage/data/human/donor2-mask.u8": {
+      "bytes": 10000,
+      "sha256": "6666f8d683622f874b61a11d753eddd3c3e37a136018abac6d7f7f3b4cca9458"
+    },
+    "cardiac-voltage/data/human/donor2-single-beat.u8": {
+      "bytes": 5000000,
+      "sha256": "aa5e7bb69710dc3755c2587783a4e35bfe4103d48106ea8175fd16f5d0a35997"
+    },
+    "cardiac-voltage/data/human/donor2-voltage.u8": {
+      "bytes": 5000000,
+      "sha256": "816008b1350d29a052cc40e609efca2a85cfd3a87253130d1ff114a1203ddd1e"
+    },
+    "data/clinical-tachyarrhythmias-README.md": {
+      "bytes": 7734,
+      "sha256": "dcb9d1d1fb5f265ced3b651c062ff0bf5b8665fdead21b0352641573be36dd29"
+    },
+    "data/clinical-torsades-README.md": {
+      "bytes": 5428,
+      "sha256": "b9f7bd7a736578a3bf462d7619a80efff38791b775f7770986c32ba7a1ff0e44"
+    },
+    "data/pathology-fits/CONDUCTION_CONTINUITY.md": {
+      "bytes": 6941,
+      "sha256": "e6fd2aed3e750ea397bf3062e3279dc9f019ba3f579b31e480eed39a6cb3c5f3"
+    },
+    "data/pathology-fits/FORWARD_FIT_METHODS.md": {
+      "bytes": 31504,
+      "sha256": "4393e5d72e58c8335d4cd989680cae769073f18a1acd10111b4fccbbb8f4b77d"
+    },
+    "data/pathology-fits/INDEPENDENT_REVIEW.md": {
+      "bytes": 29944,
+      "sha256": "5b2092ab50fd2311d02b66f75d21e4988577ff725301ef95e6ae5e44421a5052"
+    },
+    "data/pathology-fits/PATHWAY_MUSCLE_SYNCHRONIZATION.md": {
+      "bytes": 9834,
+      "sha256": "b698b6fc43feb9a98465af96e75a7a438b26b49e065b0392ad7ae9dfaa1e8f5f"
+    },
+    "data/pathology-fits/PHYSIOLOGY_REFINEMENT.md": {
+      "bytes": 18524,
+      "sha256": "dfbf3792ede2404439e437def494171c3f461f496c2301f7302939e413b5e90b"
+    },
+    "data/pathology-fits/TARGET_METHODS.md": {
+      "bytes": 17334,
+      "sha256": "3d0201cc6fadab174bbdb95a4cddaea0e4b7fa642b67b6a9e8858ee6e4061b97"
+    },
+    "data/pathology-fits/propagation-research.zip": {
+      "bytes": 13044642,
+      "sha256": "bf1a470d743cd918000abf2f171bc864bcca1c44c0bd97dfa83823fe1e00eeb7"
+    },
+    "cardiac-voltage/assets/fonts/provenance.json": {
+      "bytes": 2313,
+      "sha256": "687862e395b02f24a3c270c2e7ffe4da7a36f12f01a0093ab90458316677c483"
+    },
+    "models/chest-manifest.json": {
+      "bytes": 32948,
+      "sha256": "41908a058034cd841ea4cbb3b775f4957ab14d64d7638da942f277a9771d9a02"
+    },
+    "cardiac-voltage/assets/fonts/dmsans-OFL.txt": {
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    "cardiac-voltage/assets/fonts/instrumentserif-OFL.txt": {
+      "bytes": 4405,
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+    }
+  }
+}

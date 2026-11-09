@@ -1,0 +1,124 @@
+{
+  "title": "Human LV endocardial optical mapping \u00b7 donor 1",
+  "citation": "Smirnov D, Pikunov A, Syunyaev R, et al. Genetic algorithm-based personalized models of human cardiac action potential. PLoS ONE 15(5):e0231695 (2020).",
+  "doi": "10.1371/journal.pone.0231695",
+  "data_doi": "10.5061/dryad.stqjq2c09",
+  "repository": "https://zenodo.org/records/3986725",
+  "license": "CC0-1.0",
+  "raw_file": "Patient1_CL1000.mat",
+  "raw_md5": "c135455177687d7f57909cfe6003dd92",
+  "preparation": "Discarded donor human posterolateral left-ventricular wedge; endocardial surface, epicardial bipolar pacing.",
+  "conditions": "37 \u00b0C oxygenated Tyrode; di-4-ANBDQBS voltage-sensitive dye; 10\u201315 \u00b5M blebbistatin; 100 s steady-state pacing; cycle length 1000 ms.",
+  "whole_heart": false,
+  "simultaneous_ecg_available": false,
+  "absolute_voltage_calibrated": false,
+  "signal": "Polarity already inverted in source cmosData; increasing stored signal is depolarization. Displayed as locally normalized optical signal, 0=baseline,1=peak; not mV.",
+  "width": 100,
+  "height": 100,
+  "camera_pixels": 10000,
+  "accepted_pixels": 2493,
+  "field_of_view_approx_mm": [
+    50,
+    50
+  ],
+  "raw_sampling_hz": 1000,
+  "raw_shape": [
+    100,
+    100,
+    4096
+  ],
+  "source_index_start_inclusive": 1029,
+  "source_index_end_exclusive": 2029,
+  "ensemble_source_start_indices": [
+    29,
+    1029,
+    2029,
+    3029
+  ],
+  "ensemble_beats": 4,
+  "trigger_source_times_ms": [
+    129.35,
+    1129.35,
+    2129.35,
+    3129.3
+  ],
+  "global_upstroke_window_ms": 156,
+  "display_samples": 500,
+  "display_dt_ms": 2,
+  "time_unit": "ms from the start of a 1000 ms window; pacing trigger approximately 100 ms; individual pixel activation timing preserved.",
+  "voltage_file": "donor1-voltage.u8",
+  "voltage_layout": "uint8 [time,y,x]; normalized signal = value / 255 \u00d7 1.5 \u2212 0.25",
+  "single_beat_file": "donor1-single-beat.u8",
+  "single_beat_layout": "Same encoding as voltage; single beat at documented start index; default voltage is the four-beat ensemble.",
+  "mask_file": "donor1-mask.u8",
+  "mask_layout": "uint8 [y,x],1 accepted,0 excluded",
+  "background_file": "donor1-background.png",
+  "timing_file": "donor1-timings.f32",
+  "timing_layout": "little-endian float32 [map,y,x]; maps AT,RT80,APD80,RT90,APD90,SNR; excluded pixels NaN",
+  "processing": [
+    "Use four 1000 ms beats, aligned to the measured global pacing trigger; no site-specific time alignment.",
+    "Apply a narrow 60 Hz IIR notch (Q=30), zero-phase forward-backward, to the full 4096 ms recording.",
+    "Ensemble-average four beats. Apply an 11 ms cubic Savitzky\u2013Golay temporal filter. No spatial smoothing.",
+    "Subtract linear baseline drift using resting medians at 10\u201349 ms and 800\u2013949 ms.",
+    "Normalize each pixel between its local baseline and maximum at 100\u2013449 ms.",
+    "AT is the maximum first derivative at 100\u2013299 ms, estimated by an additional 11 ms cubic Savitzky\u2013Golay derivative.",
+    "RT80 and RT90 are the first descending 20% and 10% crossings after the local post-activation peak, linearly interpolated.",
+    "Quality mask: background >10% of its 99th percentile, amplitude \u22656 source counts, amplitude/residual noise \u22655, APD80 between 140 and 650 ms, valid AT; retain largest connected component.",
+    "Export every second frame (2 ms), with 8-bit quantization between \u22120.25 and 1.25 normalized units. Timing maps use native 1 ms samples.",
+    "Optional individual beat uses the same filtering and baseline correction, without ensemble averaging."
+  ],
+  "limitations": [
+    "Optical pixels average fluorescence from tissue volumes; these are not individual cells.",
+    "Optical amplitude is not calibrated to transmembrane millivolts.",
+    "This is an isolated human wedge endocardial surface, not a whole-heart recovery map.",
+    "No ECG channel identity or calibration is documented; auxiliary analog channels are not presented as ECG.",
+    "Derived timing depends on filtering, thresholds and quality masks. A 1 ms sampling interval does not imply 1 ms physiological accuracy.",
+    "No anatomical orientation labels are invented for the camera image.",
+    "Only one pacing condition and a short recording are represented; neither donor represents a normal population.",
+    "Optical scattering can distort the upstroke and broaden spatial sampling."
+  ],
+  "statistics": {
+    "AT": {
+      "min": 102.0,
+      "median": 156.0,
+      "max": 297.0,
+      "p05": 133.0,
+      "p95": 179.0
+    },
+    "RT80": {
+      "min": 314.84,
+      "median": 522.88,
+      "max": 646.3,
+      "p05": 431.57,
+      "p95": 598.72
+    },
+    "APD80": {
+      "min": 143.6,
+      "median": 362.51,
+      "max": 481.59,
+      "p05": 265.71,
+      "p95": 439.78
+    },
+    "RT90": {
+      "min": 354.73,
+      "median": 551.5,
+      "max": 699.34,
+      "p05": 456.11,
+      "p95": 619.93
+    },
+    "APD90": {
+      "min": 145.66,
+      "median": 392.59,
+      "max": 505.03,
+      "p05": 297.93,
+      "p95": 463.67
+    },
+    "SNR": {
+      "min": 5.0,
+      "median": 11.12,
+      "max": 32.71,
+      "p05": 5.49,
+      "p95": 24.8
+    }
+  }
+}

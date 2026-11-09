@@ -1,0 +1,8 @@
+{
+  "midpointNodes": 2060344,
+  "originalNodes": 340582,
+  "combinedFieldSites": 2400926,
+  "equivalentRefinedTetrahedra": 12499456,
+  "constantVmNullErrorMv": 2.5784839097850292e-14,
+  "affineVmIntegralMaxError": 7.993605777301127e-15
+}

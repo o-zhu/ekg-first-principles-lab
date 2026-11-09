@@ -1,0 +1,32 @@
+{
+  "heart.glb": {
+    "bytes": 2524400,
+    "sha256": "b80a727d022a4ab07ccfcf15caccc228eaccb6d69ec0e72923324946ac35a946",
+    "meshes": 11,
+    "vertices": 56404,
+    "triangles": 96724,
+    "finitePositions": true,
+    "validIndices": true,
+    "selfContained": true
+  },
+  "chest-bones.glb": {
+    "bytes": 5582188,
+    "sha256": "8d91f709144e5de3eebdabf5149cd39dac16544081a61b0dae12e1320244a620",
+    "meshes": 55,
+    "vertices": 118161,
+    "triangles": 224522,
+    "finitePositions": true,
+    "validIndices": true,
+    "selfContained": true
+  },
+  "chest-skin.glb": {
+    "bytes": 984848,
+    "sha256": "66d8a95c92ef2cab8ff50bbd01fc3dd13077bed8817f65018873ae30e0359e2e",
+    "meshes": 1,
+    "vertices": 20744,
+    "triangles": 40442,
+    "finitePositions": true,
+    "validIndices": true,
+    "selfContained": true
+  }
+}

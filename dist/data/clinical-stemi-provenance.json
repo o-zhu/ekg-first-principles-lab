@@ -1,0 +1,2392 @@
+{
+  "created": "2026-10-28",
+  "importer": "scripts/import_stemi_examples.py",
+  "acsSourceApi": "https://api.figshare.com/v2/articles/29925314",
+  "acsFigshareLicense": {
+    "value": 2,
+    "name": "CC0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "acsDataLicenseNote": "The downloadable dataset is CC0 as supplied by Figshare. The associated paper has a different article license; no article figure or adapted paper content is redistributed.",
+  "acsCsvArchiveMD5": "1cb46279c0e68e6512bd39214fc56528",
+  "acsCsvArchiveMD5Verified": true,
+  "acsRawArchiveFullMD5Verified": false,
+  "archiveAcquisition": "Public official file fetched by HTTP byte ranges: ZIP central directory plus selected member ranges. Each selected .dat and .hea matches its original ZIP entry CRC32. The entire 1.277 GB archive was not downloaded, so its full-file MD5 is not claimed as verified.",
+  "records": [
+    {
+      "id": "acs-00004",
+      "sourceMetadataRow": {
+        "Patient_id": "P10819",
+        "ecg_row_record": "00004.dat",
+        "ecg_med_record": "00004.med",
+        "gender": "1",
+        "age": "57",
+        "Time_Interval": "661",
+        "AMI": "1",
+        "OMI": "1",
+        "CTO": "0",
+        "PCI": "0",
+        "NSTEMI": "0",
+        "STEMI": "1",
+        "UA": "0",
+        "LM": "0",
+        "PLAD": "1",
+        "MLAD": "0",
+        "DLAD": "0",
+        "DB": "0",
+        "PLCX": "0",
+        "MLCX": "0",
+        "DLCX": "0",
+        "OM": "0",
+        "PRCA": "0",
+        "MRCA": "0",
+        "DRCA": "0",
+        "VF_VT": "0",
+        "Paced": "0",
+        "Prior_PCI": "0"
+      },
+      "sourceHeader": "00004 12 500 5000   \n00004.dat 16 1000.0(0)/mV 16 0 1138 -236 0 I\n00004.dat 16 1000.0(0)/mV 16 0 1310 -240 0 II\n00004.dat 16 1000.0(0)/mV 16 0 622 -376 0 III\n00004.dat 16 1000.0(0)/mV 16 0 170 -1184 0 aVR\n00004.dat 16 1000.0(0)/mV 16 0 616 -212 0 aVL\n00004.dat 16 1000.0(0)/mV 16 0 942 -240 0 aVF\n00004.dat 16 1000.0(0)/mV 16 0 348 -1556 0 V1\n00004.dat 16 1000.0(0)/mV 16 0 772 -2214 0 V2\n00004.dat 16 1000.0(0)/mV 16 0 618 -1162 0 V3\n00004.dat 16 1000.0(0)/mV 16 0 1464 -764 0 V4\n00004.dat 16 1000.0(0)/mV 16 0 1988 -364 0 V5\n00004.dat 16 1000.0(0)/mV 16 0 1608 -250 0 V6\n",
+      "sourceMembers": {
+        "row_data/00004.dat": {
+          "byteCount": 120000,
+          "archiveCRC32": "0753b7bc",
+          "archiveCRC32Verified": true,
+          "sha256": "cc4bce91daf218f4c0d521ebe88947b6f670653e7656a4bed25fa269994b9bed"
+        },
+        "row_data/00004.hea": {
+          "byteCount": 573,
+          "archiveCRC32": "cd75cae6",
+          "archiveCRC32Verified": true,
+          "sha256": "328788c958dd9085050b30b72407c41f450ac3f0caf7d2a4e25e9940c8ebda92"
+        }
+      },
+      "channelIntegrityReview": {
+        "I": {
+          "headerInitialValue": 1138,
+          "actualInitialValue": 0,
+          "headerChecksum": -236,
+          "actualChecksumUnsigned16": 276,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "II": {
+          "headerInitialValue": 1310,
+          "actualInitialValue": 4,
+          "headerChecksum": -240,
+          "actualChecksumUnsigned16": 65266,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "III": {
+          "headerInitialValue": 622,
+          "actualInitialValue": 6,
+          "headerChecksum": -376,
+          "actualChecksumUnsigned16": 62922,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "aVR": {
+          "headerInitialValue": 170,
+          "actualInitialValue": -2,
+          "headerChecksum": -1184,
+          "actualChecksumUnsigned16": 60406,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "aVL": {
+          "headerInitialValue": 616,
+          "actualInitialValue": -2,
+          "headerChecksum": -212,
+          "actualChecksumUnsigned16": 65136,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "aVF": {
+          "headerInitialValue": 942,
+          "actualInitialValue": 6,
+          "headerChecksum": -240,
+          "actualChecksumUnsigned16": 64580,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V1": {
+          "headerInitialValue": 348,
+          "actualInitialValue": -18,
+          "headerChecksum": -1556,
+          "actualChecksumUnsigned16": 62448,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V2": {
+          "headerInitialValue": 772,
+          "actualInitialValue": -32,
+          "headerChecksum": -2214,
+          "actualChecksumUnsigned16": 63914,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V3": {
+          "headerInitialValue": 618,
+          "actualInitialValue": -22,
+          "headerChecksum": -1162,
+          "actualChecksumUnsigned16": 64128,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V4": {
+          "headerInitialValue": 1464,
+          "actualInitialValue": -12,
+          "headerChecksum": -764,
+          "actualChecksumUnsigned16": 64810,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V5": {
+          "headerInitialValue": 1988,
+          "actualInitialValue": -2,
+          "headerChecksum": -364,
+          "actualChecksumUnsigned16": 452,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V6": {
+          "headerInitialValue": 1608,
+          "actualInitialValue": 0,
+          "headerChecksum": -250,
+          "actualChecksumUnsigned16": 326,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        }
+      },
+      "integrityNote": "ZIP entry CRC32 verified for raw data and header. Source WFDB initial-value and checksum fields contain channel maxima/minima rather than valid WFDB initial values/checksums; that source-header defect is preserved in provenance and not used for calibration.",
+      "sourcePaperUrl": "https://www.nature.com/articles/s41597-026-07278-0",
+      "sourceArchiveUrl": "https://ndownloader.figshare.com/files/62951395",
+      "sourceCsvArchiveUrl": "https://ndownloader.figshare.com/files/62951134",
+      "sourceLicense": "CC0 1.0",
+      "sourceLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "processing": "Little-endian WFDB format16, gain1000 digital units/mV and baseline0. All original samples retained. No additional signal processing.",
+      "timingProvenance": {
+        "qrsAnchorSource": "visually-reviewed-recorded-qrs-peaks",
+        "qrsOnsetSource": "fixed-40-ms-offset-from-estimated-peak",
+        "atrialTimingSource": "prescribed-160-ms-before-illustrative-qrs-onset",
+        "mechanicsSource": "illustrative",
+        "signalSource": "recorded"
+      },
+      "territoryInterpretation": "ECG teaching interpretation, supported by the lead distribution and source culprit-vessel label; not a separately provided source territory diagnosis."
+    },
+    {
+      "id": "acs-18206",
+      "sourceMetadataRow": {
+        "Patient_id": "P01341",
+        "ecg_row_record": "18206.dat",
+        "ecg_med_record": "18206.med",
+        "gender": "1",
+        "age": "57",
+        "Time_Interval": "62",
+        "AMI": "1",
+        "OMI": "1",
+        "CTO": "0",
+        "PCI": "0",
+        "NSTEMI": "0",
+        "STEMI": "1",
+        "UA": "0",
+        "LM": "0",
+        "PLAD": "0",
+        "MLAD": "0",
+        "DLAD": "0",
+        "DB": "0",
+        "PLCX": "0",
+        "MLCX": "0",
+        "DLCX": "0",
+        "OM": "0",
+        "PRCA": "1",
+        "MRCA": "0",
+        "DRCA": "0",
+        "VF_VT": "0",
+        "Paced": "0",
+        "Prior_PCI": "0"
+      },
+      "sourceHeader": "18206 12 500 5000   \n18206.dat 16 1000.0(0)/mV 16 0 578 -372 0 I\n18206.dat 16 1000.0(0)/mV 16 0 1492 -386 0 II\n18206.dat 16 1000.0(0)/mV 16 0 1516 -438 0 III\n18206.dat 16 1000.0(0)/mV 16 0 198 -896 0 aVR\n18206.dat 16 1000.0(0)/mV 16 0 276 -836 0 aVL\n18206.dat 16 1000.0(0)/mV 16 0 1482 -400 0 aVF\n18206.dat 16 1000.0(0)/mV 16 0 194 -952 0 V1\n18206.dat 16 1000.0(0)/mV 16 0 582 -2332 0 V2\n18206.dat 16 1000.0(0)/mV 16 0 536 -1576 0 V3\n18206.dat 16 1000.0(0)/mV 16 0 1116 -1014 0 V4\n18206.dat 16 1000.0(0)/mV 16 0 1984 -398 0 V5\n18206.dat 16 1000.0(0)/mV 16 0 2188 -396 0 V6\n",
+      "sourceMembers": {
+        "row_data/18206.dat": {
+          "byteCount": 120000,
+          "archiveCRC32": "fc40887c",
+          "archiveCRC32Verified": true,
+          "sha256": "d67c7a15300b56813906480b6789eaac5c958f0b41f9ebe6b7fa07177a4d7f5c"
+        },
+        "row_data/18206.hea": {
+          "byteCount": 573,
+          "archiveCRC32": "2c4b9c08",
+          "archiveCRC32Verified": true,
+          "sha256": "7f7c405b9f637d1a6833cfafad0203c13707d018998d6be92188b29044c8b841"
+        }
+      },
+      "channelIntegrityReview": {
+        "I": {
+          "headerInitialValue": 578,
+          "actualInitialValue": 30,
+          "headerChecksum": -372,
+          "actualChecksumUnsigned16": 63182,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "II": {
+          "headerInitialValue": 1492,
+          "actualInitialValue": 78,
+          "headerChecksum": -386,
+          "actualChecksumUnsigned16": 65386,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "III": {
+          "headerInitialValue": 1516,
+          "actualInitialValue": 48,
+          "headerChecksum": -438,
+          "actualChecksumUnsigned16": 64952,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "aVR": {
+          "headerInitialValue": 198,
+          "actualInitialValue": -62,
+          "headerChecksum": -896,
+          "actualChecksumUnsigned16": 60474,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "aVL": {
+          "headerInitialValue": 276,
+          "actualInitialValue": -10,
+          "headerChecksum": -836,
+          "actualChecksumUnsigned16": 61058,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "aVF": {
+          "headerInitialValue": 1482,
+          "actualInitialValue": 64,
+          "headerChecksum": -400,
+          "actualChecksumUnsigned16": 65056,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V1": {
+          "headerInitialValue": 194,
+          "actualInitialValue": -26,
+          "headerChecksum": -952,
+          "actualChecksumUnsigned16": 60986,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V2": {
+          "headerInitialValue": 582,
+          "actualInitialValue": 180,
+          "headerChecksum": -2332,
+          "actualChecksumUnsigned16": 60240,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V3": {
+          "headerInitialValue": 536,
+          "actualInitialValue": 80,
+          "headerChecksum": -1576,
+          "actualChecksumUnsigned16": 62226,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V4": {
+          "headerInitialValue": 1116,
+          "actualInitialValue": 180,
+          "headerChecksum": -1014,
+          "actualChecksumUnsigned16": 65346,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V5": {
+          "headerInitialValue": 1984,
+          "actualInitialValue": 90,
+          "headerChecksum": -398,
+          "actualChecksumUnsigned16": 226,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        },
+        "V6": {
+          "headerInitialValue": 2188,
+          "actualInitialValue": 106,
+          "headerChecksum": -396,
+          "actualChecksumUnsigned16": 65374,
+          "checksumMatches": false,
+          "initialMatches": false,
+          "headerInitialEqualsMaximum": true,
+          "headerChecksumEqualsMinimum": true
+        }
+      },
+      "integrityNote": "ZIP entry CRC32 verified for raw data and header. Source WFDB initial-value and checksum fields contain channel maxima/minima rather than valid WFDB initial values/checksums; that source-header defect is preserved in provenance and not used for calibration.",
+      "sourcePaperUrl": "https://www.nature.com/articles/s41597-026-07278-0",
+      "sourceArchiveUrl": "https://ndownloader.figshare.com/files/62951395",
+      "sourceCsvArchiveUrl": "https://ndownloader.figshare.com/files/62951134",
+      "sourceLicense": "CC0 1.0",
+      "sourceLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "processing": "Little-endian WFDB format16, gain1000 digital units/mV and baseline0. All original samples retained. No additional signal processing.",
+      "timingProvenance": {
+        "qrsAnchorSource": "visually-reviewed-recorded-qrs-peaks",
+        "qrsOnsetSource": "fixed-40-ms-offset-from-estimated-peak",
+        "atrialTimingSource": "prescribed-160-ms-before-illustrative-qrs-onset",
+        "mechanicsSource": "illustrative",
+        "signalSource": "recorded"
+      },
+      "territoryInterpretation": "ECG teaching interpretation, supported by the lead distribution and source culprit-vessel label; not a separately provided source territory diagnosis."
+    },
+    {
+      "id": "ludb-021",
+      "sourceHeader": "21 12 500 5000\n21.dat 16 970(-1)/mV 0 0 -62 -1105 0 i\n21.dat 16 1159(0)/mV 0 0 -22 599 0 ii\n21.dat 16 1670(0)/mV 0 0 40 1704 0 iii\n21.dat 16 605(-1)/mV 0 0 42 -485 0 avr\n21.dat 16 1206(-1)/mV 0 0 -51 -1976 0 avl\n21.dat 16 1410(0)/mV 0 0 9 335 0 avf\n21.dat 16 1884(1)/mV 0 0 92 6683 0 v1\n21.dat 16 2194(-2)/mV 0 0 -30 -6747 0 v2\n21.dat 16 2147(0)/mV 0 0 37 3992 0 v3\n21.dat 16 1357(-2)/mV 0 0 -182 -8788 0 v4\n21.dat 16 619(2)/mV 0 0 -95 10116 0 v5\n21.dat 16 757(-3)/mV 0 0 -342 -10450 0 v6\n#<age>: 55\n#<sex>: M\n#<diagnoses>:\n#Rhythm: Sinus rhythm.\n#Electric axis of the heart: left axis deviation. \n#Left anterior hemiblock. \n#STEMI: anterior wall. \n#STEMI: lateral wall. \n#STEMI: septal. \n#STEMI: apical. \n",
+      "sourceMembers": {
+        "data/21.hea": {
+          "sha256": "8098767becb2ccb88153417ca01f3854838970daa7bfee4d002e0662a37ed19e",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.hea"
+        },
+        "data/21.dat": {
+          "sha256": "6f1513a6a96431064d9396018e750e8e8fc3feb6ff9501730a818685a2f95a09",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.dat"
+        },
+        "data/21.i": {
+          "sha256": "bfde0c5f3af2ae9626777ef5e0495bf6ec14c2beec6b72eef9be0d72dcc3ca5d",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.i"
+        },
+        "data/21.ii": {
+          "sha256": "72909e7bcf5b7300614036963596eae6032fd51b85f32656dfd54cd9e9a8090b",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.ii"
+        },
+        "data/21.iii": {
+          "sha256": "b943baf069c2b7c4c24892ea4b408eeb8c384839692c1c717b13cbc0282858a4",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.iii"
+        },
+        "data/21.avr": {
+          "sha256": "a5381396852c4721c88850fa9aa89b7223cfd5ace23d41e7d90f244bd3e68fd4",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.avr"
+        },
+        "data/21.avl": {
+          "sha256": "f9330e9ec92af1dee6210f0b0a76ca38f66013cb6befe01bff3c1c2a151ebeaa",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.avl"
+        },
+        "data/21.avf": {
+          "sha256": "a6656b63a551fc75d9fa497a49835485a2fb773dc0a84178fb4e2f96b7d58358",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.avf"
+        },
+        "data/21.v1": {
+          "sha256": "1df7550a4335ad5303e21448dd73cf4dba58c417e1d78a2190399904e49ee7a5",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.v1"
+        },
+        "data/21.v2": {
+          "sha256": "fca4b5c3ef1644fe5b6e0db6976d7769bfbc2213e675f8a587329df481ac3c5d",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.v2"
+        },
+        "data/21.v3": {
+          "sha256": "a5924ec57d7cf71728705d1ce39e8f529fe04f9b2b065eed059faef45e3e3639",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.v3"
+        },
+        "data/21.v4": {
+          "sha256": "7ab25745ebf80b880a793156b226375709e3bd6387d6ad2e0e238fbab091bd1c",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.v4"
+        },
+        "data/21.v5": {
+          "sha256": "b27aa13061961819a006e562c81146c2628f76de60eb1782444d84ce0dacb75f",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.v5"
+        },
+        "data/21.v6": {
+          "sha256": "7488eb2f9498d0f60a8675294791dc67e0d5f4577e95d9055b4ea2ce3b1e4b73",
+          "sourceSHA256Verified": true,
+          "sourceUrl": "https://physionet.org/files/ludb/1.0.1/data/21.v6"
+        }
+      },
+      "channelIntegrityReview": {
+        "I": {
+          "headerInitialValue": -62,
+          "actualInitialValue": -62,
+          "headerChecksum": -1105,
+          "actualChecksumUnsigned16": 64431,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "II": {
+          "headerInitialValue": -22,
+          "actualInitialValue": -22,
+          "headerChecksum": 599,
+          "actualChecksumUnsigned16": 599,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "III": {
+          "headerInitialValue": 40,
+          "actualInitialValue": 40,
+          "headerChecksum": 1704,
+          "actualChecksumUnsigned16": 1704,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "aVR": {
+          "headerInitialValue": 42,
+          "actualInitialValue": 42,
+          "headerChecksum": -485,
+          "actualChecksumUnsigned16": 65051,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "aVL": {
+          "headerInitialValue": -51,
+          "actualInitialValue": -51,
+          "headerChecksum": -1976,
+          "actualChecksumUnsigned16": 63560,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "aVF": {
+          "headerInitialValue": 9,
+          "actualInitialValue": 9,
+          "headerChecksum": 335,
+          "actualChecksumUnsigned16": 335,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "V1": {
+          "headerInitialValue": 92,
+          "actualInitialValue": 92,
+          "headerChecksum": 6683,
+          "actualChecksumUnsigned16": 6683,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "V2": {
+          "headerInitialValue": -30,
+          "actualInitialValue": -30,
+          "headerChecksum": -6747,
+          "actualChecksumUnsigned16": 58789,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "V3": {
+          "headerInitialValue": 37,
+          "actualInitialValue": 37,
+          "headerChecksum": 3992,
+          "actualChecksumUnsigned16": 3992,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "V4": {
+          "headerInitialValue": -182,
+          "actualInitialValue": -182,
+          "headerChecksum": -8788,
+          "actualChecksumUnsigned16": 56748,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "V5": {
+          "headerInitialValue": -95,
+          "actualInitialValue": -95,
+          "headerChecksum": 10116,
+          "actualChecksumUnsigned16": 10116,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        },
+        "V6": {
+          "headerInitialValue": -342,
+          "actualInitialValue": -342,
+          "headerChecksum": -10450,
+          "actualChecksumUnsigned16": 55086,
+          "checksumMatches": true,
+          "initialMatches": true,
+          "headerInitialEqualsMaximum": false,
+          "headerChecksumEqualsMinimum": false
+        }
+      },
+      "originalSourceAnnotations": {
+        "I": {
+          "p": [
+            {
+              "onset": 1.748,
+              "peak": 1.8,
+              "offset": 1.834
+            },
+            {
+              "onset": 2.578,
+              "peak": 2.626,
+              "offset": 2.678
+            },
+            {
+              "onset": 3.398,
+              "peak": 3.458,
+              "offset": 3.504
+            },
+            {
+              "onset": 4.218,
+              "peak": 4.278,
+              "offset": 4.336
+            },
+            {
+              "onset": 5.044,
+              "peak": 5.1,
+              "offset": 5.134
+            },
+            {
+              "onset": 5.866,
+              "peak": 5.918,
+              "offset": 5.968
+            },
+            {
+              "onset": 6.672,
+              "peak": 6.732,
+              "offset": 6.782
+            },
+            {
+              "onset": 7.516,
+              "peak": 7.558,
+              "offset": 7.594
+            },
+            {
+              "onset": 8.32,
+              "peak": 8.376,
+              "offset": 8.418
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.08,
+              "peak": 1.14,
+              "offset": 1.194
+            },
+            {
+              "onset": 1.912,
+              "peak": 1.968,
+              "offset": 2.03
+            },
+            {
+              "onset": 2.73,
+              "peak": 2.798,
+              "offset": 2.842
+            },
+            {
+              "onset": 3.566,
+              "peak": 3.63,
+              "offset": 3.68
+            },
+            {
+              "onset": 4.386,
+              "peak": 4.448,
+              "offset": 4.498
+            },
+            {
+              "onset": 5.2,
+              "peak": 5.272,
+              "offset": 5.332
+            },
+            {
+              "onset": 6.028,
+              "peak": 6.092,
+              "offset": 6.136
+            },
+            {
+              "onset": 6.842,
+              "peak": 6.906,
+              "offset": 6.958
+            },
+            {
+              "onset": 7.668,
+              "peak": 7.732,
+              "offset": 7.786
+            },
+            {
+              "onset": 8.484,
+              "peak": 8.548,
+              "offset": 8.6
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.322,
+              "peak": 1.39,
+              "offset": 1.452
+            },
+            {
+              "onset": 2.132,
+              "peak": 2.208,
+              "offset": 2.294
+            },
+            {
+              "onset": 2.972,
+              "peak": 3.008,
+              "offset": 3.1
+            },
+            {
+              "onset": 3.808,
+              "peak": 3.872,
+              "offset": 3.944
+            },
+            {
+              "onset": 4.636,
+              "peak": 4.684,
+              "offset": 4.782
+            },
+            {
+              "onset": 5.44,
+              "peak": 5.506,
+              "offset": 5.576
+            },
+            {
+              "onset": 6.252,
+              "peak": 6.34,
+              "offset": 6.4
+            },
+            {
+              "onset": 7.086,
+              "peak": 7.174,
+              "offset": 7.248
+            },
+            {
+              "onset": 7.878,
+              "peak": 7.97,
+              "offset": 8.044
+            }
+          ]
+        },
+        "II": {
+          "p": [
+            {
+              "onset": 1.742,
+              "peak": 1.79,
+              "offset": 1.838
+            },
+            {
+              "onset": 2.578,
+              "peak": 2.622,
+              "offset": 2.674
+            },
+            {
+              "onset": 3.408,
+              "peak": 3.454,
+              "offset": 3.502
+            },
+            {
+              "onset": 4.224,
+              "peak": 4.272,
+              "offset": 4.328
+            },
+            {
+              "onset": 5.046,
+              "peak": 5.09,
+              "offset": 5.138
+            },
+            {
+              "onset": 5.87,
+              "peak": 5.912,
+              "offset": 5.966
+            },
+            {
+              "onset": 6.678,
+              "peak": 6.726,
+              "offset": 6.778
+            },
+            {
+              "onset": 7.508,
+              "peak": 7.552,
+              "offset": 7.614
+            },
+            {
+              "onset": 8.32,
+              "peak": 8.366,
+              "offset": 8.422
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.078,
+              "peak": 1.12,
+              "offset": 1.186
+            },
+            {
+              "onset": 1.91,
+              "peak": 1.948,
+              "offset": 2.014
+            },
+            {
+              "onset": 2.736,
+              "peak": 2.778,
+              "offset": 2.842
+            },
+            {
+              "onset": 3.564,
+              "peak": 3.608,
+              "offset": 3.672
+            },
+            {
+              "onset": 4.386,
+              "peak": 4.426,
+              "offset": 4.49
+            },
+            {
+              "onset": 5.204,
+              "peak": 5.254,
+              "offset": 5.32
+            },
+            {
+              "onset": 6.038,
+              "peak": 6.07,
+              "offset": 6.14
+            },
+            {
+              "onset": 6.826,
+              "peak": 6.886,
+              "offset": 6.956
+            },
+            {
+              "onset": 7.674,
+              "peak": 7.71,
+              "offset": 7.786
+            },
+            {
+              "onset": 8.476,
+              "peak": 8.528,
+              "offset": 8.574
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.39,
+              "peak": 1.434,
+              "offset": 1.496
+            },
+            {
+              "onset": 2.17,
+              "peak": 2.268,
+              "offset": 2.316
+            },
+            {
+              "onset": 3.012,
+              "peak": 3.096,
+              "offset": 3.16
+            },
+            {
+              "onset": 3.836,
+              "peak": 3.928,
+              "offset": 3.996
+            },
+            {
+              "onset": 4.69,
+              "peak": 4.752,
+              "offset": 4.828
+            },
+            {
+              "onset": 5.506,
+              "peak": 5.566,
+              "offset": 5.65
+            },
+            {
+              "onset": 6.322,
+              "peak": 6.386,
+              "offset": 6.45
+            },
+            {
+              "onset": 7.142,
+              "peak": 7.206,
+              "offset": 7.27
+            },
+            {
+              "onset": 7.988,
+              "peak": 8.028,
+              "offset": 8.088
+            }
+          ]
+        },
+        "III": {
+          "p": [
+            {
+              "onset": 1.746,
+              "peak": 1.778,
+              "offset": 1.808
+            },
+            {
+              "onset": 2.57,
+              "peak": 2.608,
+              "offset": 2.626
+            },
+            {
+              "onset": 3.41,
+              "peak": 3.432,
+              "offset": 3.464
+            },
+            {
+              "onset": 4.212,
+              "peak": 4.254,
+              "offset": 4.286
+            },
+            {
+              "onset": 5.044,
+              "peak": 5.074,
+              "offset": 5.142
+            },
+            {
+              "onset": 5.862,
+              "peak": 5.894,
+              "offset": 5.958
+            },
+            {
+              "onset": 6.676,
+              "peak": 6.71,
+              "offset": 6.738
+            },
+            {
+              "onset": 7.5,
+              "peak": 7.53,
+              "offset": 7.56
+            },
+            {
+              "onset": 8.316,
+              "peak": 8.352,
+              "offset": 8.38
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.064,
+              "peak": 1.118,
+              "offset": 1.182
+            },
+            {
+              "onset": 1.892,
+              "peak": 1.948,
+              "offset": 2.018
+            },
+            {
+              "onset": 2.722,
+              "peak": 2.776,
+              "offset": 2.844
+            },
+            {
+              "onset": 3.558,
+              "peak": 3.608,
+              "offset": 3.676
+            },
+            {
+              "onset": 4.378,
+              "peak": 4.426,
+              "offset": 4.496
+            },
+            {
+              "onset": 5.198,
+              "peak": 5.25,
+              "offset": 5.318
+            },
+            {
+              "onset": 6.022,
+              "peak": 6.07,
+              "offset": 6.14
+            },
+            {
+              "onset": 6.838,
+              "peak": 6.886,
+              "offset": 6.954
+            },
+            {
+              "onset": 7.666,
+              "peak": 7.71,
+              "offset": 7.774
+            },
+            {
+              "onset": 8.48,
+              "peak": 8.526,
+              "offset": 8.596
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.316,
+              "peak": 1.428,
+              "offset": 1.49
+            },
+            {
+              "onset": 2.154,
+              "peak": 2.222,
+              "offset": 2.3
+            },
+            {
+              "onset": 2.978,
+              "peak": 3.076,
+              "offset": 3.154
+            },
+            {
+              "onset": 3.802,
+              "peak": 3.9,
+              "offset": 3.972
+            },
+            {
+              "onset": 4.63,
+              "peak": 4.704,
+              "offset": 4.792
+            },
+            {
+              "onset": 5.46,
+              "peak": 5.552,
+              "offset": 5.616
+            },
+            {
+              "onset": 6.256,
+              "peak": 6.362,
+              "offset": 6.434
+            },
+            {
+              "onset": 7.106,
+              "peak": 7.184,
+              "offset": 7.254
+            },
+            {
+              "onset": 7.884,
+              "peak": 7.982,
+              "offset": 8.062
+            }
+          ]
+        },
+        "aVR": {
+          "p": [
+            {
+              "onset": 1.75,
+              "peak": 1.796,
+              "offset": 1.834
+            },
+            {
+              "onset": 2.578,
+              "peak": 2.624,
+              "offset": 2.676
+            },
+            {
+              "onset": 3.4,
+              "peak": 3.456,
+              "offset": 3.5
+            },
+            {
+              "onset": 4.214,
+              "peak": 4.276,
+              "offset": 4.312
+            },
+            {
+              "onset": 5.042,
+              "peak": 5.098,
+              "offset": 5.134
+            },
+            {
+              "onset": 5.866,
+              "peak": 5.916,
+              "offset": 5.962
+            },
+            {
+              "onset": 6.676,
+              "peak": 6.73,
+              "offset": 6.778
+            },
+            {
+              "onset": 7.514,
+              "peak": 7.556,
+              "offset": 7.604
+            },
+            {
+              "onset": 8.33,
+              "peak": 8.372,
+              "offset": 8.418
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.09,
+              "peak": 1.136,
+              "offset": 1.174
+            },
+            {
+              "onset": 1.918,
+              "peak": 1.964,
+              "offset": 2.002
+            },
+            {
+              "onset": 2.75,
+              "peak": 2.796,
+              "offset": 2.834
+            },
+            {
+              "onset": 3.58,
+              "peak": 3.624,
+              "offset": 3.664
+            },
+            {
+              "onset": 4.398,
+              "peak": 4.444,
+              "offset": 4.476
+            },
+            {
+              "onset": 5.22,
+              "peak": 5.266,
+              "offset": 5.306
+            },
+            {
+              "onset": 6.042,
+              "peak": 6.09,
+              "offset": 6.136
+            },
+            {
+              "onset": 6.856,
+              "peak": 6.902,
+              "offset": 6.94
+            },
+            {
+              "onset": 7.682,
+              "peak": 7.728,
+              "offset": 7.774
+            },
+            {
+              "onset": 8.5,
+              "peak": 8.544,
+              "offset": 8.596
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.362,
+              "peak": 1.39,
+              "offset": 1.438
+            },
+            {
+              "onset": 2.136,
+              "peak": 2.176,
+              "offset": 2.266
+            },
+            {
+              "onset": 2.984,
+              "peak": 3.052,
+              "offset": 3.096
+            },
+            {
+              "onset": 3.81,
+              "peak": 3.88,
+              "offset": 3.938
+            },
+            {
+              "onset": 4.608,
+              "peak": 4.69,
+              "offset": 4.746
+            },
+            {
+              "onset": 5.44,
+              "peak": 5.524,
+              "offset": 5.566
+            },
+            {
+              "onset": 6.21,
+              "peak": 6.296,
+              "offset": 6.39
+            },
+            {
+              "onset": 7.084,
+              "peak": 7.13,
+              "offset": 7.186
+            },
+            {
+              "onset": 7.928,
+              "peak": 7.978,
+              "offset": 8.036
+            }
+          ]
+        },
+        "aVL": {
+          "p": [
+            {
+              "onset": 1.746,
+              "peak": 1.804,
+              "offset": 1.83
+            },
+            {
+              "onset": 2.558,
+              "peak": 2.628,
+              "offset": 2.684
+            },
+            {
+              "onset": 3.402,
+              "peak": 3.462,
+              "offset": 3.516
+            },
+            {
+              "onset": 4.23,
+              "peak": 4.28,
+              "offset": 4.334
+            },
+            {
+              "onset": 5.034,
+              "peak": 5.102,
+              "offset": 5.148
+            },
+            {
+              "onset": 5.89,
+              "peak": 5.92,
+              "offset": 5.954
+            },
+            {
+              "onset": 6.684,
+              "peak": 6.734,
+              "offset": 6.774
+            },
+            {
+              "onset": 7.526,
+              "peak": 7.56,
+              "offset": 7.612
+            },
+            {
+              "onset": 8.324,
+              "peak": 8.378,
+              "offset": 8.408
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.074,
+              "peak": 1.14,
+              "offset": 1.194
+            },
+            {
+              "onset": 1.896,
+              "peak": 1.966,
+              "offset": 2.03
+            },
+            {
+              "onset": 2.736,
+              "peak": 2.796,
+              "offset": 2.868
+            },
+            {
+              "onset": 3.566,
+              "peak": 3.628,
+              "offset": 3.696
+            },
+            {
+              "onset": 4.38,
+              "peak": 4.448,
+              "offset": 4.498
+            },
+            {
+              "onset": 5.2,
+              "peak": 5.27,
+              "offset": 5.332
+            },
+            {
+              "onset": 6.026,
+              "peak": 6.092,
+              "offset": 6.14
+            },
+            {
+              "onset": 6.836,
+              "peak": 6.906,
+              "offset": 6.954
+            },
+            {
+              "onset": 7.666,
+              "peak": 7.73,
+              "offset": 7.788
+            },
+            {
+              "onset": 8.48,
+              "peak": 8.548,
+              "offset": 8.6
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.318,
+              "peak": 1.382,
+              "offset": 1.466
+            },
+            {
+              "onset": 2.14,
+              "peak": 2.218,
+              "offset": 2.288
+            },
+            {
+              "onset": 2.972,
+              "peak": 3.056,
+              "offset": 3.146
+            },
+            {
+              "onset": 3.818,
+              "peak": 3.888,
+              "offset": 3.956
+            },
+            {
+              "onset": 4.61,
+              "peak": 4.692,
+              "offset": 4.788
+            },
+            {
+              "onset": 5.434,
+              "peak": 5.53,
+              "offset": 5.598
+            },
+            {
+              "onset": 6.258,
+              "peak": 6.352,
+              "offset": 6.432
+            },
+            {
+              "onset": 7.09,
+              "peak": 7.17,
+              "offset": 7.252
+            },
+            {
+              "onset": 7.874,
+              "peak": 7.972,
+              "offset": 8.054
+            }
+          ]
+        },
+        "aVF": {
+          "p": [
+            {
+              "onset": 1.744,
+              "peak": 1.784,
+              "offset": 1.83
+            },
+            {
+              "onset": 2.578,
+              "peak": 2.61,
+              "offset": 2.668
+            },
+            {
+              "onset": 3.406,
+              "peak": 3.444,
+              "offset": 3.49
+            },
+            {
+              "onset": 4.218,
+              "peak": 4.262,
+              "offset": 4.322
+            },
+            {
+              "onset": 5.042,
+              "peak": 5.08,
+              "offset": 5.14
+            },
+            {
+              "onset": 5.864,
+              "peak": 5.902,
+              "offset": 5.956
+            },
+            {
+              "onset": 6.678,
+              "peak": 6.716,
+              "offset": 6.776
+            },
+            {
+              "onset": 7.502,
+              "peak": 7.54,
+              "offset": 7.602
+            },
+            {
+              "onset": 8.324,
+              "peak": 8.356,
+              "offset": 8.414
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.07,
+              "peak": 1.118,
+              "offset": 1.188
+            },
+            {
+              "onset": 1.88,
+              "peak": 1.946,
+              "offset": 2.012
+            },
+            {
+              "onset": 2.736,
+              "peak": 2.776,
+              "offset": 2.848
+            },
+            {
+              "onset": 3.564,
+              "peak": 3.608,
+              "offset": 3.676
+            },
+            {
+              "onset": 4.376,
+              "peak": 4.426,
+              "offset": 4.494
+            },
+            {
+              "onset": 5.196,
+              "peak": 5.248,
+              "offset": 5.316
+            },
+            {
+              "onset": 6.028,
+              "peak": 6.07,
+              "offset": 6.14
+            },
+            {
+              "onset": 6.826,
+              "peak": 6.888,
+              "offset": 6.956
+            },
+            {
+              "onset": 7.668,
+              "peak": 7.71,
+              "offset": 7.784
+            },
+            {
+              "onset": 8.474,
+              "peak": 8.526,
+              "offset": 8.592
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.334,
+              "peak": 1.432,
+              "offset": 1.5
+            },
+            {
+              "onset": 2.166,
+              "peak": 2.222,
+              "offset": 2.3
+            },
+            {
+              "onset": 2.988,
+              "peak": 3.086,
+              "offset": 3.156
+            },
+            {
+              "onset": 3.804,
+              "peak": 3.91,
+              "offset": 3.99
+            },
+            {
+              "onset": 4.648,
+              "peak": 4.732,
+              "offset": 4.794
+            },
+            {
+              "onset": 5.464,
+              "peak": 5.562,
+              "offset": 5.614
+            },
+            {
+              "onset": 6.26,
+              "peak": 6.374,
+              "offset": 6.444
+            },
+            {
+              "onset": 7.126,
+              "peak": 7.204,
+              "offset": 7.25
+            },
+            {
+              "onset": 7.924,
+              "peak": 8.016,
+              "offset": 8.072
+            }
+          ]
+        },
+        "V1": {
+          "p": [
+            {
+              "onset": 1.772,
+              "peak": 1.804,
+              "offset": 1.83
+            },
+            {
+              "onset": 2.608,
+              "peak": 2.634,
+              "offset": 2.66
+            },
+            {
+              "onset": 3.43,
+              "peak": 3.466,
+              "offset": 3.486
+            },
+            {
+              "onset": 4.254,
+              "peak": 4.286,
+              "offset": 4.308
+            },
+            {
+              "onset": 5.076,
+              "peak": 5.106,
+              "offset": 5.124
+            },
+            {
+              "onset": 5.904,
+              "peak": 5.928,
+              "offset": 5.95
+            },
+            {
+              "onset": 6.71,
+              "peak": 6.746,
+              "offset": 6.768
+            },
+            {
+              "onset": 7.538,
+              "peak": 7.568,
+              "offset": 7.594
+            },
+            {
+              "onset": 8.352,
+              "peak": 8.388,
+              "offset": 8.41
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.072,
+              "peak": 1.084,
+              "offset": 1.18
+            },
+            {
+              "onset": 1.904,
+              "peak": 1.91,
+              "offset": 2.006
+            },
+            {
+              "onset": 2.732,
+              "peak": 2.744,
+              "offset": 2.836
+            },
+            {
+              "onset": 3.564,
+              "peak": 3.572,
+              "offset": 3.664
+            },
+            {
+              "onset": 4.384,
+              "peak": 4.396,
+              "offset": 4.48
+            },
+            {
+              "onset": 5.206,
+              "peak": 5.212,
+              "offset": 5.304
+            },
+            {
+              "onset": 6.026,
+              "peak": 6.036,
+              "offset": 6.122
+            },
+            {
+              "onset": 6.832,
+              "peak": 6.848,
+              "offset": 6.944
+            },
+            {
+              "onset": 7.664,
+              "peak": 7.674,
+              "offset": 7.77
+            },
+            {
+              "onset": 8.482,
+              "peak": 8.49,
+              "offset": 8.582
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.376,
+              "peak": 1.452,
+              "offset": 1.536
+            },
+            {
+              "onset": 2.192,
+              "peak": 2.284,
+              "offset": 2.364
+            },
+            {
+              "onset": 3.022,
+              "peak": 3.116,
+              "offset": 3.19
+            },
+            {
+              "onset": 3.842,
+              "peak": 3.948,
+              "offset": 4.032
+            },
+            {
+              "onset": 4.68,
+              "peak": 4.766,
+              "offset": 4.826
+            },
+            {
+              "onset": 5.496,
+              "peak": 5.576,
+              "offset": 5.67
+            },
+            {
+              "onset": 6.316,
+              "peak": 6.398,
+              "offset": 6.488
+            },
+            {
+              "onset": 7.138,
+              "peak": 7.226,
+              "offset": 7.296
+            },
+            {
+              "onset": 7.962,
+              "peak": 8.038,
+              "offset": 8.112
+            }
+          ]
+        },
+        "V2": {
+          "p": [
+            {
+              "onset": 1.714,
+              "peak": 1.78,
+              "offset": 1.826
+            },
+            {
+              "onset": 2.57,
+              "peak": 2.616,
+              "offset": 2.656
+            },
+            {
+              "onset": 3.394,
+              "peak": 3.448,
+              "offset": 3.492
+            },
+            {
+              "onset": 4.216,
+              "peak": 4.268,
+              "offset": 4.304
+            },
+            {
+              "onset": 5.044,
+              "peak": 5.078,
+              "offset": 5.126
+            },
+            {
+              "onset": 5.86,
+              "peak": 5.9,
+              "offset": 5.948
+            },
+            {
+              "onset": 6.666,
+              "peak": 6.72,
+              "offset": 6.774
+            },
+            {
+              "onset": 7.502,
+              "peak": 7.548,
+              "offset": 7.6
+            },
+            {
+              "onset": 8.324,
+              "peak": 8.358,
+              "offset": 8.408
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.06,
+              "peak": 1.074,
+              "offset": 1.168
+            },
+            {
+              "onset": 1.89,
+              "peak": 1.904,
+              "offset": 1.998
+            },
+            {
+              "onset": 2.72,
+              "peak": 2.732,
+              "offset": 2.826
+            },
+            {
+              "onset": 3.548,
+              "peak": 3.566,
+              "offset": 3.656
+            },
+            {
+              "onset": 4.38,
+              "peak": 4.386,
+              "offset": 4.476
+            },
+            {
+              "onset": 5.192,
+              "peak": 5.208,
+              "offset": 5.298
+            },
+            {
+              "onset": 6.014,
+              "peak": 6.024,
+              "offset": 6.12
+            },
+            {
+              "onset": 6.828,
+              "peak": 6.84,
+              "offset": 6.934
+            },
+            {
+              "onset": 7.658,
+              "peak": 7.664,
+              "offset": 7.758
+            },
+            {
+              "onset": 8.466,
+              "peak": 8.486,
+              "offset": 8.576
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.35,
+              "peak": 1.424,
+              "offset": 1.484
+            },
+            {
+              "onset": 2.174,
+              "peak": 2.258,
+              "offset": 2.348
+            },
+            {
+              "onset": 3.01,
+              "peak": 3.09,
+              "offset": 3.146
+            },
+            {
+              "onset": 3.832,
+              "peak": 3.924,
+              "offset": 3.984
+            },
+            {
+              "onset": 4.668,
+              "peak": 4.736,
+              "offset": 4.796
+            },
+            {
+              "onset": 5.476,
+              "peak": 5.564,
+              "offset": 5.63
+            },
+            {
+              "onset": 6.298,
+              "peak": 6.382,
+              "offset": 6.47
+            },
+            {
+              "onset": 7.106,
+              "peak": 7.202,
+              "offset": 7.252
+            },
+            {
+              "onset": 7.938,
+              "peak": 8.026,
+              "offset": 8.098
+            }
+          ]
+        },
+        "V3": {
+          "p": [
+            {
+              "onset": 1.752,
+              "peak": 1.782,
+              "offset": 1.838
+            },
+            {
+              "onset": 2.574,
+              "peak": 2.606,
+              "offset": 2.664
+            },
+            {
+              "onset": 3.39,
+              "peak": 3.452,
+              "offset": 3.502
+            },
+            {
+              "onset": 4.216,
+              "peak": 4.266,
+              "offset": 4.312
+            },
+            {
+              "onset": 5.06,
+              "peak": 5.082,
+              "offset": 5.14
+            },
+            {
+              "onset": 5.858,
+              "peak": 5.904,
+              "offset": 5.96
+            },
+            {
+              "onset": 6.686,
+              "peak": 6.716,
+              "offset": 6.776
+            },
+            {
+              "onset": 7.508,
+              "peak": 7.55,
+              "offset": 7.608
+            },
+            {
+              "onset": 8.322,
+              "peak": 8.374,
+              "offset": 8.426
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.07,
+              "peak": 1.094,
+              "offset": 1.17
+            },
+            {
+              "onset": 1.902,
+              "peak": 1.924,
+              "offset": 1.996
+            },
+            {
+              "onset": 2.732,
+              "peak": 2.752,
+              "offset": 2.826
+            },
+            {
+              "onset": 3.564,
+              "peak": 3.584,
+              "offset": 3.658
+            },
+            {
+              "onset": 4.384,
+              "peak": 4.4,
+              "offset": 4.476
+            },
+            {
+              "onset": 5.2,
+              "peak": 5.226,
+              "offset": 5.296
+            },
+            {
+              "onset": 6.024,
+              "peak": 6.046,
+              "offset": 6.12
+            },
+            {
+              "onset": 6.844,
+              "peak": 6.86,
+              "offset": 6.932
+            },
+            {
+              "onset": 7.662,
+              "peak": 7.684,
+              "offset": 7.76
+            },
+            {
+              "onset": 8.48,
+              "peak": 8.502,
+              "offset": 8.576
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.33,
+              "peak": 1.424,
+              "offset": 1.496
+            },
+            {
+              "onset": 2.156,
+              "peak": 2.254,
+              "offset": 2.31
+            },
+            {
+              "onset": 3.008,
+              "peak": 3.084,
+              "offset": 3.15
+            },
+            {
+              "onset": 3.818,
+              "peak": 3.916,
+              "offset": 3.988
+            },
+            {
+              "onset": 4.656,
+              "peak": 4.732,
+              "offset": 4.802
+            },
+            {
+              "onset": 5.468,
+              "peak": 5.56,
+              "offset": 5.63
+            },
+            {
+              "onset": 6.292,
+              "peak": 6.378,
+              "offset": 6.458
+            },
+            {
+              "onset": 7.104,
+              "peak": 7.194,
+              "offset": 7.26
+            },
+            {
+              "onset": 7.934,
+              "peak": 8.016,
+              "offset": 8.102
+            }
+          ]
+        },
+        "V4": {
+          "p": [
+            {
+              "onset": 1.738,
+              "peak": 1.786,
+              "offset": 1.846
+            },
+            {
+              "onset": 2.56,
+              "peak": 2.638,
+              "offset": 2.682
+            },
+            {
+              "onset": 3.408,
+              "peak": 3.446,
+              "offset": 3.484
+            },
+            {
+              "onset": 4.218,
+              "peak": 4.266,
+              "offset": 4.328
+            },
+            {
+              "onset": 5.04,
+              "peak": 5.094,
+              "offset": 5.134
+            },
+            {
+              "onset": 5.862,
+              "peak": 5.918,
+              "offset": 5.96
+            },
+            {
+              "onset": 6.69,
+              "peak": 6.742,
+              "offset": 6.79
+            },
+            {
+              "onset": 7.51,
+              "peak": 7.546,
+              "offset": 7.6
+            },
+            {
+              "onset": 8.326,
+              "peak": 8.366,
+              "offset": 8.424
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.07,
+              "peak": 1.094,
+              "offset": 1.166
+            },
+            {
+              "onset": 1.904,
+              "peak": 1.924,
+              "offset": 1.996
+            },
+            {
+              "onset": 2.732,
+              "peak": 2.754,
+              "offset": 2.824
+            },
+            {
+              "onset": 3.564,
+              "peak": 3.584,
+              "offset": 3.656
+            },
+            {
+              "onset": 4.384,
+              "peak": 4.402,
+              "offset": 4.488
+            },
+            {
+              "onset": 5.196,
+              "peak": 5.228,
+              "offset": 5.298
+            },
+            {
+              "onset": 6.03,
+              "peak": 6.044,
+              "offset": 6.13
+            },
+            {
+              "onset": 6.844,
+              "peak": 6.86,
+              "offset": 6.932
+            },
+            {
+              "onset": 7.666,
+              "peak": 7.684,
+              "offset": 7.768
+            },
+            {
+              "onset": 8.486,
+              "peak": 8.502,
+              "offset": 8.576
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.322,
+              "peak": 1.414,
+              "offset": 1.484
+            },
+            {
+              "onset": 2.158,
+              "peak": 2.242,
+              "offset": 2.308
+            },
+            {
+              "onset": 2.978,
+              "peak": 3.072,
+              "offset": 3.14
+            },
+            {
+              "onset": 3.82,
+              "peak": 3.898,
+              "offset": 3.968
+            },
+            {
+              "onset": 4.636,
+              "peak": 4.724,
+              "offset": 4.782
+            },
+            {
+              "onset": 5.454,
+              "peak": 5.55,
+              "offset": 5.626
+            },
+            {
+              "onset": 6.278,
+              "peak": 6.362,
+              "offset": 6.426
+            },
+            {
+              "onset": 7.094,
+              "peak": 7.182,
+              "offset": 7.25
+            },
+            {
+              "onset": 7.916,
+              "peak": 8.008,
+              "offset": 8.096
+            }
+          ]
+        },
+        "V5": {
+          "p": [
+            {
+              "onset": 1.756,
+              "peak": 1.798,
+              "offset": 1.848
+            },
+            {
+              "onset": 2.576,
+              "peak": 2.634,
+              "offset": 2.692
+            },
+            {
+              "onset": 3.4,
+              "peak": 3.456,
+              "offset": 3.498
+            },
+            {
+              "onset": 4.172,
+              "peak": 4.274,
+              "offset": 4.328
+            },
+            {
+              "onset": 5.04,
+              "peak": 5.102,
+              "offset": 5.15
+            },
+            {
+              "onset": 5.864,
+              "peak": 5.924,
+              "offset": 5.966
+            },
+            {
+              "onset": 6.686,
+              "peak": 6.736,
+              "offset": 6.768
+            },
+            {
+              "onset": 7.502,
+              "peak": 7.556,
+              "offset": 7.598
+            },
+            {
+              "onset": 8.308,
+              "peak": 8.372,
+              "offset": 8.428
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.066,
+              "peak": 1.112,
+              "offset": 1.16
+            },
+            {
+              "onset": 1.904,
+              "peak": 1.94,
+              "offset": 1.984
+            },
+            {
+              "onset": 2.732,
+              "peak": 2.768,
+              "offset": 2.806
+            },
+            {
+              "onset": 3.564,
+              "peak": 3.6,
+              "offset": 3.652
+            },
+            {
+              "onset": 4.38,
+              "peak": 4.418,
+              "offset": 4.468
+            },
+            {
+              "onset": 5.208,
+              "peak": 5.244,
+              "offset": 5.29
+            },
+            {
+              "onset": 6.026,
+              "peak": 6.062,
+              "offset": 6.112
+            },
+            {
+              "onset": 6.842,
+              "peak": 6.88,
+              "offset": 6.924
+            },
+            {
+              "onset": 7.662,
+              "peak": 7.702,
+              "offset": 7.75
+            },
+            {
+              "onset": 8.488,
+              "peak": 8.518,
+              "offset": 8.574
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.266,
+              "peak": 1.4,
+              "offset": 1.464
+            },
+            {
+              "onset": 2.148,
+              "peak": 2.23,
+              "offset": 2.286
+            },
+            {
+              "onset": 2.986,
+              "peak": 3.068,
+              "offset": 3.134
+            },
+            {
+              "onset": 3.796,
+              "peak": 3.886,
+              "offset": 3.954
+            },
+            {
+              "onset": 4.62,
+              "peak": 4.718,
+              "offset": 4.78
+            },
+            {
+              "onset": 5.454,
+              "peak": 5.542,
+              "offset": 5.59
+            },
+            {
+              "onset": 6.292,
+              "peak": 6.346,
+              "offset": 6.414
+            },
+            {
+              "onset": 7.074,
+              "peak": 7.172,
+              "offset": 7.222
+            },
+            {
+              "onset": 7.918,
+              "peak": 8.002,
+              "offset": 8.09
+            }
+          ]
+        },
+        "V6": {
+          "p": [
+            {
+              "onset": 1.746,
+              "peak": 1.8,
+              "offset": 1.842
+            },
+            {
+              "onset": 2.58,
+              "peak": 2.632,
+              "offset": 2.674
+            },
+            {
+              "onset": 3.406,
+              "peak": 3.458,
+              "offset": 3.498
+            },
+            {
+              "onset": 4.206,
+              "peak": 4.278,
+              "offset": 4.33
+            },
+            {
+              "onset": 5.044,
+              "peak": 5.102,
+              "offset": 5.14
+            },
+            {
+              "onset": 5.862,
+              "peak": 5.916,
+              "offset": 5.962
+            },
+            {
+              "onset": 6.676,
+              "peak": 6.73,
+              "offset": 6.774
+            },
+            {
+              "onset": 7.508,
+              "peak": 7.562,
+              "offset": 7.596
+            },
+            {
+              "onset": 8.316,
+              "peak": 8.376,
+              "offset": 8.416
+            }
+          ],
+          "qrs": [
+            {
+              "onset": 1.074,
+              "peak": 1.124,
+              "offset": 1.18
+            },
+            {
+              "onset": 1.9,
+              "peak": 1.952,
+              "offset": 2.004
+            },
+            {
+              "onset": 2.736,
+              "peak": 2.782,
+              "offset": 2.844
+            },
+            {
+              "onset": 3.566,
+              "peak": 3.608,
+              "offset": 3.672
+            },
+            {
+              "onset": 4.384,
+              "peak": 4.434,
+              "offset": 4.478
+            },
+            {
+              "onset": 5.208,
+              "peak": 5.254,
+              "offset": 5.308
+            },
+            {
+              "onset": 6.026,
+              "peak": 6.076,
+              "offset": 6.12
+            },
+            {
+              "onset": 6.846,
+              "peak": 6.89,
+              "offset": 6.936
+            },
+            {
+              "onset": 7.67,
+              "peak": 7.718,
+              "offset": 7.784
+            },
+            {
+              "onset": 8.488,
+              "peak": 8.532,
+              "offset": 8.584
+            }
+          ],
+          "t": [
+            {
+              "onset": 1.34,
+              "peak": 1.4,
+              "offset": 1.442
+            },
+            {
+              "onset": 2.154,
+              "peak": 2.222,
+              "offset": 2.274
+            },
+            {
+              "onset": 2.958,
+              "peak": 3.05,
+              "offset": 3.112
+            },
+            {
+              "onset": 3.832,
+              "peak": 3.888,
+              "offset": 3.942
+            },
+            {
+              "onset": 4.638,
+              "peak": 4.708,
+              "offset": 4.784
+            },
+            {
+              "onset": 5.456,
+              "peak": 5.538,
+              "offset": 5.578
+            },
+            {
+              "onset": 6.294,
+              "peak": 6.346,
+              "offset": 6.404
+            },
+            {
+              "onset": 7.082,
+              "peak": 7.144,
+              "offset": 7.206
+            },
+            {
+              "onset": 7.91,
+              "peak": 7.984,
+              "offset": 8.042
+            }
+          ]
+        }
+      },
+      "sourceLicense": "ODC-By 1.0",
+      "sourceLicenseUrl": "https://opendatacommons.org/licenses/by/1-0/",
+      "sourceDiagnosisText": [
+        "Rhythm: Sinus rhythm",
+        "Electric axis of the heart: left axis deviation",
+        "Left anterior hemiblock",
+        "STEMI: anterior wall",
+        "STEMI: lateral wall",
+        "STEMI: septal",
+        "STEMI: apical"
+      ],
+      "processing": "Convert each channel with its own source gain and baseline; take source samples [800:4100] (1.6 ≤ time < 8.2 seconds). No other waveform processing.",
+      "sourceCrop": {
+        "startSampleInclusive": 800,
+        "endSampleExclusive": 4100,
+        "sourceFs": 500,
+        "sourceSampleCount": 5000,
+        "sampleCount": 3300
+      },
+      "timingProvenance": {
+        "qrsAnchorSource": "source-cardiologist-qrs-peak-onset-end-annotations",
+        "qrsOnsetSource": "source-cardiologist-qrs-onsets",
+        "atrialTimingSource": "source-cardiologist-p-onsets",
+        "annotationLead": "II",
+        "sourceTimeOffsetSeconds": 1.6,
+        "mechanicsSource": "illustrative",
+        "signalSource": "recorded"
+      }
+    }
+  ],
+  "sourceNotImported": "No unverified posterior STEMI record was relabeled from ischemia, chronic MI or a generic LCX diagnosis. Previously simulated templates are not part of this real clinical collection."
+}

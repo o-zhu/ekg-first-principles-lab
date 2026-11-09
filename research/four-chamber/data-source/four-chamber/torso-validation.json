@@ -1,0 +1,318 @@
+{
+  "version": 4,
+  "centerMm": [
+    0.0,
+    0.0,
+    -60.0
+  ],
+  "implementationSha256": "e391c43a24366091f1998b61b75b2b98d74aae951ddc00457ffd02bd1e787d35",
+  "heartGeometrySha256": "fcaf2e84123ace36721056535b5db566a2c84abdcb6c69c7a7054f1541d6ec7c",
+  "radiiMm": [
+    170.0,
+    110.0,
+    300.0
+  ],
+  "nominalSpacingMm": 8.0,
+  "conductivitySm": 0.2,
+  "electrodeDirectionsMm": {
+    "RA": [
+      -150.0,
+      -25.0,
+      160.0
+    ],
+    "LA": [
+      150.0,
+      -25.0,
+      160.0
+    ],
+    "LL": [
+      80.0,
+      -20.0,
+      -290.0
+    ],
+    "C1": [
+      -25.0,
+      -130.0,
+      20.0
+    ],
+    "C2": [
+      10.0,
+      -130.0,
+      20.0
+    ],
+    "C3": [
+      40.0,
+      -125.0,
+      5.0
+    ],
+    "C4": [
+      65.0,
+      -110.0,
+      -10.0
+    ],
+    "C5": [
+      105.0,
+      -70.0,
+      -10.0
+    ],
+    "C6": [
+      130.0,
+      -15.0,
+      -10.0
+    ]
+  },
+  "qhullOptions": "Qbb Qc Qz Q12",
+  "interiorJitterFraction": 0.025,
+  "surfaceAngularJitterFraction": 0.035,
+  "randomSeed": 49017,
+  "returnedGradientConversion": 0.001,
+  "linearSolver": "SuperLU, MMD_AT_PLUS_A, symmetric mode, diagonal pivot threshold 0, one BLAS thread",
+  "configHash": "ccdcb7c920d515eb8e3c61d287eabe3497ded599e2c4a3e19a3ca960040d4eaf",
+  "name": "Finite homogeneous ellipsoidal torso \u00b7 reciprocal linear-tetrahedral FEM",
+  "nodeCount": 50932,
+  "tetrahedronCount": 327148,
+  "boundaryNodeCount": 8424,
+  "electrodeNames": [
+    "RA",
+    "LA",
+    "LL",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+  ],
+  "projectedElectrodesMm": {
+    "RA": [
+      -128.24835416661494,
+      -21.374725694435824,
+      128.09758611103527
+    ],
+    "LA": [
+      128.24835416661494,
+      -21.374725694435824,
+      128.09758611103527
+    ],
+    "LL": [
+      87.16847418968497,
+      -21.792118547421243,
+      -310.60936329534434
+    ],
+    "C1": [
+      -20.484705440627422,
+      -106.52046829126259,
+      5.551057410007743
+    ],
+    "C2": [
+      8.244312957654362,
+      -107.1760684495067,
+      5.954503661234895
+    ],
+    "C3": [
+      33.88334170143292,
+      -105.88544281697786,
+      -4.93956973517151
+    ],
+    "C4": [
+      59.99078855113835,
+      -101.52287293269568,
+      -13.853239576047422
+    ],
+    "C5": [
+      116.363629105559,
+      -77.57575273703934,
+      -4.588748044971901
+    ],
+    "C6": [
+      163.63559486691324,
+      -18.88103017695153,
+      2.9367672565050995
+    ]
+  },
+  "electrodePositionsMm": {
+    "RA": [
+      -126.62677272968556,
+      -21.322241915163996,
+      131.5318917997723
+    ],
+    "LA": [
+      126.61349026516646,
+      -21.367721153461964,
+      131.52153838352768
+    ],
+    "LL": [
+      86.36447721643226,
+      -23.80222832494615,
+      -310.11567856646144
+    ],
+    "C1": [
+      -21.67446956605295,
+      -106.59956387685388,
+      3.366817787002944
+    ],
+    "C2": [
+      7.037007304110945,
+      -107.40865040161079,
+      3.5313339475543373
+    ],
+    "C3": [
+      33.119025939182755,
+      -105.93724135237669,
+      -4.236922609446502
+    ],
+    "C4": [
+      56.33710446817615,
+      -102.2846825674999,
+      -12.059553230139358
+    ],
+    "C5": [
+      116.4223752880814,
+      -77.53857027479042,
+      -4.585936446789397
+    ],
+    "C6": [
+      162.75094947454565,
+      -21.7591149331014,
+      3.16820564638914
+    ]
+  },
+  "electrodeNodeIds": [
+    44042,
+    44078,
+    50247,
+    45857,
+    45860,
+    45973,
+    46085,
+    45983,
+    45883
+  ],
+  "electrodeProjectionDiscretizationErrorMm": [
+    3.7982543974004876,
+    3.794242770851594,
+    2.220512792629875,
+    2.488513113590874,
+    2.7172472774521568,
+    1.0395069292617185,
+    4.140902317764681,
+    0.06958128012754046,
+    3.0198564638292966
+  ],
+  "commonReferenceNode": 46692,
+  "commonReferencePositionMm": [
+    -5.01657890174029,
+    109.95208285521339,
+    -60.14481016909372
+  ],
+  "groundNode": 21617,
+  "assemblyConductivitySPerMm": 0.0002,
+  "cachedNodalPotentialUnits": "ohm for +1 A electrode injection and \u22121 A common return",
+  "returnedGradientConvention": "Physical gradient in ohm/mm multiplied by 0.001; use with myocardial conductivity in S/m, basis gradients in 1/mm and element volumes in mm\u00b3. Do not apply a second /1000.",
+  "sourceIntegral": "Vlead = \u2212 integral(grad Zlead \u00b7 sigma_i \u00b7 grad Vm) dV",
+  "methodReference": {
+    "citation": "Pezzuto et al. (2017), Evaluation of a Rapid Anisotropic Model for ECG Simulation.",
+    "url": "https://doi.org/10.3389/fphys.2017.00265",
+    "scope": "Lead-field method reference; the paper does not validate this separate implementation or representative torso."
+  },
+  "boundary": "Natural insulating Neumann condition except electrode point-current loads; one nodal gauge fixes the additive constant.",
+  "limitations": [
+    "Representative analytic torso geometry, not a patient-derived torso.",
+    "One homogeneous isotropic body conductivity; no lung, blood-pool, skeletal or adipose compartments.",
+    "Virtual electrode positions projected to the torso surface; not measured clinical electrode positions.",
+    "Point electrodes are mesh-localized; reciprocal gradients are evaluated well inside the body, away from electrode singularities.",
+    "No ECG amplitude fitting, post-hoc gain or waveform-template fitting."
+  ],
+  "validation": {
+    "netInjectedCurrentA": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "linearResidualMaxA": 3.335901541980102e-12,
+    "linearRelativeResidualL2": [
+      1.2615967157906415e-12,
+      1.6532371731838976e-12,
+      1.7658648276658687e-12,
+      2.1577171361557917e-12,
+      1.6108878720487486e-12,
+      2.0416272432215825e-12,
+      2.4512024350337405e-12,
+      1.7097386494251092e-12,
+      1.5644999447643486e-12
+    ],
+    "positiveEnergyOhm": [
+      286.3257828988667,
+      274.70661215886213,
+      435.23250101323447,
+      308.3307339513691,
+      378.1388097230554,
+      288.57887087153074,
+      296.1150376508704,
+      240.79877020199578,
+      233.13088311734046
+    ],
+    "energyIdentityMaxOhm": 7.833023119019344e-11,
+    "constantPotentialStiffnessResidualS": 1.1368683772161603e-13,
+    "symmetryMaxS": 5.684341886080802e-14,
+    "heartCentroidCount": 1526530,
+    "heartCentroidsInside": 1526530,
+    "heartInsideFraction": 1.0,
+    "heartMaxAnalyticEllipsoidLevel": 0.33907766120421123,
+    "minimumCentroidEllipsoidMargin": 0.6629023678841341,
+    "sphereAnalyticCoarseCheck": {
+      "description": "Opposed unit electrodes on an insulating sphere; analytic central reciprocal gradient is 3 times the infinite-conductor value.",
+      "radiusMm": 90.0,
+      "spacingMm": 12.0,
+      "nodes": 2287,
+      "expectedGradientOhmPerMm": [
+        0.0,
+        0.0,
+        0.2947313760961025
+      ],
+      "measuredCentralGradientOhmPerMm": [
+        0.004410434771281082,
+        -0.004733327092491011,
+        0.3353759505415816
+      ],
+      "relativeVectorError": 0.13963990100474,
+      "positiveElectrodeDirectionCorrect": true,
+      "linearResidualMaxA": 9.316115587298945e-15
+    },
+    "sphereAnalyticCheck": {
+      "description": "Opposed unit electrodes on an insulating sphere; analytic central reciprocal gradient is 3 times the infinite-conductor value.",
+      "radiusMm": 90.0,
+      "spacingMm": 8.0,
+      "nodes": 7083,
+      "expectedGradientOhmPerMm": [
+        0.0,
+        0.0,
+        0.2947313760961025
+      ],
+      "measuredCentralGradientOhmPerMm": [
+        0.0028271610412691143,
+        -5.4754030600501074e-05,
+        0.30404719220479154
+      ],
+      "relativeVectorError": 0.03303182681120219,
+      "positiveElectrodeDirectionCorrect": true,
+      "linearResidualMaxA": 8.750053633044264e-15
+    },
+    "sphereRefinementDecreasesError": true,
+    "uniformBasisGradientMaxPerMm": 1.4551915228366852e-11,
+    "tetraVolumeMm3Range": [
+      0.00014394385386111162,
+      208.18801116282933
+    ],
+    "meshVolumeMm3": 23480005.038115595,
+    "analyticEllipsoidVolumeMm3": 23499113.04885165,
+    "relativeVolumeError": 0.0008131375297583599
+  },
+  "runtimeSeconds": 21.274833175000822
+}

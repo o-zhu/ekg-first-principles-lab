@@ -1,0 +1,334 @@
+{
+  "auditVersion": 4,
+  "status": "passed numerical consistency checks; not clinical validation",
+  "createdAtUtc": "2026-10-29T14:59:38.399355+00:00",
+  "modelSha256": "b560a70554fcccbd89e69d35a96cb5d80c0e583f427a4f61a36c17f7451d63fb",
+  "auditScriptSha256": "e7217ba9c9d3eb70483ef3ac1b9de64a5ec2c4cb9e0433526ca25ec27332d24c",
+  "fingerprints": {
+    "dist/data/heart-model.json": "b560a70554fcccbd89e69d35a96cb5d80c0e583f427a4f61a36c17f7451d63fb",
+    "data-source/four-chamber/operators-cache.npz": "d40334bb18772c405cad6f158ab3658d7a66f713360cfabfbfc276a0fc7b4c31",
+    "data-source/four-chamber/torso-operator.npz": "deb45589f2764417412ec6bff907431e6c29891106a5bccab93798a9cad1c2c3",
+    "data-source/four-chamber/midpoint-source-operator.npz": "64d0134d8e6f9f2169b1dc8b1dbc0d08a451f38819dd4f140523d46738650ece",
+    "data-source/four-chamber/laa-extension.npz": "2407d3211dfd3fa08167a1d3b211627263fef346cb417ee0bed965d4abf4bf2a",
+    "data-source/four-chamber/rodero-myocardium.npz": "fcaf2e84123ace36721056535b5db566a2c84abdcb6c69c7a7054f1541d6ec7c",
+    "data-source/four-chamber/rodero-appendage-render.npz": "a2cee4cbeb1e2b84edb70084ce92bc772832ce503d3c3956ded585ccfcd21e60",
+    "scripts/build_four_chamber_model.py": "88645e361d5fa8a8a54ad0fe8181d0660a3e9659a19454510a5cbf7120601b28",
+    "scripts/build_torso_operator.py": "e391c43a24366091f1998b61b75b2b98d74aae951ddc00457ffd02bd1e787d35",
+    "scripts/appendage_anatomy.py": "3b8df966e4a167d21771b83956b6b9522e41465f77a57b370bb1795ef3d6001f",
+    "scripts/refine_source_field.py": "ee78fb3ca86f9d2b3e5fbd1f8fea5477b37378a2ab11ff8b3295ec924864ad2e",
+    "scripts/refine_render_mapping.py": "ad5db34938cb254a9d8fcf2c03086245cf1b4dc7d4080f7b4443c76797aeb5c5",
+    "dist/heart-data.js": "45d8d9af11d9b7e548e9dfaeb4da12459711437ab73d9192236ba8d67cb37b1a",
+    "scripts/audit_four_chamber_model.py": "e7217ba9c9d3eb70483ef3ac1b9de64a5ec2c4cb9e0433526ca25ec27332d24c",
+    "data-source/four-chamber/lead-ii-calibration.json": "528a0338c37b30dc18083691ca3dc9e6ee8c01862c08242c1609b544500d86ba",
+    "data-source/four-chamber/laa-ostium-interface.npz": "f45a1b0bb29190761bec2da3b8fd0f77de8be51f045ffe6e2ca6bce95c4305b9",
+    "data-source/four-chamber/courtemanche-atrial-template.json": "55a35a806a8e4d9c64b9681a41e71d3f75e443bc53b4fd6a051af17b1cf53345",
+    "data-source/four-chamber/selected-human-ventricular-template.json": "9f9b547db11e366a81794bafeab24d4f0c284b6d1920c6f835c930e9b14fc562",
+    "geometrySha256": "fcaf2e84123ace36721056535b5db566a2c84abdcb6c69c7a7054f1541d6ec7c",
+    "renderGeometrySha256": "a2cee4cbeb1e2b84edb70084ce92bc772832ce503d3c3956ded585ccfcd21e60",
+    "appendageGeometrySha256": "2407d3211dfd3fa08167a1d3b211627263fef346cb417ee0bed965d4abf4bf2a",
+    "operatorCacheFingerprint": "21e38e643449384fba8b61cfdb8ddfdda6f24ff48f4afa475c1f4f3886ffcb8b",
+    "torsoConfigHash": "ccdcb7c920d515eb8e3c61d287eabe3497ded599e2c4a3e19a3ca960040d4eaf",
+    "midpointOperatorFingerprint": "8df2d159a629b50d751754def11dee27c3a8213a32b85a79b663919450138e84",
+    "allFingerprintMatchesPassed": true
+  },
+  "scope": {
+    "nativeElectricalNodes": 340582,
+    "numericalSourceNodes": 2400926,
+    "anatomicalNodes": 336272,
+    "midpointSourceNodes": 2060344,
+    "myocardialTetrahedra": 1562432,
+    "equivalentRefinedTetrahedra": 12499456,
+    "fullSourceEvaluationTimesMs": [
+      0,
+      50,
+      75,
+      119,
+      125,
+      200,
+      220,
+      236,
+      243,
+      249,
+      262,
+      270,
+      380,
+      520,
+      527,
+      568,
+      592,
+      640,
+      900,
+      1000
+    ],
+    "fullSourceEvaluationVariants": [
+      "heterogeneous",
+      "equal_apd",
+      "optical_duration"
+    ],
+    "leads": [
+      "I",
+      "II",
+      "III",
+      "aVR",
+      "aVL",
+      "aVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "description": "Independent AP evaluator at all native and midpoint sites; independent sparse parent and explicit child source assembly; independent Cartesian rendering basis; shipped JS playback comparison."
+  },
+  "AVSeparation": {
+    "duplicatedInterfaceNodes": 4310,
+    "crossDomainEdges": 0,
+    "componentCount": 2,
+    "componentSizes": [
+      250416,
+      90166
+    ]
+  },
+  "uniformSourceCancellation": {
+    "allSites110Mv": 2.5355495037546032e-14,
+    "ventricular110Mv": 2.4090797572082537e-14,
+    "atrial110Mv": 5.737372987763371e-15
+  },
+  "serializedECGAgainstFullSourceEvaluation": {
+    "heterogeneous": {
+      "ecgMaxErrorMv": 4.957461112453654e-08,
+      "ecgAtrialMaxErrorMv": 4.954707379187934e-08,
+      "ecgVentricularMaxErrorMv": 4.95282830303978e-08
+    },
+    "equal_apd": {
+      "ecgMaxErrorMv": 4.9596069001678345e-08,
+      "ecgAtrialMaxErrorMv": 4.954707379187934e-08,
+      "ecgVentricularMaxErrorMv": 4.993347402226789e-08
+    },
+    "optical_duration": {
+      "ecgMaxErrorMv": 4.988358148771965e-08,
+      "ecgAtrialMaxErrorMv": 4.954707379187934e-08,
+      "ecgVentricularMaxErrorMv": 4.999488442680722e-08
+    }
+  },
+  "allFramesLeadAndComponentIdentities": {
+    "heterogeneous": {
+      "einthovenMaxErrorMv": 1.0000000005838672e-07,
+      "componentSumMaxErrorMv": 1.0000000028043132e-07,
+      "startMaxMv": 0.0,
+      "endMaxMv": 0.0001739
+    },
+    "equal_apd": {
+      "einthovenMaxErrorMv": 1.0000000005838672e-07,
+      "componentSumMaxErrorMv": 1.0000000028043132e-07,
+      "startMaxMv": 0.0,
+      "endMaxMv": 0.0001739
+    },
+    "optical_duration": {
+      "einthovenMaxErrorMv": 1.0000000016940902e-07,
+      "componentSumMaxErrorMv": 1.0000000028043132e-07,
+      "startMaxMv": 0.0,
+      "endMaxMv": 0.0001739
+    }
+  },
+  "renderInterpolation": {
+    "globalSourceIndexCoverageExact": true,
+    "sourceTypeMappingExact": true,
+    "sourceCount": 20957,
+    "maxActivationSerializationErrorMs": 4.999909918979029e-06,
+    "maxCartesianPositionErrorMm": 3.718792385143388e-09,
+    "maxSerializedWeightSumError": 0.0,
+    "maxDisplayTimingSerializationErrorMs": 0.0004999863325565457,
+    "independentCartesianChildBasisChecks": {
+      "renderSites": 225,
+      "timesMs": [
+        75.25,
+        205.5,
+        232.25,
+        249.75,
+        475.125,
+        530.5
+      ],
+      "maxVmErrorMv": 2.150751576834864e-08,
+      "variants": [
+        "heterogeneous",
+        "equal_apd",
+        "optical_duration"
+      ]
+    }
+  },
+  "serializedTemplateCrossings": {
+    "heterogeneous/ventricular": {
+      "serializedApd90Ms": 300.0,
+      "markerErrorMs": 0.0,
+      "rise10To90Ms": 2.0
+    },
+    "heterogeneous/atrial": {
+      "serializedApd90Ms": 296.80230295167047,
+      "markerErrorMs": 1.2450402664399007e-07,
+      "rise10To90Ms": 1.7631492749420445
+    },
+    "equal_apd/ventricular": {
+      "serializedApd90Ms": 300.0,
+      "markerErrorMs": 0.0,
+      "rise10To90Ms": 2.0
+    },
+    "equal_apd/atrial": {
+      "serializedApd90Ms": 296.80230295167047,
+      "markerErrorMs": 1.2450402664399007e-07,
+      "rise10To90Ms": 1.7631492749420445
+    },
+    "optical_duration/ventricular": {
+      "serializedApd90Ms": 435.0625,
+      "markerErrorMs": 6.472001189194998e-06,
+      "rise10To90Ms": 2.0
+    },
+    "optical_duration/atrial": {
+      "serializedApd90Ms": 296.80230295167047,
+      "markerErrorMs": 1.2450402664399007e-07,
+      "rise10To90Ms": 1.7631492749420445
+    }
+  },
+  "independentSparseSourceAssembly": {
+    "selectedOriginalNodes": 64,
+    "selectedMidpointNodes": 64,
+    "incidentParentTetrahedra": 3340,
+    "explicitChildTetrahedra": 26720,
+    "maximumOriginalLeadWeightError": 9.740878893424454e-20,
+    "maximumRefinedLeadWeightError": 5.500420201232613e-20,
+    "maximumChildVolumeErrorMm3": 7.147060721024445e-16,
+    "reciprocalGaugeGradientErrorOhmPerMm": 9.633960296184796e-14,
+    "gaugeShiftOhm": 83.7,
+    "scope": "All incident elements at 64 native and 64 midpoint source nodes, with explicit eight-child assembly and retained torso potentials; no new torso solve."
+  },
+  "browserPlayback": {
+    "cases": 300,
+    "maxModelValueErrorMv": 1.4210854715202004e-14,
+    "maxModelFrameFloat32ErrorMv": 3.743760856877998e-06,
+    "ecgInterpolationCases": 252,
+    "maxECGInterpolationErrorMv": 0
+  },
+  "sourceSampling": {
+    "native": {
+      "nodeCount": 2400926,
+      "relativeRmsDifferenceLeadII": 0.0,
+      "maxDifferenceLeadIIMv": 0.0,
+      "reportedRmsMetricError": 0.0
+    },
+    "original": {
+      "nodeCount": 340582,
+      "relativeRmsDifferenceLeadII": 0.00877037925798272,
+      "maxDifferenceLeadIIMv": 0.015120899999999993,
+      "reportedRmsMetricError": 5.74137300202171e-11
+    },
+    "bin2": {
+      "nodeCount": 45800,
+      "relativeRmsDifferenceLeadII": 0.16370012325201466,
+      "maxDifferenceLeadIIMv": 0.2374643999999999,
+      "reportedRmsMetricError": 3.62466329173472e-09
+    },
+    "bin4": {
+      "nodeCount": 8119,
+      "relativeRmsDifferenceLeadII": 0.49378591464004196,
+      "maxDifferenceLeadIIMv": 0.6279584,
+      "reportedRmsMetricError": 5.023462201769746e-10
+    }
+  },
+  "variantLeadIISummaries": {
+    "heterogeneous": {
+      "ventricularApd90RangeMs": [
+        273.03,
+        384.55
+      ],
+      "ventricularApd90MedianMs": 331.49,
+      "atrialApd90RangeMs": [
+        290.8,
+        308.8
+      ],
+      "recoveryRangeMs": [
+        324.64,
+        644.0
+      ],
+      "pPeakMs": 119,
+      "pPeakMv": 0.12035968140597615,
+      "rPeakMs": 262,
+      "rPeakMv": 1.1422897543911688,
+      "tPeakMs": 527,
+      "tPeakMv": 0.3956813979763678,
+      "leadIIRangeMv": [
+        -0.093459,
+        1.14229
+      ]
+    },
+    "equal_apd": {
+      "ventricularApd90RangeMs": [
+        331.49,
+        331.49
+      ],
+      "ventricularApd90MedianMs": 331.49,
+      "atrialApd90RangeMs": [
+        290.8,
+        308.8
+      ],
+      "recoveryRangeMs": [
+        324.64,
+        641.52
+      ],
+      "pPeakMs": 119,
+      "pPeakMv": 0.12035968140597615,
+      "rPeakMs": 262,
+      "rPeakMv": 1.14249285497611,
+      "tPeakMs": 568,
+      "tPeakMv": -0.29200047557150083,
+      "leadIIRangeMv": [
+        -0.292,
+        1.142493
+      ]
+    },
+    "optical_duration": {
+      "ventricularApd90RangeMs": [
+        334.13,
+        445.65
+      ],
+      "ventricularApd90MedianMs": 392.59,
+      "atrialApd90RangeMs": [
+        290.8,
+        308.8
+      ],
+      "recoveryRangeMs": [
+        324.64,
+        705.1
+      ],
+      "pPeakMs": 119,
+      "pPeakMv": 0.12035968140597615,
+      "rPeakMs": 262,
+      "rPeakMv": 1.1095580377042762,
+      "tPeakMs": 592,
+      "tPeakMv": 0.4108124482314393,
+      "leadIIRangeMv": [
+        -0.093054,
+        1.109558
+      ]
+    }
+  },
+  "activationSummary": {
+    "atrialRangeMs": [
+      33.83583222017014,
+      175.5646537864268
+    ],
+    "ventricularRangeMs": [
+      212.01437547424297,
+      310.0266593398586
+    ],
+    "nominalPRMs": 178.17854325407282,
+    "ventricularActivationDurationMs": 98.01228386561564
+  },
+  "limitations": [
+    "Internal numerical consistency does not establish patient accuracy, normal ECG morphology, or biological truth.",
+    "The full source matrices are retained outputs; only incident elements at 64 native and 64 midpoint nodes are independently reassembled.",
+    "The reciprocal torso potential solve is not rerun here; its generator checks remain in torso-validation.json.",
+    "Midpoint refinement and source-bin comparisons test spatial Vm sampling at fixed activation and torso fields, not tissue-PDE, activation-graph or torso mesh convergence.",
+    "Node-based JS checks validate numerical playback; interactive controls and rendering need separate UI checks."
+  ]
+}

@@ -1,0 +1,212 @@
+/* Connected anatomy, compact ECG paper, and the composition workbench. */
+.lead-picker{display:flex;flex-wrap:wrap;gap:5px;padding:10px 13px;border-bottom:1px solid #e6dfd3}
+.lead-chip{min-width:34px;padding:5px 8px;border:1px solid #dce3cf;border-radius:6px;font-size:9px;color:#8b967c;background:#f4f5ed}
+.lead-chip.active{background:#dfeacc;color:#496a37;border-color:#aabc8f}
+.lead-chip:hover{border-color:#869f68}
+.lead-paper-body{position:relative;margin:0 5px 5px;overflow:hidden}
+.compact-lead-columns{--lead-row-height:98px;display:grid;grid-template-columns:repeat(var(--lead-columns,4),minmax(0,1fr));align-items:stretch;height:calc(21px + var(--lead-rows,3) * var(--lead-row-height));background:#f7f3e9}
+.compact-lead-column{min-width:0;border-right:1px solid #e5dacf;display:flex;flex-direction:column}
+.compact-lead-column:last-child{border-right:0}
+.compact-lead-column .standard-lead-cell{border-right:0;flex:1;min-height:0}
+.compact-lead-column .standard-lead-cell canvas{position:absolute;inset:0;width:100%;height:100%}
+.lead-window-label{height:21px;flex-shrink:0;font-size:8px;line-height:21px;text-align:center;background:#f1f0e5;color:#9c9b85;border-bottom:1px solid #e6ded0}
+.lead-paper-body .long-rhythm-strips{padding:0;background:#fffcf6}
+.paper-cursor{position:absolute;top:21px;bottom:0;left:0;z-index:8;pointer-events:none;width:1.5px;background:rgba(205,96,108,.66);box-shadow:-4px 0 7px 2px #dc748b13}
+.paper-cursor i{position:absolute;top:0;left:-4px;width:9px;height:7px;clip-path:polygon(0 0,100% 0,50% 100%);background:#cf8c95}
+.lead-paper-footer b{font-weight:550;color:#8d765e;font-variant-numeric:tabular-nums}
+.anatomy-layer-controls{flex-wrap:wrap;gap:5px 10px}
+.anatomy-layer-controls .toggle-row{white-space:nowrap;gap:6px}
+.clinical-anatomy .anatomy-layer-controls{display:grid;grid-template-columns:1fr 1fr;padding:5px 12px}
+.clinical-anatomy .anatomy-layer-controls .toggle-row{justify-content:space-between}
+.clinical-catalog-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.record-groups{display:flex;gap:5px;flex-wrap:wrap}
+.record-groups button{font-size:9px;color:#849371;background:#edf1e4;border:1px solid #dce5d1;border-radius:7px;padding:7px 10px}
+.record-groups button.active{color:#eff4e6;background:#365943;border-color:#365943}
+.example-select-label{display:flex;gap:8px;align-items:center;font-size:9px;color:#8c9b7c;min-width:0;max-width:430px}
+.example-select-label .select-field{max-width:350px;width:100%;font-size:10px}
+.record-picker{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));grid-auto-flow:row;grid-auto-columns:auto;gap:7px;position:relative;overflow:visible;padding-bottom:0;margin-bottom:18px}
+.record-tab{min-height:83px}
+.record-tab strong{font-size:10px}
+.simulation-badge{background:#eee7f3;color:#9175a0;border-color:#ddcfe5}
+.clinical-record-header .simulation-badge{font-size:7px}
+.clinical-standard-grid canvas,#clinical-main,#sandbox-main{cursor:crosshair}
+.sandbox-presets{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.sandbox-presets>.section-label{font-size:8px;margin-right:5px}
+.sandbox-presets .button{font-size:9px;padding:7px 10px;background:#f0f3e8}
+.sandbox-workspace{display:grid;grid-template-columns:minmax(255px,.8fr) minmax(0,1.9fr);gap:17px;align-items:start}
+.sandbox-workspace>*{min-width:0}
+.sandbox-controls{padding:21px}
+.sandbox-controls>.panel-header{margin-bottom:14px}
+.sandbox-controls .badge{font-size:6px}
+.sandbox-field{display:block;margin:14px 0}
+.sandbox-field>span,.sandbox-field>label{font-size:10px;color:#6f8259;display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:7px}
+.sandbox-field b{font-weight:500;font-size:10px;color:#8da36d;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sandbox-field>.select-field{width:100%;font-size:11px;padding:8px 9px;background:#fafbf5}
+.sandbox-field>.select-field:disabled{opacity:.6}
+.sandbox-field input[type=range]{width:100%}
+.sandbox-field.inactive{opacity:.6}
+.sandbox-control-note{font-size:9px;line-height:1.65;color:#97a187}
+.sandbox-controls .toggle-row{font-size:10px}
+.sandbox-controls .panel-divider{margin:15px 0}
+.sandbox-reset{width:100%;font-size:10px;margin:12px 0}
+.axis-shortcuts{display:flex;justify-content:space-between;gap:5px;margin-top:5px}
+.axis-shortcuts button{font-size:8px;color:#8d9d7a;background:#f0f4e8;border:1px solid #e0e7d4;border-radius:5px;padding:5px 7px}
+.sandbox-preview-head{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:0 0 10px}
+.sandbox-preview-head>.select-field{font-size:10px;flex-shrink:0}
+.sandbox-preview-head .section-label{font-size:7px;margin-bottom:5px}
+.combination-tags{display:flex;gap:4px;flex-wrap:wrap}
+.combination-tags>span{font-size:8px;border:1px solid #d8e4ca;background:#eaf1df;color:#779354;border-radius:5px;padding:3px 6px}
+.sandbox-study>.stage.anatomy.clinical-stage{height:315px!important}
+.sandbox-study .phase-name{font-size:21px}
+.sandbox-study .scene-state{bottom:43px;max-width:80%}
+.sandbox-study .stage-bottom .hint{font-size:7px}
+.sandbox-study .trace-panel{margin-top:10px;border-radius:12px}
+.sandbox-study .trace-heading{padding:10px 13px}
+.sandbox-study .trace-title{font-size:10px}
+.sandbox-study .trace-meta{font-size:8px;gap:5px}
+.sandbox-study .trace-meta .badge{background:#eee7f3;color:#9175a0;font-size:6px}
+.sandbox-study .trace-footer{font-size:8px;padding:8px 12px;gap:8px}
+.ghost-key{display:inline-block;width:15px;height:2px;background:#9cac9e;margin:0 5px 2px 0;vertical-align:middle;opacity:.65}
+.sandbox-event-rail{padding:10px 14px 7px;background:#f2f5e9;border:1px solid #dde7cf;border-radius:10px;margin-top:8px}
+.event-lane{display:flex;gap:10px;align-items:center;margin:5px 0}
+.event-lane>span{font-size:8px;color:#8d9b7e;width:47px;flex-shrink:0}
+.event-lane>div{height:16px;border-bottom:1px solid #dbe4d0;flex:1;position:relative;margin:0 5px}
+.event-marker{position:absolute;top:3px;transform:translateX(-50%);width:8px;height:8px;border-radius:50%;background:#bdaf7b;border:1px solid #a49562;padding:0;box-shadow:0 0 0 3px #f2f5e9}
+.event-marker.ventricular{background:#b49abc;border-color:#9c7da5}
+.event-marker.dropped{background:#f2f5e9;border:1.5px solid #c4956c}
+.event-marker.ectopic{background:#d89f7a;border-color:#bd8058}
+.event-marker:hover,.event-marker:focus-visible{outline:2px solid #698e4e;outline-offset:3px}
+.event-clock{position:absolute;top:0;bottom:0;left:0;width:1px;background:#d9a1a0;pointer-events:none}
+.af-event-activity{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.af-event-activity svg{position:absolute;inset:0;width:100%;height:100%;stroke:#ad9b69;stroke-width:1;fill:none;opacity:.65}
+.af-event-activity>span{position:relative;background:#f2f5e9;padding:0 6px;color:#958554;font-size:8px;line-height:15px}
+.sandbox-event-rail>p{font-size:8px;color:#9da88c;line-height:1.6;margin-top:8px}
+.sandbox-study .phase-timeline{flex-wrap:wrap;gap:7px}
+.sandbox-study .phase-timeline input{min-width:80px;flex:1}
+.sandbox-study .phase-timeline .button.small{font-size:8px;padding:7px 8px}
+.sandbox-results{margin-top:20px;border:1px solid #dbe4d0;border-radius:15px;background:#fffef8;overflow:hidden}
+.sandbox-results .reference-table-heading{margin:0;border-bottom:1px solid #e1e7d6}
+.sandbox-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:7px 20px}
+.sandbox-metrics>div{padding:12px;border-bottom:1px solid #e8ecdf}
+.sandbox-metrics span{display:block;font-size:9px;color:#98a18a;margin-bottom:5px}
+.sandbox-metrics strong{display:block;font-size:18px;line-height:1.4;font-weight:500;color:#6b8652}
+.sandbox-model-notes{padding:14px 30px 20px;background:#f4f6ec;color:#939d82;font-size:10px;line-height:1.65}
+.sandbox-relationship{color:#708755;font-size:12px;font-weight:500;margin-bottom:7px}
+.sandbox-model-notes ul{padding-left:17px;margin:6px 0 0}
+.sandbox-model-notes li{margin:5px 0}
+@media(min-width:1600px){.sandbox-workspace{grid-template-columns:minmax(290px,.75fr) minmax(0,2fr)}.sandbox-study>.stage.anatomy.clinical-stage{height:350px!important}.sandbox-controls .select-field{font-size:12px}.sandbox-field>span,.sandbox-field>label{font-size:11px}}
+@media(max-width:1200px){.clinical-catalog-toolbar{display:block}.example-select-label{margin-top:8px;max-width:100%}.sandbox-workspace{grid-template-columns:minmax(235px,.85fr) minmax(0,1.7fr)}.sandbox-controls{padding:17px}.sandbox-study .trace-meta .badge{display:none}.compact-lead-columns{--lead-row-height:92px}}
+@media(max-width:1000px){.sandbox-workspace{grid-template-columns:minmax(205px,.85fr) minmax(0,1.6fr);gap:12px}.sandbox-controls{padding:14px}.sandbox-controls .panel-header h2{font-size:12px}.sandbox-study .trace-meta{display:none}.sandbox-study .phase-timeline .speed-label{margin-left:auto}.sandbox-field>.select-field{font-size:10px}.axis-shortcuts button{font-size:7px;padding:4px}.sandbox-study .trace-footer{display:block}.sandbox-study .trace-footer>span{display:block}.sandbox-preview-head{align-items:flex-end}.sandbox-metrics strong{font-size:16px}}
+@media(max-width:850px){.sandbox-workspace{grid-template-columns:1fr}.sandbox-controls{display:grid;grid-template-columns:1fr 1fr;gap:7px 17px;padding:20px}.sandbox-controls>.panel-header,.sandbox-controls>.sandbox-control-note,.sandbox-controls>.sandbox-reset{grid-column:1/-1}.sandbox-controls>.panel-divider{display:none}.sandbox-field{margin:4px 0}.sandbox-controls>.toggle-row{margin:6px 0}.sandbox-study>.stage.anatomy.clinical-stage{height:330px!important}.sandbox-study .trace-meta{display:flex}.sandbox-study .trace-footer{display:flex}.sandbox-preview-head{margin-top:8px}.sandbox-study .phase-timeline{flex-wrap:nowrap}}
+@media(max-width:680px){.lead-picker{gap:4px;padding:9px}.lead-chip{padding:5px 7px;font-size:8px;min-width:30px}.compact-lead-columns{--lead-row-height:90px}.lead-window-label{font-size:6px}.lead-paper-body{margin:0 3px 3px}.clinical-catalog-toolbar{margin-bottom:9px}.record-groups{gap:4px}.record-groups button{font-size:8px;padding:6px 8px}.example-select-label{font-size:8px;width:100%}.example-select-label .select-field{min-width:0;max-width:100%;font-size:9px;flex:1}.record-picker{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-columns:auto}.clinical-record-header h2{font-size:20px}.clinical-anatomy .anatomy-layer-controls{grid-template-columns:1fr 1fr}.sandbox-presets{gap:5px}.sandbox-presets>.section-label{width:100%}.sandbox-presets .button{font-size:8px;padding:6px 8px}.sandbox-controls{padding:17px;gap:12px;display:block}.sandbox-field{margin:14px 0}.sandbox-field>.select-field{font-size:11px}.sandbox-controls>.panel-divider{display:block}.sandbox-controls>.toggle-row{margin:11px 0}.sandbox-control-note{font-size:9px}.sandbox-study .trace-title{font-size:9px}.sandbox-study .trace-meta{font-size:7px}.sandbox-study .trace-footer{display:block}.sandbox-study .phase-timeline{flex-wrap:wrap}.sandbox-study .phase-timeline input{order:5;min-width:65%}.sandbox-study .phase-timeline .timeline-time{order:6}.sandbox-study .phase-timeline .speed-label{order:4}.sandbox-study .phase-name{font-size:20px}.sandbox-metrics{grid-template-columns:1fr 1fr;padding:5px 10px}.sandbox-metrics>div{padding:10px 8px}.sandbox-metrics strong{font-size:14px}.sandbox-metrics span{font-size:8px}.sandbox-model-notes{padding:13px 18px;font-size:9px}.sandbox-relationship{font-size:11px}.sandbox-results .reference-table-heading .badge{margin-top:9px}.sandbox-event-rail{padding:8px 10px}.event-lane>span{font-size:7px;width:43px}.event-marker{width:7px;height:7px}.sandbox-preview-head>.select-field{font-size:9px}}
+
+/* Interior views remain adjacent to the heart and its synchronized tracing. */
+.anatomy-view-controls{display:flex;align-items:center;gap:5px;padding:7px;margin:7px 0 10px;background:#eaf0df;border:1px solid #d8e4cb;border-radius:9px;flex-wrap:wrap}
+.anatomy-view-button{font-size:9px;line-height:1.4;padding:6px 9px;border-radius:6px;border:1px solid transparent;color:#83956e;background:transparent;display:flex;align-items:center;gap:5px}
+.anatomy-view-button>span{font-size:13px;line-height:1}
+.anatomy-view-button.active{background:#335b44;color:#edf4e1;box-shadow:0 1px 2px #263e3020}
+.anatomy-view-button:hover{border-color:#b3c79b}
+.cutaway-hint{font-size:8px;color:#91a17e;margin-left:auto;padding:2px 4px}
+.clinical-anatomy .cutaway-hint{display:none}
+.clinical-posterior-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px}
+.clinical-posterior-grid .lead-small{border-radius:4px}
+.clinical-posterior-grid .lead-small-title{font-size:8px;top:5px;left:7px}
+.posterior-lead-heading{font-size:8px;text-transform:uppercase;letter-spacing:1px;color:#8c9c76;margin:12px 0 6px}
+.record-tab{min-width:0;min-height:76px}
+.record-tab strong{overflow-wrap:anywhere}
+@media(max-width:1200px){.record-picker{grid-template-columns:repeat(4,minmax(0,1fr))}.cutaway-hint{display:none}}
+@media(max-width:1000px){.record-picker{grid-template-columns:repeat(3,minmax(0,1fr))}.anatomy-view-button{font-size:8px;padding:6px 8px}}
+@media(max-width:680px){.record-picker{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-bottom:15px}.record-tab{min-height:76px;padding:10px}.record-tab strong{font-size:10px}.anatomy-view-controls{padding:6px;gap:4px}.anatomy-view-button{flex:1;justify-content:center;font-size:8px}.anatomy-layer-controls .toggle-row{font-size:9px}}
+@media(max-width:680px){.heart-stage .scene-state{left:16px;right:16px;bottom:12px;max-width:none}.heart-stage .phase-name{font-size:16px;line-height:1.15}.heart-stage .phase-sub{font-size:8px;margin-top:3px}.heart-stage .stage-bottom{display:none}.heart-stage .orientation-badge{top:45px;font-size:6px}}
+.lead-axis-overlay{position:absolute;inset:0;z-index:3;pointer-events:none;overflow:hidden}
+.lead-axis-overlay[hidden]{display:none}
+.lead-axis-leaders{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.lead-axis-label{position:absolute;display:flex;align-items:center;justify-content:center;box-sizing:border-box;min-width:38px;height:24px;padding:3px 7px;transform:translate(-50%,-50%);border:1px solid var(--lead-axis-color);border-radius:5px;background:#102d27f2;color:var(--lead-axis-color);font:650 11px/1 'DM Sans',Arial,sans-serif;letter-spacing:.02em;white-space:nowrap;box-shadow:0 2px 6px #071d1970}
+.lead-axis-label.is-focused{background:#263e2af5;border-width:2px;font-weight:750}
+.lead-axis-label.is-negative{min-width:22px;width:22px;height:22px;padding:2px;font-size:13px}
+.lesson-intro{display:block}
+.clinical-limited-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:6px}
+.clinical-limited-grid .lead-small{min-width:0}
+.clinical-limited-grid .lead-small canvas{width:100%}
+.clinical-axis-note{color:#7d8e75;line-height:1.6}
+.potential-study{margin-top:26px;border:1px solid #dbe3d0;border-radius:16px;background:#fffef9;box-shadow:0 4px 22px #2d4b2710}
+.potential-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding:25px 26px 18px}
+.potential-heading h2{font-family:'Instrument Serif',Georgia,serif;font-size:34px;line-height:1.15;font-weight:400;letter-spacing:-.6px;margin:7px 0 9px;color:#2b473a}
+.potential-heading h2 em{font-weight:400;color:#718c57}
+.potential-heading p{font-size:12px;color:#7d8d72;line-height:1.8;max-width:770px}
+.potential-heading>.badge{margin-top:3px;white-space:nowrap;font-size:8px;background:#eef2e5;color:#7c8f68}
+.potential-transport{display:flex;align-items:center;gap:12px;padding:12px 22px;background:#edf2e5;border-top:1px solid #dfe7d5;border-bottom:1px solid #dfe7d5;position:sticky;top:0;z-index:5}
+.potential-transport .speed-label{margin:0}.potential-transport .scan-key{font-size:9px;color:#87977a}.potential-time{font-size:13px;font-variant-numeric:tabular-nums;color:#4b6840;min-width:62px}
+#potential-locate{margin-left:auto;font-size:10px}
+.potential-selection{display:flex;align-items:center;gap:11px;padding:14px 25px;background:#f8faf2;border-bottom:1px solid #e7ecdd;min-height:68px}
+.potential-site-dot{width:11px;height:11px;border-radius:50%;flex:none;box-shadow:0 0 0 4px #dde6d466}
+.potential-selection strong{font-size:12px;font-weight:600;color:#48623d}.potential-selection p{font-size:10px;line-height:1.65;color:#829075;margin-top:3px}
+.potential-row{display:grid;grid-template-columns:210px minmax(0,1fr) 112px;align-items:center;min-width:0;border-bottom:1px solid #e9ece2;border-left:3px solid transparent;padding:7px 17px 7px 16px;transition:background .15s,border-color .15s}
+.potential-row.is-selected{background:#f0f5e9;border-left-color:var(--potential-color)}
+.potential-ecg-row{background:#f6f3eb;border-bottom:2px solid #dce5d1;padding-top:12px;padding-bottom:12px}
+.potential-site{display:flex;align-items:center;gap:10px;text-align:left;min-width:0;padding:7px 8px;border-radius:7px}
+button.potential-site:hover{background:#e5ecdcb3}button.potential-site:focus-visible{outline:2px solid #819f62;outline-offset:2px}
+.potential-number{display:flex;align-items:center;justify-content:center;width:27px;height:27px;border-radius:7px;background:#eef2e7;border:1px solid #cbd8bd;font-size:9px;color:var(--potential-color,#5b7651);font-weight:650;flex:none}
+.potential-row.is-selected .potential-number{border-color:var(--potential-color);background:#fffef9}
+.potential-site strong{display:block;color:#4d6544;font-size:12px;font-weight:600;line-height:1.35}
+.potential-site small{display:block;font-size:9px;color:#8a957c;line-height:1.5;margin-top:3px}
+.potential-canvas-wrap{height:82px;min-width:0;position:relative}.potential-canvas-wrap canvas{display:block;width:100%;height:100%;touch-action:pan-y;border-radius:4px}
+.potential-canvas-wrap canvas:focus-visible{outline:2px solid #8ba86c;outline-offset:1px}
+.potential-live{text-align:right;padding:0 5px;font-variant-numeric:tabular-nums}.potential-live>strong{display:block;font-size:17px;font-weight:500;color:#536b43;white-space:nowrap}.potential-live small{font-size:9px;color:#8a997b;font-weight:400}.potential-live>span{display:block;font-size:9px;color:#8c987f;line-height:1.4;margin-top:4px}
+.potential-scale-note{display:flex;gap:20px;justify-content:space-between;padding:12px 25px;font-size:9px;color:#8c987f;line-height:1.6;background:#f8f9f3}.potential-scale-note b{font-weight:550;color:#657e52}
+.potential-principles{display:grid;grid-template-columns:1fr 1fr;gap:25px;padding:23px 26px;background:#eef3e5;border-top:1px solid #e1e8d6}
+.potential-principles h3{font-family:'Instrument Serif',Georgia,serif;font-size:23px;font-weight:400;color:#567046;margin:7px 0 8px;line-height:1.2}
+.potential-principles p{font-size:11px;color:#7d8c6f;line-height:1.75}.potential-principles .potential-pair-timing{font-size:9px;margin-top:9px;color:#859475}
+.potential-methods{padding:17px 25px;border-top:1px solid #dfe7d3;font-size:10px;color:#7d8d70}
+.potential-methods summary{cursor:pointer;font-size:11px;font-weight:550;color:#6f8459}.potential-methods p{line-height:1.8;margin:12px 0}.potential-methods>div{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;margin:12px 0}.potential-methods a{color:#607e4b;text-decoration:underline;text-underline-offset:3px;line-height:1.6}
+@media(max-width:1100px){.potential-row{grid-template-columns:172px minmax(0,1fr) 91px;padding-left:9px;padding-right:9px}.potential-site{gap:7px;padding-left:4px}.potential-site strong{font-size:11px}.potential-live>strong{font-size:15px}.potential-heading>.badge{display:none}}
+@media(max-width:680px){.potential-study{margin-top:20px}.potential-heading{padding:20px 17px 15px}.potential-heading h2{font-size:28px}.potential-heading p{font-size:11px;line-height:1.7}.potential-transport{padding:10px 13px;gap:8px;flex-wrap:wrap}.potential-transport .speed-label>span{display:none}.potential-transport .scan-key{font-size:8px}#potential-locate{font-size:9px;margin-left:0;flex-basis:100%}.potential-time{font-size:12px;min-width:47px}.potential-selection{padding:12px 17px;align-items:flex-start}.potential-site-dot{margin-top:4px}.potential-selection p{font-size:10px}.potential-row{grid-template-columns:minmax(0,1fr) 90px;padding:6px 9px 8px;border-left-width:3px}.potential-site{grid-column:1;grid-row:1;padding:4px 3px}.potential-site strong{font-size:12px}.potential-site small{font-size:9px}.potential-live{grid-column:2;grid-row:1;padding-right:4px}.potential-live>span{font-size:8px}.potential-canvas-wrap{grid-column:1/-1;grid-row:2;height:94px;margin-top:5px}.potential-ecg-row{padding-top:10px}.potential-scale-note{display:block;padding:12px 16px;font-size:9px}.potential-scale-note>span{display:block;margin:3px 0}.potential-principles{grid-template-columns:1fr;gap:18px;padding:20px 17px}.potential-principles h3{font-size:23px}.potential-methods{padding:16px 17px}.potential-methods>div{grid-template-columns:1fr}.potential-methods summary{font-size:10px}}
+
+/* Recorded tachyarrhythmias: timing evidence stays next to the waveform. */
+.clinical-rhythm-facts{display:grid;grid-template-columns:minmax(115px,.7fr) minmax(0,1.6fr);gap:16px;padding:13px 16px;margin-top:10px;border:1px solid #dbe5d0;border-radius:12px;background:#eef3e6}
+.rhythm-rate-fact,.rhythm-timing-fact{display:flex;flex-direction:column;justify-content:center;gap:4px;min-width:0}
+.rhythm-rate-fact>span{font-size:8px;letter-spacing:.45px;color:#788b65;text-transform:uppercase}
+.rhythm-rate-fact>strong{font-family:'Instrument Serif',Georgia,serif;font-size:25px;font-weight:400;line-height:1.1;color:#42643d}
+.rhythm-timing-fact{border-left:1px solid #d1dec3;padding-left:16px}
+.rhythm-timing-fact>strong{font-size:10px;font-weight:600;color:#597047}
+.rhythm-timing-fact>span{font-size:9px;line-height:1.6;color:#79866e}
+.activity-bars i.timing-unavailable{background:repeating-linear-gradient(110deg,#e8ece1 0,#e8ece1 4px,#dbe1d1 4px,#dbe1d1 6px)}
+#previous-beat:disabled,#next-beat:disabled{opacity:.4;cursor:default}
+@media(max-width:680px){.clinical-rhythm-facts{padding:12px;gap:12px;grid-template-columns:minmax(95px,.65fr) minmax(0,1.5fr)}.rhythm-rate-fact>strong{font-size:22px}.rhythm-timing-fact{padding-left:12px}.rhythm-timing-fact>span{font-size:8px}.rhythm-timing-fact>strong{font-size:9px}}
+
+.clinical-source-links{display:flex;gap:10px;align-items:center;flex-shrink:0}.clinical-source-links .text-button{font-size:10px}@media(max-width:680px){.clinical-source-links{margin-top:10px;flex-wrap:wrap}}
+
+.record-picker.fast-rhythm-picker{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:680px){.record-picker.fast-rhythm-picker{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Magnified clinical leads retain one calibrated scale and one time window. */
+.clinical-evidence{container-type:inline-size;container-name:clinical-evidence}
+.clinical-window-controls{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:0 0 10px;padding:10px 12px;border:1px solid #dce5d2;border-radius:9px;background:#eef3e7}
+.clinical-window-controls>label{display:flex;align-items:center;gap:9px;color:#566e48;font-size:11px;white-space:nowrap}
+.clinical-window-controls .select-field{font-size:11px;padding:7px 9px;min-width:105px}
+.clinical-window-navigation{display:flex;align-items:center;gap:8px;margin-left:auto}
+.clinical-window-navigation>span{font-size:11px;font-variant-numeric:tabular-nums;color:#526b46;min-width:116px;text-align:center}
+.clinical-window-navigation .button{min-width:32px;min-height:32px;padding:5px 8px;font-size:15px}
+.clinical-window-navigation .button:disabled{opacity:.35;cursor:default}
+#clinical-traces .clinical-standard-grid,#clinical-traces .clinical-posterior-grid{gap:6px}
+#clinical-traces .lead-small{border-radius:7px;border-color:#dcded1;min-width:0}
+#clinical-traces .lead-small-title{display:flex;align-items:center;justify-content:space-between;top:9px;left:10px;right:10px;font-size:11px;line-height:1.2;color:#42653f}
+#clinical-traces .lead-small-title strong{font-weight:650}
+#clinical-traces .lead-small-title span{font-size:9px;font-weight:400;color:#7e8c77}
+#clinical-traces .lead-small canvas:focus-visible{outline:2px solid #718e56;outline-offset:-2px}
+#clinical-traces .clinical-scale-note{font-size:10px;line-height:1.75;color:#728365;margin-top:10px}
+#clinical-traces .clinical-scale-note b{font-weight:550;color:#506c45}
+@media(min-width:1050px) and (min-height:880px){
+  .clinical-multilead .clinical-anatomy{position:sticky;top:12px}
+  .clinical-multilead .clinical-anatomy:has(details[open]){position:static}
+}
+@container clinical-evidence (max-width:620px){
+  #clinical-traces .clinical-standard-grid,#clinical-traces .clinical-posterior-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:560px){
+  .clinical-window-controls{padding:9px;gap:9px}
+  .clinical-window-controls>label{font-size:10px}
+  .clinical-window-controls .select-field{font-size:10px}
+  .clinical-window-navigation{width:100%;justify-content:space-between;margin:0}
+  .clinical-window-navigation>span{font-size:11px}
+  #clinical-traces .clinical-standard-grid,#clinical-traces .clinical-posterior-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}

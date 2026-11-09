@@ -1,0 +1,200 @@
+{
+  "checks": {
+    "heterogeneous": {
+      "einthovenMaxErrorMv": 1.354472090042691e-14,
+      "componentSumMaxErrorMv": 4.440892098500626e-16,
+      "baselineStartMaxMv": 1.085596388716685e-15,
+      "baselineEndMaxMv": 0.00017388327538434017
+    },
+    "equal_apd": {
+      "einthovenMaxErrorMv": 1.4654943925052066e-14,
+      "componentSumMaxErrorMv": 2.220446049250313e-16,
+      "baselineStartMaxMv": 1.085596388716685e-15,
+      "baselineEndMaxMv": 0.00017388516543384596
+    },
+    "optical_duration": {
+      "einthovenMaxErrorMv": 1.3766765505351941e-14,
+      "componentSumMaxErrorMv": 4.440892098500626e-16,
+      "baselineStartMaxMv": 1.085596388716685e-15,
+      "baselineEndMaxMv": 0.00017388516543384596
+    },
+    "uniformVmMaxErrorMv": 6.899032026071998e-15,
+    "atrialConstantVmMaxErrorMv": 5.0068845100268495e-15,
+    "ventricularConstantVmMaxErrorMv": 1.1093321577228818e-14,
+    "allNodesReachable": true,
+    "minimumTetVolumeMm3": 7.0934350349585e-06,
+    "myocardialVolumeMl": 234.18361926017243,
+    "renderInterpolationWeightError": 0.0,
+    "AVInterfaceDuplicatedNodes": 4310,
+    "baselineLeadWeightsZero": 1.1062563572011823e-16,
+    "refinedUniformVmMaxErrorMv": 2.534664336126749e-14,
+    "sourceRefinement": {
+      "originalWeightFactor": 0.25,
+      "midpointNodeCount": 2060344,
+      "fieldSiteCount": 2400926,
+      "equivalentRefinedTetrahedra": 12499456,
+      "fingerprint": "8df2d159a629b50d751754def11dee27c3a8213a32b85a79b663919450138e84",
+      "fingerprintInputs": {
+        "nativeSourceCacheFingerprint": "21e38e643449384fba8b61cfdb8ddfdda6f24ff48f4afa475c1f4f3886ffcb8b",
+        "refinementScript": "ee78fb3ca86f9d2b3e5fbd1f8fea5477b37378a2ab11ff8b3295ec924864ad2e",
+        "renderMappingScript": "ad5db34938cb254a9d8fcf2c03086245cf1b4dc7d4080f7b4443c76797aeb5c5"
+      },
+      "checks": {
+        "midpointNodes": 2060344,
+        "originalNodes": 340582,
+        "combinedFieldSites": 2400926,
+        "equivalentRefinedTetrahedra": 12499456,
+        "constantVmNullErrorMv": 2.5355495037546032e-14,
+        "affineVmIntegralMaxError": 7.993605777301127e-15
+      },
+      "method": "Each myocardial tetrahedron is subdivided through its six edge midpoints. AT and APD are interpolated before evaluating the nonlinear AP, and the resulting piecewise-linear Vm source is integrated. Parent conductivity and reciprocal torso gradient are fixed.",
+      "scope": "Source-field refinement only; the activation graph and torso mesh are not refined. Added samples are numerical sites, not new measured cells."
+    },
+    "activationRefinement": {
+      "description": "Upstream physiological parameters calibrated to the measured PTB lead-II target; not independent patient-specific validation.",
+      "change": "Fifteen modeled ventricular delivery sites include basal RV coverage; calibrated regional timing, conduction speeds, effective source conductivity and cellular recovery. A connected inferred LAA is included in the atrial source.",
+      "ventricularDeliverySiteCount": 15,
+      "calibrationFile": "lead-ii-calibration.json",
+      "fitStudyFile": "lead-ii-fit-study.json",
+      "sourceFieldRefinement": {
+        "originalWeightFactor": 0.25,
+        "midpointNodeCount": 2060344,
+        "fieldSiteCount": 2400926,
+        "equivalentRefinedTetrahedra": 12499456,
+        "fingerprint": "8df2d159a629b50d751754def11dee27c3a8213a32b85a79b663919450138e84",
+        "fingerprintInputs": {
+          "nativeSourceCacheFingerprint": "21e38e643449384fba8b61cfdb8ddfdda6f24ff48f4afa475c1f4f3886ffcb8b",
+          "refinementScript": "ee78fb3ca86f9d2b3e5fbd1f8fea5477b37378a2ab11ff8b3295ec924864ad2e",
+          "renderMappingScript": "ad5db34938cb254a9d8fcf2c03086245cf1b4dc7d4080f7b4443c76797aeb5c5"
+        },
+        "checks": {
+          "midpointNodes": 2060344,
+          "originalNodes": 340582,
+          "combinedFieldSites": 2400926,
+          "equivalentRefinedTetrahedra": 12499456,
+          "constantVmNullErrorMv": 2.5355495037546032e-14,
+          "affineVmIntegralMaxError": 7.993605777301127e-15
+        },
+        "method": "Each myocardial tetrahedron is subdivided through its six edge midpoints. AT and APD are interpolated before evaluating the nonlinear AP, and the resulting piecewise-linear Vm source is integrated. Parent conductivity and reciprocal torso gradient are fixed.",
+        "scope": "Source-field refinement only; the activation graph and torso mesh are not refined. Added samples are numerical sites, not new measured cells."
+      },
+      "references": [
+        "https://pubmed.ncbi.nlm.nih.gov/5482907/",
+        "https://pubmed.ncbi.nlm.nih.gov/29549620/",
+        "https://doi.org/10.1016/j.compbiomed.2025.111222"
+      ],
+      "limitations": "The target comes from a different person than the mean anatomy and optical preparations. A one-lead fit cannot uniquely identify activation, APD, conductivity or anatomy. No measured ECG samples or post-hoc ECG filter enter the forward signal; its upstream parameters have been calibrated."
+    }
+  },
+  "summaries": {
+    "heterogeneous": {
+      "ventricularApd90RangeMs": [
+        273.03,
+        384.55
+      ],
+      "ventricularApd90MedianMs": 331.49,
+      "atrialApd90RangeMs": [
+        290.8,
+        308.8
+      ],
+      "recoveryRangeMs": [
+        324.64,
+        644.0
+      ],
+      "pPeakMs": 119,
+      "pPeakMv": 0.12035968140597615,
+      "rPeakMs": 262,
+      "rPeakMv": 1.1422897543911688,
+      "tPeakMs": 527,
+      "tPeakMv": 0.3956813979763678,
+      "leadIIRangeMv": [
+        -0.093459,
+        1.14229
+      ]
+    },
+    "equal_apd": {
+      "ventricularApd90RangeMs": [
+        331.49,
+        331.49
+      ],
+      "ventricularApd90MedianMs": 331.49,
+      "atrialApd90RangeMs": [
+        290.8,
+        308.8
+      ],
+      "recoveryRangeMs": [
+        324.64,
+        641.52
+      ],
+      "pPeakMs": 119,
+      "pPeakMv": 0.12035968140597615,
+      "rPeakMs": 262,
+      "rPeakMv": 1.14249285497611,
+      "tPeakMs": 568,
+      "tPeakMv": -0.29200047557150083,
+      "leadIIRangeMv": [
+        -0.292,
+        1.142493
+      ]
+    },
+    "optical_duration": {
+      "ventricularApd90RangeMs": [
+        334.13,
+        445.65
+      ],
+      "ventricularApd90MedianMs": 392.59,
+      "atrialApd90RangeMs": [
+        290.8,
+        308.8
+      ],
+      "recoveryRangeMs": [
+        324.64,
+        705.1
+      ],
+      "pPeakMs": 119,
+      "pPeakMv": 0.12035968140597615,
+      "rPeakMs": 262,
+      "rPeakMv": 1.1095580377042762,
+      "tPeakMs": 592,
+      "tPeakMv": 0.4108124482314393,
+      "leadIIRangeMv": [
+        -0.093054,
+        1.109558
+      ]
+    }
+  },
+  "sourceSampling": {
+    "native": {
+      "label": "Dense field",
+      "nodeCount": 2400926,
+      "binSizeMm": 0,
+      "relativeRmsErrorLeadII": 0.0,
+      "maxErrorLeadIIMv": 0.0
+    },
+    "original": {
+      "label": "Original mesh",
+      "nodeCount": 340582,
+      "binSizeMm": 0,
+      "relativeRmsErrorLeadII": 0.00877037931539645,
+      "maxErrorLeadIIMv": 0.015120881783724921
+    },
+    "bin2": {
+      "label": "2 mm source bins",
+      "nodeCount": 45800,
+      "binSizeMm": 2.0,
+      "relativeRmsErrorLeadII": 0.16370012687667795,
+      "maxErrorLeadIIMv": 0.2374644017843106,
+      "rPeakMv": 0.9957561874539571,
+      "rPeakMs": 267
+    },
+    "bin4": {
+      "label": "4 mm source bins",
+      "nodeCount": 8119,
+      "binSizeMm": 4.0,
+      "relativeRmsErrorLeadII": 0.4937859151423882,
+      "maxErrorLeadIIMv": 0.6279583520546191,
+      "rPeakMv": 0.7658576838688308,
+      "rPeakMs": 268
+    }
+  }
+}

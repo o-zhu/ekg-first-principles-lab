@@ -1,0 +1,315 @@
+{
+  "passed": true,
+  "couplingSha256": "3ff8d23cd68bb444971efd426277b12827c1f78161a0ddd169ca87c350a229c4",
+  "anatomySha256": "b80a727d022a4ab07ccfcf15caccc228eaccb6d69ec0e72923324946ac35a946",
+  "referenceQrsMs": 90,
+  "recruitingJunctionCount": 205,
+  "distinction": "The intended junction transmission delay is a source-model assumption. The errors below measure additional geometry/attribute interpolation error relative to the model myocardial arrival, not that physiological delay.",
+  "referenceJunctionDelayMs": 3,
+  "resolutions": [
+    {
+      "variant": "webgl-full",
+      "junctions": 205,
+      "maxAbsoluteInterpolationErrorMs": 0.000011381732036019887,
+      "meanAbsoluteInterpolationErrorMs": 0.000003836099938380221,
+      "maxJunctionToDisplayedSurfaceDistanceSceneUnits": 0,
+      "capVertices": 1656,
+      "capSamplingStatus": "verified",
+      "capReferenceMaxSeconds": 1.4899673939083868e-8,
+      "worstJunctions": [
+        {
+          "id": "left-distribution-5@41",
+          "nearDistanceSceneUnits": 0,
+          "expectedMs": 37.23954152949786,
+          "renderedMs": 37.23953014776583,
+          "errorMs": -0.000011381732036019887,
+          "lvWeight": 1,
+          "transmuralDepth": 0
+        },
+        {
+          "id": "right-distribution-1@42",
+          "nearDistanceSceneUnits": 0,
+          "expectedMs": 39.26069386855346,
+          "renderedMs": 39.26070446796161,
+          "errorMs": 0.000010599408149791767,
+          "lvWeight": 0,
+          "transmuralDepth": 0
+        },
+        {
+          "id": "right-distribution-0@38",
+          "nearDistanceSceneUnits": 0,
+          "expectedMs": 35.17846647915912,
+          "renderedMs": 35.17845612735415,
+          "errorMs": -0.000010351804968777856,
+          "lvWeight": 0,
+          "transmuralDepth": 0
+        },
+        {
+          "id": "right-distribution-1@36",
+          "nearDistanceSceneUnits": 0,
+          "expectedMs": 35.48436403981618,
+          "renderedMs": 35.48435382900936,
+          "errorMs": -0.000010210806818122808,
+          "lvWeight": 0,
+          "transmuralDepth": 0
+        },
+        {
+          "id": "right-distribution-6@36",
+          "nearDistanceSceneUnits": 0,
+          "expectedMs": 36.066658769658346,
+          "renderedMs": 36.06664863092558,
+          "errorMs": -0.00001013873277000421,
+          "lvWeight": 0,
+          "transmuralDepth": 0
+        }
+      ]
+    },
+    {
+      "variant": "software-medium",
+      "junctions": 205,
+      "maxAbsoluteInterpolationErrorMs": 6.830644413212974,
+      "meanAbsoluteInterpolationErrorMs": 2.5578351694298536,
+      "maxJunctionToDisplayedSurfaceDistanceSceneUnits": 0.027005913836196268,
+      "capVertices": 0,
+      "capSamplingStatus": "unavailable: the reduced anatomical section generates an empty ventricular cap",
+      "capReferenceMaxSeconds": null,
+      "worstJunctions": [
+        {
+          "id": "left-distribution-6@44",
+          "nearDistanceSceneUnits": 0.0022132243614398374,
+          "expectedMs": 37.686726905265644,
+          "renderedMs": 44.51737131847862,
+          "errorMs": 6.830644413212974,
+          "lvWeight": 0.5960615221052168,
+          "transmuralDepth": 0.04047585036258274
+        },
+        {
+          "id": "right-distribution-2@22",
+          "nearDistanceSceneUnits": 0.0137125075732433,
+          "expectedMs": 24.957143887600182,
+          "renderedMs": 30.45623266636844,
+          "errorMs": 5.499088778768257,
+          "lvWeight": 0.0004292117475399237,
+          "transmuralDepth": 0.07507133807269634
+        },
+        {
+          "id": "right-twig-0-3@2",
+          "nearDistanceSceneUnits": 0.0005021197564203811,
+          "expectedMs": 27.55550253964863,
+          "renderedMs": 32.81654368000373,
+          "errorMs": 5.261041140355103,
+          "lvWeight": 0.000043132103090444716,
+          "transmuralDepth": 0.010302886650926952
+        },
+        {
+          "id": "left-distribution-5@36",
+          "nearDistanceSceneUnits": 0.0029869700342054343,
+          "expectedMs": 34.8531624379775,
+          "renderedMs": 39.98134126684848,
+          "errorMs": 5.128178828870983,
+          "lvWeight": 0.9999980168797866,
+          "transmuralDepth": 0.002295491367265697
+        },
+        {
+          "id": "right-distribution-5@20",
+          "nearDistanceSceneUnits": 0.0038500197205473116,
+          "expectedMs": 25.25642486025912,
+          "renderedMs": 30.360243879550268,
+          "errorMs": 5.103819019291148,
+          "lvWeight": 0.0001944803737063356,
+          "transmuralDepth": 0.011662232708640422
+        }
+      ]
+    }
+  ],
+  "movingPulse": {
+    "checks": 205,
+    "maxPositionErrorSceneUnits": 2.033020129290754e-14,
+    "maxFractionError": 1.255662240851052e-13
+  },
+  "actionPotentialProbes": {
+    "ratesBpm": [
+      45,
+      72,
+      120,
+      180
+    ],
+    "markerPositionChecks": 5,
+    "pulseAndTimingChecks": 16,
+    "maxMarkerPositionErrorSceneUnits": 0,
+    "maxPulsePositionErrorSceneUnits": 4.880618584127638e-10,
+    "maxScheduledTimingErrorMs": 1.7689211206928235e-8,
+    "maxMetadataTimingErrorMs": 1.7689266718079466e-8,
+    "rows": [
+      {
+        "id": "atrial",
+        "bpm": 45,
+        "pathId": "atrial-to-av",
+        "fraction": 0.2,
+        "activationSeconds": 0.08608551075086474,
+        "pulsePositionErrorSceneUnits": 4.880581892323875e-10,
+        "scheduledTimingErrorMs": 1.7689211206928235e-8,
+        "metadataTimingErrorMs": 1.7689266718079466e-8
+      },
+      {
+        "id": "atrial",
+        "bpm": 72,
+        "pathId": "atrial-to-av",
+        "fraction": 0.2,
+        "activationSeconds": 0.08567125319055677,
+        "pulsePositionErrorSceneUnits": 4.880600997533702e-10,
+        "scheduledTimingErrorMs": 1.648511882557102e-8,
+        "metadataTimingErrorMs": 1.6485104947783213e-8
+      },
+      {
+        "id": "atrial",
+        "bpm": 120,
+        "pathId": "atrial-to-av",
+        "fraction": 0.2,
+        "activationSeconds": 0.05325293133871452,
+        "pulsePositionErrorSceneUnits": 4.880618584127638e-10,
+        "scheduledTimingErrorMs": 1.526920256900155e-8,
+        "metadataTimingErrorMs": 1.526913318006251e-8
+      },
+      {
+        "id": "atrial",
+        "bpm": 180,
+        "pathId": "atrial-to-av",
+        "fraction": 0.2,
+        "activationSeconds": 0.05325293133871452,
+        "pulsePositionErrorSceneUnits": 4.880618584127638e-10,
+        "scheduledTimingErrorMs": 1.526920256900155e-8,
+        "metadataTimingErrorMs": 1.526913318006251e-8
+      },
+      {
+        "id": "av",
+        "bpm": 45,
+        "pathId": "atrial-to-av",
+        "fraction": 1,
+        "activationSeconds": 0.12626785237838473,
+        "pulsePositionErrorSceneUnits": 1.490053753439189e-15,
+        "scheduledTimingErrorMs": 5.551115123125783e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "av",
+        "bpm": 72,
+        "pathId": "atrial-to-av",
+        "fraction": 1,
+        "activationSeconds": 0.1231182716066746,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 5.551115123125783e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "av",
+        "bpm": 120,
+        "pathId": "atrial-to-av",
+        "fraction": 1,
+        "activationSeconds": 0.08793779021734514,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 2.7755575615628914e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "av",
+        "bpm": 180,
+        "pathId": "atrial-to-av",
+        "fraction": 1,
+        "activationSeconds": 0.08793779021734514,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 2.7755575615628914e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "his",
+        "bpm": 45,
+        "pathId": "his",
+        "fraction": 0.2727272727272727,
+        "activationSeconds": 0.2062834029131846,
+        "pulsePositionErrorSceneUnits": 2.55987824628e-16,
+        "scheduledTimingErrorMs": 2.0816681711721685e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "his",
+        "bpm": 72,
+        "pathId": "his",
+        "fraction": 0.2727272727272727,
+        "activationSeconds": 0.197,
+        "pulsePositionErrorSceneUnits": 4.1360697202803076e-16,
+        "scheduledTimingErrorMs": 3.469446951953614e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "his",
+        "bpm": 120,
+        "pathId": "his",
+        "fraction": 0.2727272727272727,
+        "activationSeconds": 0.15548670484432414,
+        "pulsePositionErrorSceneUnits": 2.55987824628e-16,
+        "scheduledTimingErrorMs": 2.0816681711721685e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "his",
+        "bpm": 180,
+        "pathId": "his",
+        "fraction": 0.2727272727272727,
+        "activationSeconds": 0.15548670484432414,
+        "pulsePositionErrorSceneUnits": 2.55987824628e-16,
+        "scheduledTimingErrorMs": 2.0816681711721685e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "purkinje",
+        "bpm": 45,
+        "pathId": "left-septal-0",
+        "fraction": 0,
+        "activationSeconds": 0.24228340291318456,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 5.204170427930421e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "purkinje",
+        "bpm": 72,
+        "pathId": "left-septal-0",
+        "fraction": 0,
+        "activationSeconds": 0.23299999999999998,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 3.469446951953614e-15,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "purkinje",
+        "bpm": 120,
+        "pathId": "left-septal-0",
+        "fraction": 0,
+        "activationSeconds": 0.19148670484432412,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 5.898059818321144e-14,
+        "metadataTimingErrorMs": 0
+      },
+      {
+        "id": "purkinje",
+        "bpm": 180,
+        "pathId": "left-septal-0",
+        "fraction": 0,
+        "activationSeconds": 0.19148670484432412,
+        "pulsePositionErrorSceneUnits": 0,
+        "scheduledTimingErrorMs": 5.898059818321144e-14,
+        "metadataTimingErrorMs": 0
+      }
+    ],
+    "scope": "Resolved plotted probe locations are compared with actual runtime 3D markers. Atrial, AV, His, and Purkinje upstroke landmarks are checked against the moving guide under the normal lesson clock at four rates. This verifies internal synchronization, not measured human membrane-voltage timing."
+  },
+  "bundleBlock": {
+    "septalConnectors": 16,
+    "interveningWallBoundaryIntersections": 0,
+    "supplierBeforeTargetChecks": 64,
+    "minimumSupplierToTargetMs": 15.40546011729186,
+    "scope": "Checks declared reference-anatomy connector geometry and causal order under ECG timing adaptation. The conservative common entry gate and selected septal routes are teaching assumptions, not a segmented or measured patient septal conduction map."
+  },
+  "scope": "Normal conducted teaching field on BodyParts3D; native CT fitted cases and recorded ECG samples are not changed. The WebGL triangle attributes are audited; this is not a pixel-color or occlusion test. Software uses reduced geometry, with the explicitly reported interpolation limit."
+}

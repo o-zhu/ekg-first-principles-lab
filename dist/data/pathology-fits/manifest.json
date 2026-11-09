@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 2,
+  "cases": [
+    {
+      "recordId": "ptbxl-00303",
+      "title": "Normal sinus rhythm",
+      "kind": "normal",
+      "conditionId": "normal",
+      "file": "data/pathology-fits/cases/ptbxl-00303.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.1143652935199859,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-02078",
+      "title": "Atrial fibrillation",
+      "kind": "afib",
+      "conditionId": "afib",
+      "file": "data/pathology-fits/cases/ptbxl-02078.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.1691177899548588,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "ptbxl-03155",
+      "title": "Complete RBBB \u00b7 PTB-XL 03155",
+      "kind": "rbbb",
+      "file": "data/pathology-fits/cases/ptbxl-03155.json",
+      "selectedApproachId": "alternating-pose-source",
+      "heldOutRmseMv": 0.08602405592137279
+    },
+    {
+      "recordId": "ptbxl-00618",
+      "title": "Left bundle branch block",
+      "kind": "lbbb",
+      "conditionId": "lbbb",
+      "file": "data/pathology-fits/cases/ptbxl-00618.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.263556829986491,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-01166",
+      "title": "Sinus bradycardia",
+      "kind": "brady",
+      "conditionId": "brady",
+      "file": "data/pathology-fits/cases/ptbxl-01166.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.15728371543660966,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-02277",
+      "title": "Sinus tachycardia",
+      "kind": "tachy",
+      "conditionId": "tachy",
+      "file": "data/pathology-fits/cases/ptbxl-02277.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.16547204711500488,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-00818",
+      "title": "Premature ventricular beats",
+      "kind": "pvc",
+      "conditionId": "pvc",
+      "file": "data/pathology-fits/cases/ptbxl-00818.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.2317722057975532,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "ptbxl-00218",
+      "title": "First-degree AV block",
+      "kind": "avblock1",
+      "conditionId": "avblock1",
+      "file": "data/pathology-fits/cases/ptbxl-00218.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.15584902865415748,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-01222",
+      "title": "Second-degree AV block \u00b7 Mobitz I",
+      "kind": "mobitz1",
+      "conditionId": "mobitz1",
+      "file": "data/pathology-fits/cases/ptbxl-01222.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.3355085067366058,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "ptbxl-00959",
+      "title": "Third-degree AV block \u00b7 complete block",
+      "kind": "complete",
+      "conditionId": "complete",
+      "file": "data/pathology-fits/cases/ptbxl-00959.json",
+      "selectedApproachId": "pathology-source",
+      "heldOutRmseMv": 0.17495686411853584,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "ptbxl-01451",
+      "title": "Left ventricular hypertrophy pattern",
+      "kind": "lvh",
+      "conditionId": "lvh",
+      "file": "data/pathology-fits/cases/ptbxl-01451.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.3405872291962358,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-02417",
+      "title": "Right ventricular hypertrophy pattern",
+      "kind": "rvh",
+      "conditionId": "rvh",
+      "file": "data/pathology-fits/cases/ptbxl-02417.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.42885959958476744,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-00789",
+      "title": "Left axis deviation \u00b7 fascicular block",
+      "kind": "leftaxis",
+      "conditionId": "leftaxis",
+      "file": "data/pathology-fits/cases/ptbxl-00789.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.10280046149243709,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ptbxl-06938",
+      "title": "Right axis deviation \u00b7 fascicular block",
+      "kind": "rightaxis",
+      "conditionId": "rightaxis",
+      "file": "data/pathology-fits/cases/ptbxl-06938.json",
+      "selectedApproachId": "pathology-source",
+      "heldOutRmseMv": 0.12284181089835568,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "mitdb-231-mobitz2",
+      "title": "Mobitz II AV block \u00b7 RBBB",
+      "kind": "mobitz2",
+      "conditionId": "mobitz2",
+      "file": "data/pathology-fits/cases/mitdb-231-mobitz2.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.17207863626777042,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "acs-00004",
+      "title": "Anterior STEMI pattern \u00b7 ACS 00004",
+      "kind": "stemi",
+      "file": "data/pathology-fits/cases/acs-00004.json",
+      "selectedApproachId": "recovery-prior-shortened",
+      "heldOutRmseMv": 0.17644698803139203
+    },
+    {
+      "recordId": "acs-18206",
+      "title": "STEMI \u00b7 inferior pattern",
+      "kind": "stemi",
+      "conditionId": "stemi-inferior",
+      "file": "data/pathology-fits/cases/acs-18206.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.20855400188247655,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "ludb-021",
+      "title": "STEMI \u00b7 anterolateral / overlapping regions",
+      "kind": "stemi",
+      "conditionId": "stemi-lateral",
+      "file": "data/pathology-fits/cases/ludb-021.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.08435523955774256,
+      "reconstructed": true,
+      "timeReference": "r-anchor"
+    },
+    {
+      "recordId": "mitdb-202-af-rvr",
+      "title": "Atrial fibrillation \u00b7 rapid ventricular response",
+      "kind": "af-rvr",
+      "conditionId": "af-rvr",
+      "file": "data/pathology-fits/cases/mitdb-202-af-rvr.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.2063238885671993,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "vfdb-421-vt",
+      "title": "Ventricular tachycardia",
+      "kind": "vt",
+      "conditionId": "vt",
+      "file": "data/pathology-fits/cases/vfdb-421-vt.json",
+      "selectedApproachId": "pathology-source",
+      "heldOutRmseMv": 0.41078213333767427,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "mitdb-222-flutter",
+      "title": "Atrial flutter \u00b7 variable ventricular response",
+      "kind": "flutter",
+      "conditionId": "flutter",
+      "file": "data/pathology-fits/cases/mitdb-222-flutter.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.17139521205066258,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "mitdb-209-svt",
+      "title": "Supraventricular tachycardia",
+      "kind": "svt",
+      "conditionId": "svt",
+      "file": "data/pathology-fits/cases/mitdb-209-svt.json",
+      "selectedApproachId": "all-node-refinement",
+      "heldOutRmseMv": 0.09706804998640851,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "vfdb-422-vf",
+      "title": "Ventricular fibrillation",
+      "kind": "vf",
+      "conditionId": "vf",
+      "file": "data/pathology-fits/cases/vfdb-422-vf.json",
+      "selectedApproachId": "rotating-waves-1",
+      "heldOutRmseMv": 0.3582368761798032,
+      "reconstructed": true,
+      "timeReference": "recording"
+    },
+    {
+      "recordId": "sddb-47-torsades",
+      "title": "Torsades de pointes \u00b7 prolonged QT",
+      "kind": "torsades",
+      "conditionId": "torsades",
+      "file": "data/pathology-fits/cases/sddb-47-torsades.json",
+      "selectedApproachId": "rotating-waves-1",
+      "heldOutRmseMv": 0.8041994059510063,
+      "reconstructed": true,
+      "timeReference": "recording"
+    }
+  ],
+  "baseModelUrl": "cardiac-voltage/data/heart-model.json",
+  "title": "Recorded ECGs and anatomical source-model hypotheses",
+  "reconstructionNote": "Two original deep-fit experiments preserved; 22 additional conditional source-field fits regenerated with explicit model mismatch and physiological priors.",
+  "methodsUrl": "research/regenerated-fits/README.md"
+}

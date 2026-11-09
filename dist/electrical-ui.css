@@ -1,0 +1,28 @@
+.electrical-view-control{padding:15px 17px 12px;border:1px solid var(--line,#dce3db);border-top:0;border-radius:0 0 13px 13px;background:#fafcf8;color:#24463e}
+.electrical-view-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:11px}
+.electrical-view-row>label{font-size:11px;font-weight:700;letter-spacing:.02em}
+.electrical-view-row select{max-width:210px;min-height:34px;font-size:11px;background:#fff}
+.electrical-scale-gradient{height:6px;border-radius:6px;background:linear-gradient(90deg,#122e40,#21596e,#459ca3,#9ed9b0,#ffd67a)}
+.electrical-scale-labels{display:flex;justify-content:space-between;margin-top:5px;font:10px/1.4 var(--font-mono,monospace);color:#647a71}
+.electrical-scale-labels b{font-weight:500}
+.electrical-scale[data-electrical-scale="fronts"] .electrical-scale-gradient{background:linear-gradient(90deg,#183d40 0%,#ecc66b 45%,#b5dc9a 70%,#4fa39e 100%)}
+.electrical-view-note{font-size:11px;line-height:1.6;margin:10px 0 0;max-width:78ch}
+.electrical-method-note{margin-top:7px;font-size:10px;line-height:1.65;color:#61766c}
+.electrical-method-note summary{cursor:pointer;width:fit-content}
+.electrical-method-note p{margin:9px 0}
+.electrical-method-note a{color:#2e6657}
+.electrical-legend-pill .legend-gradient{background:linear-gradient(90deg,#21596e,#459ca3,#9ed9b0,#ffd67a)!important}
+.electrical-snapshot{display:grid;grid-template-columns:minmax(280px,1fr) minmax(280px,.9fr);gap:28px;margin:24px 0 28px;padding:22px;background:#f5f7f0;border:1px solid #dce4d7;border-radius:16px;align-items:center}
+.electrical-snapshot h2{font-family:var(--font-display,Georgia,serif);font-weight:400;font-size:27px;line-height:1.2;margin:9px 0 13px}
+.electrical-snapshot-copy>p{font-size:13px;line-height:1.8;color:#526b60;max-width:52ch}
+.electrical-snapshot .stage{height:310px!important;min-height:0!important;border-radius:12px 12px 0 0}
+.electrical-snapshot .scene-state{display:none}
+.electrical-snapshot .stage-bottom .badge{display:none}
+.electrical-snapshot .electrical-view-control{padding:12px 14px}
+.electrical-snapshot .electrical-method-note{display:none}
+.snapshot-time{display:inline-flex;padding:6px 10px;border-radius:20px;background:#e6ece0;color:#365744;font:11px/1.4 var(--font-mono,monospace);margin-top:9px}
+.snapshot-note{margin-top:16px;padding-top:15px;border-top:1px solid #dce4d7;font-size:11px!important;color:#728276!important}
+@media(max-width:800px){.electrical-snapshot{grid-template-columns:1fr;gap:18px;padding:15px}.electrical-snapshot-copy{grid-row:1}.electrical-snapshot h2{font-size:24px}.electrical-snapshot-copy>p{max-width:none}.electrical-view-row{flex-wrap:wrap;gap:7px}.electrical-view-row select{flex:1;min-width:150px}.electrical-snapshot .stage{height:300px!important}}
+.electrical-pathway-key{margin:8px 0 0;font-size:11px;line-height:1.65;color:#446653}
+.electrical-pathway-key[hidden]{display:none}
+.electrical-pathway-key>span{color:#b58832;margin-right:4px}

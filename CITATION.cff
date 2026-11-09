@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use EKG Lab in teaching or research, please cite this software and the upstream resources relevant to your use."
+type: software
+title: "EKG Lab"
+abstract: "An interactive educational lab connecting membrane voltage, cardiac conduction, surface ECG leads, clinical recordings, and precomputed source-field hypotheses."
+authors:
+  - name: "o-zhu"
+    website: "https://github.com/o-zhu"
+url: "https://ekg-first-principles-lab.zhuou557737.chatgpt.site"
+license: MIT
+keywords:
+  - electrocardiography
+  - electrophysiology
+  - medical education
+  - scientific visualization

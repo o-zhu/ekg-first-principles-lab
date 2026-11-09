@@ -1,0 +1,438 @@
+{
+  "purpose": "Lower-detail anatomical geometry for software-rendered fallback. Original full-resolution models remain the primary WebGL assets.",
+  "method": "Vertex clustering; every source triangle is remapped, collapsed and duplicate faces removed, per-vertex normals recomputed. No random triangle removal.",
+  "models": [
+    {
+      "source": "heart.glb",
+      "file": "heart-low.glb",
+      "sourceSha256": "b80a727d022a4ab07ccfcf15caccc228eaccb6d69ec0e72923324946ac35a946",
+      "bytes": 153712,
+      "triangles": 6022,
+      "sourceTriangles": 96724,
+      "meshes": [
+        {
+          "mesh": "right-atrium",
+          "sourceTriangles": 17784,
+          "triangles": 895,
+          "vertices": 322
+        },
+        {
+          "mesh": "left-atrium",
+          "sourceTriangles": 7544,
+          "triangles": 501,
+          "vertices": 175
+        },
+        {
+          "mesh": "ventricular-wall",
+          "sourceTriangles": 37442,
+          "triangles": 1891,
+          "vertices": 765
+        },
+        {
+          "mesh": "right-ventricle",
+          "sourceTriangles": 1918,
+          "triangles": 200,
+          "vertices": 101
+        },
+        {
+          "mesh": "left-ventricle",
+          "sourceTriangles": 1722,
+          "triangles": 201,
+          "vertices": 102
+        },
+        {
+          "mesh": "ascending-aorta",
+          "sourceTriangles": 396,
+          "triangles": 187,
+          "vertices": 96
+        },
+        {
+          "mesh": "aortic-arch",
+          "sourceTriangles": 670,
+          "triangles": 246,
+          "vertices": 123
+        },
+        {
+          "mesh": "pulmonary-trunk",
+          "sourceTriangles": 1302,
+          "triangles": 249,
+          "vertices": 126
+        },
+        {
+          "mesh": "superior-vena-cava",
+          "sourceTriangles": 598,
+          "triangles": 161,
+          "vertices": 82
+        },
+        {
+          "mesh": "left-coronary",
+          "sourceTriangles": 12666,
+          "triangles": 741,
+          "vertices": 478
+        },
+        {
+          "mesh": "right-coronary",
+          "sourceTriangles": 14682,
+          "triangles": 750,
+          "vertices": 488
+        }
+      ]
+    },
+    {
+      "source": "chest-bones.glb",
+      "file": "chest-bones-low.glb",
+      "sourceSha256": "8d91f709144e5de3eebdabf5149cd39dac16544081a61b0dae12e1320244a620",
+      "bytes": 247492,
+      "triangles": 7971,
+      "sourceTriangles": 224522,
+      "meshes": [
+        {
+          "mesh": "xiphoid-process-FJ3153",
+          "sourceTriangles": 922,
+          "triangles": 98,
+          "vertices": 52
+        },
+        {
+          "mesh": "tenth-thoracic-vertebra-FJ3154",
+          "sourceTriangles": 2790,
+          "triangles": 132,
+          "vertices": 64
+        },
+        {
+          "mesh": "eleventh-thoracic-vertebra-FJ3155",
+          "sourceTriangles": 2674,
+          "triangles": 135,
+          "vertices": 66
+        },
+        {
+          "mesh": "twelfth-thoracic-vertebra-FJ3156",
+          "sourceTriangles": 2772,
+          "triangles": 134,
+          "vertices": 69
+        },
+        {
+          "mesh": "first-thoracic-vertebra-FJ3158",
+          "sourceTriangles": 1700,
+          "triangles": 117,
+          "vertices": 56
+        },
+        {
+          "mesh": "second-thoracic-vertebra-FJ3160",
+          "sourceTriangles": 1938,
+          "triangles": 121,
+          "vertices": 62
+        },
+        {
+          "mesh": "third-thoracic-vertebra-FJ3163",
+          "sourceTriangles": 2038,
+          "triangles": 121,
+          "vertices": 58
+        },
+        {
+          "mesh": "fourth-thoracic-vertebra-FJ3166",
+          "sourceTriangles": 2066,
+          "triangles": 120,
+          "vertices": 58
+        },
+        {
+          "mesh": "fifth-thoracic-vertebra-FJ3169",
+          "sourceTriangles": 2280,
+          "triangles": 126,
+          "vertices": 60
+        },
+        {
+          "mesh": "sixth-thoracic-vertebra-FJ3171",
+          "sourceTriangles": 2248,
+          "triangles": 126,
+          "vertices": 65
+        },
+        {
+          "mesh": "seventh-thoracic-vertebra-FJ3173",
+          "sourceTriangles": 2574,
+          "triangles": 128,
+          "vertices": 64
+        },
+        {
+          "mesh": "eighth-thoracic-vertebra-FJ3174",
+          "sourceTriangles": 2424,
+          "triangles": 136,
+          "vertices": 64
+        },
+        {
+          "mesh": "ninth-thoracic-vertebra-FJ3175",
+          "sourceTriangles": 2586,
+          "triangles": 127,
+          "vertices": 65
+        },
+        {
+          "mesh": "body-of-sternum-FJ3178",
+          "sourceTriangles": 4646,
+          "triangles": 160,
+          "vertices": 78
+        },
+        {
+          "mesh": "left-tenth-rib-FJ3225",
+          "sourceTriangles": 6826,
+          "triangles": 186,
+          "vertices": 96
+        },
+        {
+          "mesh": "left-eleventh-rib-FJ3226",
+          "sourceTriangles": 4866,
+          "triangles": 158,
+          "vertices": 83
+        },
+        {
+          "mesh": "left-twelfth-rib-FJ3227",
+          "sourceTriangles": 2818,
+          "triangles": 138,
+          "vertices": 67
+        },
+        {
+          "mesh": "left-first-rib-FJ3228",
+          "sourceTriangles": 3276,
+          "triangles": 143,
+          "vertices": 68
+        },
+        {
+          "mesh": "left-second-rib-FJ3229",
+          "sourceTriangles": 5594,
+          "triangles": 173,
+          "vertices": 86
+        },
+        {
+          "mesh": "left-third-rib-FJ3230",
+          "sourceTriangles": 7254,
+          "triangles": 190,
+          "vertices": 98
+        },
+        {
+          "mesh": "left-fourth-rib-FJ3231",
+          "sourceTriangles": 8850,
+          "triangles": 206,
+          "vertices": 110
+        },
+        {
+          "mesh": "left-fifth-rib-FJ3232",
+          "sourceTriangles": 9710,
+          "triangles": 209,
+          "vertices": 106
+        },
+        {
+          "mesh": "left-sixth-rib-FJ3233",
+          "sourceTriangles": 10264,
+          "triangles": 216,
+          "vertices": 111
+        },
+        {
+          "mesh": "left-seventh-rib-FJ3234",
+          "sourceTriangles": 10032,
+          "triangles": 215,
+          "vertices": 110
+        },
+        {
+          "mesh": "left-eighth-rib-FJ3235",
+          "sourceTriangles": 8336,
+          "triangles": 202,
+          "vertices": 104
+        },
+        {
+          "mesh": "left-ninth-rib-FJ3236",
+          "sourceTriangles": 7576,
+          "triangles": 196,
+          "vertices": 105
+        },
+        {
+          "mesh": "left-clavicle-FJ3237",
+          "sourceTriangles": 1176,
+          "triangles": 105,
+          "vertices": 52
+        },
+        {
+          "mesh": "left-first-costal-cartilage-FJ3239",
+          "sourceTriangles": 642,
+          "triangles": 90,
+          "vertices": 48
+        },
+        {
+          "mesh": "left-second-costal-cartilage-FJ3242",
+          "sourceTriangles": 588,
+          "triangles": 89,
+          "vertices": 46
+        },
+        {
+          "mesh": "left-third-costal-cartilage-FJ3245",
+          "sourceTriangles": 604,
+          "triangles": 89,
+          "vertices": 48
+        },
+        {
+          "mesh": "left-fourth-costal-cartilage-FJ3248",
+          "sourceTriangles": 658,
+          "triangles": 91,
+          "vertices": 47
+        },
+        {
+          "mesh": "left-fifth-costal-cartilage-FJ3251",
+          "sourceTriangles": 1086,
+          "triangles": 104,
+          "vertices": 52
+        },
+        {
+          "mesh": "left-sixth-costal-cartilage-FJ3254",
+          "sourceTriangles": 1498,
+          "triangles": 106,
+          "vertices": 53
+        },
+        {
+          "mesh": "left-seventh-costal-cartilage-FJ3255",
+          "sourceTriangles": 2314,
+          "triangles": 131,
+          "vertices": 65
+        },
+        {
+          "mesh": "manubrium-FJ3290",
+          "sourceTriangles": 2546,
+          "triangles": 129,
+          "vertices": 67
+        },
+        {
+          "mesh": "right-tenth-rib-FJ3330",
+          "sourceTriangles": 6820,
+          "triangles": 184,
+          "vertices": 94
+        },
+        {
+          "mesh": "right-eleventh-rib-FJ3331",
+          "sourceTriangles": 4866,
+          "triangles": 163,
+          "vertices": 84
+        },
+        {
+          "mesh": "right-twelfth-rib-FJ3332",
+          "sourceTriangles": 2818,
+          "triangles": 137,
+          "vertices": 68
+        },
+        {
+          "mesh": "right-first-costal-cartilage-FJ3333",
+          "sourceTriangles": 676,
+          "triangles": 94,
+          "vertices": 49
+        },
+        {
+          "mesh": "right-first-rib-FJ3334",
+          "sourceTriangles": 3276,
+          "triangles": 143,
+          "vertices": 65
+        },
+        {
+          "mesh": "right-second-costal-cartilage-FJ3335",
+          "sourceTriangles": 658,
+          "triangles": 94,
+          "vertices": 48
+        },
+        {
+          "mesh": "right-second-rib-FJ3336",
+          "sourceTriangles": 5594,
+          "triangles": 167,
+          "vertices": 83
+        },
+        {
+          "mesh": "right-third-costal-cartilage-FJ3337",
+          "sourceTriangles": 652,
+          "triangles": 91,
+          "vertices": 47
+        },
+        {
+          "mesh": "right-third-rib-FJ3338",
+          "sourceTriangles": 7254,
+          "triangles": 190,
+          "vertices": 96
+        },
+        {
+          "mesh": "right-fourth-costal-cartilage-FJ3339",
+          "sourceTriangles": 694,
+          "triangles": 93,
+          "vertices": 47
+        },
+        {
+          "mesh": "right-fourth-rib-FJ3340",
+          "sourceTriangles": 8832,
+          "triangles": 199,
+          "vertices": 102
+        },
+        {
+          "mesh": "right-fifth-costal-cartilage-FJ3341",
+          "sourceTriangles": 1168,
+          "triangles": 106,
+          "vertices": 50
+        },
+        {
+          "mesh": "right-fifth-rib-FJ3342",
+          "sourceTriangles": 9710,
+          "triangles": 213,
+          "vertices": 108
+        },
+        {
+          "mesh": "right-sixth-costal-cartilage-FJ3343",
+          "sourceTriangles": 1546,
+          "triangles": 103,
+          "vertices": 53
+        },
+        {
+          "mesh": "right-sixth-rib-FJ3344",
+          "sourceTriangles": 10246,
+          "triangles": 217,
+          "vertices": 114
+        },
+        {
+          "mesh": "right-seventh-costal-cartilage-FJ3345",
+          "sourceTriangles": 2450,
+          "triangles": 127,
+          "vertices": 64
+        },
+        {
+          "mesh": "right-seventh-rib-FJ3346",
+          "sourceTriangles": 10032,
+          "triangles": 212,
+          "vertices": 112
+        },
+        {
+          "mesh": "right-eighth-rib-FJ3347",
+          "sourceTriangles": 8336,
+          "triangles": 198,
+          "vertices": 111
+        },
+        {
+          "mesh": "right-ninth-rib-FJ3348",
+          "sourceTriangles": 7576,
+          "triangles": 188,
+          "vertices": 100
+        },
+        {
+          "mesh": "right-clavicle-FJ3362",
+          "sourceTriangles": 1146,
+          "triangles": 105,
+          "vertices": 51
+        }
+      ]
+    },
+    {
+      "source": "chest-skin.glb",
+      "file": "chest-skin-low.glb",
+      "sourceSha256": "66d8a95c92ef2cab8ff50bbd01fc3dd13077bed8817f65018873ae30e0359e2e",
+      "bytes": 62388,
+      "triangles": 2996,
+      "sourceTriangles": 40442,
+      "meshes": [
+        {
+          "mesh": "chest-skin-FJ2810",
+          "sourceTriangles": 40442,
+          "triangles": 2996,
+          "vertices": 1017
+        }
+      ]
+    }
+  ]
+}

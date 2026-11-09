@@ -1,0 +1,107 @@
+{
+  "sourceUrl": "https://physionet.org/content/ptb-xl/1.0.3/",
+  "metadataUrl": "https://physionet.org/content/ptb-xl/1.0.3/ptbxl_database.csv",
+  "statementsUrl": "https://physionet.org/content/ptb-xl/1.0.3/scp_statements.csv",
+  "axisDefinitionsUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7248071/#Tab10",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "metadataSha256": "7600de9c1b27d181d850b3c6038a35d7c3ddb6bb33b702e3a20252a6859d216b",
+  "originalClinicalLibrarySha256": "f0e076436836e04fdb13807378a29b42d769b027110e086668a3499ec17487ea",
+  "originalClinicalLibraryUnchanged": true,
+  "records": [
+    {
+      "id": "ptbxl-01222",
+      "sourcePath": "records100/01000/01222_lr",
+      "fileBytes": 24000,
+      "all12ChannelChecksumsVerified": true,
+      "allInitialValuesVerified": true,
+      "samplesPerLead": 1000,
+      "sha256": "b26f8676b20253ef21f3f5707769fd84f58ae29f28a25e712d65553fc8387271",
+      "metadataCodes": {
+        "NDT": 100.0,
+        "2AVB": 100.0
+      },
+      "sourceHeartAxis": "",
+      "validatedByHuman": true
+    },
+    {
+      "id": "ptbxl-00959",
+      "sourcePath": "records100/00000/00959_lr",
+      "fileBytes": 24000,
+      "all12ChannelChecksumsVerified": true,
+      "allInitialValuesVerified": true,
+      "samplesPerLead": 1000,
+      "sha256": "d21901a2955f4cf65c7363ed1579f5c5104c4342ba9c55c3cac047ee3d771db5",
+      "metadataCodes": {
+        "ASMI": 15.0,
+        "IRBBB": 100.0,
+        "3AVB": 100.0,
+        "SR": 0.0
+      },
+      "sourceHeartAxis": "",
+      "validatedByHuman": true
+    },
+    {
+      "id": "ptbxl-01451",
+      "sourcePath": "records100/01000/01451_lr",
+      "fileBytes": 24000,
+      "all12ChannelChecksumsVerified": true,
+      "allInitialValuesVerified": true,
+      "samplesPerLead": 1000,
+      "sha256": "0f1a64b3e2274389c5e5d286036dbbef109e05fc228acb8a1ae3f48bcaa1d266",
+      "metadataCodes": {
+        "LVH": 100.0,
+        "SR": 0.0
+      },
+      "sourceHeartAxis": "",
+      "validatedByHuman": true
+    },
+    {
+      "id": "ptbxl-02417",
+      "sourcePath": "records100/02000/02417_lr",
+      "fileBytes": 24000,
+      "all12ChannelChecksumsVerified": true,
+      "allInitialValuesVerified": true,
+      "samplesPerLead": 1000,
+      "sha256": "55d977cb660d8877d793bbde78a8c904910d107f6f053e0518c07daf7a1db7e3",
+      "metadataCodes": {
+        "RVH": 100.0,
+        "SR": 0.0
+      },
+      "sourceHeartAxis": "MID",
+      "validatedByHuman": true
+    },
+    {
+      "id": "ptbxl-00789",
+      "sourcePath": "records100/00000/00789_lr",
+      "fileBytes": 24000,
+      "all12ChannelChecksumsVerified": true,
+      "allInitialValuesVerified": true,
+      "samplesPerLead": 1000,
+      "sha256": "2d6066fc344e64cf65a1a4edcf79e5fda49b3baa8d0b5aa25b632ba8f4a69278",
+      "metadataCodes": {
+        "LAFB": 100.0,
+        "SR": 0.0
+      },
+      "sourceHeartAxis": "ALAD",
+      "validatedByHuman": true
+    },
+    {
+      "id": "ptbxl-06938",
+      "sourcePath": "records100/06000/06938_lr",
+      "fileBytes": 24000,
+      "all12ChannelChecksumsVerified": true,
+      "allInitialValuesVerified": true,
+      "samplesPerLead": 1000,
+      "sha256": "c1768234469dbc525a8fe4bb2e53de566074af9bce7e223506867ecf970dc24f",
+      "metadataCodes": {
+        "LPFB": 100.0,
+        "SR": 0.0
+      },
+      "sourceHeartAxis": "RAD",
+      "validatedByHuman": true
+    }
+  ],
+  "timingStatus": "The source provides recording-level labels. This export adds visually checked approximate animation anchors, not validated source fiducial annotations. Complete atrial timing is unavailable for the complete-block example.",
+  "attribution": "ECG data: Wagner P, Strodthoff N, Bousseljot R, Samek W, and Schaeffter T. PTB-XL v1.0.3, PhysioNet (2022). CC BY 4.0. Original WFDB samples converted to millivolts and JSON for this educational display.",
+  "modifications": "Selected six further records from the provided 100 Hz edition, converted integers with header gains/baselines, renamed AVR/AVL/AVF to aVR/aVL/aVF, and serialized as JSON. Added original teaching descriptions and explicitly approximate visualization anchors. Source signal samples are unfiltered and unchanged in substance."
+}

@@ -1,0 +1,86 @@
+{
+  "sourceDataset": "https://physionet.org/content/sddb/1.0.0/",
+  "sourceFiles": [
+    {
+      "name": "47.hea",
+      "url": "https://physionet.org/files/sddb/1.0.0/47.hea",
+      "bytes": 179,
+      "sha256": "2880509d50e1d409bb690d5251c0f6ef44324ee99aa613819bff714d12663951",
+      "officialSha256Verified": true
+    },
+    {
+      "name": "47.dat",
+      "url": "https://physionet.org/files/sddb/1.0.0/47.dat",
+      "bytes": 63712500,
+      "sha256": "85b58548ddadcadd695596017fe13b66d660d7f2f2481793a7469b58fe753a0c",
+      "officialSha256Verified": true
+    },
+    {
+      "name": "47.ari",
+      "url": "https://physionet.org/files/sddb/1.0.0/47.ari",
+      "bytes": 191502,
+      "sha256": "77e7c7acfa75eaf7c840941a96fc92ba75bb790848983a3e90d3bfcdc6f29d7d",
+      "officialSha256Verified": true
+    }
+  ],
+  "acquisitionMirror": "https://physionet-open.s3.amazonaws.com/sddb/1.0.0/47.dat",
+  "manifestUrl": "https://physionet.org/files/sddb/1.0.0/SHA256SUMS.txt",
+  "sourceHeader": "47 2 250 21237500 12:00:00\n47.dat 212 200 12 0 -18 -26505 0 ECG\n47.dat 212 200 12 0 10 31895 0 ECG\n#Produced by xform from record 47, beginning at 44:10.000 \n#vfon: 06:13:01\n",
+  "fullChannelIntegrity": [
+    {
+      "channel": 0,
+      "initialADC": -18,
+      "checksum": -26505,
+      "headerMatches": true
+    },
+    {
+      "channel": 1,
+      "initialADC": 10,
+      "checksum": 31895,
+      "headerMatches": true
+    }
+  ],
+  "excerpt": {
+    "sourceRecord": "47",
+    "startSample": 5597500,
+    "endSampleExclusive": 5601000,
+    "startSeconds": 22390,
+    "endSeconds": 22404,
+    "startElapsed": "06:13:10",
+    "endElapsed": "06:13:24",
+    "sourceHeaderStartClock": "12:00:00",
+    "startClock": "18:13:10",
+    "endClock": "18:13:24",
+    "originalRecordSamples": 21237500,
+    "originalSamplingHz": 250
+  },
+  "excerptSourceBytesSha256": "56096d52597dca9b5b70aa8484927225e0c7ff3b41ecbe72bead95ee1784a5a3",
+  "conversion": "mV = signed12bitADC / 200; header ADC zero is0; WFDB default amplitude unit is mV.",
+  "sourceDiagnosis": {
+    "publication": "https://doi.org/10.1016/j.jelectrocard.2006.04.011",
+    "authorHostedPDF": "https://www.mcgill.ca/physiological-dynamics/files/physiological-dynamics/rule_2007.pdf",
+    "table": "Table 1, record47",
+    "figure": "Figure 2, lower ECG strip",
+    "diagnosis": "TdP in prolonged-QT setting; source QTc 0.63 ± 0.08 s, preceding-rhythm statement >0.60 s."
+  },
+  "alignment": {
+    "method": "Visual waveform comparison with the published Figure 2, using header clock mapping and distinctive complexes.",
+    "approximateTdPSegmentStartSecondsInExcerpt": 8,
+    "uncertaintySeconds": 1,
+    "limits": "The printed figure strip starts18:12:50, while its TdP asterisk appears later. No exact onset is inferred from that label or from the header vfon comment. The crop ends within the graphically matched published strip; no later VF or termination label is assigned."
+  },
+  "beatFiducials": "Not supplied. Source47.ari is unaudited and is not used to assert reliable QRS onsets in the polymorphic segment.",
+  "checks": {
+    "nativeSampleCount": 3500,
+    "channels": 2,
+    "channelSamples": 7000,
+    "allValuesFinite": true,
+    "inverseCalibrationRecoversADC": true,
+    "officialSHA256Matches": true,
+    "fullWFDBChecksumsMatch": true,
+    "fullInitialADCMatches": true
+  },
+  "license": "ODC-By1.0",
+  "licenseUrl": "https://physionet.org/content/sddb/view-license/1.0.0/",
+  "attribution": "Contains information from the Sudden Cardiac Death Holter Database v1.0.0, collected by Scott Greenwald and made available by PhysioNet under the Open Data Commons Attribution License v1.0 (ODC-By). Dataset DOI: 10.13026/C2W306. The TdP classification is from Lerma C, Lee CF, Glass L, Goldberger AL. The rule of bigeminy revisited: analysis in sudden cardiac death syndrome. J Electrocardiol 40(1):78–88 (2007), DOI: 10.1016/j.jelectrocard.2006.04.011."
+}

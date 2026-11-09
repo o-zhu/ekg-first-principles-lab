@@ -1,0 +1,96 @@
+{
+  "heartBounds": {
+    "min": [
+      -1.15695,
+      -1.429,
+      -1.267601
+    ],
+    "max": [
+      1.15695,
+      1.429,
+      1.267601
+    ]
+  },
+  "skinBounds": {
+    "min": [
+      -5.798555850982666,
+      -4.112399578094482,
+      -3.1694509983062744
+    ],
+    "max": [
+      4.904484272003174,
+      3.887199878692627,
+      2.2459607124328613
+    ]
+  },
+  "bodyMidlineX": -0.430876,
+  "coordinateConvention": "+X patient left, +Y superior, +Z anterior",
+  "heartCamera": [
+    0,
+    0.25,
+    7
+  ],
+  "chestCamera": [
+    -0.43,
+    0.05,
+    17
+  ],
+  "chestTarget": [
+    -0.43,
+    -0.11,
+    -0.4
+  ],
+  "electrodeAnchors": {
+    "V1": [
+      -0.95,
+      -0.6,
+      2.1786
+    ],
+    "V2": [
+      0.1,
+      -0.6,
+      2.1895
+    ],
+    "V3": [
+      0.6,
+      -1.12,
+      2.285
+    ],
+    "V4": [
+      1.1,
+      -1.65,
+      2.0817
+    ],
+    "V5": [
+      2.1,
+      -1.65,
+      1.4542
+    ],
+    "V6": [
+      2.55,
+      -1.65,
+      0.6585
+    ],
+    "RA": [
+      -3.5,
+      1.05,
+      0.5648
+    ],
+    "LA": [
+      2.65,
+      1.05,
+      0.5453
+    ],
+    "LL": [
+      2.1,
+      -3.5,
+      1.1551
+    ],
+    "RL": [
+      -3.0,
+      -3.5,
+      1.1389
+    ]
+  },
+  "electrodeAnchorCaveat": "Approximate teaching positions only. V1/V2 near fourth intercostal region, V4\u2013V6 same transverse level. V3 between V2 and V4. Limb positions on chest are schematic proxies for remote standard limb electrodes and must be explicitly labelled as such. Coordinates projected onto the anterior-most skin surface with 0.04 model unit offset."
+}

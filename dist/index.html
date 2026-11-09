@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153d35">
+  <meta name="description" content="Understand the EKG from first principles. Follow ion currents into a measured voltage, a deforming 3D heart, twelve leads, stationary ECG measurements, and real clinical mechanisms.">
+  <title>EKG Lab — Cardiac electrophysiology</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./revision.css">
+  <link rel="stylesheet" href="./refinements.css">
+  <link rel="stylesheet" href="./voltage-lesson.css">
+  <link rel="stylesheet" href="./electrical-ui.css">
+  <link rel="stylesheet" href="./fit-explorer.css">
+  <link rel="stylesheet" href="./polish.css">
+  <link rel="stylesheet" href="./ui-help.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to lesson</a>
+  <aside class="sidebar" aria-label="Course navigation">
+    <a class="brand" href="#electricity" aria-label="EKG Lab home"><span class="brand-symbol"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M3 17h7l3-9 6 18 3-12 2 3h5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>EKG Lab</a>
+    <nav id="module-nav">
+      <a href="#electricity" data-module="electricity" class="nav-item active"><span class="nav-num">01</span><span><strong>Electrical foundations</strong><small>From ions to EKG</small></span></a>
+      <a href="#heartbeat" data-module="heartbeat" class="nav-item"><span class="nav-num">02</span><span><strong>Conduction &amp; motion</strong><small>Inside a heartbeat</small></span></a>
+      <a href="#leads" data-module="leads" class="nav-item"><span class="nav-num">03</span><span><strong>The 12 leads</strong><small>Twelve perspectives</small></span></a>
+      <a href="#rhythm" data-module="rhythm" class="nav-item"><span class="nav-num">04</span><span><strong>ECG measurements</strong><small>Read the rhythm</small></span></a>
+      <a href="#library" data-module="library" class="nav-item"><span class="nav-num">05</span><span><strong>Clinical patterns</strong><small>The real world</small></span></a>
+      <a href="#sandbox" data-module="sandbox" class="nav-item"><span class="nav-num">06</span><span><strong>Rhythm builder</strong><small>Sandbox</small></span></a>
+    </nav>
+    <div class="sidebar-bottom"><div class="course-progress"><span>Modules explored</span><span id="progress-label">1 / 6</span></div><div class="progress-track"><i id="progress-bar"></i></div><button class="text-button sources-trigger">Sources &amp; model notes <span>↗</span></button></div>
+  </aside>
+  <div class="app-shell">
+    <main id="main" tabindex="-1"></main>
+    <footer class="app-footer"><span><button class="text-button" id="help-button" aria-label="Open interaction guide">Interaction guide</button> <span class="footer-dot">·</span> <button class="text-button sources-trigger">Sources &amp; limitations ↗</button></span></footer>
+  </div>
+  <dialog id="info-dialog" class="info-dialog"><button class="dialog-close icon-button" aria-label="Close dialog">×</button><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <noscript><div class="noscript">This interactive lab requires JavaScript. Please enable it to explore the lessons.</div></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

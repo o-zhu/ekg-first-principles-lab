@@ -1,0 +1,73 @@
+{
+  "source": "https://zenodo.org/records/4593739",
+  "originalVtkSha256": "b8e013832ccf9262d677ad3d6f140a76de6bb0a2d9734132ec9924a29eba8356",
+  "baseMyocardiumSha256": "fcaf2e84123ace36721056535b5db566a2c84abdcb6c69c7a7054f1541d6ec7c",
+  "interface": "Exact triangular faces shared by source tag3 (LA myocardium) and tag18 (cropped LAA border), remapped through canonical sourcePointIds.",
+  "faceCount": 502,
+  "nodeCount": 356,
+  "landmarks": [
+    {
+      "sourceTag": 7,
+      "name": "Mitral valve opening",
+      "centerMm": [
+        3.1915764808654785,
+        21.234149932861328,
+        12.632728576660156
+      ],
+      "sourcePlaneNodeCount": 3431
+    },
+    {
+      "sourceTag": 11,
+      "name": "Left atrial appendage ostium",
+      "centerMm": [
+        8.044665336608887,
+        20.245805740356445,
+        45.64446258544922
+      ],
+      "sourcePlaneNodeCount": 894
+    },
+    {
+      "sourceTag": 12,
+      "name": "Left superior pulmonary vein",
+      "centerMm": [
+        0.903298556804657,
+        31.062694549560547,
+        57.48862838745117
+      ],
+      "sourcePlaneNodeCount": 411
+    },
+    {
+      "sourceTag": 13,
+      "name": "Left inferior pulmonary vein",
+      "centerMm": [
+        5.17963171005249,
+        42.600345611572266,
+        45.827510833740234
+      ],
+      "sourcePlaneNodeCount": 370
+    },
+    {
+      "sourceTag": 14,
+      "name": "Right inferior pulmonary vein",
+      "centerMm": [
+        -43.642852783203125,
+        39.53104019165039,
+        35.33659744262695
+      ],
+      "sourcePlaneNodeCount": 436
+    },
+    {
+      "sourceTag": 15,
+      "name": "Right superior pulmonary vein",
+      "centerMm": [
+        -41.292823791503906,
+        22.045345306396484,
+        49.17289352416992
+      ],
+      "sourcePlaneNodeCount": 619
+    }
+  ],
+  "interpretation": "Four pulmonary-vein openings (12\u201315), one deliberately truncated LAA ostium (11), and the separate mitral opening (7). Viewing/cut planes can make anterior/posterior counting misleading; the LAA is not an additional pulmonary vein.",
+  "primaryPipeline": "https://doi.org/10.1371/journal.pone.0235145",
+  "license": "CC BY 4.0"
+}

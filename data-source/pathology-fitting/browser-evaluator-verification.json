@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "recordId": "ptbxl-03155",
+      "sourceMaxErrorMv": 1.4210854715202004e-14,
+      "renderMaxErrorMv": 1.4210854715202004e-14,
+      "fixtureCount": 84,
+      "alternativeFixtureCount": 0,
+      "toleranceMv": 0.0001,
+      "comparedApproaches": 10,
+      "leadAlgebraMaxErrorMv": 0.0000010000000000842668,
+      "finiteFieldCheck": true
+    },
+    {
+      "recordId": "acs-00004",
+      "sourceMaxErrorMv": 1.4210854715202004e-14,
+      "renderMaxErrorMv": 1.4210854715202004e-14,
+      "fixtureCount": 140,
+      "alternativeFixtureCount": 280,
+      "toleranceMv": 0.0001,
+      "comparedApproaches": 15,
+      "leadAlgebraMaxErrorMv": 0.000001000000000139778,
+      "finiteFieldCheck": true
+    }
+  ],
+  "waveformAudit": {
+    "tests": 715,
+    "maxNormalizedError": 1.1102230246251565e-16,
+    "tolerance": 1e-10
+  }
+}

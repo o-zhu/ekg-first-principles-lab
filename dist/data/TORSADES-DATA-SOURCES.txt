@@ -1,0 +1,53 @@
+SDDB47 source-adjudicated torsades example
+
+Waveform source:
+  Sudden Cardiac Death Holter Database v1.0.0, record47.
+  https://physionet.org/content/sddb/1.0.0/
+  https://physionet.org/content/sddb/1.0.0/47.hea
+  https://physionet.org/files/sddb/1.0.0/47.dat
+  https://physionet.org/files/sddb/1.0.0/SHA256SUMS.txt
+  Official public mirror: https://physionet-open.s3.amazonaws.com/sddb/1.0.0/
+  Dataset DOI:10.13026/C2W306.
+
+License:
+  Open Data Commons Attribution License v1.0 (ODC-By).
+  https://physionet.org/content/sddb/view-license/1.0.0/
+  Contains information from the Sudden Cardiac Death Holter Database, collected
+  by Scott Greenwald and made available by PhysioNet under ODC-By1.0.
+
+Diagnosis evidence:
+  Lerma C, Lee CF, Glass L, Goldberger AL (2007).
+  The rule of bigeminy revisited: analysis in sudden cardiac death syndrome.
+  J Electrocardiol40(1):78–88. DOI:10.1016/j.jelectrocard.2006.04.011.
+  Table1 labels record47 TdP with prolonged QT; Figure2 shows the episode.
+  https://doi.org/10.1016/j.jelectrocard.2006.04.011
+  https://www.mcgill.ca/physiological-dynamics/files/physiological-dynamics/rule_2007.pdf
+  Paper illustrations are cited, not redistributed or digitized into signals.
+
+Export:
+  250Hz,2original channels,14s,3,500samples/channel,7,000channel samples.
+  Original source samples5,597,500 through5,600,999inclusive.
+  Source elapsed06:13:10–06:13:24; header-based clock18:13:10–18:13:24.
+  Both original channels are named ECG; display ECG1/ECG2 preserve channel order.
+  WFDB212 decoding, mV=ADC/200. No filtering/resampling/normalization/synthesis.
+
+Timing limits:
+  The ~8s display transition is graphically aligned with the published TdP
+  region, with ~1s uncertainty; it is not an exact onset annotation.
+  The source47.ari annotations are unaudited. No beat-level fiducials or
+  inferred clinical rate are supplied for the polymorphic episode.
+  The printed strip time and header vfon comment are not used as exact TdP/VF
+  boundaries. No VF transition or rhythm termination is labeled.
+  The 3D activation and motion remain schematic.
+
+Files:
+  clinical-torsades.json: actual waveform and attributed educational metadata.
+  clinical-torsades-provenance.json: source hashes, checksums, crop and limits.
+  clinical-torsades-README.md: methodology and source context.
+  scripts/import_torsades.py: reproducible standard-library importer.
+
+Additional source citations:
+  Greenwald SD. Development and analysis of a ventricular fibrillation detector.
+  MIT MS thesis1986. https://dspace.mit.edu/handle/1721.1/92988
+  Pollard T etal. PhysioNet as a global platform for biomedical research.
+  Nature Health2026. DOI:10.1038/s44360-026-00096-z.

@@ -1,0 +1,25 @@
+/* Shared by the main course and the embedded electrical foundations lesson. */
+.ui-info { display:inline-flex; align-items:center; vertical-align:middle; max-width:100%; }
+.ui-info-labeled { margin-block:5px; }
+.ui-info-trigger { display:inline-flex; align-items:center; gap:7px; min-width:34px; min-height:34px; padding:3px; border:0; border-radius:8px; background:transparent; color:#49665a; font:500 13px/1.45 'DM Sans',sans-serif; text-align:left; cursor:pointer; }
+.ui-info-trigger:hover,.ui-info-trigger[aria-expanded="true"] { color:#143f32; background:#e7eee6; }
+.ui-info-icon { display:inline-flex; align-items:center; justify-content:center; width:23px; height:23px; flex:none; border:1.5px solid currentColor; border-radius:50%; font:600 15px/1 Georgia,serif; }
+.ui-info-panel { position:fixed!important; inset:auto; margin:0!important; padding:19px!important; width:440px; max-width:calc(100vw - 24px)!important; max-height:calc(100dvh - 24px); overflow:auto; overscroll-behavior:contain; background:#fffefa!important; color:#304d40!important; border:1px solid #b7c8bc!important; border-radius:14px!important; box-shadow:0 16px 64px #122e2833,0 2px 8px #122e2814; z-index:10000; font:400 15px/1.7 'DM Sans',sans-serif; text-align:left; letter-spacing:normal; }
+.ui-info-panel[hidden] { display:none!important; }
+.ui-info-panel:not([hidden]) { display:block; }
+.ui-info-panel::backdrop { background:transparent; pointer-events:none; }
+.ui-info-heading { display:flex; align-items:center; justify-content:space-between; gap:16px; margin:0 0 12px!important; padding:0 0 10px!important; border-bottom:1px solid #e1e8df; }
+.ui-info-heading>strong { color:#183e31; font:650 15px/1.4 'DM Sans',sans-serif; }
+.ui-info-close { display:inline-flex; align-items:center; justify-content:center; min-width:32px; height:32px; border:1px solid #d4dfd4; border-radius:50%; background:#f1f5ed; color:#214d3e; padding:0; font:400 22px/1 sans-serif; cursor:pointer; }
+.ui-info-panel :is(p,li,small) { font-size:14px!important; line-height:1.75!important; color:#405e4e!important; max-width:none!important; letter-spacing:normal!important; }
+.ui-info-panel p+p { margin-top:10px!important; }
+.ui-info-panel :is(h2,h3,h4) { font-size:17px!important; line-height:1.4!important; color:#214735!important; margin:12px 0 7px!important; }
+.ui-info-panel a { color:#205e47!important; text-decoration:underline; text-underline-offset:3px; }
+.ui-info-panel ul,.ui-info-panel ol { margin:8px 0; padding-left:20px; }
+.ui-info-panel pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:12px; }
+.ui-info-panel .text-button { font-size:14px!important; color:#205e47!important; }
+.ui-info-panel :is(.potential-principles,.potential-scale-note,.sandbox-model-notes,.mechanism-copy) { display:block; padding:0; background:transparent; border:0; }
+.ui-info-panel .potential-principles>div+div,.ui-info-panel .mechanism-copy>div+div { margin-top:16px; }
+.ui-info-trigger:focus-visible,.ui-info-close:focus-visible { outline:3px solid #a36e2c; outline-offset:3px; }
+@media(max-width:680px) { .ui-info-trigger { min-width:40px; min-height:40px; }.ui-info-panel { padding:17px!important; }.ui-info-close { min-width:36px; height:36px; } }
+@media(prefers-reduced-motion:reduce) { .ui-info,.ui-info-panel { scroll-behavior:auto; } }

@@ -1,0 +1,20 @@
+REAL STEMI RECORDINGS — SOURCE AND REUSE NOTICE
+
+Du, X.-Y., Liu, Y., Wang, L.-L., He, W.-Y., Yang, J.-Y., Bin, G.-Y., & Deng, G.-L. (2026). A large-scale 12-lead electrocardiogram dataset for acute coronary syndrome prediction containing 19,955 ECGs. Figshare. DOI: 10.6084/m9.figshare.29925314.v1. Associated paper: Scientific Data 13, 1009 (2026), DOI: 10.1038/s41597-026-07278-0.
+Source: https://doi.org/10.6084/m9.figshare.29925314
+API metadata: https://api.figshare.com/v2/articles/29925314
+Dataset reuse: CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/
+Records: row_data/00004 (.dat/.hea) and row_data/18206 (.dat/.hea), ECG_row_data.zip.
+Diagnostic rows: CSV.zip / CSV/train.csv.
+These are real, complete 10-second waveforms with 12 leads at 500 Hz. No source paper figures are reproduced.
+
+Kalyakulina, A., Yusipov, I., Moskalenko, V., Nikolskiy, A., Kosonogov, K., Zolotykh, N., & Ivanchenko, M. (2021). Lobachevsky University Electrocardiography Database (version 1.0.1). PhysioNet. DOI: 10.13026/eegm-h675. Original publication: Kalyakulina et al., LUDB: A New Open-Access Validation Tool for Electrocardiogram Delineation Algorithms, IEEE Access 8, 186181–186190 (2020), DOI: 10.1109/ACCESS.2020.3029211.
+Source: https://physionet.org/content/ludb/1.0.1/
+This application contains information from LUDB v1.0.1, which is made available here under the Open Data Commons Attribution License (ODC-By) v1.0.
+License: https://opendatacommons.org/licenses/by/1-0/ (full source license bundled as LUDB-LICENSE.txt).
+Record 21: all 12 leads, excerpt from source seconds 1.6–8.2; native 500 Hz. Cardiologist wave annotations from source annotation files.
+
+Signals have source gain/baseline conversion to mV. LUDB has the documented time crop; ACS retains full recordings. No filtering, resampling, denoising or amplitude normalization.
+Per-record diagnoses, labels, attribution, calibration, integrity results and timing provenance are in clinical-stemi.json and clinical-stemi-provenance.json.
+ACS source header initial-value/checksum slots contain channel maxima/minima. ZIP CRC32 verifies imported member bytes; WFDB header checksum verification is explicitly false. LUDB source SHA256 and all channel initial values/checksums pass.
+Diagnostic labels are source labels, not independent website adjudication. Territory shading and all 3D conduction/contraction are schematic teaching models, not measured patient mechanics.

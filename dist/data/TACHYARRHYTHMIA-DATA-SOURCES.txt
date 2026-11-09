@@ -1,0 +1,29 @@
+Recorded tachyarrhythmia excerpts · source and license notice
+
+Contains information from the MIT-BIH Arrhythmia Database v1.0.0, made available
+by George Moody and Roger Mark through PhysioNet under the Open Data Commons
+Attribution License v1.0 (ODC-By).
+Dataset: https://physionet.org/content/mitdb/1.0.0/
+DOI: https://doi.org/10.13026/C2F305
+License: https://physionet.org/content/mitdb/view-license/1.0.0/
+Original publication: Moody GB, Mark RG. The impact of the MIT-BIH Arrhythmia
+Database. IEEE Engineering in Medicine and Biology Magazine 20(3):45–50 (2001).
+https://doi.org/10.1109/51.932724
+Exported records: 202 (AF with measured RVR), 222 (atrial flutter), 209 (SVTA).
+
+Contains information from the MIT-BIH Malignant Ventricular Ectopy Database
+v1.0.0, made available by Paul Albrecht, George Moody and Roger Mark through
+PhysioNet under the Open Data Commons Attribution License v1.0 (ODC-By).
+Dataset: https://physionet.org/content/vfdb/1.0.0/
+DOI: https://doi.org/10.13026/C22P44
+License: https://physionet.org/content/vfdb/view-license/1.0.0/
+Original publication: Greenwald SD. Development and analysis of a ventricular
+fibrillation detector. MIT Department of Electrical Engineering and Computer
+Science, M.S. thesis (1986). https://dspace.mit.edu/handle/1721.1/92988
+Exported records: 421 (VT), 422 (VF).
+
+These databases contain the source recordings and reference rhythm labels.
+The exports retain native calibrated signal samples; the website's local
+voltage/tissue activation/mechanics illustrations are separate teaching models.
+Refer to clinical-tachyarrhythmias-README.md and the provenance JSON for crop
+coordinates, source hashes, exact calibration, annotation status and limitations.

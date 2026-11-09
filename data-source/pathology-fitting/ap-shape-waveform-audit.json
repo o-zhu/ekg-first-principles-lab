@@ -1,0 +1,2612 @@
+{
+  "passed": true,
+  "templateRestEndpointMs": 579.0,
+  "waveformSweepCount": 55,
+  "checks": "Preserved intrinsic upstroke through4ms, exact q(APD90)=0.1, normalized bounds0..1, no post-anchor secondary upstroke, continuous return to zero at the declared endpoint.",
+  "results": [
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 0.45,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 362.97297297297297,
+      "actualVoltageCrossings": {
+        "apd20Ms": 42.44688814910478,
+        "apd50Ms": 78.10110326085123,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 0.55,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 318.79606879606877,
+      "actualVoltageCrossings": {
+        "apd20Ms": 47.767063674138626,
+        "apd50Ms": 83.30953930781106,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 0.8,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 256.6722972972973,
+      "actualVoltageCrossings": {
+        "apd20Ms": 58.34155132676824,
+        "apd50Ms": 92.00855441068416,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 229.33783783783784,
+      "actualVoltageCrossings": {
+        "apd20Ms": 64.80565929741715,
+        "apd50Ms": 96.47132340740063,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 1.25,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 207.47027027027028,
+      "actualVoltageCrossings": {
+        "apd20Ms": 71.20065183684346,
+        "apd50Ms": 100.3811886079784,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 2.2,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 169.6990171990172,
+      "actualVoltageCrossings": {
+        "apd20Ms": 86.11815503510297,
+        "apd50Ms": 107.97471234420664,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 0.45,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 424.86486486486484,
+      "actualVoltageCrossings": {
+        "apd20Ms": 49.07566196791595,
+        "apd50Ms": 90.8771555472049,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 0.55,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 373.07125307125307,
+      "actualVoltageCrossings": {
+        "apd20Ms": 55.31310913519701,
+        "apd50Ms": 96.9835978091578,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 0.8,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 300.23648648648646,
+      "actualVoltageCrossings": {
+        "apd20Ms": 67.71078431414207,
+        "apd50Ms": 107.18244310218142,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 268.18918918918916,
+      "actualVoltageCrossings": {
+        "apd20Ms": 75.2893936590408,
+        "apd50Ms": 112.41465502936626,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 1.25,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 242.55135135135134,
+      "actualVoltageCrossings": {
+        "apd20Ms": 82.78697111905785,
+        "apd50Ms": 116.99863491969882,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 2.2,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 198.26781326781327,
+      "actualVoltageCrossings": {
+        "apd20Ms": 100.2764576273621,
+        "apd50Ms": 125.90138688631123,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 0.45,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 610.5405405405406,
+      "actualVoltageCrossings": {
+        "apd20Ms": 68.96198342434946,
+        "apd50Ms": 129.20531240626588,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 0.55,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 535.896805896806,
+      "actualVoltageCrossings": {
+        "apd20Ms": 77.95124551837216,
+        "apd50Ms": 138.005773313198,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 0.8,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 430.92905405405406,
+      "actualVoltageCrossings": {
+        "apd20Ms": 95.81848327626358,
+        "apd50Ms": 152.70410917667323,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 384.7432432432432,
+      "actualVoltageCrossings": {
+        "apd20Ms": 106.74059674391174,
+        "apd50Ms": 160.24464989526314,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 1.25,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 347.7945945945946,
+      "actualVoltageCrossings": {
+        "apd20Ms": 117.54592896570102,
+        "apd50Ms": 166.85097385486006,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 2.2,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 283.9742014742015,
+      "actualVoltageCrossings": {
+        "apd20Ms": 142.7513654041395,
+        "apd50Ms": 179.681410512625,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 0.45,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 920.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 102.1058525184053,
+        "apd50Ms": 193.08557383803418,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 0.55,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 807.2727272727273,
+      "actualVoltageCrossings": {
+        "apd20Ms": 115.68147282366408,
+        "apd50Ms": 206.37606581993168,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 0.8,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 648.75,
+      "actualVoltageCrossings": {
+        "apd20Ms": 142.66464821313275,
+        "apd50Ms": 228.57355263415957,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 579.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 159.15926855202997,
+        "apd50Ms": 239.96130800509127,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 1.25,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 523.2,
+      "actualVoltageCrossings": {
+        "apd20Ms": 175.47752537677297,
+        "apd50Ms": 249.93820541346213,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 2.2,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 426.8181818181818,
+      "actualVoltageCrossings": {
+        "apd20Ms": 213.54287836543517,
+        "apd50Ms": 269.31478322314797,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 0.45,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 1477.027027027027,
+      "actualVoltageCrossings": {
+        "apd20Ms": 161.76481688770582,
+        "apd50Ms": 308.0700444152171,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 0.55,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 1295.7493857493857,
+      "actualVoltageCrossings": {
+        "apd20Ms": 183.59588197318953,
+        "apd50Ms": 329.4425923320523,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 0.8,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 1040.8277027027027,
+      "actualVoltageCrossings": {
+        "apd20Ms": 226.98774509949726,
+        "apd50Ms": 365.138550857635,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 928.6621621621622,
+      "actualVoltageCrossings": {
+        "apd20Ms": 253.5128778066428,
+        "apd50Ms": 383.4512926027819,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 1.25,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 838.9297297297297,
+      "actualVoltageCrossings": {
+        "apd20Ms": 279.7543989167025,
+        "apd50Ms": 399.49522221894586,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 2.2,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 683.9373464373464,
+      "actualVoltageCrossings": {
+        "apd20Ms": 340.96760169576737,
+        "apd50Ms": 430.6548541020893,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.15,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 229.33783783783784,
+      "actualVoltageCrossings": {
+        "apd20Ms": 12.188730184017913,
+        "apd50Ms": 18.458886234177044,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.3,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 229.33783783783784,
+      "actualVoltageCrossings": {
+        "apd20Ms": 13.162520374899032,
+        "apd50Ms": 20.65073611229309,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.5,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 229.33783783783784,
+      "actualVoltageCrossings": {
+        "apd20Ms": 15.181677899818169,
+        "apd50Ms": 27.44686515504145,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.7,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 229.33783783783784,
+      "actualVoltageCrossings": {
+        "apd20Ms": 19.43206085570273,
+        "apd50Ms": 79.28159596919431,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 229.33783783783784,
+      "actualVoltageCrossings": {
+        "apd20Ms": 64.80565929741715,
+        "apd50Ms": 96.47132340740063,
+        "apd90Ms": 119.99999999915599
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.15,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 268.18918918918916,
+      "actualVoltageCrossings": {
+        "apd20Ms": 12.191878342593554,
+        "apd50Ms": 18.49418749503093,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.3,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 268.18918918918916,
+      "actualVoltageCrossings": {
+        "apd20Ms": 13.172538723971229,
+        "apd50Ms": 20.727747709315736,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.5,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 268.18918918918916,
+      "actualVoltageCrossings": {
+        "apd20Ms": 15.231745891680475,
+        "apd50Ms": 27.77603281318443,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.7,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 268.18918918918916,
+      "actualVoltageCrossings": {
+        "apd20Ms": 19.641553120862227,
+        "apd50Ms": 92.26118148112437,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 268.18918918918916,
+      "actualVoltageCrossings": {
+        "apd20Ms": 75.2893936590408,
+        "apd50Ms": 112.41465502936626,
+        "apd90Ms": 139.99999999901047
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.15,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 384.7432432432432,
+      "actualVoltageCrossings": {
+        "apd20Ms": 12.192615475476487,
+        "apd50Ms": 18.533426569512812,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.3,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 384.7432432432432,
+      "actualVoltageCrossings": {
+        "apd20Ms": 13.175314760912443,
+        "apd50Ms": 20.810102386429207,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.5,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 384.7432432432432,
+      "actualVoltageCrossings": {
+        "apd20Ms": 15.25554096585256,
+        "apd50Ms": 28.653339002426947,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.7,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 384.7432432432432,
+      "actualVoltageCrossings": {
+        "apd20Ms": 19.902644311921904,
+        "apd50Ms": 131.19993801691453,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 384.7432432432432,
+      "actualVoltageCrossings": {
+        "apd20Ms": 106.74059674391174,
+        "apd50Ms": 160.24464989526314,
+        "apd90Ms": 199.9999999985739
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.15,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 579.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 12.19262793980306,
+        "apd50Ms": 18.536528314987663,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.3,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 579.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 13.17536708706757,
+        "apd50Ms": 20.824370793125127,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.5,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 579.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 15.256202465097886,
+        "apd50Ms": 29.49697099433979,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.7,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 579.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 19.938393072632607,
+        "apd50Ms": 196.0978655765648,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 579.0,
+      "actualVoltageCrossings": {
+        "apd20Ms": 159.15926855202997,
+        "apd50Ms": 239.96130800509127,
+        "apd90Ms": 299.9999999978463
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.15,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 928.6621621621622,
+      "actualVoltageCrossings": {
+        "apd20Ms": 12.19262794192764,
+        "apd50Ms": 18.536567376489984,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.3,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 928.6621621621622,
+      "actualVoltageCrossings": {
+        "apd20Ms": 13.175367084884783,
+        "apd50Ms": 20.824632002651924,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.5,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 928.6621621621622,
+      "actualVoltageCrossings": {
+        "apd20Ms": 15.256208007776877,
+        "apd50Ms": 29.94760331066209,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.7,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 928.6621621621622,
+      "actualVoltageCrossings": {
+        "apd20Ms": 19.938957195583498,
+        "apd50Ms": 312.9141351839353,
+        "apd90Ms": 479.99999999653664
+      }
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 1.0,
+      "invariantMaxError": 0.0,
+      "restEndpointMs": 928.6621621621622,
+      "actualVoltageCrossings": {
+        "apd20Ms": 253.5128778066428,
+        "apd50Ms": 383.4512926027819,
+        "apd90Ms": 479.99999999653664
+      }
+    }
+  ],
+  "neighboringCycleChecks": [
+    {
+      "approachId": "plateau-regional",
+      "rrMs": 859.0,
+      "maximumPriorCycleVmAtNextPeakMv": 0.0,
+      "fractionOfNativeVentricleAbove0_1MvAtNextPeak": 0.0,
+      "meaning": "Old-cycle contribution at the next local age4ms, not the isolated-cell APD definition."
+    },
+    {
+      "approachId": "early-plateau-coupled",
+      "rrMs": 859.0,
+      "maximumPriorCycleVmAtNextPeakMv": 0.0,
+      "fractionOfNativeVentricleAbove0_1MvAtNextPeak": 0.0,
+      "meaning": "Old-cycle contribution at the next local age4ms, not the isolated-cell APD definition."
+    }
+  ],
+  "javascriptFixtures": [
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 0.45,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        362.87297297297295,
+        362.97297297297297,
+        363.97297297297297
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9745838633905579,
+        0.8873150570676692,
+        0.6716953426506025,
+        0.1,
+        0.10026865858122379,
+        0.1,
+        0.09973297074482758,
+        3.21517241379479e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 0.55,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        318.69606879606874,
+        318.79606879606877,
+        319.79606879606877
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9802683052000001,
+        0.9101537510596026,
+        0.717962849775281,
+        0.1,
+        0.10032833217023843,
+        0.1,
+        0.09967363091034483,
+        3.9296551724169154e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 0.8,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        256.57229729729727,
+        256.6722972972973,
+        257.6722972972973
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9935717834736842,
+        0.945964527755102,
+        0.789493136923077,
+        0.1,
+        0.1004774711226074,
+        0.1,
+        0.0995252813241379,
+        5.715862068967454e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        229.23783783783784,
+        229.33783783783784,
+        230.33783783783784
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9975552855172414,
+        0.9633080489655172,
+        0.8298425037931034,
+        0.1,
+        0.10059684441379312,
+        0.1,
+        0.09940660931034481,
+        7.413793103443826e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 1.25,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        207.37027027027028,
+        207.47027027027028,
+        208.47027027027028
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9994963923901582,
+        0.9748552645126354,
+        0.863723956335878,
+        0.1,
+        0.10074720335272577,
+        0.1,
+        0.09925835413793099,
+        1.2517241379302506e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 120.0,
+      "shapeParameter": 2.2,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        169.5990171990172,
+        169.6990171990172,
+        170.6990171990172
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999982354545455,
+        0.9935136528571429,
+        0.9313169427659574,
+        0.1,
+        0.10131979354460896,
+        0.1,
+        0.0986946923172414,
+        2.8718620689654924e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 0.45,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        424.7648648648648,
+        424.86486486486484,
+        425.86486486486484
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9793910985130112,
+        0.9101537510596026,
+        0.7349504252173913,
+        0.24370453664000008,
+        0.10022913398212523,
+        0.1,
+        0.09977223975294125,
+        2.74235294117716e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 0.55,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        372.97125307125305,
+        373.07125307125307,
+        374.07125307125307
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9877352293103449,
+        0.9300948739884393,
+        0.773281658,
+        0.27378563212598445,
+        0.10028003204589761,
+        0.1,
+        0.09972162636470587,
+        3.351764705882488e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 0.8,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        300.13648648648643,
+        300.23648648648646,
+        301.23648648648646
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9968231133333333,
+        0.9619454363157895,
+        0.8385685046666667,
+        0.3475720896969697,
+        0.1004072444535961,
+        0.1,
+        0.09959509289411775,
+        4.8752941176489913e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        268.08918918918914,
+        268.18918918918916,
+        269.18918918918916
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9992531811764707,
+        0.97397719,
+        0.8744467482352941,
+        0.3989246258823528,
+        0.1005089807058823,
+        0.1,
+        0.09949386611764711,
+        6.09411764706283e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 1.25,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        242.45135135135135,
+        242.55135135135134,
+        243.55135135135134
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9998966620029895,
+        0.9805315489602446,
+        0.9026108446153845,
+        0.45564252517730525,
+        0.1006365702554677,
+        0.1,
+        0.09936736529411755,
+        8.764705882351337e-08,
+        3.1829909971040505e-20,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 140.0,
+      "shapeParameter": 2.2,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        198.16781326781327,
+        198.26781326781327,
+        199.26781326781327
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999997623076923,
+        0.9971900152238806,
+        0.9566830741379311,
+        0.611962506,
+        0.10112355769615057,
+        0.1,
+        0.098886844117647,
+        2.530588235294272e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 0.45,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        610.4405405405406,
+        610.5405405405406,
+        611.5405405405406
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9933815210875332,
+        0.9511902765853658,
+        0.8364949688235295,
+        0.5550111136842104,
+        0.1001589712378474,
+        0.1,
+        0.09984196227755093,
+        1.902857142853463e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 0.55,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        535.796805896806,
+        535.896805896806,
+        536.896805896806
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.997095453902439,
+        0.9654675633054394,
+        0.8681856463157895,
+        0.611962506,
+        0.10019428826414221,
+        0.1,
+        0.09980684278367354,
+        2.325714285715094e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 0.8,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        430.82905405405404,
+        430.92905405405406,
+        431.92905405405406
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9998265591823899,
+        0.9801382922222223,
+        0.91586195,
+        0.7044240542222223,
+        0.10028256506174096,
+        0.1,
+        0.09971904404897965,
+        3.382857142854846e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        384.6432432432432,
+        384.7432432432432,
+        385.7432432432432
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999810767346939,
+        0.9894481581632654,
+        0.9368848557142857,
+        0.7490322087755102,
+        0.10035317028571432,
+        0.1,
+        0.09964880506122446,
+        4.22857142857174e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 1.25,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        347.6945945945946,
+        347.7945945945946,
+        348.7945945945946
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999982554489164,
+        0.9949320019287212,
+        0.95623044,
+        0.7905557299999999,
+        0.10044140655528626,
+        0.1,
+        0.09956100632653057,
+        5.285714285714676e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 200.0,
+      "shapeParameter": 2.2,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        283.87420147420147,
+        283.9742014742015,
+        284.9742014742015
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.9999086648000001,
+        0.9820880546153846,
+        0.8836884353424657,
+        0.10077821881297155,
+        0.1,
+        0.09922749285714272,
+        1.3579591836725742e-07,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 0.45,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        919.9,
+        920.0,
+        921.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9993908026391383,
+        0.9770656002372882,
+        0.9116966804878048,
+        0.7515274271573604,
+        0.10010525475747185,
+        0.1,
+        0.09989535339999997,
+        1.2600000000020375e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 0.55,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        807.1727272727272,
+        807.2727272727273,
+        808.2727272727273
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9998997350819672,
+        0.9837502808882521,
+        0.9313169427659574,
+        0.788689048372093,
+        0.10012864035681103,
+        0.1,
+        0.09987209859999999,
+        1.5400000000017826e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 0.8,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        648.65,
+        648.75,
+        649.75
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999979576987448,
+        0.9952421741322315,
+        0.9627382732258064,
+        0.8507224436923078,
+        0.10018709744171911,
+        0.1,
+        0.09981396160000004,
+        2.2400000000011463e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        578.9,
+        579.0,
+        580.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.99999985,
+        0.99855604,
+        0.97449769,
+        0.88680665,
+        0.10023385600000005,
+        0.1,
+        0.09976745199999995,
+        2.8000000000006365e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 1.25,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        523.1,
+        523.2,
+        524.2
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.9997585747592848,
+        0.981018206741573,
+        0.912374567829912,
+        0.10029229531289605,
+        0.1,
+        0.09970931499999999,
+        3.5e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 300.0,
+      "shapeParameter": 2.2,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        426.7181818181818,
+        426.8181818181818,
+        427.8181818181818
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.9999992957419355,
+        0.997380258630137,
+        0.9624761725,
+        0.10051427471025264,
+        0.1,
+        0.09948839439999993,
+        6.160000000000765e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 0.45,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        1476.9270270270272,
+        1477.027027027027,
+        1478.027027027027
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999948492281499,
+        0.9939799284901532,
+        0.9617655751428572,
+        0.8707643314388489,
+        0.10006544793873237,
+        0.1,
+        0.09993492564369752,
+        7.835294117658129e-09,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 0.55,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        1295.6493857493858,
+        1295.7493857493857,
+        1296.7493857493857
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999994227835052,
+        0.99751673535649,
+        0.972841867804878,
+        0.8977292700636943,
+        0.10007999024445588,
+        0.1,
+        0.09992046467563029,
+        9.576470588231126e-09,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 0.8,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        1040.7277027027028,
+        1040.8277027027027,
+        1041.8277027027027
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.999867603523316,
+        0.9859844014285715,
+        0.9362395336633663,
+        0.10011634333543426,
+        0.1,
+        0.09988431225546228,
+        1.3929411764711404e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        928.5621621621622,
+        928.6621621621622,
+        929.6621621621622
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.9999860068907563,
+        0.9931861994117647,
+        0.9556729354621849,
+        0.1001454230588236,
+        0.1,
+        0.09985539031932768,
+        1.7411764705857425e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 1.25,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        838.8297297297297,
+        838.9297297297297,
+        839.9297297297297
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.9999987303143585,
+        0.9972972778313254,
+        0.9696317366784453,
+        0.10018176927682369,
+        0.1,
+        0.0998192378991598,
+        2.1764705882369526e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "rational",
+      "durationMs": 480.0,
+      "shapeParameter": 2.2,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        683.8373464373464,
+        683.9373464373464,
+        684.9373464373464
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.9999769314285715,
+        0.9908365923348018,
+        0.10031985009493415,
+        0.1,
+        0.09968185870252089,
+        3.830588235295636e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.15,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        229.23783783783784,
+        229.33783783783784,
+        230.33783783783784
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.6707485653391512,
+        0.1479615582758621,
+        0.14054680576628353,
+        0.1,
+        0.10003315802298851,
+        0.1,
+        0.09996600875624916,
+        7.431410115752445e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.3,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        229.23783783783784,
+        229.33783783783784,
+        230.33783783783784
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.7284203394882258,
+        0.29184623310344826,
+        0.2621872230651341,
+        0.1,
+        0.10013263209195403,
+        0.1,
+        0.09986728985605918,
+        7.428301231222579e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.5,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        229.23783783783784,
+        229.33783783783784,
+        230.33783783783784
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8053160383536588,
+        0.48369246620689654,
+        0.4243744461302682,
+        0.1,
+        0.10026526418390805,
+        0.1,
+        0.09973566465580583,
+        7.42415605185852e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 0.7,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        229.23783783783784,
+        229.33783783783784,
+        230.33783783783784
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8822117372190919,
+        0.6755386993103448,
+        0.5865616691954023,
+        0.1,
+        0.10039789627586208,
+        0.1,
+        0.09960403945555249,
+        7.42001087249446e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 120.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        119.9,
+        120.0,
+        120.1,
+        229.23783783783784,
+        229.33783783783784,
+        230.33783783783784
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9975552855172414,
+        0.9633080489655172,
+        0.8298425037931034,
+        0.1,
+        0.10059684441379312,
+        0.1,
+        0.09940660931034481,
+        7.413793103443826e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.15,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        268.08918918918914,
+        268.18918918918916,
+        269.18918918918916
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.6718282442483363,
+        0.14855428833333337,
+        0.14302481934640526,
+        0.11660692366013073,
+        0.10002827670588235,
+        0.1,
+        0.09997113594523661,
+        6.098604036048528e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.3,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        268.08918918918914,
+        268.18918918918916,
+        269.18918918918916
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.7296091154709482,
+        0.2942171533333333,
+        0.2720992773856209,
+        0.16642769464052284,
+        0.1001131068235294,
+        0.1,
+        0.09988691185801486,
+        6.097812320346293e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.5,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        268.08918918918914,
+        268.18918918918916,
+        269.18918918918916
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8066502771010975,
+        0.48843430666666665,
+        0.4441985547712418,
+        0.23285538928104568,
+        0.1002262136470588,
+        0.1,
+        0.09977461307505267,
+        6.096756699406797e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 0.7,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        268.08918918918914,
+        268.18918918918916,
+        269.18918918918916
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8836914387312468,
+        0.68265146,
+        0.6162978321568627,
+        0.29928308392156855,
+        0.1003393204705882,
+        0.1,
+        0.09966231429209048,
+        6.095701078470484e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 140.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        139.9,
+        140.0,
+        140.1,
+        268.08918918918914,
+        268.18918918918916,
+        269.18918918918916
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9992531811764707,
+        0.97397719,
+        0.8744467482352941,
+        0.3989246258823528,
+        0.1005089807058823,
+        0.1,
+        0.09949386611764711,
+        6.09411764706283e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.15,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        384.6432432432432,
+        384.7432432432432,
+        385.7432432432432
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.6722911074861516,
+        0.1494137865646259,
+        0.14649360309523812,
+        0.1360573449319728,
+        0.10001962057142857,
+        0.1,
+        0.09998013019148345,
+        4.230731988815933e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.3,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        384.6432432432432,
+        384.7432432432432,
+        385.7432432432432
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.7301187491182471,
+        0.2976551462585034,
+        0.2859744123809524,
+        0.24422937972789116,
+        0.1000784822857143,
+        0.1,
+        0.09992166105084953,
+        4.230350713477037e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.5,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        384.6432432432432,
+        384.7432432432432,
+        385.7432432432432
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8072222712943748,
+        0.49531029251700687,
+        0.4719488247619048,
+        0.38845875945578234,
+        0.10015696457142859,
+        0.1,
+        0.09984370219667087,
+        4.229842346361693e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 0.7,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        384.6432432432432,
+        384.7432432432432,
+        385.7432432432432
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8843257934705024,
+        0.6929654387755102,
+        0.657923237142857,
+        0.5326881391836735,
+        0.10023544685714288,
+        0.1,
+        0.09976574334249233,
+        4.2293339792431654e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 200.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        199.9,
+        200.0,
+        200.1,
+        384.6432432432432,
+        384.7432432432432,
+        385.7432432432432
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.9999810767346939,
+        0.9894481581632654,
+        0.9368848557142857,
+        0.7490322087755102,
+        0.10035317028571432,
+        0.1,
+        0.09964880506122446,
+        4.22857142857174e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.15,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        578.9,
+        579.0,
+        580.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.6723030452624792,
+        0.14991978000000003,
+        0.14858320500000002,
+        0.14371148055555558,
+        0.10001299200000001,
+        0.1,
+        0.09998692325497725,
+        2.800947489827195e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.3,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        578.9,
+        579.0,
+        580.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.7301318931573357,
+        0.29967911999999997,
+        0.29433282,
+        0.27484592222222226,
+        0.10005196800000002,
+        0.1,
+        0.09994819303351067,
+        2.8007802857405294e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.5,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        578.9,
+        579.0,
+        580.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8072370236838112,
+        0.49935823999999995,
+        0.48866564,
+        0.44969184444444443,
+        0.10010393600000003,
+        0.1,
+        0.0998965527382219,
+        2.8005573469572486e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 0.7,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        578.9,
+        579.0,
+        580.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8843421542102867,
+        0.6990373599999999,
+        0.68299846,
+        0.6245377666666666,
+        0.10015590400000003,
+        0.1,
+        0.09984491244293311,
+        2.8003344081739672e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 300.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        299.9,
+        300.0,
+        300.1,
+        578.9,
+        579.0,
+        580.0
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.99999985,
+        0.99855604,
+        0.97449769,
+        0.88680665,
+        0.10023385600000005,
+        0.1,
+        0.09976745199999995,
+        2.8000000000006365e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.15,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        928.5621621621622,
+        928.6621621621622,
+        929.6621621621622
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.6723031406463359,
+        0.14999922260504206,
+        0.14962145552287584,
+        0.14753738530345475,
+        0.10000807905882354,
+        0.1,
+        0.09999190525427785,
+        1.7415429106495138e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.3,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        928.5621621621622,
+        928.6621621621622,
+        929.6621621621622
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.7301319981793354,
+        0.2999968904201681,
+        0.29848582209150326,
+        0.29014954121381886,
+        0.10003231623529414,
+        0.1,
+        0.09996781438340428,
+        1.741478244757218e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.5,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        928.5621621621622,
+        928.6621621621622,
+        929.6621621621622
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8072371415566681,
+        0.4999937808403362,
+        0.49697164418300654,
+        0.48029908242763775,
+        0.10006463247058826,
+        0.1,
+        0.09993569322223955,
+        1.741392023562185e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 0.7,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        928.5621621621622,
+        928.6621621621622,
+        929.6621621621622
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        0.8843422849340009,
+        0.6999906712605042,
+        0.6954574662745098,
+        0.6704486236414565,
+        0.1000969487058824,
+        0.1,
+        0.09990357206107484,
+        1.7413058023735177e-08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "family": "early-plateau",
+      "durationMs": 480.0,
+      "shapeParameter": 1.0,
+      "ageMs": [
+        -3.0,
+        0.0,
+        4.0,
+        15.0,
+        30.0,
+        60.0,
+        120.0,
+        479.9,
+        480.0,
+        480.1,
+        928.5621621621622,
+        928.6621621621622,
+        929.6621621621622
+      ],
+      "normalizedVm": [
+        0.00136986,
+        0.5,
+        1.0,
+        1.0,
+        0.9999860068907563,
+        0.9931861994117647,
+        0.9556729354621849,
+        0.1001454230588236,
+        0.1,
+        0.09985539031932768,
+        1.7411764705857425e-08,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "tolerance": 1e-10
+}

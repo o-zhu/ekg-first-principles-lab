@@ -1,0 +1,64 @@
+{
+  "source": "https://zenodo.org/records/4593739",
+  "paper": "https://doi.org/10.1371/journal.pcbi.1008851",
+  "license": "CC-BY-4.0",
+  "geometryDescription": "Statistical mean of 19 asymptomatic adult CT-derived meshes; LV wall segmented, source RV and atrial thicknesses prescribed. No LAA or fine trabeculae.",
+  "coordinateUnit": "mm",
+  "orientation": "Inferred +X patient left, +Y posterior, +Z superior from chamber centers and SVC/IVC; original source coordinates retained without transform.",
+  "nodeCount": 326448,
+  "tetCount": 1526530,
+  "renderNodeCount": 19497,
+  "renderTriangleCount": 28210,
+  "cutTriangleCount": 3634,
+  "cutNormal": [
+    0.32873617355140405,
+    -0.5509802221915759,
+    0.7670419303744109
+  ],
+  "cutOffset": 1.615786594780044,
+  "cutLandmarks": [
+    [
+      24.0841125677311,
+      -0.2887471355912742,
+      -8.61792637225085
+    ],
+    [
+      -9.730296392631614,
+      -30.7036429076158,
+      -6.183802708043458
+    ],
+    [
+      -13.878867418979222,
+      31.884280340545,
+      34.32128311173525
+    ],
+    [
+      -44.456847869938606,
+      1.870392620823406,
+      13.852928522733183
+    ],
+    [
+      46.34966163368492,
+      -29.419453414170057,
+      -43.0029990189559
+    ]
+  ],
+  "cutDiscard": "dot(cutNormal,position) > cutOffset",
+  "chamberLabels": {
+    "1": "LV myocardium",
+    "2": "RV myocardium",
+    "3": "LA myocardium",
+    "4": "RA myocardium"
+  },
+  "lvLateralNearestEndoEpiDistanceMm": {
+    "definition": "Nearest Euclidean distance from mid-LV lateral endocardial nodes to epicardial nodes; a geometric distance check, not a formal normal-wall thickness measurement.",
+    "n": 7495,
+    "p10medianp90": [
+      7.8281517358095005,
+      8.623822181591875,
+      9.916636191543489
+    ]
+  },
+  "surfaceMethod": "vtkDataSetSurfaceFilter on myocardial tets only; per-chamber topology-preserving DecimatePro retains original source-node positions.",
+  "cutMethod": "Intersections of original myocardial tetrahedra with an oblique four-chamber plane fitted through chamber means and LV apex; exact edge interpolation; topology-preserving cap decimation retains original edge intersections. Cap holes are actual ventricular/atrial lumens."
+}

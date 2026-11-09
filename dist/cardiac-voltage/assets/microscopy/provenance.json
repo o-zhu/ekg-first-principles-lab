@@ -1,0 +1,86 @@
+{
+  "obtained_date": "2026-10-29",
+  "usage_note": "Three recommended assets comprise actual light microscopy, actual TEM, and an explicitly mixed microscopy/reconstruction figure. No AI imagery, enhancement, or synthetic data. Keep image aspect ratios and scale bars. Use contain rather than cropped cover display.",
+  "images": [
+    {
+      "filename": "cardiac-muscle-light-200x.jpg",
+      "recommended": true,
+      "title": "Longitudinal cardiac muscle, light microscopy, 200x",
+      "creator": "Berkshire Community College Bioscience Image Library",
+      "year": 2018,
+      "species": "Not specified in original image caption; do not identify as human solely from Commons category.",
+      "preparation": "Longitudinal section; stain not specified in source caption.",
+      "scale": "Source magnification 200x; no calibrated micrometer scale bar. Magnification does not reflect on-screen enlargement.",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_(27061947267).jpg",
+      "original_source_url": "https://www.flickr.com/photos/146824358@N03/27061947267/",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Muscle_Tissue_Intercalated_Discs_in_Cardiac_Muscle_%2827061947267%29.jpg",
+      "dimensions": [
+        3264,
+        1840
+      ],
+      "changes": "None. Original JPEG downloaded.",
+      "caption": "Longitudinal light micrograph of cardiac muscle. Fine repeated striations mark sarcomeres; darker transverse intercalated discs join adjacent cardiomyocytes. Source magnification 200x; species and stain are not specified.",
+      "credit": "Berkshire Community College Bioscience Image Library (2018), CC0, via Wikimedia Commons.",
+      "sha256": "047e4e86da1b99a5249d084d11a57ac886cc0bacb1f815e6f199b8af7d1ab0d7",
+      "bytes": 1346628
+    },
+    {
+      "filename": "cardiac-gap-junction-tem.jpg",
+      "recommended": true,
+      "title": "Gap junction within an intercalated disc, TEM, Figure 6",
+      "creator": "Michael Dykstra; National Toxicology Program Rodent Ultrastructure Atlas",
+      "year": 2022,
+      "species": "Rodent atlas; the figure caption does not specify an individual species.",
+      "preparation": "Transmission electron microscopy. Atlas general methods describe aldehyde fixation, osmium postfixation, epoxy embedding, and heavy-metal-stained ultrathin sections; figure caption does not give image-specific protocol.",
+      "scale": "Original 500 nm scale bar preserved; source magnification 49,000x.",
+      "license": "Public domain per NTP website policy; no copyright mark appears on figure or PDF.",
+      "license_url": "https://ntp.niehs.nih.gov/support/policies",
+      "source_url": "https://ntp.niehs.nih.gov/atlas/us/musculoskeletal-system/muscle",
+      "download_url": "https://ntp.niehs.nih.gov/sites/default/files/2025-03/mar2025-us_atlas-muscle-final.pdf",
+      "dimensions": [
+        640,
+        475
+      ],
+      "changes": "Original embedded JPEG extracted losslessly with pdfimages from PDF page 7 (Figure 6); no pixel changes.",
+      "caption": "Transmission electron micrograph of an intercalated disc. Arrow 1 identifies a gap junction, where adjacent cells form electrical coupling; arrow 2 identifies a mechanical attachment, fascia adherens. Rodent atlas; exact species not specified. Scale bar: 500 nm.",
+      "labels": {
+        "1": "Nexus / gap junction",
+        "2": "Fascia adherens",
+        "3": "Associated fine cytoplasmic filaments",
+        "4": "Sarcoplasmic reticulum"
+      },
+      "credit": "Dykstra M. (2022), Muscle, Fig. 6. National Toxicology Program Rodent Ultrastructure Atlas. Public domain.",
+      "citation": "Dykstra M. 2022. Muscle. In: Herbert RA, Szabo KA, Singletary E (eds.), National Toxicology Program Rodent Ultrastructure Atlas. DOI:10.22427/NTP-OTHER-1006.",
+      "sha256": "98798bbc97055164e1535a6197f6debd89fe20bbab2890f6a23811b81db3085b",
+      "bytes": 165405
+    },
+    {
+      "filename": "purkinje-rabbit-confocal-romero-fig2.png",
+      "recommended": true,
+      "title": "Confocal images of rabbit Purkinje cells and working ventricular myocytes, Figure 2",
+      "creator": "Daniel Romero, Oscar Camara, Frank Sachse, Rafael Sebastian",
+      "year": 2016,
+      "species": "Adult rabbit",
+      "preparation": "Fixed ventricular tissue labeled with wheat germ agglutinin (WGA)-Alexa Fluor 555, marking cell membranes and extracellular material; confocal microscopy. Published figure includes microscopy and segmentation-derived 3D reconstructions.",
+      "scale": "Microscopy panel a:25 micrometers; panel b:30 micrometers; panel c:25 micrometers. Original scale bars retained.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164093",
+      "figure_url": "https://doi.org/10.1371/journal.pone.0164093.g002",
+      "download_url": "https://journals.plos.org/plosone/article/figure/image?download=&id=10.1371%2Fjournal.pone.0164093.g002&size=large",
+      "dimensions": [
+        2250,
+        1452
+      ],
+      "changes": "None. Publisher PNG downloaded with original panels, labels, and scale bars.",
+      "caption": "Rabbit Purkinje cells and working ventricular myocytes. Top row: actual confocal micrographs; P identifies Purkinje cells, V a working ventricular myocyte, and PT a cell interpreted as transitional. Bottom rows: the authors\u2019 3D reconstructions of individual Purkinje cells, showing branched and tubular forms. WGA fluorescence highlights membranes and extracellular material.",
+      "limitations": "Anatomical proximity alone does not prove functional electrical coupling. Authors explicitly caution that potential lateral connections seen in imaging cannot by themselves establish transmission of impulses.",
+      "credit": "Romero D, Camara O, Sachse F, Sebastian R (2016), PLOS ONE 11:e0164093, Fig.2. CC BY 4.0. Unaltered.",
+      "citation": "Romero D, Camara O, Sachse F, Sebastian R (2016). Analysis of Microstructure of the Cardiac Conduction System Based on Three-Dimensional Confocal Microscopy. PLOS ONE 11(10):e0164093. DOI:10.1371/journal.pone.0164093.",
+      "sha256": "9ef6be24c327d2aae8f6189690efd879a2ef97ad5106c0c3d42073e42384e439",
+      "bytes": 1766381
+    }
+  ]
+}

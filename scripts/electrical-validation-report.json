@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "scope": "Deterministic teaching field/event consistency and offline GLES evaluation; not biological or patient-specific validation. The independent actual-render geometry audit is data-source/conduction-render-audit.json. Managed Sites preview covers layout and interactions.",
+  "sourceSha256": "b560a70554fcccbd89e69d35a96cb5d80c0e583f427a4f61a36c17f7451d63fb",
+  "couplingSha256": "3ff8d23cd68bb444971efd426277b12827c1f78161a0ddd169ca87c350a229c4",
+  "checks": {
+    "field": {
+      "command": "node scripts/check-electrical-field.mjs",
+      "result": {
+        "passed": true,
+        "transmuralPairs": 128,
+        "outwardDelayMs": [
+          5.890703968339849,
+          25.771881979958444
+        ],
+        "workingCellRowMaxErrorMv": 5.4996007747831754e-12,
+        "ap90MaxNormalizedError": 5.545454545008432e-07,
+        "gpuTextureMaxErrorMv": 0.0008388673000103708,
+        "rbbbRVDelayMs": 81.82575454717175
+      }
+    },
+    "events": {
+      "command": "node scripts/check-electrical-events.mjs",
+      "result": {
+        "passed": true,
+        "blockedAtrialEvents": 8,
+        "independentAvClockStates": 582,
+        "clinicalRecordStates": 105,
+        "absentVentricularMap": "neutral",
+        "atrialClockInAvBlock": "independent",
+        "junctionalEscapeHis": "independent ventricular clock",
+        "pvcAndVentricularEscape": "no normal fast-conduction pulse",
+        "af": "qualitative atria with timed ventricular reference"
+      }
+    },
+    "shader": {
+      "command": "python scripts/check-electrical-gpu.py",
+      "result": {
+        "passed": true,
+        "runtime": "OpenGL ES 3.2 Mesa 25.2.8-0ubuntu0.24.04.2",
+        "actualSceneShaderCompiled": true,
+        "numericCases": 80,
+        "timingMaxErrorSeconds": 3.266201331619811e-08,
+        "waveformAndFrontMaxError": 0.00022718052380621412,
+        "displayColorMaxError": 0.00014458721911320138,
+        "voltageMaxErrorMv": 0.0007486769252174064,
+        "neutralMapChecks": 21,
+        "activationOffChecks": 35,
+        "afPreservesTimedVentricularMap": true
+      }
+    },
+    "coupledContinuity": {
+      "command": "node scripts/check-conduction-continuity.mjs --coupled",
+      "result": {
+        "passed": true,
+        "mode": "coupled source graph",
+        "geometricJunctions": 53,
+        "junctionStates": 428,
+        "matchedTargets": 0,
+        "clinicalTargets": 16515,
+        "blockedStates": 816,
+        "recruitingJunctionChecks": 1640,
+        "maxMyocardialTimingErrorMs": 3.3710013946919304e-08,
+        "junctionDelayRangeMs": [
+          1.8706682709845288,
+          3.0000000000000027
+        ],
+        "maxJunctionDistance": 2.0682707237309046e-14,
+        "maxEndpointMismatchMs": 0,
+        "maxJunctionTimingErrorMs": 2.3504577388112935e-13,
+        "incompatibleTarget": null,
+        "bundleBlock": "quiet interrupted-side guide; recruitment uses septal supply and tissue-only graph"
+      }
+    },
+    "incomingEventTransitions": {
+      "command": "node scripts/check-conduction-event-transitions.mjs --coupled",
+      "result": {
+        "passed": true,
+        "mode": "coupled source graph",
+        "hisSamples": 161,
+        "bundleSamples": 147,
+        "blockedStates": 520,
+        "coverage": "post-PVC sinus, Sandbox AF, recorded AF, AF-RVR, flutter, SVT, complete AV block and independent escapes",
+        "sourceClock": "Existing myocardial and atrial clocks retained; only the explicit fast-pathway event is previewed",
+        "finalRecordBoundary": "No extrapolated beat or phantom pre-QRS pulse",
+        "syntheticSignalHashes": "3 exact v12 matches"
+      }
+    },
+    "clinicalChartScale": {
+      "command": "node scripts/check-clinical-chart-scale.mjs",
+      "result": {
+        "passed": true,
+        "records": 25,
+        "valuesChecked": 1300200,
+        "pagesChecked": 177,
+        "seeksChecked": 885,
+        "defaultGainPxPerMV": 50,
+        "previousGainPxPerMV": 8.5,
+        "verticalMagnification": 5.882352941176471,
+        "defaultWindowSeconds": 2.5,
+        "previousWindowSeconds": 10,
+        "timeMagnification": 4,
+        "amplitude": "Shared gain and zero line, no per-lead normalization or source changes",
+        "bounds": "Every source sample visible at all three gains; artifact extremes expand height",
+        "paging": "Stationary within each interval; exact sample-based seeks and one cursor per lead",
+        "maxHeightAtHighestGain": 766
+      }
+    }
+  },
+  "javascriptSyntax": {
+    "passed": true,
+    "changedFiles": 25
+  }
+}

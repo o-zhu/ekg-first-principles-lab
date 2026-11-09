@@ -1,0 +1,27 @@
+{
+  "x": [
+    182.72235016146502,
+    3.1730266917260455,
+    0.30043749182398005,
+    5.0678767090817285,
+    7.9999980780876445,
+    4.941709644595901e-14,
+    4.684952656785937,
+    6.988965612744223,
+    7.999999985327345,
+    3.000000000000002,
+    13.738500145275255,
+    6.720079669086478,
+    0.6500362133278397,
+    1.1682680221944965
+  ],
+  "errors": {
+    "whole": 0.10529672148410472,
+    "p": 0.01454553188817174,
+    "qrs": 0.0741520988624204,
+    "stt": 0.13430866516641832
+  },
+  "description": "12PMJ TT06endo nativeAP fit",
+  "evaluations": null,
+  "executionNote": "Best parameter vector and reported errors recovered from the completed optimizer output after a result-path write error; exact objective-evaluation count was not retained."
+}

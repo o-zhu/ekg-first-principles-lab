@@ -1,0 +1,13 @@
+{
+  "README.md": "a56d769083c9cb69330b13c3ec12f9c30a28f530dccf72ba9159c8e29965db18",
+  "environment.json": "ecc017da120ecd3cc97d475827e15cf6f6357ffda0ad5b497db3e943be0be721",
+  "operator-provenance.json": "1ee9c6d08e1eeac3e7561e6f4bdda14ddd52f7cc7b32aeb5608a95e114c5e984",
+  "midpoint-checks.json": "c9fed7f285493aa802956bbc064b350ea7ef0ec13cc4709efb6eea65e1746ea3",
+  "clinical-events.json": "89b40021c571fc2d9112e520d4117f08c7d6d0a92cb340fc54e5df00d7822c78",
+  "reproduce.py": "65dfee73bbeab9e9dd8bca5b5908429b4903c37be525b41ba3e3d2e422b3c1ab",
+  "summary.json": "946c9becc34924e2aa8745b26528b8f3bea8f8f9da9864c91ccfc1527fed8c55",
+  "scripts/regenerate_all_cases.py": "25d3a4fde9ae15ab80262620c1dd430cdd8f68178e403fce142d6bb67d9421d5",
+  "../../cardiac-voltage/data/heart-model-reproducible-source.zip": "b766a5484c291ce1d1498ea789043484e72af8a5336df8ed4e5fd13c4a0199eb",
+  "../../data/pathology-fits/propagation-research.zip": "bf1a470d743cd918000abf2f171bc864bcca1c44c0bd97dfa83823fe1e00eeb7",
+  "../../cardiac-voltage/data/heart-model.json": "b560a70554fcccbd89e69d35a96cb5d80c0e583f427a4f61a36c17f7451d63fb"
+}

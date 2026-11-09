@@ -1,0 +1,52 @@
+/* Let the imported course use the full main viewport and its original layout. */
+#main[data-module="electricity"] {
+  max-width: none;
+  padding: 0;
+}
+
+/* Match the shared module gutters while preserving the embedded lesson width. */
+#main[data-module="electricity"] > .lesson-intro {
+  max-width: 1920px;
+  padding: 24px 28px 0;
+}
+
+@media (min-width:1600px) {
+  #main[data-module="electricity"] > .lesson-intro { padding:26px 34px 0; }
+}
+@media (max-width:1240px) {
+  #main[data-module="electricity"] > .lesson-intro { padding:21px 21px 0; }
+}
+@media (max-width:760px) {
+  #main[data-module="electricity"] > .lesson-intro { padding:20px 17px 0; }
+}
+
+#main[data-module="electricity"] + .app-footer {
+  display: none;
+}
+
+.voltage-lesson {
+  position: relative;
+  width: 100%;
+  background: #f4f3ed;
+}
+
+.voltage-frame {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  border: 0;
+  background: #f4f3ed;
+}
+
+.voltage-loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #496b59;
+  background: #f4f3ed;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1;
+}

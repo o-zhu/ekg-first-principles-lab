@@ -1,0 +1,2027 @@
+{
+  "recordId": "acs-00004",
+  "title": "Anterior STEMI pattern \u00b7 ACS 00004",
+  "kind": "stemi",
+  "selectedApproachId": "recovery-prior-shortened",
+  "bestNumericalApproachId": "alternating-pose-source",
+  "selectionReason": "A modest interventricular recovery prior avoids the relaxed model\u2019s extreme RV APD offset at a small training-error cost. This is a prior-informed teaching choice, not a uniquely recovered patient map. Subsequent plateau-shape and phase-focused recovery searches did not improve the training QRS/whole-beat tradeoff sufficiently to replace this default. A separately labeled ST/T-focused regional-prolongation alternative is preserved with its own field, waveform and errors.",
+  "metrics": {
+    "training": {
+      "wholeBeat": {
+        "startMs": -230.0,
+        "endMs": 520.0,
+        "independentLeadRmseMv": 0.18044868090736782,
+        "allLeadRmseMv": 0.15418826869560753,
+        "perLeadRmseMv": {
+          "I": 0.08385107944504075,
+          "II": 0.08775137320425835,
+          "III": 0.0869948233640206,
+          "aVR": 0.07467471401847048,
+          "aVL": 0.07405906565416943,
+          "aVF": 0.07851940842280913,
+          "V1": 0.23248008635564185,
+          "V2": 0.3040836364252035,
+          "V3": 0.1399827243857638,
+          "V4": 0.15601549277430699,
+          "V5": 0.19375219809198377,
+          "V6": 0.13331445771293127
+        },
+        "perLeadCorrelation": {
+          "I": 0.9189364238649363,
+          "II": 0.922743122237051,
+          "III": 0.32686834766584744,
+          "aVR": 0.9409205772250686,
+          "aVL": 0.7510522328084753,
+          "aVF": 0.8250300207464528,
+          "V1": 0.5449905158351387,
+          "V2": 0.767786497754744,
+          "V3": 0.8565775081975295,
+          "V4": 0.7843078565832597,
+          "V5": 0.8325919521175439,
+          "V6": 0.9020698990274889
+        },
+        "medianIndependentLeadCorrelation": 0.8445847301575367
+      },
+      "P": {
+        "startMs": -235.0,
+        "endMs": -60.0,
+        "independentLeadRmseMv": 0.024707426625688447,
+        "allLeadRmseMv": 0.027281076598428412,
+        "perLeadRmseMv": {
+          "I": 0.03270162000539534,
+          "II": 0.02211054937321159,
+          "III": 0.04274812900703694,
+          "aVR": 0.014544725533559951,
+          "aVL": 0.03337051025376434,
+          "aVF": 0.02991467385207694,
+          "V1": 0.029820081330200508,
+          "V2": 0.03043686115112651,
+          "V3": 0.022974464257899462,
+          "V4": 0.013877391027601504,
+          "V5": 0.023089162843720944,
+          "V6": 0.016007057861477287
+        },
+        "perLeadCorrelation": {
+          "I": 0.7912108504376686,
+          "II": 0.9799657600378094,
+          "III": 0.9646821474927625,
+          "aVR": 0.947188797858505,
+          "aVL": 0.3841320037796598,
+          "aVF": 0.9832973519797836,
+          "V1": 0.48526273496470623,
+          "V2": 0.5147492123547537,
+          "V3": 0.8957644773938773,
+          "V4": 0.9281540081588626,
+          "V5": 0.9271682398292508,
+          "V6": 0.8710416094033978
+        },
+        "medianIndependentLeadCorrelation": 0.8834030433986375
+      },
+      "QRS": {
+        "startMs": -50.0,
+        "endMs": 60.0,
+        "independentLeadRmseMv": 0.40669539178551184,
+        "allLeadRmseMv": 0.34562414497023414,
+        "perLeadRmseMv": {
+          "I": 0.17939876620067466,
+          "II": 0.14287009745720913,
+          "III": 0.19704247712848091,
+          "aVR": 0.12626929180521682,
+          "aVL": 0.17918438649151974,
+          "aVF": 0.1529272547063997,
+          "V1": 0.5596847585140877,
+          "V2": 0.7040559115815951,
+          "V3": 0.20010001396945626,
+          "V4": 0.35472136065264137,
+          "V5": 0.4566395037534807,
+          "V6": 0.29543984211135743
+        },
+        "perLeadCorrelation": {
+          "I": 0.9346430031331436,
+          "II": 0.967835058824622,
+          "III": 0.3695750422738525,
+          "aVR": 0.9740017850615807,
+          "aVL": 0.7209590910494023,
+          "aVF": 0.8903658687491984,
+          "V1": 0.4485798758193244,
+          "V2": 0.7204920604394025,
+          "V3": 0.907310579174512,
+          "V4": 0.7614025937418921,
+          "V5": 0.9318239122854518,
+          "V6": 0.9472536032918848
+        },
+        "medianIndependentLeadCorrelation": 0.9195672457299819
+      },
+      "ST_T": {
+        "startMs": 60.0,
+        "endMs": 480.0,
+        "independentLeadRmseMv": 0.11857693626028959,
+        "allLeadRmseMv": 0.10213826424996096,
+        "perLeadRmseMv": {
+          "I": 0.059797698661419256,
+          "II": 0.08836110620816245,
+          "III": 0.04753971222368899,
+          "aVR": 0.07413542439063511,
+          "aVL": 0.028515631464755095,
+          "aVF": 0.06429273022044968,
+          "V1": 0.11541665327722404,
+          "V2": 0.18403001430721702,
+          "V3": 0.15522196297569654,
+          "V4": 0.09998240756506091,
+          "V5": 0.10681433527354246,
+          "V6": 0.09172119054716611
+        },
+        "perLeadCorrelation": {
+          "I": 0.004547480412381594,
+          "II": 0.08269475568517726,
+          "III": 0.6139372360706863,
+          "aVR": 0.020462152964087998,
+          "aVL": 0.34192650029061544,
+          "aVF": 0.2538919191228781,
+          "V1": 0.7899873303205592,
+          "V2": 0.8792697859547401,
+          "V3": 0.8639427631791801,
+          "V4": 0.8836603161782537,
+          "V5": 0.10683018268889291,
+          "V6": -0.2181802409646746
+        },
+        "medianIndependentLeadCorrelation": 0.44840875650472606
+      },
+      "ST": {
+        "startMs": 70.0,
+        "endMs": 130.0,
+        "independentLeadRmseMv": 0.09705008059287748,
+        "allLeadRmseMv": 0.08244305952155458,
+        "perLeadRmseMv": {
+          "I": 0.03916325228691464,
+          "II": 0.008913417259721529,
+          "III": 0.05116642524027698,
+          "aVR": 0.025502390683498095,
+          "aVL": 0.04886398449745185,
+          "aVF": 0.02358999006386215,
+          "V1": 0.09222615143880349,
+          "V2": 0.17407933515888857,
+          "V3": 0.13226334832056538,
+          "V4": 0.017718913709163633,
+          "V5": 0.11113068434837294,
+          "V6": 0.0690628384402656
+        },
+        "perLeadCorrelation": {
+          "I": 0.030866380262644065,
+          "II": 0.7831173111506365,
+          "III": 0.9727693790444102,
+          "aVR": 0.7531120769123897,
+          "aVL": 0.9364944453610327,
+          "aVF": 0.9787473149666281,
+          "V1": 0.9684756378002652,
+          "V2": 0.9824474106010074,
+          "V3": 0.9891141835638274,
+          "V4": 0.9706139191307493,
+          "V5": 0.8875649544378172,
+          "V6": 0.15049887010140844
+        },
+        "medianIndependentLeadCorrelation": 0.9280202961190412
+      },
+      "lateRecovery": {
+        "startMs": 180.0,
+        "endMs": 480.0,
+        "independentLeadRmseMv": 0.12652747441740408,
+        "allLeadRmseMv": 0.10935524901851253,
+        "perLeadRmseMv": {
+          "I": 0.06519426573200705,
+          "II": 0.1019554430335271,
+          "III": 0.04947778560356717,
+          "aVR": 0.08431338011351527,
+          "aVL": 0.019159667203065556,
+          "aVF": 0.07419798793434351,
+          "V1": 0.1262347002935378,
+          "V2": 0.18656820498289145,
+          "V3": 0.1671904085005916,
+          "V4": 0.1170686597502832,
+          "V5": 0.10470888787966702,
+          "V6": 0.10031879161463193
+        },
+        "perLeadCorrelation": {
+          "I": 0.20919742956002796,
+          "II": -0.029953954670946612,
+          "III": 0.49932786320330674,
+          "aVR": 0.008286651229951071,
+          "aVL": 0.6522784767970905,
+          "aVF": 0.09339077891750514,
+          "V1": 0.8620126722059905,
+          "V2": 0.8960034925890916,
+          "V3": 0.8897488087561146,
+          "V4": 0.8793667137069424,
+          "V5": 0.37489957733221635,
+          "V6": 0.0074853782409733454
+        },
+        "medianIndependentLeadCorrelation": 0.6184561247691034
+      }
+    },
+    "heldOut": {
+      "wholeBeat": {
+        "startMs": -230.0,
+        "endMs": 520.0,
+        "independentLeadRmseMv": 0.17644698803139203,
+        "allLeadRmseMv": 0.15277292399611483,
+        "perLeadRmseMv": {
+          "I": 0.08791257207225546,
+          "II": 0.09634223164203905,
+          "III": 0.1023570898931358,
+          "aVR": 0.07886263774932732,
+          "aVL": 0.08231731200281525,
+          "aVF": 0.0867989035272257,
+          "V1": 0.2325036930093339,
+          "V2": 0.29153719161261876,
+          "V3": 0.13776503125798165,
+          "V4": 0.149827431711285,
+          "V5": 0.18238901732188575,
+          "V6": 0.13532461945251037
+        },
+        "perLeadCorrelation": {
+          "I": 0.9065447853631445,
+          "II": 0.9170477296554208,
+          "III": 0.24943475525010841,
+          "aVR": 0.9350299992952839,
+          "aVL": 0.6925997235344148,
+          "aVF": 0.8077483055197991,
+          "V1": 0.5294643661211884,
+          "V2": 0.7573771347876163,
+          "V3": 0.8579612239858976,
+          "V4": 0.8047178112061547,
+          "V5": 0.8472599422051226,
+          "V6": 0.9107635713794381
+        },
+        "medianIndependentLeadCorrelation": 0.8526105830955101
+      },
+      "P": {
+        "startMs": -235.0,
+        "endMs": -60.0,
+        "independentLeadRmseMv": 0.029237545475072974,
+        "allLeadRmseMv": 0.028324958664784357,
+        "perLeadRmseMv": {
+          "I": 0.025496782703902075,
+          "II": 0.020564263087027933,
+          "III": 0.033729124176194995,
+          "aVR": 0.014297405436310024,
+          "aVL": 0.029634202062301555,
+          "aVF": 0.023847669179869548,
+          "V1": 0.037460477513504446,
+          "V2": 0.03352445163820052,
+          "V3": 0.019090599988934333,
+          "V4": 0.017962207608963325,
+          "V5": 0.02717678567197061,
+          "V6": 0.04257759805256912
+        },
+        "perLeadCorrelation": {
+          "I": 0.827924412840272,
+          "II": 0.9747728772591405,
+          "III": 0.9732054115976514,
+          "aVR": 0.945246189682307,
+          "aVL": 0.6216793044291592,
+          "aVF": 0.9733290696479981,
+          "V1": 0.5984598420652067,
+          "V2": 0.748274367336429,
+          "V3": 0.9036449974541891,
+          "V4": 0.8960074627360048,
+          "V5": 0.899180984946456,
+          "V6": 0.7695811188441443
+        },
+        "medianIndependentLeadCorrelation": 0.8619659377881383
+      },
+      "QRS": {
+        "startMs": -50.0,
+        "endMs": 60.0,
+        "independentLeadRmseMv": 0.39499276529926486,
+        "allLeadRmseMv": 0.33862265408959524,
+        "perLeadRmseMv": {
+          "I": 0.19554281584307273,
+          "II": 0.1408379556029675,
+          "III": 0.22290852939628084,
+          "aVR": 0.12774846702706755,
+          "aVL": 0.2004907967652569,
+          "aVF": 0.14705407967531248,
+          "V1": 0.5575961100150932,
+          "V2": 0.6759541508937336,
+          "V3": 0.19297751104923275,
+          "V4": 0.33937000866950856,
+          "V5": 0.4336933688148702,
+          "V6": 0.2859235174313182
+        },
+        "perLeadCorrelation": {
+          "I": 0.9219242803107703,
+          "II": 0.9713169798279331,
+          "III": 0.34429367695777663,
+          "aVR": 0.9724541341320992,
+          "aVL": 0.6562006663553729,
+          "aVF": 0.9012425724379769,
+          "V1": 0.3957915809218164,
+          "V2": 0.7128692340602338,
+          "V3": 0.9157898195369812,
+          "V4": 0.8199287835674538,
+          "V5": 0.9414510490507623,
+          "V6": 0.9538918879841768
+        },
+        "medianIndependentLeadCorrelation": 0.9188570499238757
+      },
+      "ST_T": {
+        "startMs": 60.0,
+        "endMs": 480.0,
+        "independentLeadRmseMv": 0.11738542489829708,
+        "allLeadRmseMv": 0.10370387028476416,
+        "perLeadRmseMv": {
+          "I": 0.05875945218651131,
+          "II": 0.10136532301671348,
+          "III": 0.06754609940421775,
+          "aVR": 0.08061416819610635,
+          "aVL": 0.03192812322327402,
+          "aVF": 0.0820894877850095,
+          "V1": 0.11792759027174964,
+          "V2": 0.17504663796493375,
+          "V3": 0.15403642239494142,
+          "V4": 0.09616537891981175,
+          "V5": 0.09486728668071788,
+          "V6": 0.09992025959521335
+        },
+        "perLeadCorrelation": {
+          "I": 0.061654054736302304,
+          "II": -0.029332126582501384,
+          "III": 0.2753292632727845,
+          "aVR": -0.0516081043639689,
+          "aVL": 0.41202292062916085,
+          "aVF": 0.030546090594408146,
+          "V1": 0.7638836733298426,
+          "V2": 0.8667386760641407,
+          "V3": 0.8629555080887277,
+          "V4": 0.8793990649927397,
+          "V5": 0.17485597665715935,
+          "V6": -0.296879808534489
+        },
+        "medianIndependentLeadCorrelation": 0.469369824993501
+      },
+      "ST": {
+        "startMs": 70.0,
+        "endMs": 130.0,
+        "independentLeadRmseMv": 0.11050486182673734,
+        "allLeadRmseMv": 0.0937639475403876,
+        "perLeadRmseMv": {
+          "I": 0.0519848767590704,
+          "II": 0.008119284311914745,
+          "III": 0.05751130457428404,
+          "aVR": 0.023007723494727506,
+          "aVL": 0.05205583317796824,
+          "aVF": 0.03553622291985794,
+          "V1": 0.13360436244730492,
+          "V2": 0.2167290504062997,
+          "V3": 0.1348720992089646,
+          "V4": 0.02342207312750441,
+          "V5": 0.08577634406092985,
+          "V6": 0.06327701714941902
+        },
+        "perLeadCorrelation": {
+          "I": 0.3227182864276819,
+          "II": 0.8689280355166071,
+          "III": 0.9439191968548514,
+          "aVR": 0.9395635634886821,
+          "aVL": 0.41672772468922187,
+          "aVF": 0.8923231569841795,
+          "V1": 0.97198990308156,
+          "V2": 0.9341539492309214,
+          "V3": 0.9206307422359354,
+          "V4": 0.9971922863218077,
+          "V5": 0.9775482979082212,
+          "V6": 0.5489561949359798
+        },
+        "medianIndependentLeadCorrelation": 0.9273923457334284
+      },
+      "lateRecovery": {
+        "startMs": 180.0,
+        "endMs": 480.0,
+        "independentLeadRmseMv": 0.12315891345875268,
+        "allLeadRmseMv": 0.1098790229626949,
+        "perLeadRmseMv": {
+          "I": 0.06039896259876195,
+          "II": 0.11815831318810573,
+          "III": 0.07368030700482715,
+          "aVR": 0.09288569591010408,
+          "aVL": 0.022385371724985514,
+          "aVF": 0.09475340373737123,
+          "V1": 0.12025066409798592,
+          "V2": 0.16387020729257945,
+          "V3": 0.1664930847393467,
+          "V4": 0.11242750331232652,
+          "V5": 0.09646943060642699,
+          "V6": 0.11294075081008119
+        },
+        "perLeadCorrelation": {
+          "I": 0.2929291619405559,
+          "II": -0.2280380616136863,
+          "III": -0.11870026385819132,
+          "aVR": -0.12392145561936377,
+          "aVL": 0.640633824974307,
+          "aVF": -0.28684390892883216,
+          "V1": 0.8865073736530781,
+          "V2": 0.8990395479608985,
+          "V3": 0.8910484534094417,
+          "V4": 0.873141472760168,
+          "V5": 0.4461452948683715,
+          "V6": -0.06833089987017314
+        },
+        "medianIndependentLeadCorrelation": 0.6596433838142697
+      }
+    }
+  },
+  "morphology": {
+    "st": {
+      "atJ": {
+        "centerMs": 50,
+        "averagingWindowMs": [
+          45,
+          55
+        ],
+        "modeledMv": {
+          "I": 0.04157845454545455,
+          "II": -0.0021508181818181817,
+          "III": -0.04372936363636364,
+          "aVR": -0.019714000000000002,
+          "aVL": 0.04265372727272727,
+          "aVF": -0.022939818181818183,
+          "V1": 0.0073451818181818175,
+          "V2": 0.06582472727272727,
+          "V3": 0.12072045454545456,
+          "V4": 0.1463159090909091,
+          "V5": 0.12190572727272729,
+          "V6": 0.06959272727272726
+        },
+        "observedMedianMv": {
+          "I": -0.02477272727272727,
+          "II": 0.025227272727272723,
+          "III": 0.05381818181818183,
+          "aVR": -0.005636363636363637,
+          "aVL": -0.04140909090909091,
+          "aVF": 0.039863636363636365,
+          "V1": 0.13504545454545452,
+          "V2": 0.24913636363636363,
+          "V3": 0.18740909090909091,
+          "V4": 0.12777272727272726,
+          "V5": 0.03809090909090908,
+          "V6": 0.02322727272727273
+        },
+        "errorMv": {
+          "I": 0.06635118181818182,
+          "II": -0.027378090909090904,
+          "III": -0.09754754545454547,
+          "aVR": -0.014077636363636365,
+          "aVL": 0.08406281818181818,
+          "aVF": -0.06280345454545455,
+          "V1": -0.12770027272727272,
+          "V2": -0.18331163636363634,
+          "V3": -0.06668863636363635,
+          "V4": 0.018543181818181848,
+          "V5": 0.08381481818181821,
+          "V6": 0.046365454545454536
+        },
+        "independentLeadRmseMv": 0.09289002759006956,
+        "fiducialStatus": "Uses the same approximate reviewed J point as the target; not expert-annotated or automatically exact."
+      },
+      "jPlus60": {
+        "centerMs": 110,
+        "averagingWindowMs": [
+          105,
+          115
+        ],
+        "modeledMv": {
+          "I": 0.026725000000000002,
+          "II": 0.016802,
+          "III": -0.00992309090909091,
+          "aVR": -0.021763454545454544,
+          "aVL": 0.018324,
+          "aVF": 0.0034395454545454547,
+          "V1": 0.09609072727272726,
+          "V2": 0.16224136363636366,
+          "V3": 0.19788954545454548,
+          "V4": 0.20045690909090907,
+          "V5": 0.13417081818181822,
+          "V6": 0.06246972727272727
+        },
+        "observedMedianMv": {
+          "I": -0.014090909090909093,
+          "II": 0.010272727272727272,
+          "III": 0.03913636363636363,
+          "aVR": 0.003818181818181818,
+          "aVL": -0.027590909090909096,
+          "aVF": 0.030772727272727275,
+          "V1": 0.18636363636363634,
+          "V2": 0.3643636363636364,
+          "V3": 0.3350454545454546,
+          "V4": 0.2168181818181818,
+          "V5": 0.04854545454545454,
+          "V6": 0.006681818181818183
+        },
+        "errorMv": {
+          "I": 0.0408159090909091,
+          "II": 0.006529272727272729,
+          "III": -0.04905945454545454,
+          "aVR": -0.025581636363636362,
+          "aVL": 0.045914909090909097,
+          "aVF": -0.02733318181818182,
+          "V1": -0.09027290909090908,
+          "V2": -0.20212227272727273,
+          "V3": -0.1371559090909091,
+          "V4": -0.016361272727272724,
+          "V5": 0.0856253636363637,
+          "V6": 0.05578790909090908
+        },
+        "independentLeadRmseMv": 0.10014652354665325,
+        "fiducialStatus": "Uses the same approximate reviewed J point as the target; not expert-annotated or automatically exact."
+      }
+    },
+    "terminalTWindow": {
+      "windowMs": [
+        250,
+        480
+      ],
+      "minimumByLead": {
+        "V1": {
+          "modeledMv": 0.006738,
+          "modeledTimeMs": 480.0,
+          "observedMv": -0.126,
+          "observedTimeMs": 324.0,
+          "amplitudeErrorMv": 0.132738
+        },
+        "V2": {
+          "modeledMv": 0.006371,
+          "modeledTimeMs": 480.0,
+          "observedMv": -0.265,
+          "observedTimeMs": 328.0,
+          "amplitudeErrorMv": 0.27137100000000003
+        },
+        "V3": {
+          "modeledMv": 0.005827,
+          "modeledTimeMs": 480.0,
+          "observedMv": -0.349,
+          "observedTimeMs": 328.0,
+          "amplitudeErrorMv": 0.354827
+        },
+        "V4": {
+          "modeledMv": 0.005389,
+          "modeledTimeMs": 480.0,
+          "observedMv": -0.225,
+          "observedTimeMs": 330.0,
+          "amplitudeErrorMv": 0.230389
+        },
+        "V5": {
+          "modeledMv": 0.0038,
+          "modeledTimeMs": 480.0,
+          "observedMv": 0.06,
+          "observedTimeMs": 364.0,
+          "amplitudeErrorMv": -0.0562
+        },
+        "V6": {
+          "modeledMv": 0.002615,
+          "modeledTimeMs": 480.0,
+          "observedMv": 0.062,
+          "observedTimeMs": 424.0,
+          "amplitudeErrorMv": -0.059385
+        }
+      },
+      "status": "Descriptive minimum in a fixed late-T window, not an expert-annotated T-wave peak or a new fitting target. Existing training selection was complete before this feature was summarized."
+    }
+  },
+  "numericalVerification": {
+    "nativeToDenseIndependentRmseMv": 0.0017001024048340135,
+    "nativeToDenseMaxAbsoluteMv": 0.022715302469861753,
+    "predictionMethod": "Direct 1 ms all-source Vm \u00d7 physical reciprocal lead-field products; no histogram approximation in the selected published trace.",
+    "directAllSiteVmProduct": true,
+    "directSampleSpacingMs": 1,
+    "directVerificationReusedFromIdenticalFields": true,
+    "publishedTraceQuantizationMv": 1e-06,
+    "histogramToDirectIndependentRmseMv": 8.529806953723277e-05,
+    "histogramToDirectMaxAbsoluteMv": 0.0006418866701932702,
+    "sourceSiteCount": 2400926,
+    "displaySourceSiteCount": 20957,
+    "renderNodeCount": 20436,
+    "staticRestingSourceMv": {
+      "I": -0.050367374641739085,
+      "II": -0.0531302704379428,
+      "III": -0.0027628957962037154,
+      "aVR": 0.05174882253984094,
+      "aVL": -0.023802239422767685,
+      "aVF": -0.027946583117073258,
+      "V1": -0.013533232016810686,
+      "V2": -0.045478322996665085,
+      "V3": -0.08201927496971327,
+      "V4": -0.1020811536333423,
+      "V5": -0.09337839238282057,
+      "V6": -0.06460646192040154
+    },
+    "prReferenceBeforeSubtractionMv": {
+      "I": -0.04947825036322986,
+      "II": -0.059274948173804756,
+      "III": -0.009796697810574899,
+      "aVR": 0.0543765992685173,
+      "aVL": -0.01984077627632748,
+      "aVF": -0.034535822992189824,
+      "V1": -0.01857514932713922,
+      "V2": -0.0496800917397541,
+      "V3": -0.0855802362127514,
+      "V4": -0.10532894894401752,
+      "V5": -0.09552689705793238,
+      "V6": -0.0660601576227355
+    },
+    "exportedSourceFieldRoundingMaxVmErrorMv": 0.0004886346878691938
+  },
+  "sourceSummary": {
+    "chambers": {
+      "LV": {
+        "activationRangeMs": [
+          -50.5504055612454,
+          36.910349557136314
+        ],
+        "activationMedianMs": -1.1100057952770754,
+        "apd90RangeMs": [
+          206.44713139429132,
+          316.3381790293085
+        ],
+        "recoveryRangeMs": [
+          218.62758174670034,
+          308.035927884905
+        ]
+      },
+      "RV": {
+        "activationRangeMs": [
+          -34.2356062140715,
+          36.487598380566595
+        ],
+        "activationMedianMs": 5.438569361345117,
+        "apd90RangeMs": [
+          195.69574849107704,
+          260.53901020982704
+        ],
+        "recoveryRangeMs": [
+          181.34878647735653,
+          271.3901998026403
+        ]
+      },
+      "LA": {
+        "activationRangeMs": [
+          -248.68367638580492,
+          -86.89176976992212
+        ],
+        "activationMedianMs": -155.8263583262883,
+        "apd90RangeMs": [
+          308.8023030761745,
+          308.8023030761745
+        ],
+        "recoveryRangeMs": [
+          60.11862669036958,
+          221.91053330625238
+        ]
+      },
+      "RA": {
+        "activationRangeMs": [
+          -275.2660599171295,
+          -89.40186397007227
+        ],
+        "activationMedianMs": -176.07924063924065,
+        "apd90RangeMs": [
+          290.8023030761745,
+          290.8023030761745
+        ],
+        "recoveryRangeMs": [
+          15.536243159045,
+          201.40043910610223
+        ]
+      }
+    },
+    "apdClippedAt120Fraction": 0.0,
+    "apdClippedAt480Fraction": 0.0,
+    "membraneVoltageScaleStatus": "Modeled \u221285/+25 mV ventricular reference, not measured patient Vm. Optical AP template supplies a normalized recovery shape.",
+    "injuryRestPlateauAttribution": "Illustrative fixed 60:40 split of fitted AP excursion loss into resting depolarization and peak/plateau depression; surface ECG after PR subtraction does not identify these separately.",
+    "injuryWeightedMyocardialVolumeMl": 10.964698574075253,
+    "injuryCoreVolumeMl": 8.378042559480107,
+    "injuryWeightedVentricularFraction": 0.058392531839032785,
+    "injuryCoreApd90Ms": {
+      "minimum": 206.44713139429132,
+      "p05": 222.76665077209472,
+      "median": 239.0513382870704,
+      "p95": 258.38067442178726,
+      "maximum": 276.3010438680649
+    },
+    "injuryCoreDefinition": "LV native source nodes with modeled smooth lesion weight>0.5; a hypothesis, not a measured infarct border.",
+    "rvMinusLvMedianActivationMs": 6.548575156622192
+  },
+  "targetRepeatability": {
+    "wholeBeat": {
+      "startMs": -230.0,
+      "endMs": 520.0,
+      "independentLeadRmseMv": 0.030248774336626864,
+      "allLeadRmseMv": 0.027201025818754398,
+      "perLeadRmseMv": {
+        "I": 0.018911068064484036,
+        "II": 0.02021894142983939,
+        "III": 0.027013460174991157,
+        "aVR": 0.011321238422280243,
+        "aVL": 0.016969424999694026,
+        "aVF": 0.020322008299007436,
+        "V1": 0.03627990753955368,
+        "V2": 0.05235663323726433,
+        "V3": 0.018373981488480257,
+        "V4": 0.02821889895658998,
+        "V5": 0.023642786599491185,
+        "V6": 0.028339604016151626
+      },
+      "perLeadCorrelation": {
+        "I": 0.9971491086719105,
+        "II": 0.9974848703511473,
+        "III": 0.9806173601402638,
+        "aVR": 0.9984022956918295,
+        "aVL": 0.9910750910500571,
+        "aVF": 0.9934420896979419,
+        "V1": 0.9909363045487,
+        "V2": 0.9938236562896006,
+        "V3": 0.9976630797880235,
+        "V4": 0.9938767397684578,
+        "V5": 0.9972600403502722,
+        "V6": 0.9952607685914544
+      },
+      "medianIndependentLeadCorrelation": 0.9962049386316825
+    },
+    "P": {
+      "startMs": -235.0,
+      "endMs": -60.0,
+      "independentLeadRmseMv": 0.021333375872945277,
+      "allLeadRmseMv": 0.018099067132330497,
+      "perLeadRmseMv": {
+        "I": 0.010981906607109388,
+        "II": 0.007872564558469668,
+        "III": 0.01132399905269577,
+        "aVR": 0.005718292020906562,
+        "aVL": 0.005596772608956309,
+        "aVF": 0.009887147304363469,
+        "V1": 0.03266305252115914,
+        "V2": 0.034483197489370246,
+        "V3": 0.00696460205741734,
+        "V4": 0.01119202232111622,
+        "V5": 0.009383253942287537,
+        "V6": 0.03066831352626771
+      },
+      "perLeadCorrelation": {
+        "I": 0.950600953837375,
+        "II": 0.991219607359494,
+        "III": 0.9753983551393136,
+        "aVR": 0.9894748102958537,
+        "aVL": 0.863657504081106,
+        "aVF": 0.9896172178072193,
+        "V1": 0.8483533925750141,
+        "V2": 0.7437246484380946,
+        "V3": 0.9813969134668715,
+        "V4": 0.9232355572995776,
+        "V5": 0.9548746266922882,
+        "V6": 0.8523319088848004
+      },
+      "medianIndependentLeadCorrelation": 0.9369182555684763
+    },
+    "QRS": {
+      "startMs": -50.0,
+      "endMs": 60.0,
+      "independentLeadRmseMv": 0.04185805593726071,
+      "allLeadRmseMv": 0.038376806527892326,
+      "perLeadRmseMv": {
+        "I": 0.0368417604806735,
+        "II": 0.02307508308672927,
+        "III": 0.04402087956683554,
+        "aVR": 0.011718546169398502,
+        "aVL": 0.03479411775904988,
+        "aVF": 0.019255746772945056,
+        "V1": 0.04938486473470253,
+        "V2": 0.04584777004411466,
+        "V3": 0.031720769335046195,
+        "V4": 0.061580168212803,
+        "V5": 0.03913513202428936,
+        "V6": 0.035443394789921485
+      },
+      "perLeadCorrelation": {
+        "I": 0.9985401864719989,
+        "II": 0.9996548634874716,
+        "III": 0.9927688968236262,
+        "aVR": 0.9997269609668389,
+        "aVL": 0.993101042333429,
+        "aVF": 0.998235974383361,
+        "V1": 0.9956910912428188,
+        "V2": 0.9992367813080787,
+        "V3": 0.9961169660775259,
+        "V4": 0.9931982215773789,
+        "V5": 0.9988177376446676,
+        "V6": 0.9989168315004693
+      },
+      "medianIndependentLeadCorrelation": 0.9986789620583333
+    },
+    "ST_T": {
+      "startMs": 60.0,
+      "endMs": 480.0,
+      "independentLeadRmseMv": 0.030652552562915995,
+      "allLeadRmseMv": 0.027417243939562717,
+      "perLeadRmseMv": {
+        "I": 0.013439138785890014,
+        "II": 0.020631479763813732,
+        "III": 0.025906097558998396,
+        "aVR": 0.012892207961721136,
+        "aVL": 0.012902797575454684,
+        "aVF": 0.022360998452248784,
+        "V1": 0.035486105139297036,
+        "V2": 0.06180826225239091,
+        "V3": 0.01730960218465387,
+        "V4": 0.01817002046519111,
+        "V5": 0.02329981191242527,
+        "V6": 0.0256551217724482
+      },
+      "perLeadCorrelation": {
+        "I": 0.9800257971048828,
+        "II": 0.9782830698193805,
+        "III": 0.706474857820673,
+        "aVR": 0.9841432154577651,
+        "aVL": 0.945051809345529,
+        "aVF": 0.940989577987076,
+        "V1": 0.9720126376737558,
+        "V2": 0.982216150022733,
+        "V3": 0.9982457227105056,
+        "V4": 0.9963553550650955,
+        "V5": 0.9718563008872548,
+        "V6": 0.9708394760962413
+      },
+      "medianIndependentLeadCorrelation": 0.9791544334621316
+    },
+    "ST": {
+      "startMs": 70.0,
+      "endMs": 130.0,
+      "independentLeadRmseMv": 0.02707249678118391,
+      "allLeadRmseMv": 0.02265770475355908,
+      "perLeadRmseMv": {
+        "I": 0.016346153104369095,
+        "II": 0.009525634095325768,
+        "III": 0.007486600051282884,
+        "aVR": 0.006934116181108788,
+        "aVL": 0.004811189144443041,
+        "aVF": 0.013031487717492107,
+        "V1": 0.04263647326478841,
+        "V2": 0.0482449351796829,
+        "V3": 0.016447133389174893,
+        "V4": 0.016902323053064754,
+        "V5": 0.025886574784979972,
+        "V6": 0.011561666452010323
+      },
+      "perLeadCorrelation": {
+        "I": -0.5718308943518271,
+        "II": 0.892389747124141,
+        "III": 0.9094970525588582,
+        "aVR": 0.6836106422200992,
+        "aVL": 0.4988350569517836,
+        "aVF": 0.8110962252129152,
+        "V1": 0.9716505694583809,
+        "V2": 0.8775713405243448,
+        "V3": 0.888656696799914,
+        "V4": 0.9632843470617457,
+        "V5": 0.9407036046244196,
+        "V6": 0.42697456112637816
+      },
+      "medianIndependentLeadCorrelation": 0.8905232219620275
+    },
+    "lateRecovery": {
+      "startMs": 180.0,
+      "endMs": 480.0,
+      "independentLeadRmseMv": 0.03280995184695241,
+      "allLeadRmseMv": 0.02970118812199691,
+      "perLeadRmseMv": {
+        "I": 0.012952635412131437,
+        "II": 0.0236958159672158,
+        "III": 0.030097295162185844,
+        "aVR": 0.013927434147283209,
+        "aVL": 0.014885945120355841,
+        "aVF": 0.025545477654008133,
+        "V1": 0.03205927856631667,
+        "V2": 0.06950173878653797,
+        "V3": 0.017831529803959655,
+        "V4": 0.018948435011070717,
+        "V5": 0.023200985200756353,
+        "V6": 0.028444677318860315
+      },
+      "perLeadCorrelation": {
+        "I": 0.974131618478523,
+        "II": 0.9640560192522134,
+        "III": 0.6496858447989339,
+        "aVR": 0.9768893648000841,
+        "aVL": 0.9486953729524776,
+        "aVF": 0.8989733270898607,
+        "V1": 0.9753057530163697,
+        "V2": 0.9837638066578483,
+        "V3": 0.9982457596653934,
+        "V4": 0.9972700224986607,
+        "V5": 0.963285531982848,
+        "V6": 0.9692898397627254
+      },
+      "medianIndependentLeadCorrelation": 0.9747186857474464
+    }
+  },
+  "parameterBoundaryFlags": [
+    {
+      "stage": "healthy prior alignment",
+      "parameter": "gain",
+      "value": 0.25000000000000006,
+      "bounds": [
+        0.25,
+        2.8
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "fixed anterior injury / activation",
+      "parameter": "site3",
+      "value": 1.56759718088413e-07,
+      "bounds": [
+        0,
+        30
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "fixed anterior injury / activation",
+      "parameter": "injuryMv",
+      "value": 0.015163605717641936,
+      "bounds": [
+        0,
+        78
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 1",
+      "parameter": "lesionPhi",
+      "value": 0.45000024270596106,
+      "bounds": [
+        0.45,
+        2.5
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 1",
+      "parameter": "lesionZmax",
+      "value": 0.45000000003103857,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 1",
+      "parameter": "lesionDepth",
+      "value": 1.3499999989077143,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "variable LAD region start 1",
+      "parameter": "injuryShortening",
+      "value": 0.011079971108120392,
+      "bounds": [
+        0,
+        140
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "joint injury / delivery start 1",
+      "parameter": "injuryMv",
+      "value": 4.5914563300469216e-09,
+      "bounds": [
+        0,
+        78
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "injuryShortening",
+      "value": 5.545101658871775e-12,
+      "bounds": [
+        0,
+        140
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 2",
+      "parameter": "lesionWidth",
+      "value": 0.3500000020356673,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 2",
+      "parameter": "lesionZmax",
+      "value": 0.45000000009124624,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 2",
+      "parameter": "lesionDepth",
+      "value": 1.349591011354464,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "joint injury / delivery start 2",
+      "parameter": "injuryMv",
+      "value": 1.0772427732176127e-09,
+      "bounds": [
+        0,
+        78
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "injuryShortening",
+      "value": 0.0005484932504534682,
+      "bounds": [
+        0,
+        140
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 3",
+      "parameter": "lesionWidth",
+      "value": 0.3500000000000776,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "variable LAD region start 3",
+      "parameter": "lesionZmax",
+      "value": 0.4500000000316228,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "joint injury / delivery start 3",
+      "parameter": "site3",
+      "value": 0.0005707620602155778,
+      "bounds": [
+        0,
+        30
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "joint injury / delivery start 3",
+      "parameter": "injuryMv",
+      "value": 1.5617966185362042e-09,
+      "bounds": [
+        0,
+        78
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "injuryShortening",
+      "value": 0.1951759886666108,
+      "bounds": [
+        0,
+        140
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "exact posed torso / distributed delivery",
+      "parameter": "site8",
+      "value": 4.806510264759667e-05,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "exact posed torso / injury recovery",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000000003,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "exact posed torso / injury recovery",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999999999,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "exact posed torso / injury recovery",
+      "parameter": "rvApdOffset",
+      "value": -99.99820837411224,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "fast endocardial substrate 2.5 mm/ms",
+      "parameter": "site13",
+      "value": 0.0033815497640934888,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "fast endocardial substrate 2.5 mm/ms",
+      "parameter": "injuryMv",
+      "value": 3.332395962911128e-08,
+      "bounds": [
+        0,
+        78
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "apicobasal",
+      "value": 99.99061266251904,
+      "bounds": [
+        -90,
+        100
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "rvApdOffset",
+      "value": -99.99998432248942,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "signed regional APD response 2.5",
+      "parameter": "apicobasal",
+      "value": 99.9995881018228,
+      "bounds": [
+        -90,
+        100
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "signed regional APD response 2.5",
+      "parameter": "rvApdOffset",
+      "value": -99.99999992161244,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "fast endocardial substrate 3.5 mm/ms",
+      "parameter": "site13",
+      "value": 4.895074700516309e-07,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "fast endocardial substrate 3.5 mm/ms",
+      "parameter": "injuryMv",
+      "value": 5.446742276484726e-06,
+      "bounds": [
+        0,
+        78
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "apicobasal",
+      "value": 99.94929538838488,
+      "bounds": [
+        -90,
+        100
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "rvApdOffset",
+      "value": -99.83256213481569,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "signed regional APD response 3.5",
+      "parameter": "apicobasal",
+      "value": 99.99998455173336,
+      "bounds": [
+        -90,
+        100
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "signed regional APD response 3.5",
+      "parameter": "rvApdOffset",
+      "value": -99.99977598562658,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "distributed all-site timing start 1",
+      "parameter": "site12",
+      "value": 39.77161032354734,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "rvApdOffset",
+      "value": -99.994212562951,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "distributed injury / signed APD start 1",
+      "parameter": "lesionWidth",
+      "value": 0.35000000038022433,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "distributed injury / signed APD start 1",
+      "parameter": "lesionDepth",
+      "value": 1.349885727657292,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "distributed injury / signed APD start 1",
+      "parameter": "rvApdOffset",
+      "value": -99.99989640829871,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional recovery / injury",
+      "parameter": "rvApdOffset",
+      "value": -99.99184998971784,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "distributed injury / signed APD start 2",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000019177,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "distributed injury / signed APD start 2",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999999996,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "distributed injury / signed APD start 2",
+      "parameter": "rvApdOffset",
+      "value": -99.99999663317753,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "alternating pose/source exact QRS refit",
+      "parameter": "site12",
+      "value": 39.99975373812097,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "alternating pose/source injury recovery",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000000003,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "alternating pose/source injury recovery",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999999828,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "alternating pose/source injury recovery",
+      "parameter": "rvApdOffset",
+      "value": -99.9946060334112,
+      "bounds": [
+        -100,
+        80
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "conservative RV prior / prolonged injury initialization",
+      "parameter": "rvApdOffset",
+      "value": -34.997241200812866,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "conservative RV prior / prolonged injury initialization",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000000003,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "conservative RV prior / prolonged injury initialization",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999676708,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "conservative RV prior / shortened injury initialization",
+      "parameter": "rvApdOffset",
+      "value": -34.993948774547974,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "conservative RV prior / shortened injury initialization",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000000003,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "conservative RV prior / shortened injury initialization",
+      "parameter": "lesionDepth",
+      "value": 1.3499999387089914,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "injured plateau shape / prolonged initialization",
+      "parameter": "injuryPlateauGamma",
+      "value": 0.9999977364369348,
+      "bounds": [
+        0.45,
+        1.0
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "injured plateau shape / shortened initialization",
+      "parameter": "injuryPlateauGamma",
+      "value": 0.9999999162957268,
+      "bounds": [
+        0.45,
+        1.0
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "regional plateau + constrained recovery",
+      "parameter": "injuryPlateauGamma",
+      "value": 0.45000002653447707,
+      "bounds": [
+        0.45,
+        1.0
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional plateau + constrained recovery",
+      "parameter": "rvApdOffset",
+      "value": -34.99999997145573,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional plateau + constrained recovery",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000000003,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional plateau + constrained recovery",
+      "parameter": "lesionZmax",
+      "value": 0.45000016815586963,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "regional plateau + constrained recovery",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999999968,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "reference and injured plateau-shape sensitivity",
+      "parameter": "injuryPlateauGamma",
+      "value": 0.4500000046554155,
+      "bounds": [
+        0.45,
+        2.2
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "reference and injured plateau-shape sensitivity",
+      "parameter": "rvApdOffset",
+      "value": -34.89970663081275,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "reference and injured plateau-shape sensitivity",
+      "parameter": "lesionWidth",
+      "value": 0.35000000002248743,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "reference and injured plateau-shape sensitivity",
+      "parameter": "lesionZmax",
+      "value": 0.450000000122276,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "reference and injured plateau-shape sensitivity",
+      "parameter": "lesionDepth",
+      "value": 1.3499999984927802,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / deep-prolonged",
+      "parameter": "injuryShortening",
+      "value": -139.9999999864795,
+      "bounds": [
+        -140,
+        120
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / deep-prolonged",
+      "parameter": "apicobasal",
+      "value": 59.999999541461115,
+      "bounds": [
+        -50,
+        60
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / deep-prolonged",
+      "parameter": "rvApdOffset",
+      "value": -34.99999999999958,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / deep-prolonged",
+      "parameter": "apdCos",
+      "value": 34.99999985206798,
+      "bounds": [
+        -35,
+        35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / deep-prolonged",
+      "parameter": "lesionZmax",
+      "value": 0.45009035011653087,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / deep-prolonged",
+      "parameter": "lesionDepth",
+      "value": 1.3499981014345797,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / moderate-prolonged",
+      "parameter": "injuryMv",
+      "value": 6.941158057136541e-05,
+      "bounds": [
+        0,
+        60
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / moderate-prolonged",
+      "parameter": "rvApdOffset",
+      "value": -34.9999999675506,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / moderate-prolonged",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000000336,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / moderate-prolonged",
+      "parameter": "lesionZmax",
+      "value": 0.45000001392776334,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / moderate-prolonged",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999999999,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / shortened",
+      "parameter": "injuryMv",
+      "value": 8.783463638828881e-07,
+      "bounds": [
+        0,
+        60
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / shortened",
+      "parameter": "rvApdOffset",
+      "value": -34.99999972905935,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / shortened",
+      "parameter": "lesionWidth",
+      "value": 0.35000000000108683,
+      "bounds": [
+        0.35,
+        2.3
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / shortened",
+      "parameter": "lesionZmax",
+      "value": 0.4500000738428408,
+      "bounds": [
+        0.45,
+        0.98
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / shortened",
+      "parameter": "lesionDepth",
+      "value": 1.349999999999627,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / coupled activation and shared source gain",
+      "parameter": "injuryShortening",
+      "value": -139.99999999396334,
+      "bounds": [
+        -140,
+        120
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / coupled activation and shared source gain",
+      "parameter": "injuryPlateauFraction",
+      "value": 0.9999999999999999,
+      "bounds": [
+        0.15,
+        1.0
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / coupled activation and shared source gain",
+      "parameter": "apicobasal",
+      "value": 59.99999999999998,
+      "bounds": [
+        -50,
+        60
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / coupled activation and shared source gain",
+      "parameter": "rvApdOffset",
+      "value": -34.99999999999999,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / coupled activation and shared source gain",
+      "parameter": "apdCos",
+      "value": 34.99999999999999,
+      "bounds": [
+        -35,
+        35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / coupled activation and shared source gain",
+      "parameter": "injuryDelay",
+      "value": 4.8352449618641445e-05,
+      "bounds": [
+        0,
+        70
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "injuryShortening",
+      "value": -139.99999999999997,
+      "bounds": [
+        -140,
+        120
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "injuryPlateauFraction",
+      "value": 0.9999999999999999,
+      "bounds": [
+        0.15,
+        1.0
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "apicobasal",
+      "value": 59.99999999999999,
+      "bounds": [
+        -50,
+        60
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "rvApdOffset",
+      "value": -34.99999999999999,
+      "bounds": [
+        -35,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "apdCos",
+      "value": 34.99999999999999,
+      "bounds": [
+        -35,
+        35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "lesionDepth",
+      "value": 1.3499999999999999,
+      "bounds": [
+        0.35,
+        1.35
+      ],
+      "side": "upper"
+    },
+    {
+      "stage": "early plateau / QRS-balanced comparison",
+      "parameter": "injuryDelay",
+      "value": 2.9956296862085146e-13,
+      "bounds": [
+        0,
+        70
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "ST/T-focused basin: existing delivery timings QRS refit",
+      "parameter": "site7",
+      "value": 0.0002639889934434893,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "lower"
+    },
+    {
+      "stage": "ST/T-focused basin: existing delivery timings QRS refit",
+      "parameter": "site12",
+      "value": 39.999999989558184,
+      "bounds": [
+        0,
+        40
+      ],
+      "side": "upper"
+    }
+  ],
+  "uncertainty": {
+    "interpretation": "Candidate/start spread and bounds describe model sensitivity, not statistical confidence or patient-specific identifiable physiology.",
+    "alternativeCandidateCount": 14,
+    "selection": "bestNumericalApproachId minimizes raw-mV training RMSE across I,II,V1\u2013V6 on analysisWindowMs. selectedApproachId may instead be an explicitly prior-informed teaching default. Held-out beats do not fit or select source parameters.",
+    "validationScope": "Held-out alternating beats from the same short recording test within-record reproducibility. They are not independent patients, external clinical validation or an invasive-map comparison.",
+    "poseBoundaryFlags": [
+      {
+        "parameter": "rotationDeg.y",
+        "value": 25.0,
+        "bounds": [
+          -25,
+          25
+        ]
+      },
+      {
+        "parameter": "translationMm.z",
+        "value": 18.0,
+        "bounds": [
+          -18,
+          18
+        ]
+      }
+    ],
+    "candidateSetRule": "Pathology candidates with training whole-window RMSE no more than25% above the selected model; a sensitivity set, not a confidence region.",
+    "candidateIds": [
+      "variable-injury-1",
+      "variable-injury-2",
+      "variable-injury-3",
+      "posed-anatomy",
+      "fast-endo-2.5",
+      "fast-endo-3.5",
+      "distributed-support-1",
+      "distributed-support-2",
+      "alternating-pose-source",
+      "recovery-prior-prolonged",
+      "recovery-prior-shortened",
+      "plateau-regional",
+      "early-plateau-coupled"
+    ],
+    "parameterRangesAcrossCandidates": {
+      "onset": [
+        -51.25609344176145,
+        -30.2397568828597
+      ],
+      "speed": [
+        1.0399922921269629,
+        1.6169410587597595
+      ],
+      "gain": [
+        0.36961172520631275,
+        0.8988460099666172
+      ],
+      "apd": [
+        260.06731310605954,
+        300.88692774660814
+      ],
+      "transmural": [
+        17.33746660479864,
+        74.60503863317625
+      ],
+      "apicobasal": [
+        10.318613064113622,
+        99.99998455173336
+      ],
+      "rvApdOffset": [
+        -99.99999992161244,
+        -24.025061959877593
+      ],
+      "apdCos": [
+        -2.784065553259344,
+        34.99999999999999
+      ],
+      "apdSin": [
+        -14.982283182278357,
+        7.909390556564352
+      ],
+      "atrialOnset": [
+        -275.2660599171295,
+        -245.82603890847687
+      ],
+      "atrialSpeed": [
+        0.7523787957236676,
+        0.8747963801008252
+      ],
+      "atrialGain": [
+        1.4936898802125649,
+        1.558437093511925
+      ],
+      "lesionPhi": [
+        0.45000024270596106,
+        2.0442787842461194
+      ],
+      "lesionWidth": [
+        0.35000000000000003,
+        1.7863650599824616
+      ],
+      "lesionZmax": [
+        0.45000000003103857,
+        0.540962895166371
+      ],
+      "lesionDepth": [
+        0.8689232791777198,
+        1.3499999999999999
+      ],
+      "injuryMv": [
+        13.071796450693737,
+        55.223931683208626
+      ],
+      "injuryShortening": [
+        -139.99999999396334,
+        89.10898021012581
+      ],
+      "injuryDelay": [
+        4.8352449618641445e-05,
+        30.187551587745716
+      ]
+    },
+    "activationSpreadQuantilesMs": {
+      "median": 16.46632,
+      "p90": 25.345192000000004,
+      "max": 40.29641
+    },
+    "apdSpreadQuantilesMs": {
+      "median": 56.50635,
+      "p90": 119.86275599999999,
+      "max": 231.31605
+    },
+    "scope": "Spread among a finite set of explored source-model candidates. It omits untested anatomies, noise models and many other physiologies; it understates total inverse uncertainty."
+  }
+}

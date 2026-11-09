@@ -1,0 +1,26 @@
+{
+  "name": "ekg-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive first-principles EKG teaching lab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.15.0 <25"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "setup:assets": "python3 scripts/setup_assets.py",
+    "setup:research": "python3 scripts/setup_assets.py --research",
+    "assets:verify": "python3 scripts/setup_assets.py --verify",
+    "test": "node scripts/run-checks.mjs",
+    "test:code": "node scripts/run-checks.mjs --code-only",
+    "test:ci": "npm run test:code",
+    "test:numerical": "node scripts/run-checks.mjs --numerical",
+    "test:recordings": "node scripts/check_recorded_arrhythmias.mjs"
+  },
+  "devDependencies": {
+    "css-tree": "3.2.1",
+    "jsdom": "31.0.0"
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "evaluatorSha256": "f454a447da1fa397f2ca9bc5c86ab9d53c47f70c996c4c8b1c077c0ebd7c7371",
+  "pythonReference": "data/pathology-fits/propagation-research.zip!scripts/fit-pathology-model.py",
+  "pythonForwardSha256": "5581f83996220d028153e6bf68714e00929ad358b36b7261febd84eaef66a3f9",
+  "sourceComparisonCount": 478776,
+  "renderedNodeComparisonCount": 144400,
+  "maximumSourceErrorMv": 3.346656285430072e-12,
+  "maximumRenderedErrorMv": 2.7924329515371937e-12,
+  "cases": [
+    {
+      "id": "acs-00004",
+      "sourceSha256": "c13973b2c130913083256fe2a482d9234772b1209be801ea8624a81e0c15369e",
+      "approaches": [
+        {
+          "id": "healthy-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "fixed-injury",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "variable-injury-1",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "variable-injury-2",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "variable-injury-3",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "posed-anatomy",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 8.526512829121202e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "fast-endo-2.5",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "fast-endo-3.5",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "distributed-support-1",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "distributed-support-2",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "alternating-pose-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "recovery-prior-prolonged",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "recovery-prior-shortened",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.973799150320701e-14,
+          "pass": true
+        },
+        {
+          "id": "plateau-regional",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "early-plateau-coupled",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 3.552713678800501e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "acs-18206",
+      "sourceSha256": "692a3e16a2ca95d6147a3a5b2496e1f792d2b91f37060f17d17f3af030377b3c",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ludb-021",
+      "sourceSha256": "87e89f652f74af9d41344795a18df9427e4c6dbaa36746d8ede00050662691f9",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 4.973799150320701e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "mitdb-202-af-rvr",
+      "sourceSha256": "627bebcd817f5de24d055f80df99ba1386f6e01ccc00d9cee5e986aa2618c67e",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 6402,
+          "renderedComparisons": 1940,
+          "maximumSourceErrorMv": 2.7569058147491887e-12,
+          "maximumRenderedErrorMv": 1.4637180356658064e-12,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 6270,
+          "renderedComparisons": 1900,
+          "maximumSourceErrorMv": 2.7569058147491887e-12,
+          "maximumRenderedErrorMv": 1.4637180356658064e-12,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 6204,
+          "renderedComparisons": 1880,
+          "maximumSourceErrorMv": 3.694822225952521e-13,
+          "maximumRenderedErrorMv": 1.3926637620897964e-12,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "mitdb-209-svt",
+      "sourceSha256": "7f39b9dbfcf80195aa5ff3bc310f8ceea2d82dc8ba99c9146aa89e9a3ae8f8f1",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 6270,
+          "renderedComparisons": 1900,
+          "maximumSourceErrorMv": 4.973799150320701e-14,
+          "maximumRenderedErrorMv": 4.263256414560601e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 6402,
+          "renderedComparisons": 1940,
+          "maximumSourceErrorMv": 4.263256414560601e-14,
+          "maximumRenderedErrorMv": 3.552713678800501e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 6402,
+          "renderedComparisons": 1940,
+          "maximumSourceErrorMv": 4.973799150320701e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "mitdb-222-flutter",
+      "sourceSha256": "cfa7f0e6525d953b2c5a144c48601cf16c03213cb80d9bc042e2514de4e68e39",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 6402,
+          "renderedComparisons": 1940,
+          "maximumSourceErrorMv": 3.552713678800501e-13,
+          "maximumRenderedErrorMv": 1.3926637620897964e-12,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 6468,
+          "renderedComparisons": 1960,
+          "maximumSourceErrorMv": 1.4495071809506044e-12,
+          "maximumRenderedErrorMv": 5.826450433232822e-13,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 6468,
+          "renderedComparisons": 1960,
+          "maximumSourceErrorMv": 2.7853275241795927e-12,
+          "maximumRenderedErrorMv": 2.7853275241795927e-12,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "mitdb-231-mobitz2",
+      "sourceSha256": "9556c50be6f50bb3cd9e4acbd2dd80d8e3bd06d68e5267344d9ca3172ba615be",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 7128,
+          "renderedComparisons": 2160,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.973799150320701e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 7326,
+          "renderedComparisons": 2220,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.263256414560601e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 7326,
+          "renderedComparisons": 2220,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-00218",
+      "sourceSha256": "a180d92a88d95dbd61cd8d5b0eb2415cc4a38636e64000c23e9af6e00c0b793e",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 4884,
+          "renderedComparisons": 1480,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 7.105427357601002e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-00303",
+      "sourceSha256": "f5f4fa92edb2208a674d11774640b80638de9598877589ef32a9873d8bc2e7b8",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-00618",
+      "sourceSha256": "0b29f4c02de32aa70a7430538b9e3c76bac044f5cc6364c9a4e9dc74f84dffd7",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-00789",
+      "sourceSha256": "ddbb392c7cc450068267fe092367c50a306e87d0a743dcc43ea8328a9ca3de5d",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 3498,
+          "renderedComparisons": 1060,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.973799150320701e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-00818",
+      "sourceSha256": "79ceb7eab197391c71070fb2df2c67665a94cff9e1759be695166b4867c6bede",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 6534,
+          "renderedComparisons": 1980,
+          "maximumSourceErrorMv": 4.263256414560601e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 6534,
+          "renderedComparisons": 1980,
+          "maximumSourceErrorMv": 4.263256414560601e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5676,
+          "renderedComparisons": 1720,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-00959",
+      "sourceSha256": "60fd42e48004f89bd72895a64a6f8ee229c12d3506afdbbeb6d60e12f6fe03f1",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 7656,
+          "renderedComparisons": 2320,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 3.552713678800501e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 7656,
+          "renderedComparisons": 2320,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.973799150320701e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 7656,
+          "renderedComparisons": 2320,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-01166",
+      "sourceSha256": "7fdf4045fc74ff38dadec7766dfde034f21d0accd320f3c413738828798d7852",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 4.263256414560601e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-01222",
+      "sourceSha256": "4c0ea23d371019f49f3af5321e1f6566817aa7dc4385c76312aa9565144ca931",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 7656,
+          "renderedComparisons": 2320,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 7392,
+          "renderedComparisons": 2240,
+          "maximumSourceErrorMv": 2.842170943040401e-14,
+          "maximumRenderedErrorMv": 2.842170943040401e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 7326,
+          "renderedComparisons": 2220,
+          "maximumSourceErrorMv": 4.263256414560601e-14,
+          "maximumRenderedErrorMv": 3.552713678800501e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-01451",
+      "sourceSha256": "1f6e5f38cbf780324671f6559680b18ad0ce9dec6077d2e72cefd337c4479186",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 7.105427357601002e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-02078",
+      "sourceSha256": "6507100b49de4b40bc582bdac17fb0d933fe03fdb9d26738dc7af55cff143e3e",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 5940,
+          "renderedComparisons": 1800,
+          "maximumSourceErrorMv": 1.3926637620897964e-12,
+          "maximumRenderedErrorMv": 1.4495071809506044e-12,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5676,
+          "renderedComparisons": 1720,
+          "maximumSourceErrorMv": 6.963318810448982e-13,
+          "maximumRenderedErrorMv": 1.4495071809506044e-12,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5676,
+          "renderedComparisons": 1720,
+          "maximumSourceErrorMv": 2.7782220968219917e-12,
+          "maximumRenderedErrorMv": 2.7924329515371937e-12,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-02277",
+      "sourceSha256": "7ba9e8cd9f08cd94feb71c02a9fdcc948717556d14981270aae4537456945f97",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 3498,
+          "renderedComparisons": 1060,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.263256414560601e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-02417",
+      "sourceSha256": "5794fe859108e10577ea29104ce7ad736dfcfd6c4acdd877491ed037d2dc10b6",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 3498,
+          "renderedComparisons": 1060,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 3498,
+          "renderedComparisons": 1060,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 3498,
+          "renderedComparisons": 1060,
+          "maximumSourceErrorMv": 4.973799150320701e-14,
+          "maximumRenderedErrorMv": 4.263256414560601e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-03155",
+      "sourceSha256": "fd1dfbf1e669f1206f6a952602fad4bb65cf6f04ba52434c77934a5e3466639d",
+      "approaches": [
+        {
+          "id": "healthy-prior",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "blocked-rv",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "distributed-rv-0.60",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "distributed-rv-0.80",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "posed-anatomy",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 7.105427357601002e-14,
+          "pass": true
+        },
+        {
+          "id": "fast-endo-2.5",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "fast-endo-3.5",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "distributed-support-1",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 7.105427357601002e-14,
+          "pass": true
+        },
+        {
+          "id": "distributed-support-2",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "alternating-pose-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "ptbxl-06938",
+      "sourceSha256": "37bb0a848549714cc1cb0505024b220a1d413f4becc2db93554b575b850a2b8f",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 3498,
+          "renderedComparisons": 1060,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 5082,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 8.526512829121202e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "sddb-47-torsades",
+      "sourceSha256": "bfb5c1cb73e801a6c09d1ba9d411f6e95b2ae9eca8cfb1a2898ff74fc6656fce",
+      "approaches": [
+        {
+          "id": "rotating-waves-1",
+          "sourceComparisons": 1326,
+          "renderedComparisons": 340,
+          "maximumSourceErrorMv": 3.346656285430072e-12,
+          "maximumRenderedErrorMv": 7.105427357601002e-14,
+          "pass": true
+        },
+        {
+          "id": "rotating-waves-2",
+          "sourceComparisons": 1326,
+          "renderedComparisons": 340,
+          "maximumSourceErrorMv": 1.5347723092418164e-12,
+          "maximumRenderedErrorMv": 1.5347723092418164e-12,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "vfdb-421-vt",
+      "sourceSha256": "4e3587ebd054611424024892fd00e43fbe62b155aa7ec61869d5e2f7b79c3dfc",
+      "approaches": [
+        {
+          "id": "reference-prior",
+          "sourceComparisons": 6006,
+          "renderedComparisons": 1820,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 4.263256414560601e-14,
+          "pass": true
+        },
+        {
+          "id": "pathology-source",
+          "sourceComparisons": 6270,
+          "renderedComparisons": 1900,
+          "maximumSourceErrorMv": 7.105427357601002e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        },
+        {
+          "id": "all-node-refinement",
+          "sourceComparisons": 6336,
+          "renderedComparisons": 1920,
+          "maximumSourceErrorMv": 5.684341886080802e-14,
+          "maximumRenderedErrorMv": 5.684341886080802e-14,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "vfdb-422-vf",
+      "sourceSha256": "5ba7a1688a9db23b10bff947abeabadbfd757e390a4bb7c73ed86861ef30b761",
+      "approaches": [
+        {
+          "id": "rotating-waves-1",
+          "sourceComparisons": 6006,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 1.6768808563938364e-12,
+          "maximumRenderedErrorMv": 7.673861546209082e-13,
+          "pass": true
+        },
+        {
+          "id": "rotating-waves-2",
+          "sourceComparisons": 6006,
+          "renderedComparisons": 1540,
+          "maximumSourceErrorMv": 1.6768808563938364e-12,
+          "maximumRenderedErrorMv": 1.6697754290362354e-12,
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "pass": true
+}

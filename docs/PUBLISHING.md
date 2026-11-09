@@ -1,8 +1,8 @@
 # Publish the prepared EKG Lab package
 
-Destination: **https://github.com/o-zhu/ekg-first-principles-lab**. The owner created this public repository. At the last inspection it had no branches; the connected app's first file write was rejected with HTTP 403, `Resource not accessible by integration`. No remote source, tag, or release was created by that attempt.
+Destination: **https://github.com/o-zhu/ekg-first-principles-lab**. The source and v0.1.0 educational prerelease have been published. The steps below are retained as a historical record of the initial publication; do not repeat release creation for v0.1.0.
 
-These instructions run in an environment with legitimate GitHub write access, such as the owner's computer or an authorized Codex environment. The commands below have not been executed against the remote repository. The clean Git bundle itself is verified by cloning and comparing its source tree locally.
+These instructions require legitimate GitHub write access. The initial clean Git bundle was independently cloned and the public release assets were downloaded and verified after publication.
 
 ## 1. Authenticate on your own machine
 

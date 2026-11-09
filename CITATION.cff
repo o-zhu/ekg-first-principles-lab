@@ -9,6 +9,8 @@ authors:
 url: "https://ekg-first-principles-lab.zhuou557737.chatgpt.site"
 repository-code: "https://github.com/o-zhu/ekg-first-principles-lab"
 license: MIT
+version: "0.1.0"
+date-released: 2026-11-09
 keywords:
   - electrocardiography
   - electrophysiology

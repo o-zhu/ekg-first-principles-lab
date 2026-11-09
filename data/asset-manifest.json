@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "version": "0.1.0",
   "generatedAt": "2026-11-09T02:01:44+00:00",
-  "publicationStatus": "unpublished: download URLs intentionally null until the exact archives are public",
+  "publicationStatus": "published: v0.1.0 GitHub prerelease assets downloaded and SHA-256 verified",
   "sourceCommit": "9d3fed5ae0fb6ec66de4da53319e1cd1c3435336",
   "sourceCatalog": {
     "path": "data/asset-sources.json",
@@ -441,7 +441,7 @@
   "bundles": {
     "runtime": {
       "fileName": "ekg-lab-runtime-v0.1.0.zip",
-      "url": null,
+      "url": "https://github.com/o-zhu/ekg-first-principles-lab/releases/download/v0.1.0/ekg-lab-runtime-v0.1.0.zip",
       "bytes": 54030937,
       "sha256": "1fb93963423377d3d8d8024dd8d1ad44bbbd880374315a19da34d893da5ebf8a",
       "uncompressedBytes": 163921171,
@@ -879,7 +879,7 @@
     },
     "research": {
       "fileName": "ekg-lab-research-v0.1.0.zip",
-      "url": null,
+      "url": "https://github.com/o-zhu/ekg-first-principles-lab/releases/download/v0.1.0/ekg-lab-research-v0.1.0.zip",
       "bytes": 40298097,
       "sha256": "f541bd4032bddb7011fae9e6b985d0d5605bc31092819e72b8dfc7fe155432d5",
       "uncompressedBytes": 52501381,

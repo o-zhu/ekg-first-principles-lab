@@ -53,7 +53,7 @@ The managed preview for the isolated export loaded source UI but returned 404s f
 
 The source, runtime, and optional research packages were prepared and locally verified. The reviewed source commit `ca69f7c440f00116f23b5eb907f6527aa688226e` was pushed to the public repository [o-zhu/ekg-first-principles-lab](https://github.com/o-zhu/ekg-first-principles-lab) and independently cloned. The source-only GitHub Actions checks passed. The full local suite passed all 16 checks with Node 24.15.0, and the restored runtime assets passed SHA-256 verification.
 
-Automatic asset download URLs remain unset; the documented offline archive setup is the verified path. The v0.1.0 release is a draft while asset uploads and public download verification remain pending. Repository-specific publication instructions and a clean Git bundle are included in the offline distribution.
+The v0.1.0 educational prerelease was published at commit `ca69f7c440f00116f23b5eb907f6527aa688226e`. Its source, runtime, research and Git bundle assets were downloaded from GitHub and matched the published SHA-256 checksums; all three ZIP archives passed integrity checks. An independent public clone restored the downloaded runtime archive and passed all 16 checks on Node 24.15.0. The manifest records the verified runtime and research download URLs.
 
 The older `ekg-lab-v15-regenerated.zip` Box backup was examined through its archive preview. All five visible Python filenames and both nested research archive filenames are already represented in this release. No additional missing generator was found in the visible listing. Download attempts did not complete, so exact byte identity and contents of the backup's nested archives were not verified. No backup files were copied into this release.
 

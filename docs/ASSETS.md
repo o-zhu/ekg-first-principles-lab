@@ -4,7 +4,7 @@ The editable application is kept in Git. Larger finished scientific files are di
 
 ## Publication status
 
-The initial `v0.1.0` archives are prepared and locally verified. Their public download URLs are deliberately **null** in [`data/asset-manifest.json`](../data/asset-manifest.json) until the exact files have been published. A source-only checkout cannot download an unpublished asset. Use the offline archive procedure below with the matching release package.
+The initial [`v0.1.0` educational preview](https://github.com/o-zhu/ekg-first-principles-lab/releases/tag/v0.1.0) provides the archives. The public runtime and research URLs in [`data/asset-manifest.json`](../data/asset-manifest.json) were verified against the downloaded archives and their SHA-256 checksums. The offline archive procedure remains available.
 
 | Group | Contents | Asset files | Uncompressed asset bytes | ZIP bytes, including notices |
 | --- | --- | ---: | ---: | ---: |

@@ -44,7 +44,7 @@ npm start
 
 Open **http://127.0.0.1:8000/**. Keep the server running while using the lab. Opening `dist/index.html` through `file://` will not reproduce normal module and data loading.
 
-The source release and the runtime asset ZIP are separate. Public release URLs have not yet been published; the offline command above is the verified setup path. Once verified public download URLs are recorded in the manifest, `npm run setup:assets` can retrieve the matching bundle automatically. [Asset publication status](docs/ASSETS.md#publication-status) records that distinction.
+The source release and runtime asset ZIP are separate. The [v0.1.0 educational preview](https://github.com/o-zhu/ekg-first-principles-lab/releases/tag/v0.1.0) provides the archives; `npm run setup:assets` can download the verified runtime bundle automatically. [Asset publication status](docs/ASSETS.md#publication-status) records that distinction.
 
 The downloader reuses valid local files and validates the archive and each extracted asset against [`data/asset-manifest.json`](data/asset-manifest.json). It accepts an explicit `--url` for a mirror and `--archive` for a local bundle; neither changes the expected hashes. It never refits the scientific models. See [asset setup](docs/ASSETS.md) for storage sizes, license boundaries, optional research files, and recovery from a failed download.
 

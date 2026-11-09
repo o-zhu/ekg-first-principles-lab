@@ -73,6 +73,7 @@ gh release create v0.1.0 \
   ../ekg-lab-source-v0.1.0.zip \
   ../ekg-lab-runtime-v0.1.0.zip \
   ../ekg-lab-research-v0.1.0.zip \
+  ../ekg-lab-public-source-v0.1.0.bundle \
   ../SHA256SUMS-v0.1.0.txt \
   --repo o-zhu/ekg-first-principles-lab \
   --target "$ekg_release_commit" \
